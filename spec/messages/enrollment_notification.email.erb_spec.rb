@@ -29,7 +29,7 @@ describe 'enrollment_notification.email' do
 
   it "should render for creation_pending student" do
     course_with_student(:active_course => true, :active_enrollment => true)
-    @student.communication_channels.create!(:path => 'jacob@instructure.com')
+    @student.communication_channels.create!(:path => 'jacob@usms.com')
     @object = @enrollment
     @enrollment.context.should_not be_nil
     generate_message(:enrollment_notification, :email, @object)

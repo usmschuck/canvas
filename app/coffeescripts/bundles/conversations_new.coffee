@@ -31,7 +31,7 @@ require [
       @_attachEvents()
 
     onSelected: (model) =>
-      @header.onModelChange(null, @model)
+      @header.onModelChange(model, @model)
       @model = model
       unless model.get('selected')
         if model.id == @detail.model?.id
@@ -45,24 +45,18 @@ require [
         @detail.$el.disableWhileLoading(model.fetch(success: @selectConversation))
 
     selectConversation: (model) =>
-      @header.onModelChange(model, null)
       @detail.model = model
       @detail.render()
 
-    onReply: (message) =>
-      model = if message
-        model = @detail.model.clone()
-        model.set 'messages', _.filter model.get('messages'), (m) ->
-          m.id == message.id or (_.include(m.participating_user_ids, message.author_id) and m.created_at < message.created_at)
-        trigger = $(".message-item-view[data-id=#{message.id}] .reply-btn")
-        model
-      else
-        trigger = $('#reply-btn')
-        @detail.model
-      @compose.show(model, to: 'reply', trigger: trigger)
+    onReply: =>
+      messages = @detail.model.get('messages')
+      @compose.show(_.find(messages, (m) -> m.selected) or messages[0])
 
     onReplyAll: =>
-      @compose.show(@detail.model, to: 'replyAll', trigger: $('#reply-all-btn'))
+      # TODO: passing the conversation model here, but @compose.show() doesn't
+      # know what to do with it. we need to get the autocomplete working in the
+      # modal.
+      @compose.show(@detail.model)
 
     onDelete: =>
       return unless confirm(@messages.confirmDelete)
@@ -71,19 +65,21 @@ require [
       @detail.render()
 
     onCompose: (e) =>
-      @compose.show(null, trigger: $('#compose-btn'))
+      @compose.show()
+
+    onCloseCompose: (e) =>
+      @header.focusCompose()
 
     index: ->
       @filter('')
 
     filter: (state) ->
-      filters = @filters = deparam(state)
+      filters = deparam(state)
       @header.displayState(filters)
       @selectConversation(null)
       @list.collection.reset()
       @list.collection.setParam('scope', filters.type)
-      @list.collection.setParam('filter', @_currentFilter())
-      @list.collection.setParam('filter_mode', 'and')
+      @list.collection.setParam('filter', if filters.course then 'course_'+filters.course else '')
       @list.collection.fetch()
       @compose.setDefaultCourse(filters.course)
 
@@ -92,21 +88,12 @@ require [
       @detail.model.save()
       @header.hideMarkUnreadBtn(true)
 
-    onForward: (message) =>
-      model = if message
-        model = @detail.model.clone()
-        model.set 'messages', _.filter model.get('messages'), (m) ->
-          m.id == message.id or (_.include(m.participating_user_ids, message.author_id) and m.created_at < message.created_at)
-        trigger = $(".message-item-view[data-id=#{message.id}] .al-trigger")
-        model
-      else
-        trigger = $('#admin-btn')
-        @detail.model
-      @compose.show(model, to: 'forward', trigger: trigger)
-
-    onStarToggle: =>
-      @detail.model.toggleStarred()
-      @detail.model.save()
+    onForward: =>
+      # TODO: do something with these options/come up with a better way to
+      # specify options. forwarding requires that context and subject be
+      # the same as the original message and not changeable. 'to' field
+      # should be empty
+      @compose.show(@detail.model, 'disabled': ['context', 'subject'])
 
     onFilter: (filters) =>
       @navigate('filter?'+$.param(filters), {trigger: true})
@@ -136,31 +123,7 @@ require [
       @header.on('course',      @onCourse)
       @header.on('mark-unread', @onMarkUnread)
       @header.on('forward',     @onForward)
-      @header.on('star-toggle', @onStarToggle)
-      @header.on('search',      @onSearch)
       @compose.on('close',      @onCloseCompose)
-      @compose.on('addMessage', @onAddMessage)
-      @compose.on('addMessage', @list.updateMessage)
-      @compose.on('submitting', @onSubmit)
-      @detail.on('reply',       @onReply)
-      @detail.on('forward',     @onForward)
-
-    onSubmit: (dfd) =>
-      @detail.$el.disableWhileLoading(dfd)
-
-    onAddMessage: (message) =>
-      @detail.addMessage(message)
-
-    _currentFilter: ->
-      filter = @searchTokens || []
-      filter = filter.concat("course_#{@filters.course}") if @filters.course
-      filter
-
-    onSearch: (tokens) =>
-      @list.collection.reset()
-      @searchTokens = if tokens.length then tokens else null
-      @list.collection.setParam('filter', @_currentFilter())
-      @list.collection.fetch()
 
     _initListView: ->
       @list = new MessageListView
@@ -177,7 +140,8 @@ require [
       @header.render()
 
     _initComposeDialog: ->
-      @compose = new MessageFormDialog(courses: @courses, folderId: ENV.CONVERSATIONS.ATTACHMENTS_FOLDER_ID)
+      @compose = new MessageFormDialog(courses: @courses) #this, this.canAddNotesFor, folderId: @options.FOLDER_ID)
+
 
   window.conversationsRouter = new ConversationsRouter
   Backbone.history.start()

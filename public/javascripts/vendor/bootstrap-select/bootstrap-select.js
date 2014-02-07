@@ -40,8 +40,6 @@
             this.$element.hide();
             this.multiple = this.$element.prop('multiple');
             var id = this.$element.attr('id');
-            // INSTRUCTURE
-            this.id = id ? id+'-bs' : 'bs-'+((window.$ || window).guid++);
             this.$newElement = this.createView();
             this.$element.after(this.$newElement);
             this.$menu = this.$newElement.find('> .dropdown-menu');
@@ -54,12 +52,6 @@
                     _this.button.focus();
                 })
             }
-
-            // INSTRUCTURE
-            this.$menu.attr('id', this.id);
-            this.button.attr('aria-owns', this.id);
-            this.button.attr('aria-label', this.$element.attr('aria-label'));
-            this.button.attr('aria-labelledby', this.$element.attr('aria-labelledby'));
 
             //If we are multiple, then add the show-tick class by default
             if (this.multiple) {
@@ -116,8 +108,6 @@
         createLi: function() {
             var _this = this,
                 _liA = [],
-                _subLiA = [],
-                _optgroup = null,
                 _liHtml = '';
 
             this.$element.find('option').each(function(index) {
@@ -126,7 +116,7 @@
                 //Get the class and text for the option
                 var optionClass = $this.attr("class") || '';
                 var inline = $this.attr("style") || '';
-                var text =  $this.data('content') ? $this.data('content') : $this.html(); 
+                var text =  $this.html();
                 var subtext = $this.data('subtext') !== undefined ? '<small class="muted">' + $this.data('subtext') + '</small>' : '';
                 var icon = $this.data('icon') !== undefined ? '<i class="'+$this.data('icon')+'"></i> ' : '';
                 if (icon !== '' && ($this.is(':disabled') || $this.parent().is(':disabled'))) {
@@ -140,10 +130,8 @@
                   value = text;
                 }
 
-                if (!$this.data('content')) {
-                  //Prepend any icon and append any subtext to the main text.
-                  text = icon + '<span class="text" data-value="'+value+'">' + text + subtext + '</span>';
-                } 
+                //Prepend any icon and append any subtext to the main text.
+                text = icon + '<span class="text" data-value="'+value+'">' + text + subtext + '</span>';
 
                 if (_this.options.hideDisabled && ($this.is(':disabled') || $this.parent().is(':disabled'))) {
                     _liA.push('<a style="min-height: 0; padding: 0"></a>');
@@ -155,51 +143,31 @@
                         var labelIcon = $this.parent().data('icon') ? '<i class="'+$this.parent().data('icon')+'"></i> ' : '';
                         label = labelIcon + '<span class="text">' + label + labelSubtext + '</span>';
 
-                        // INSTRUCTURE
-                        if (_this.options.useSubmenus) {
-                          _liA.push('<a role="menuitem" aria-haspopup="true" tabindex="-1" href="#">'+label+'</a>'+
-                            '<ul class="dropdown-menu" role="group">'
-                            );
-                          _subLiA.push(_this.createA(text, "opt " + optionClass, inline, index, $this ));
-                        } else if ($this[0].index != 0) {
+                        if ($this[0].index != 0) {
                             _liA.push(
                                 '<div class="div-contain"><div class="divider"></div></div>'+
                                 '<dt>'+label+'</dt>'+
-                                _this.createA(text, "opt " + optionClass, inline, index, $this )
+                                _this.createA(text, "opt " + optionClass, inline )
                                 );
                         } else {
                             _liA.push(
                                 '<dt>'+label+'</dt>'+
-                                _this.createA(text, "opt " + optionClass, inline, index, $this ));
+                                _this.createA(text, "opt " + optionClass, inline ));
                         }
                     } else {
-                         // INSTRUCTURE
-                         var container = _this.options.useSubmenus ? _subLiA : _liA;
-                         container.push( _this.createA(text, "opt " + optionClass, inline, index, $this )  );
+                         _liA.push( _this.createA(text, "opt " + optionClass, inline )  );
                     }
                 } else if ($this.data('divider') == true) {
                     _liA.push('<div class="div-contain"><div class="divider"></div></div>');
                 } else if ($(this).data('hidden') == true) {
                     _liA.push('');
                 } else {
-                    _liA.push( _this.createA(text, optionClass, inline, index, $this ) );
-                }
-
-                if (_subLiA.length && !$this.next().length) {
-                  var group = _liA.pop();
-                  $.each(_subLiA, function(i, item) {
-                      group += "<li rel='" + i + "'>" + item + "</li>";
-                  });
-                  group += '</ul>'; 
-                  _liA.push(group);
-                  _subLiA = [];
+                    _liA.push( _this.createA(text, optionClass, inline ) );
                 }
             });
 
             $.each(_liA, function(i, item) {
-                // INSTRUCTURE
-                var isMenu = item.indexOf('<ul') != -1;
-                _liHtml += "<li rel='" + i + "'" + (isMenu ? " class='dropdown-submenu'" : "") + ">" + item + "</li>";
+                _liHtml += "<li rel=" + i + ">" + item + "</li>";
             });
 
             //If we are not multiple, and we dont have a selected item, and we dont have a title, select the first element so something is set in the button
@@ -210,13 +178,8 @@
             return $(_liHtml);
         },
 
-        createA: function(text, classes, inline, index, $option) {
-          // INSTRUCTURE: added role and id and aria-label and the $option parameter
-          var ariaLabel = ''
-          if ($option.attr('aria-label') !== undefined) {
-            ariaLabel = ' aria-label="' + $option.attr('aria-label') + '"'
-          }
-         return '<a tabindex="-1" class="'+classes+'" style="'+inline+'" id="' + this.id+'-'+index + '" role="menuitemcheckbox"' + ariaLabel + '>' +
+        createA: function(text, classes, inline) {
+         return '<a tabindex="0" class="'+classes+'" style="'+inline+'">' +
                  text +
                  '<i class="icon-ok check-mark"></i>' +
                  '</a>';
@@ -240,9 +203,7 @@
                 } else {
                     subtext = '';
                 }
-                if ($this.data('content') && _this.options.showContent) {
-                    return $this.data('content');
-                } else if ($this.attr('title') != undefined) { 
+                if ($this.attr('title') != undefined) {
                     return $this.attr('title');
                 } else {
                     return icon + $this.html() + subtext;
@@ -331,8 +292,8 @@
                     } else {
                         minHeight = 0;
                     }
-                    menu.css({'max-height' : menuHeight + 'px', 'overflow' : 'visible', 'min-height' : minHeight + 'px'});
-                    menuInner.css({'max-height' : (menuHeight - menuPadding) + 'px', 'overflow-y' : 'visible'});
+                    menu.css({'max-height' : menuHeight + 'px', 'overflow' : 'hidden', 'min-height' : minHeight + 'px'});
+                    menuInner.css({'max-height' : (menuHeight - menuPadding) + 'px', 'overflow-y' : 'auto'});
             }
                 getSize();
                 $(window).resize(getSize);
@@ -397,22 +358,18 @@
         },
 
         setSelected: function(index, selected) {
-            var link = this.$menu.find('a[role=menuitemcheckbox]').eq(index);
             if (selected) {
-                link.parent().addClass('selected');
+                this.$menu.find('li').eq(index).addClass('selected');
             } else {
-                link.parent().removeClass('selected');
+                this.$menu.find('li').eq(index).removeClass('selected');
             }
-            // INSTRUCTURE
-            link.attr('aria-checked', selected ? 'true' : 'false');
         },
 
         setDisabled: function(index, disabled) {
             if (disabled) {
                 this.$menu.find('li').eq(index).addClass('disabled').find('a').attr('href','#').attr('tabindex',-1);
             } else {
-                // INSTRUCTURE: remove tabindex
-                this.$menu.find('li').eq(index).removeClass('disabled').find('a').removeAttr('href');
+                this.$menu.find('li').eq(index).removeClass('disabled').find('a').removeAttr('href').attr('tabindex',0);
             }
         },
 
@@ -455,7 +412,7 @@
             });
 
             this.$menu.on('click', 'li a', function(e) {
-                var clickedIndex = _this.$newElement.find('a[role=menuitemcheckbox]').index(this),
+                var clickedIndex = $(this).parent().index(),
                     $this = $(this).parent(),
                     prevValue = _this.$element.val();
 
@@ -539,40 +496,13 @@
                 first,
                 last,
                 prev,
-                nextPrev,
-                $target,
-                $list;
+                nextPrev;
 
             $this = $(this);
+
             $parent = $this.parent();
-            $target = $(e.target);
 
-            // INSTRUCTURE
-            // left
-            if (e.keyCode == 37) {
-              $list = $target.parent().parent();
-              $list.css({display: ''});
-              if ($list.is('[role=group]')) {
-                $list.prev().focus();
-              }
-            }
-            // right 
-            if (e.keyCode == 39) {
-              $list = $target.next();
-              $list.css({display: 'block'});
-              if ($list.is('[role=group]')) {
-                $list.find('> li:not(.divider):visible > a').eq(0).focus();
-                e.preventDefault();
-              }
-            }
-
-            // INSTRUCTURE
-            if ($target.is('a')) {
-              $list = $(e.target).closest('ul');
-            } else {
-              $list = $('[role=menu]', $parent);
-            }
-            $items = $('> li:not(.divider):visible > a', $list);
+            $items = $('[role=menu] li:not(.divider):visible a', $parent);
 
             if (!$items.length) return;
 
@@ -704,10 +634,7 @@
         container: false,
         hideDisabled: false,
         showSubtext: false,
-        showIcon: true,
-        showContent: true,
-        // INSTRUCTURE
-        useSubmenus: false
+        showIcon: true
     }
 
     $(document)

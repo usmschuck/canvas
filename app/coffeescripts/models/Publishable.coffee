@@ -7,6 +7,7 @@ define [
   class Publishable extends Backbone.Model
 
     initialize: (attributes, options)->
+      @_url = options['url']
       @_root = options['root']
       @set 'publishable', true
 
@@ -20,6 +21,9 @@ define [
 
     disabledMessage: ->
       I18n.t('cant_unpublish', "Can't unpublish")
+
+    url: ->
+      @_url
 
     toJSON: ->
       json = {}

@@ -20,10 +20,7 @@ define [
       $(selector).html editAppointmentGroupTemplate({
         title: @apptGroup.title
         contexts: @contexts
-        appointment_group: _.extend(
-          {use_group_signup: @apptGroup.participant_type is 'Group'}
-          @apptGroup
-        )
+        appointment_group: @apptGroup
       })
 
       @contextsHash = {}
@@ -71,7 +68,7 @@ define [
         @form.find(".group-signup").toggle(checked)
       @form.find(".group-signup-checkbox").change()
 
-      $perSlotCheckbox = @form.find('#appointment-blocks-per-slot-option-button')
+      $perSlotCheckbox = @form.find('[name="per_slot_option"]')
       $perSlotInput =    @form.find('[name="participants_per_appointment"]')
       slotChangeHandler = (e) => @perSlotChange($perSlotCheckbox, $perSlotInput)
       $.merge($perSlotCheckbox, $perSlotInput).on 'change', slotChangeHandler
@@ -152,7 +149,7 @@ define [
         'appointment_group[location_name]': data.location
       }
 
-      if data.max_appointments_per_participant_option is '1'
+      if data.max_appointments_per_participant_option
         if data.max_appointments_per_participant < 1
           $('[name="max_appointments_per_participant"]').errorBox(
             I18n.t('bad_max_appts', 'You must allow at least one appointment per participant'))
@@ -170,7 +167,7 @@ define [
           $.dateToISO8601UTC($.unfudgeDateForProfileTimezone(range[1]))
         ])
 
-      if data.per_slot_option is '1'
+      if data.per_slot_option
         if data.participants_per_appointment < 1
           $('[name="participants_per_appointment"]').errorBox(
             I18n.t('bad_per_slot', 'You must allow at least one appointment per time slot'))

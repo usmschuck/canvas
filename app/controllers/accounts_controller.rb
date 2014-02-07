@@ -62,7 +62,7 @@ class AccountsController < ApplicationController
   #
   # List accounts that are sub-accounts of the given account.
   #
-  # @argument recursive [Optional, Boolean] If true, the entire account tree underneath
+  # @argument recursive [optional] If true, the entire account tree underneath
   #   this account will be returned (though still paginated). If false, only
   #   direct sub-accounts of this account will be returned. Defaults to false.
   #
@@ -100,38 +100,14 @@ class AccountsController < ApplicationController
   # @API List active courses in an account
   # Retrieve the list of courses in this account.
   #
-  # @argument with_enrollments [Optional, Boolean]
-  #   If true, include only courses with at least one enrollment.  If false,
-  #   include only courses with no enrollments.  If not present, do not filter
-  #   on course enrollment status.
-  #
-  # @argument published [Optional, Boolean]
-  #   If true, include only published courses.  If false, exclude published
-  #   courses.  If not present, do not filter on published status.
-  #
-  # @argument completed [Optional, Boolean]
-  #   If true, include only completed courses (these may be in state
-  #   'completed', or their enrollment term may have ended).  If false, exclude
-  #   completed courses.  If not present, do not filter on completed status.
-  #
-  # @argument by_teachers[] [Optional, Integer]
-  #   List of User IDs of teachers; if supplied, include only courses taught by
-  #   one of the referenced users.
-  #
-  # @argument by_subaccounts[] [Optional, Integer]
-  #   List of Account IDs; if supplied, include only courses associated with one
-  #   of the referenced subaccounts.
-  #
-  # @argument hide_enrollmentless_courses [Optional, Boolean]
-  #   If present, only return courses that have at least one enrollment.
-  #   Equivalent to 'with_enrollments=true'; retained for compatibility.
-  #
-  # @argument state[] [Optional, "created"|"claimed"|"available"|"completed"|"deleted"]
-  #   If set, only return courses that are in the given state(s). By default,
-  #   all states but "deleted" are returned.
-  #
-  # @argument enrollment_term_id [Optional, Integer]
-  #   If set, only includes courses from the specified term.
+  # @argument with_enrollments [optional] If true, include only courses with at least one enrollment.  If false, include only courses with no enrollments.  If not present, do not filter on course enrollment status.
+  # @argument published [optional] If true, include only published courses.  If false, exclude published courses.  If not present, do not filter on published status.
+  # @argument completed [optional] If true, include only completed courses (these may be in state 'completed', or their enrollment term may have ended).  If false, exclude completed courses.  If not present, do not filter on completed status.
+  # @argument by_teachers[] [optional] List of User IDs of teachers; if supplied, include only courses taught by one of the referenced users.
+  # @argument by_subaccounts[] [optional] List of Account IDs; if supplied, include only courses associated with one of the referenced subaccounts.
+  # @argument hide_enrollmentless_courses [optional] If present, only return courses that have at least one enrollment.  Equivalent to 'with_enrollments=true'; retained for compatibility.
+  # @argument state[] [optional] If set, only return courses that are in the given state(s). Valid states are "created," "claimed," "available," "completed," and "deleted." By default, all states but "deleted" are returned.
+  # @argument enrollment_term_id [optional] If set, only includes courses from the specified term.
   #
   # @returns [Course]
   def courses_api
@@ -238,22 +214,11 @@ class AccountsController < ApplicationController
   # @API Update an account
   # Update an existing account.
   #
-  # @argument account[name] [Optional, String]
-  #   Updates the account name
-  #
-  # @argument account[default_time_zone] [Optional, String]
-  #   The default time zone of the account. Allowed time zones are
-  #   {http://www.iana.org/time-zones IANA time zones} or friendlier
-  #   {http://api.rubyonrails.org/classes/ActiveSupport/TimeZone.html Ruby on Rails time zones}.
-  #
-  # @argument account[default_storage_quota_mb] [Optional, Integer]
-  #   The default course storage quota to be used, if not otherwise specified.
-  #
-  # @argument account[default_user_storage_quota_mb] [Optional, Integer]
-  #   The default user storage quota to be used, if not otherwise specified.
-  #
-  # @argument account[default_group_storage_quota_mb] [Optional, Integer]
-  #   The default group storage quota to be used, if not otherwise specified.
+  # @argument account[name] [optional] Updates the account name
+  # @argument account[default_time_zone] [Optional] The default time zone of the account. Allowed time zones are {http://www.iana.org/time-zones IANA time zones} or friendlier {http://api.rubyonrails.org/classes/ActiveSupport/TimeZone.html Ruby on Rails time zones}.
+  # @argument account[default_storage_quota_mb] [Optional] The default course storage quota to be used, if not otherwise specified.
+  # @argument account[default_user_storage_quota_mb] [Optional] The default user storage quota to be used, if not otherwise specified.
+  # @argument account[default_group_storage_quota_mb] [Optional] The default group storage quota to be used, if not otherwise specified.
   #
   # @example_request
   #   curl https://<canvas>/api/v1/accounts/<account_id> \ 
@@ -609,7 +574,7 @@ class AccountsController < ApplicationController
   end
   
   # TODO Refactor add_account_user and remove_account_user actions into
-  # AdminsController. see https://redmine.instructure.com/issues/6634
+  # AdminsController. see https://redmine.usms.com/issues/6634
   def add_account_user
     if authorized_action(@context, @current_user, :manage_account_memberships)
       list = UserList.new(params[:user_list],

@@ -14,8 +14,6 @@ define [
 
     template: template
 
-    course: {}
-
     events:
       'click': 'onClick'
 
@@ -23,16 +21,11 @@ define [
       return unless e.target is @el
       @collection.each((m) -> m.set('selected', false))
 
+    course: {}
     updateCourse: (course) ->
       @course = course
-
-    updateMessage: (message, thread) =>
-      currentThread = @collection.get(thread.id)
-      currentThread.set('last_message', thread.last_message)
-      currentThread.set('message_count', currentThread.get('messages').length)
-      currentThread.view.render()
-
-    afterRender: ->
+    render: ->
+      super()
       @$('.current-context').text(@course.name || '')
       @$('.current-context-code').text(@course.code || '')
       @$('.list-header')[if @course.name then 'show' else 'hide']()

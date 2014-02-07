@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2011 - 2013 Instructure, Inc.
+# Copyright (C) 2011 Instructure, Inc.
 #
 # This file is part of Canvas.
 #
@@ -48,23 +48,15 @@ module AuthenticationMethods
   class AccessTokenError < Exception
   end
 
-  def self.access_token(request, params_method = :params)
-    auth_header = CANVAS_RAILS3 ? request.authorization : ActionController::HttpAuthentication::Basic.authorization(request)
-    if auth_header.present? && (header_parts = auth_header.split(' ', 2)) && header_parts[0] == 'Bearer'
-      header_parts[1]
-    else
-      request.send(params_method)['access_token'].presence
-    end
-  end
-
-  def self.user_id(request)
-    request.session[:user_id]
-  end
-
   def load_pseudonym_from_access_token
     return unless api_request? || params[:action] == 'oauth2_logout'
 
-    token_string = AuthenticationMethods.access_token(request)
+    auth_header = CANVAS_RAILS3 ? request.authorization : ActionController::HttpAuthentication::Basic.authorization(request)
+    token_string = if auth_header.present? && (header_parts = auth_header.split(' ', 2)) && header_parts[0] == 'Bearer'
+      header_parts[1]
+    elsif params[:access_token].present?
+      params[:access_token]
+    end
 
     if token_string
       @access_token = AccessToken.authenticate(token_string)
@@ -94,7 +86,7 @@ module AuthenticationMethods
         # if the session was created before the last time the user explicitly
         # logged out (of any session for any of their pseudonyms), invalidate
         # this session
-        if (invalid_before = @current_pseudonym.user.last_logged_out) &&
+        if (invalid_before = @current_pseudonym.user ? @current_pseudonym.user.last_logged_out : Time.now) &&
           (session_refreshed_at = request.env['encrypted_cookie_store.session_refreshed_at']) &&
           session_refreshed_at < invalid_before
 
@@ -116,12 +108,7 @@ module AuthenticationMethods
         if @pseudonym_session.try(:used_basic_auth?) && params[:api_key].present?
           Shard.birth.activate { @developer_key = DeveloperKey.find_by_api_key(params[:api_key]) }
         end
-        @developer_key ||
-          request.get? ||
-          !allow_forgery_protection ||
-          BreachMitigation::MaskingSecrets.valid_authenticity_token?(session, form_authenticity_param) ||
-          BreachMitigation::MaskingSecrets.valid_authenticity_token?(session, request.headers['X-CSRF-Token']) ||
-          raise(AccessTokenError)
+        @developer_key || request.get? || !allow_forgery_protection || form_authenticity_token == form_authenticity_param || form_authenticity_token == request.headers['X-CSRF-Token'] || raise(AccessTokenError)
       end
     end
 
@@ -129,9 +116,6 @@ module AuthenticationMethods
       @current_pseudonym = nil
       @current_user = nil
     end
-
-    # required by the user throttling middleware
-    session[:user_id] = @current_user.global_id if @current_user
 
     if @current_user && %w(become_user_id me become_teacher become_student).any? { |k| params.key?(k) }
       request_become_user = nil

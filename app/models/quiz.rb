@@ -17,7 +17,6 @@
 #
 
 require 'quiz_question_link_migrator'
-require 'quiz_regrading'
 
 class Quiz < ActiveRecord::Base
   include Workflow
@@ -44,7 +43,6 @@ class Quiz < ActiveRecord::Base
   has_many :quiz_groups, :dependent => :destroy, :order => 'position'
   has_many :quiz_statistics, :class_name => 'QuizStatistics', :order => 'created_at'
   has_many :attachments, :as => :context, :dependent => :destroy
-  has_many :quiz_regrades
   belongs_to :context, :polymorphic => true
   belongs_to :assignment
   belongs_to :cloned_item
@@ -64,7 +62,6 @@ class Quiz < ActiveRecord::Base
   before_save :set_defaults
   after_save :update_assignment
   after_save :touch_context
-  after_save :regrade_if_published
 
   serialize :quiz_data
 
@@ -415,11 +412,7 @@ class Quiz < ActiveRecord::Base
     end
     question_count || 0
   end
-
-  def available_question_count
-    published? ? question_count : unpublished_question_count
-  end
-
+  
   # Returns data for the SAVED version of the quiz.  That is, not
   # the version found by gathering relationships on the Quiz data models,
   # but the version being held in Quiz.quiz_data.  Caches the result
@@ -582,7 +575,6 @@ class Quiz < ActiveRecord::Base
     submission.quiz_data = user_questions
     submission.quiz_version = self.version_number
     submission.started_at = Time.now
-    submission.score_before_regrade = nil
     submission.end_at = nil
     submission.end_at = submission.started_at + (self.time_limit.to_f * 60.0) if self.time_limit
     # Admins can take the full quiz whenever they want
@@ -1058,7 +1050,6 @@ class Quiz < ActiveRecord::Base
                   QuizQuestion.import_from_migration(aq_hash, context, item)
                 else
                   aq_hash = AssessmentQuestion.import_from_migration(qq, context)
-                  qq['assessment_question_id'] = aq_hash['assessment_question_id']
                   QuizQuestion.import_from_migration(aq_hash, context, item)
                 end
               end
@@ -1080,8 +1071,7 @@ class Quiz < ActiveRecord::Base
     item.reload # reload to catch question additions
     
     if hash[:assignment] && hash[:available]
-      hash[:assignment][:migration_id] += "_#{item.id}" if hash[:assignment][:migration_id]
-      item.assignment = Assignment.import_from_migration(hash[:assignment], context, item.assignment, item)
+      item.assignment = Assignment.import_from_migration(hash[:assignment], context, item.assignment)
     elsif !item.assignment && grading = hash[:grading]
       # The actual assignment will be created when the quiz is published
       item.quiz_type = 'assignment'
@@ -1131,10 +1121,6 @@ class Quiz < ActiveRecord::Base
   scope :before, lambda { |date| where("quizzes.created_at<?", date) }
   scope :active, where("quizzes.workflow_state<>'deleted'")
   scope :not_for_assignment, where(:assignment_id => nil)
-
-  def teachers
-    context.teacher_enrollments.map(&:user)
-  end
 
   def migrate_file_links
     QuizQuestionLinkMigrator.migrate_file_links_in_quiz(self)
@@ -1232,22 +1218,6 @@ class Quiz < ActiveRecord::Base
       self.errors.add :workflow_state, I18n.t('#quizzes.cant_unpublish_when_students_submit',
                                               "Can't unpublish if there are student submissions")
     end
-  end
-
-  def regrade_if_published
-    unless unpublished_changes?
-      QuizRegrader.send_later_if_production(:regrade!, self)
-    end
-    true
-  end
-
-  def current_regrade
-    QuizRegrade.where(quiz_id: id, quiz_version: version_number).
-                includes(:quiz_question_regrades => :quiz_question).first
-  end
-
-  def current_quiz_question_regrades
-    current_regrade ? current_regrade.quiz_question_regrades : []
   end
 
 end

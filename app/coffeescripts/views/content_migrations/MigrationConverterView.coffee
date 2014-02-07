@@ -40,15 +40,10 @@ define [
 
     renderConverter: (converter) -> 
       if converter
-        # Set timeout ensures that all of the html is loaded at once. We need
-        # this for accessibility to work correct.
-        setTimeout => 
-          @$converter.html converter.render().$el
-          @trigger 'converterRendered'
-        , 0
+        converter.setElement @$converter
+        converter.render()
       else
         @resetForm() 
-        @trigger 'converterReset'
 
     # This is the actual action for making the view swaps when selecting
     # a different converter view. Ensures that when you select a new view
@@ -60,7 +55,6 @@ define [
     selectConverter: (event) -> 
       @$formActions.show()
       @model.resetModel()
-      @$chooseMigrationConverter.attr "aria-activedescendant", @$chooseMigrationConverter.val() # This is purely for accessibility
       @model.set 'migration_type', @$chooseMigrationConverter.val()
       $.publish 'contentImportChange', {value: @$chooseMigrationConverter.val(), migrationConverter: this}
 

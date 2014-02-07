@@ -21,6 +21,7 @@ define [
     wrapperTemplate: wrapper
 
     @optionProperty 'assignmentGroup'
+    @optionProperty 'collection'
 
     initialize: ->
       super
@@ -28,7 +29,7 @@ define [
 
     onSaveSuccess: ->
       super
-      @assignmentGroup.get('assignments').add(@model)
+      @collection.add(@model)
 
     moreOptions: ->
       data = @getFormData()

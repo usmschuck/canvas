@@ -214,7 +214,6 @@ describe Course do
       @enrollment.start_at = 4.days.ago
       @enrollment.end_at = 2.days.ago
       @enrollment.save!
-      @enrollment.reload
       @enrollment.state_based_on_date.should == :completed
     end
 
@@ -253,7 +252,7 @@ describe Course do
       @enrollment.start_at = 4.days.ago
       @enrollment.end_at = 2.days.ago
       @enrollment.save!
-      @enrollment.reload.state_based_on_date.should == :completed
+      @enrollment.state_based_on_date.should == :completed
       @course.prior_enrollments.should == []
       @course.grants_right?(@designer, nil, :read_as_admin).should be_true
       @course.grants_right?(@designer, nil, :read_roster).should be_true
@@ -312,7 +311,7 @@ describe Course do
       course_with_teacher(:active_user => 1)
       @course.enrollment_term.update_attributes(:start_at => 2.days.from_now, :end_at => 4.days.from_now)
       @enrollment.update_attribute(:workflow_state, 'active')
-      @enrollment.reload.state_based_on_date.should == :inactive
+      @enrollment.state_based_on_date.should == :inactive
       @course.grants_right?(:read, @teacher).should be_false
     end
 
@@ -333,91 +332,70 @@ describe Course do
     end
   end
 
-  describe "#reset_content" do
-    it "should clear content" do
-      course_with_student
-      @course.discussion_topics.create!
-      @course.quizzes.create!
-      @course.assignments.create!
-      @course.wiki.front_page.save!
-      @course.self_enrollment = true
-      @course.sis_source_id = 'sis_id'
-      @course.stuck_sis_fields = [].to_set
-      @course.save!
-      @course.course_sections.should_not be_empty
-      @course.students.should == [@student]
-      @course.stuck_sis_fields.should == [].to_set
-      self_enrollment_code = @course.self_enrollment_code
-      self_enrollment_code.should_not be_nil
+  it "should clear content when resetting" do
+    course_with_student
+    @course.discussion_topics.create!
+    @course.quizzes.create!
+    @course.assignments.create!
+    @course.wiki.front_page.save!
+    @course.self_enrollment = true
+    @course.sis_source_id = 'sis_id'
+    @course.stuck_sis_fields = [].to_set
+    @course.save!
+    @course.course_sections.should_not be_empty
+    @course.students.should == [@student]
+    @course.stuck_sis_fields.should == [].to_set
+    self_enrollment_code = @course.self_enrollment_code
+    self_enrollment_code.should_not be_nil
 
-      @new_course = @course.reset_content
+    @new_course = @course.reset_content
 
-      @course.reload
-      @course.stuck_sis_fields.should == [:workflow_state].to_set
-      @course.course_sections.should be_empty
-      @course.students.should be_empty
-      @course.sis_source_id.should be_nil
-      @course.self_enrollment_code.should be_nil
+    @course.reload
+    @course.stuck_sis_fields.should == [:workflow_state].to_set
+    @course.course_sections.should be_empty
+    @course.students.should be_empty
+    @course.sis_source_id.should be_nil
+    @course.self_enrollment_code.should be_nil
 
-      @new_course.reload
-      @new_course.course_sections.should_not be_empty
-      @new_course.students.should == [@student]
-      @new_course.discussion_topics.should be_empty
-      @new_course.quizzes.should be_empty
-      @new_course.assignments.should be_empty
-      @new_course.sis_source_id.should == 'sis_id'
-      @new_course.syllabus_body.should be_blank
-      @new_course.stuck_sis_fields.should == [].to_set
-      @new_course.self_enrollment_code.should == self_enrollment_code
+    @new_course.reload
+    @new_course.course_sections.should_not be_empty
+    @new_course.students.should == [@student]
+    @new_course.discussion_topics.should be_empty
+    @new_course.quizzes.should be_empty
+    @new_course.assignments.should be_empty
+    @new_course.sis_source_id.should == 'sis_id'
+    @new_course.syllabus_body.should be_blank
+    @new_course.stuck_sis_fields.should == [].to_set
+    @new_course.self_enrollment_code.should == self_enrollment_code
 
-      @course.uuid.should_not == @new_course.uuid
-      @course.wiki_id.should_not == @new_course.wiki_id
-      @course.replacement_course_id.should == @new_course.id
-    end
+    @course.uuid.should_not == @new_course.uuid
+    @course.wiki_id.should_not == @new_course.wiki_id
+    @course.replacement_course_id.should == @new_course.id
+  end
 
-    it "should retain original course profile" do
-      data = {:something => 'special here'}
-      description = 'simple story'
-      course_with_student
-      @course.profile.should_not be_nil
-      @course.profile.tap do |p|
-        p.description = description
-        p.data = data
-        p.save!
-      end
-      @course.reload
+  it "should preserve sticky fields when resetting content" do
+    course_with_student
+    @course.sis_source_id = 'sis_id'
+    @course.course_code = "cid"
+    @course.save!
+    @course.stuck_sis_fields = [].to_set
+    @course.name = "course_name"
+    @course.stuck_sis_fields.should == [:name].to_set
+    @course.save!
+    @course.stuck_sis_fields.should == [:name].to_set
 
-      @new_course = @course.reset_content
+    @new_course = @course.reset_content
 
-      @new_course.profile.data.should == data
-      @new_course.profile.description.should == description
-    end
+    @course.reload
+    @course.stuck_sis_fields.should == [:workflow_state, :name].to_set
+    @course.sis_source_id.should be_nil
 
-    it "should preserve sticky fields" do
-      course_with_student
-      @course.sis_source_id = 'sis_id'
-      @course.course_code = "cid"
-      @course.save!
-      @course.stuck_sis_fields = [].to_set
-      @course.name = "course_name"
-      @course.stuck_sis_fields.should == [:name].to_set
-      @course.save!
-      @course.stuck_sis_fields.should == [:name].to_set
+    @new_course.reload
+    @new_course.sis_source_id.should == 'sis_id'
+    @new_course.stuck_sis_fields.should == [:name].to_set
 
-      @new_course = @course.reset_content
-
-      @course.reload
-      @course.stuck_sis_fields.should == [:workflow_state, :name].to_set
-      @course.sis_source_id.should be_nil
-
-      @new_course.reload
-      @new_course.sis_source_id.should == 'sis_id'
-      @new_course.stuck_sis_fields.should == [:name].to_set
-
-      @course.uuid.should_not == @new_course.uuid
-      @course.replacement_course_id.should == @new_course.id
-    end
-
+    @course.uuid.should_not == @new_course.uuid
+    @course.replacement_course_id.should == @new_course.id
   end
 
   it "group_categories should not include deleted categories" do
@@ -747,9 +725,9 @@ describe Course, "gradebook_to_csv" do
 
   it "should include sis ids if enabled" do
     course(:active_all => true)
-    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
     student_in_course(:user => @user1)
-    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@instructure.com')
+    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@usms.com')
     student_in_course(:user => @user2)
     @user3 = user(:active_all => true, :name => 'JT')
     student_in_course(:user => @user3)
@@ -815,9 +793,9 @@ describe Course, "gradebook_to_csv" do
   it "should only include students once" do
     # students might have multiple enrollments in a course
     course(:active_all => true)
-    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
     student_in_course(:user => @user1)
-    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@instructure.com')
+    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@usms.com')
     student_in_course(:user => @user2)
     @s2 = @course.course_sections.create!(:name => 'section2')
     StudentEnrollment.create!(:user => @user1, :course => @course, :course_section => @s2)
@@ -829,9 +807,9 @@ describe Course, "gradebook_to_csv" do
 
   it "should include muted if any assignments are muted" do
       course(:active_all => true)
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
       student_in_course(:user => @user1)
-      @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@instructure.com')
+      @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@usms.com')
       student_in_course(:user => @user2)
       @user3 = user(:active_all => true, :name => 'JT')
       student_in_course(:user => @user3)
@@ -878,9 +856,9 @@ describe Course, "gradebook_to_csv" do
     course(:active_all => 1)
     @teacher.enrollments.first.update_attribute(:limit_privileges_to_course_section, true)
     @section = @course.course_sections.create!(:name => 'section 2')
-    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
     @section.enroll_user(@user1, 'StudentEnrollment', 'active')
-    @user2 = user_with_pseudonym(:active_all => true, :name => 'Jeremy', :username => 'jeremy@instructure.com')
+    @user2 = user_with_pseudonym(:active_all => true, :name => 'Jeremy', :username => 'jeremy@usms.com')
     @course.enroll_student(@user2)
 
     csv = @course.gradebook_to_csv(:user => @teacher)
@@ -2576,7 +2554,7 @@ describe Course, "conclusions" do
     @user.reload
     @user.cached_current_enrollments(:reload)
 
-    enrollment.reload.state.should == :active
+    enrollment.state.should == :active
     enrollment.state_based_on_date.should == :completed
     enrollment.should_not be_participating_student
 
@@ -3568,47 +3546,6 @@ describe Course do
 
     it "should be true if no visibilities are given" do
       @course.visibility_limited_to_course_sections?(nil, []).should be_true
-    end
-  end
-
-  describe "#draft_state_enabled?" do
-    before(:each) do
-      @account = Account.create!
-      @account.settings[:allow_draft] = true
-      @account.save!
-      course(active_all: true)
-      @course.root_account = @account
-      @course.save!
-    end
-
-    context "a course with enable_draft enabled" do
-      it "should check its own enable_draft setting" do
-        @course.enable_draft = true
-        @course.save!
-
-        @course.should be_draft_state_enabled
-      end
-    end
-
-    context "a course with an enable_draft account" do
-      it "should check its root_account's enable_draft setting" do
-        @course.root_account.settings[:enable_draft] = true
-        @course.root_account.save!
-
-        @course.should be_draft_state_enabled
-      end
-    end
-
-    context "a course with an account that doesn't allow draft state" do
-      it "shouldn't be able to enable draft state" do
-        @account.settings[:allow_draft] = false
-        @account.save!
-
-        @course.enable_draft = true
-        @course.save!
-
-        @course.should_not be_draft_state_enabled
-      end
     end
   end
 end

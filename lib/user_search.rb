@@ -1,6 +1,6 @@
 module UserSearch
 
-  def self.for_user_in_context(search_term, context, searcher, session=nil, options = {})
+  def self.for_user_in_context(search_term, context, searcher, options = {})
     search_term = search_term.to_s
     base_scope = scope_for(context, searcher, options.slice(:enrollment_type, :enrollment_role, :exclude_groups))
     if search_term.to_s =~ Api::ID_REGEX
@@ -16,18 +16,14 @@ module UserSearch
 
     SearchTermHelper.validate_search_term(search_term)
 
-    unless context.grants_right?(searcher, session, :manage_students) ||
-        context.grants_right?(searcher, session, :manage_admin_users)
-      restrict_search = true
-    end
-    base_scope.where(conditions_statement(search_term, {:restrict_search => restrict_search}))
+    base_scope.where(conditions_statement(search_term))
   end
 
-  def self.conditions_statement(search_term, options={})
+  def self.conditions_statement(search_term)
     pattern = like_string_for(search_term)
     conditions = []
 
-    if complex_search_enabled? && !options[:restrict_search]
+    if complex_search_enabled?
       conditions << complex_sql << pattern << pattern << CommunicationChannel::TYPE_EMAIL << pattern
     else
       conditions << like_condition('users.name') << pattern

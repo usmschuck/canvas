@@ -96,7 +96,6 @@ class Account < ActiveRecord::Base
   time_zone_attribute :default_time_zone, default: "America/Denver"
 
   validates_locale :default_locale, :allow_nil => true
-  validates_length_of :name, :maximum => maximum_string_length, :allow_blank => true
   validate :account_chain_loop, :if => :parent_account_id_changed?
   validate :validate_auth_discovery_url
 
@@ -151,7 +150,6 @@ class Account < ActiveRecord::Base
   add_setting :open_registration, :boolean => true, :root_only => true
   add_setting :enable_scheduler, :boolean => true, :root_only => true, :default => false
   add_setting :enable_draft, :boolean => true, :root_only => true, :default => false
-  add_setting :allow_draft, :boolean => true, :root_only => true, :default => false
   add_setting :calendar2_only, :boolean => true, :root_only => true, :default => false
   add_setting :show_scheduler, :boolean => true, :root_only => true, :default => false
   add_setting :enable_profiles, :boolean => true, :root_only => true, :default => false
@@ -232,11 +230,11 @@ class Account < ActiveRecord::Base
   end
 
   def terms_of_use_url
-    Setting.get('terms_of_use_url', 'http://www.instructure.com/policies/terms-of-use')
+    Setting.get('terms_of_use_url', 'http://www.usms.com/policies/terms-of-use')
   end
 
   def privacy_policy_url
-    Setting.get('privacy_policy_url', 'http://www.instructure.com/policies/privacy-policy-instructure')
+    Setting.get('privacy_policy_url', 'http://www.usms.com/policies/privacy-policy-instructure')
   end
 
   def terms_required?
@@ -1316,13 +1314,6 @@ class Account < ActiveRecord::Base
 
   def canvas_network_enabled?
     false
-  end
-
-  # Public: Determine if draft state is enabled for this account.
-  #
-  # Returns a boolean (default: false).
-  def draft_state_enabled?
-    root_account.settings[:enable_draft]
   end
 
   def import_from_migration(data, params, migration)

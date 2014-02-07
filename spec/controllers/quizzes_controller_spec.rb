@@ -172,13 +172,9 @@ describe QuizzesController do
     it "should assign variables" do
       course_with_teacher_logged_in(:active_all => true)
       course_quiz
-      regrade = @quiz.quiz_regrades.create!(:user_id => @teacher.id, quiz_version: @quiz.version_number)
-      q = @quiz.quiz_questions.create!
-      regrade.quiz_question_regrades.create!(:quiz_question_id => q.id,:regrade_option => 'no_regrade')
       get 'edit', :course_id => @course.id, :id => @quiz.id
       assigns[:quiz].should_not be_nil
       assigns[:quiz].should eql(@quiz)
-      assigns[:js_env][:REGRADE_OPTIONS].should == {q.id => 'no_regrade' }
       response.should render_template("new")
     end
   end
@@ -207,11 +203,11 @@ describe QuizzesController do
     it "should set the submission count variables" do
       course(:active_all => 1)
       @section = @course.course_sections.create!(:name => 'section 2')
-      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@instructure.com')
+      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@usms.com')
       @section.enroll_user(@user2, 'StudentEnrollment', 'active')
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@usms.com')
       @course.enroll_student(@user1)
-      @ta1 = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@instructure.com')
+      @ta1 = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@usms.com')
       @course.enroll_ta(@ta1).update_attribute(:limit_privileges_to_course_section, true)
       course_quiz
       @sub1 = @quiz.generate_submission(@user1)
@@ -271,30 +267,17 @@ describe QuizzesController do
                           :display_name => attachment.display_name }
       }
     end
-
-    it "assigns js_env for versions if submission is present" do
-      require 'action_controller'
-      require 'action_controller/test_process.rb'
-      course_with_student_logged_in :active_all => true
-      course_quiz !!:active
-      submission = @quiz.generate_submission @user
-      create_attachment_for_file_upload_submission!(submission)
-      get 'show', :course_id => @course.id, :id => @quiz.id
-
-      path = "courses/#{@course.id}/quizzes/#{@quiz.id}/submission_versions"
-      assigns[:js_env][:SUBMISSION_VERSIONS_URL].should include(path)
-    end
   end
 
   describe "GET 'managed_quiz_data'" do
     it "should respect section privilege limitations" do
       course(:active_all => 1)
       @section = @course.course_sections.create!(:name => 'section 2')
-      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@instructure.com')
+      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@usms.com')
       @section.enroll_user(@user2, 'StudentEnrollment', 'active')
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@usms.com')
       @course.enroll_student(@user1)
-      @ta1 = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@instructure.com')
+      @ta1 = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@usms.com')
       @course.enroll_ta(@ta1).update_attribute(:limit_privileges_to_course_section, true)
       course_quiz
       @sub1 = @quiz.generate_submission(@user1)
@@ -332,7 +315,7 @@ describe QuizzesController do
     it "should include survey results from a logged-in user in a public course" do
       course_with_teacher_logged_in(:active_all => true)
 
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@usms.com')
       @course.enroll_student(@user1)
 
       questions = [{:question_data => { :name => "test 1" }},
@@ -384,11 +367,11 @@ describe QuizzesController do
     it "should respect section privilege limitations" do
       course_with_teacher(:active_all => 1)
       @section = @course.course_sections.create!(:name => 'section 2')
-      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@instructure.com')
+      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@usms.com')
       @section.enroll_user(@user2, 'StudentEnrollment', 'active')
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@usms.com')
       @course.enroll_student(@user1)
-      @ta1 = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@instructure.com')
+      @ta1 = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@usms.com')
       @course.enroll_ta(@ta1).update_attribute(:limit_privileges_to_course_section, true)
       course_quiz
       @sub1 = @quiz.generate_submission(@user1)
@@ -982,7 +965,7 @@ describe QuizzesController do
         @section = @course.course_sections.create!
 
         student_in_course(:active_all => true)
-        @student.communication_channels.create(:path => "student@instructure.com").confirm!
+        @student.communication_channels.create(:path => "student@usms.com").confirm!
         @student.email_channel.notification_policies.
           find_or_create_by_notification_id(@notification.id).
           update_attribute(:frequency, 'immediately')
@@ -1063,11 +1046,11 @@ describe QuizzesController do
         logged_out_survey_with_submission user, questions
 
         #non logged_out submissions
-        @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@instructure.com')
+        @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@usms.com')
         @quiz_submission1 = @quiz.generate_submission(@user1)
         @quiz_submission1.grade_submission
 
-        @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@instructure.com')
+        @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@usms.com')
         @quiz_submission2 = @quiz.generate_submission(@user2)
         @quiz_submission2.grade_submission
 
@@ -1181,29 +1164,6 @@ describe QuizzesController do
       post 'unpublish', :course_id => @course.id, :quizzes => [@quiz.id]
 
       @quiz.reload.published?.should be_false
-    end
-  end
-
-  describe "GET submission_versions" do
-    it "requires authorization" do
-      course_with_teacher(:active_all => true)
-      course_quiz
-      get 'submission_versions', :course_id => @course.id, :quiz_id => @quiz.id
-      assert_unauthorized
-      assigns[:quiz].should_not be_nil
-      assigns[:quiz].should eql(@quiz)
-    end
-
-    it "assigns variables" do
-      course_with_teacher_logged_in(:active_all => true)
-      course_quiz
-      submission = @quiz.generate_submission @user
-      create_attachment_for_file_upload_submission!(submission)
-      get 'submission_versions', :course_id => @course.id, :quiz_id => @quiz.id
-      assigns[:quiz].should_not be_nil
-      assigns[:quiz].should eql(@quiz)
-      assigns[:submission].should_not be_nil
-      assigns[:versions].should_not be_nil
     end
   end
 end

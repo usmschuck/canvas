@@ -58,9 +58,8 @@ class FavoritesController < ApplicationController
   # Add a course to the current user's favorites.  If the course is already
   # in the user's favorites, nothing happens.
   #
-  # @argument id [String]
-  #   The ID or SIS ID of the course to add.  The current user must be
-  #   registered in the course.
+  # @argument id the ID or SIS ID of the course to add.  The current user
+  # must be registered in the course.
   #
   # @returns Favorite
   #
@@ -83,8 +82,7 @@ class FavoritesController < ApplicationController
   # @API Remove course from favorites
   # Remove a course from the current user's favorites.
   #
-  # @argument id [String]
-  #   the ID or SIS ID of the course to remove
+  # @argument id the ID or SIS ID of the course to remove
   #
   # @returns Favorite
   #

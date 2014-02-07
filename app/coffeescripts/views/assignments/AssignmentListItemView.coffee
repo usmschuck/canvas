@@ -1,22 +1,15 @@
 define [
-  'i18n!assignments'
   'Backbone'
   'underscore'
   'compiled/views/PublishIconView'
   'jst/assignments/AssignmentListItem'
-], (I18n, Backbone, _, PublishIconView, template) ->
+], (Backbone, _, PublishIconView, template) ->
 
   class AssignmentListItemView extends Backbone.View
     tagName: "li"
     template: template
 
     @child 'publishIconView', '[data-view=publish-icon]'
-
-    events:
-      'click .delete_assignment': 'onDelete'
-
-    messages:
-      confirm: I18n.t('confirms.delete_assignment', 'Are you sure you want to delete this assignment?')
 
     initialize: ->
       super
@@ -45,24 +38,15 @@ define [
 
     toJSON: ->
       data = @model.toView()
-      if modules = ENV.MODULES[data.id]
-        moduleName = modules[0]
-        has_modules = if modules.length > 0 then true else false
-        joinedNames = modules.join(",")
+      if data.modules
+        moduleName = data.modules[0]
+        has_modules = if data.modules.length > 0 then true else false
+        joinedNames = data.modules.join(",")
         _.extend data, {
-          modules: modules
-          module_count: modules.length
+          module_count: data.modules.length
           module_name: moduleName
           has_modules: has_modules
           joined_names: joinedNames
         }
       else
         data
-
-    onDelete: (e) =>
-      e.preventDefault()
-      @delete() if confirm(@messages.confirm)
-
-    delete: ->
-      @model.destroy()
-      @$el.remove()

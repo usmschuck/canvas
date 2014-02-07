@@ -53,11 +53,10 @@ class AuthenticationAuditApiController < ApplicationController
   #
   # List authentication events for a given pseudonym.
   #
-  # @argument start_time [Optional, DateTime]
-  #   The beginning of the time range from which you want events.
-  #
-  # @argument end_time [Optional, Datetime]
-  #   The end of the time range from which you want events.
+  # @argument start_time [Datetime] [optional] The beginning of the time range
+  #   from which you want events.
+  # @argument end_time [Datetime] [optional] The end of the time range
+  #   from which you want events.
   #
   def for_pseudonym
     @pseudonym = Pseudonym.active.find(params[:pseudonym_id])
@@ -73,11 +72,10 @@ class AuthenticationAuditApiController < ApplicationController
   #
   # List authentication events for a given account.
   #
-  # @argument start_time [Optional, Datetime]
-  #   The beginning of the time range from which you want events.
-  #
-  # @argument end_time [Optional, Datetime]
-  #   The end of the time range from which you want events.
+  # @argument start_time [Datetime] [optional] The beginning of the time range
+  #   from which you want events.
+  # @argument end_time [Datetime] [optional] The end of the time range
+  #   from which you want events.
   #
   def for_account
     @account = api_find(Account.active, params[:account_id])
@@ -93,11 +91,10 @@ class AuthenticationAuditApiController < ApplicationController
   #
   # List authentication events for a given user.
   #
-  # @argument start_time [Optional, Datetime]
-  #   The beginning of the time range from which you want events.
-  #
-  # @argument end_time [Optional, Datetime]
-  #   The end of the time range from which you want events.
+  # @argument start_time [Datetime] [optional] The beginning of the time range
+  #   from which you want events.
+  # @argument end_time [Datetime] [optional] The end of the time range
+  #   from which you want events.
   #
   def for_user
     @user = api_find(User.active, params[:user_id])

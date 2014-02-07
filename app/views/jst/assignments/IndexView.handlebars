@@ -15,8 +15,8 @@
     >
   </div>
 
-  <div class="header-bar-right">
-    {{#if ENV.PERMISSIONS.manage}}
+  {{#if ENV.PERMISSIONS.manage}}
+    <div class="header-bar-right form-inline">
       <a
         href="#"
         class="btn icon-plus"
@@ -35,17 +35,15 @@
       >{{#t "add_assignment"}}Assignment{{/t}}</a>
 
       <a
-        href="#"
         class="btn"
+        href="#"
         id="assignmentSettingsCog"
         role="button"
         title='{{#t "assignments_settings"}}Assignments Settings{{/t}}'
         aria-label="{{#t "assignments_settings_screenreader"}}Assignments Settings{{/t}}"
       ><i class="icon-settings"></i></a>
-    {{else}}
-      <div data-view="showBy"></div>
-    {{/if}}
-  </div>
+    </div>
+  {{/if}}
 </div>
 
 <div data-view="assignmentGroups" class="item-group-container"></div>

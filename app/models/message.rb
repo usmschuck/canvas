@@ -165,7 +165,7 @@ class Message < ActiveRecord::Base
   # subject - An ActiveRecord object, or an array of ActiveRecord objects.
   # options - A hash of URI options (default: {}):
   #           :protocol - HTTP protocol string. Either 'http' or 'https'.
-  #           :host - A host string (e.g. 'canvas.instructure.com').
+  #           :host - A host string (e.g. 'canvas.usms.com').
   #
   # Returns a URL string.
   def polymorphic_url_with_context_host(subject, options = {})

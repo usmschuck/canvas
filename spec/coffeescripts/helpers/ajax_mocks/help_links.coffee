@@ -9,7 +9,7 @@ require [ 'support/jquery.mockjax'], ($) ->
     },
     {
       subtext: "Have an idea to improve Canvas?"
-      url: "http://help.instructure.com/forums/337215-feature-requests"
+      url: "http://help.usms.com/forums/337215-feature-requests"
       text: "Request a Feature"
       available_to: [ "user", "student", "teacher", "admin" ]
     }]

@@ -4,16 +4,16 @@ define [
   'i18n!pages'
   'str/htmlEscape'
   'compiled/views/DialogFormView'
-], ($, _, I18n, htmlEscape, DialogFormView) ->
+  'jst/wiki/WikiPageDeleteDialog'
+], ($, _, I18n, htmlEscape, DialogFormView, wrapperTemplate) ->
 
   dialogDefaults =
-    fixDialogButtons: false
-    title: I18n.t 'delete_dialog_title', 'Delete Wiki Page'
+    title: I18n.t 'delete_title', 'Delete Wiki Page'
     width: 400
     height: 160
 
   class WikiPageDeleteDialog extends DialogFormView
-    wrapperTemplate: -> '<div class="outlet"></div>'
+    wrapperTemplate: wrapperTemplate
     template: -> I18n.t 'delete_confirmation', 'Are you sure you wish to delete this wiki page?'
 
     @optionProperty 'wiki_pages_path'
@@ -49,19 +49,3 @@ define [
         dfd.reject()
 
       @$el.disableWhileLoading dfd
-
-    setupDialog: ->
-      super
-
-      form = @
-      buttons = [
-        class: 'btn'
-        text: I18n.t 'cancel_button', 'Cancel'
-        click: -> form.$el.dialog 'close'
-      ,
-        class: 'btn btn-danger'
-        text: I18n.t 'delete_button', 'Delete'
-        'data-text-while-loading': I18n.t 'deleting_button', 'Deleting...'
-        click: -> form.submit()
-      ]
-      @$el.dialog 'option', 'buttons', buttons

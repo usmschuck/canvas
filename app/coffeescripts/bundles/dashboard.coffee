@@ -4,9 +4,8 @@ require [
   'jquery',
   'i18n!dashboard'
   'compiled/util/newCourseForm'
-  'jst/dashboard/show_more_link'
   'jquery.disableWhileLoading'
-], (_, {View}, $, I18n, newCourseForm, showMoreTemplate) ->
+], (_, {View}, $, I18n, newCourseForm) ->
 
   if ENV.DASHBOARD_SIDEBAR_URL
     rightSide = $('#right-side')
@@ -26,24 +25,17 @@ require [
       'click .stream-details': 'handleDetailsClick'
       'beforeremove': 'updateCategoryCounts' # ujsLinks event
 
-    initialize: ->
-      super
-      # setup all 'Show More' links to reflect currently being collapsed.
-      $('.toggle-details').each (idx, elm) =>
-        @setShowMoreLink $(elm), false
-
     expandDetails: (event) ->
       header   = $(event.currentTarget)
-      # since toggling, isExpanded is the opposite of the current DOM state
-      isExpanded = not (header.attr('aria-expanded') == 'true')
-      header.attr('aria-expanded', isExpanded)
       details  = header.next('.details_container')
-      details.toggle(isExpanded)
-      # Set the link contents. Second param for being currently expanded or collapsed
-      @setShowMoreLink header.find('.toggle-details'), isExpanded
-
-    setShowMoreLink: ($link, isExpanded) ->
-      $link.html showMoreTemplate({expanded: isExpanded}) if $link
+      expanded = details.attr('aria-expanded') == 'true'
+      details.attr('aria-expanded', !expanded)
+      details.toggle(!expanded)
+      text = if expanded
+               I18n.t('show_more', 'Show More') + ' ▼'
+             else
+               I18n.t('show_less', 'Show Less') + ' ▲'
+      header.find('.toggle-details').text text
 
     handleDetailsClick: (event) ->
       row = $(event.target).closest('tr')

@@ -15,6 +15,7 @@ body {
   background: #a3a3a3 url(/images/messages/messages-background.png) 0 0 repeat;
   min-height: 425px;
   a {
+    color: #2571bd;
     &.black {
       color: #000000;
     }
@@ -949,38 +950,11 @@ form {
   vertical-align: middle;
 }
 
-#help-btn {
-  color: #333;
+#help_crumb {
   position: absolute;
-  right: 0px;
-  top: 8px;
+  right: 12px;
+  top: 12px;
   z-index: 3;
-
-  &:hover, &:focus {
-    color: #0088cc;
-    text-decoration: none;
-  }
-
-  .icon-mini-arrow-down {
-    position: relative;
-    right: 5px;
-  }
-}
-
-// for the non-dropdown help menu. remove this when new conversations is released
-#conversations-intro-btn {
-  color: #333;
-  position: absolute;
-  right: 10px;
-  top: 10px;
-  z-index: 3;
-
-  .icon-question {
-    &:hover, &:focus {
-      color: #0088cc;
-      text-decoration: none;
-    }
-  }
 }
 
 .spin_holder {

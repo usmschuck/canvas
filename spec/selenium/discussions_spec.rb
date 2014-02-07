@@ -58,25 +58,6 @@ describe "discussions" do
       get url
       check_permissions(what_to_create.count)
     end
-
-    it "should bucket topics based on section-specific locks" do
-      sec = @course.course_sections.create!(:name => "Section 2")
-      topic = @course.discussion_topics.build(:title => "topic closed to section 2", :user => @user)
-      topic.assignment = @course.assignments.build
-      topic.save!
-      topic.assignment.assignment_overrides.create! { |override|
-        override.set = sec 
-        override.lock_at = 1.day.ago
-        override.lock_at_overridden = true
-      }
-
-      student = user_with_pseudonym({:unique_id => 'sectionuser@example.com', :password => 'asdfasdf'})
-      @course.enroll_user(student, 'StudentEnrollment', :section => sec).accept!
-      login_as(student.primary_pseudonym.unique_id, 'asdfasdf')
-      get url
-      wait_for_ajaximations
-      f('#locked-discussions .collectionViewItems .discussion').should_not be_nil 
-    end
   end
 
   context "as a teacher" do
@@ -131,7 +112,7 @@ describe "discussions" do
       end
 
       it "should search by author" do
-        user_name = 'jake@instructure.com'
+        user_name = 'jake@usms.com'
         title = 'new one'
         new_teacher = teacher_in_course(:course => @course, :active_all => true, :name => user_name)
         what_to_create == DiscussionTopic ? @course.discussion_topics.create!(:title => title, :user => new_teacher.user) : announcement_model(:title => title, :user => new_teacher.user)

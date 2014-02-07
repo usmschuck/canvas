@@ -21,7 +21,7 @@ define [
 
     events:
       'submit form': 'submit'
-      'change #use_section_dates': 'toggleUseSectionDates'
+      'change [name="use_section_dates"]': 'toggleUseSectionDates'
       'click .delete_link': 'destroyModel'
       'click .switch_event_description_view': 'toggleHtmlView'
 
@@ -37,7 +37,7 @@ define [
       @model.on 'change:use_section_dates', @toggleUsingSectionClass
 
     render: =>
-      super
+      @$el.html @template(@model.toJSON('forView'))
 
       @$(".date_field").date_field()
       @$(".time_field").time_field()
@@ -75,11 +75,12 @@ define [
     submit: (event) ->
       event?.preventDefault()
       eventData = unflatten @$el.getFormData()
-      eventData.use_section_dates = eventData.use_section_dates is '1'
+      # force use_section_dates to boolean, so it doesnt cause 'change' if it is '1'
+      eventData.use_section_dates = !!eventData.use_section_dates
       _.each [eventData].concat(eventData.child_event_data), @setStartEnd
       delete eventData.child_event_data if eventData.remove_child_events == '1'
 
-      if $('#use_section_dates').prop('checked')
+      if $('[name=use_section_dates]').prop('checked')
         dialog = new MissingDateDialogView
           validationFn: ->
             $fields = $('[name*=start_date]:visible').filter -> $(this).val() is ''

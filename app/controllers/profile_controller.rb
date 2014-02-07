@@ -286,7 +286,7 @@ class ProfileController < ApplicationController
     else
       respond_to do |format|
         format.html { redirect_to user_profile_path(@user) } # FIXME: need to go to edit path
-        format.json { render :json => @profile.errors.to_json, :status => :bad_request }  #NOTE: won't send back @user validation errors (i.e. short_name)
+        format.json { render :json => 'TODO' }
       end
     end
   end

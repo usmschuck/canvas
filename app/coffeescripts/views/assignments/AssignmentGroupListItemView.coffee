@@ -2,13 +2,14 @@ define [
   'i18n!assignments'
   'underscore'
   'compiled/class/cache'
+  'compiled/collections/AssignmentCollection'
   'compiled/views/CollectionView'
   'compiled/views/assignments/AssignmentListItemView'
   'compiled/views/assignments/CreateAssignmentView'
   'compiled/views/assignments/CreateGroupView'
   'compiled/views/assignments/DeleteGroupView'
   'jst/assignments/AssignmentGroupListItem'
-], (I18n, _, Cache, CollectionView, AssignmentListItemView, CreateAssignmentView, CreateGroupView, DeleteGroupView, template) ->
+], (I18n, _, Cache, AssignmentCollection, CollectionView, AssignmentListItemView, CreateAssignmentView, CreateGroupView, DeleteGroupView, template) ->
 
   class AssignmentGroupListItemView extends CollectionView
     tagName: "li"
@@ -39,11 +40,11 @@ define [
     render: ->
       @createAssignmentView.remove() if @createAssignmentView
       @editGroupView.remove() if @editGroupView
-      @deleteGroupView.remove() if @deleteGroupView
       super
 
     afterRender: ->
       # need to hide child views and set trigger manually
+
       if @createAssignmentView
         @createAssignmentView.hide()
         @createAssignmentView.setTrigger @$addAssignmentButton
@@ -56,23 +57,23 @@ define [
         @deleteGroupView.hide()
         @deleteGroupView.setTrigger @$deleteGroupButton
 
+      #listen for events that cause auto-expanding
+      @collection.on('add', => if !@isExpanded() then @toggle() )
+
     initialize: ->
-      @initializeCollection()
+      @collection = new AssignmentCollection @model.get('assignments')
+      @collection.on('add remove', @refreshDeleteDialog)
+      modules = @model.collection.modules
+      @collection.each (assign) ->
+        assign.doNotParse()
+        #set modules
+        assign.modules modules[assign.id]
       super
-      @initializeChildViews()
 
       # we need the following line in order to access this view later
       @model.groupView = @
       @initCache()
 
-    initializeCollection: ->
-      @model.get('assignments').each (assign) ->
-        assign.doNotParse()
-
-      @collection = @model.get('assignments')
-      @collection.on 'add', @expand
-
-    initializeChildViews: ->
       @editGroupView = false
       @createAssignmentView = false
       @deleteGroupView = false
@@ -80,10 +81,22 @@ define [
       if ENV.PERMISSIONS.manage
         @editGroupView = new CreateGroupView
           assignmentGroup: @model
+          assignments: @collection.models
         @createAssignmentView = new CreateAssignmentView
           assignmentGroup: @model
+          collection: @collection
         @deleteGroupView = new DeleteGroupView
           model: @model
+          assignments: @collection
+
+    # this is the only way to get the number of assignments to update properly
+    # when an assignment is created in a new assignment group (before refreshing the page)
+    refreshDeleteDialog: =>
+      if @deleteGroupView
+        @deleteGroupView.remove()
+        @deleteGroupView = new DeleteGroupView
+          model: @model
+          assignments: @collection
 
     initCache: ->
       $.extend true, @, Cache
@@ -97,10 +110,9 @@ define [
       showRules = count != 0 and ENV.PERMISSIONS.manage
 
       data = @model.toJSON()
-      showWeight = @model.collection.course?.get('apply_assignment_group_weights') and data.group_weight?
+      showWeight = @model.collection.course?.get('apply_assignment_group_weights')
 
       attributes = _.extend(data, {
-        hasAssignments: @model.get('assignments')?.length > 0
         showRules: showRules
         rulesText: I18n.t('rules_text', "Rule", { count: count })
         showWeight: showWeight
@@ -121,15 +133,12 @@ define [
     isExpanded: ->
       @cache.get(@cacheKey())
 
-    expand: =>
-      @toggle if !@isExpanded()
-
     toggle: (setTo=false) ->
       @$el.find('.element_toggler').click()
       @cache.set(@cacheKey(), setTo)
 
     cacheKey: ->
-      "ag_#{@model.get('id')}_expanded"
+      "ag_#{@model.id}_expanded"
 
     toggleArrow: (ev) ->
       arrow = $(ev.currentTarget).children('i')

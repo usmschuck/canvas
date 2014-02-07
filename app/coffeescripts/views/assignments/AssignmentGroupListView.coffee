@@ -29,25 +29,35 @@ define [
 
     initialize: ->
       super
-      $.extend true, this, Cache
+      $.extend true, @, Cache
+      @firstResetLanded = @collection.length > 0
 
-    renderItem: (model) ->
-      view = super
-      unless model.groupView.isExpanded()
-        model.groupView.toggle()
-      view
+    render: ->
+      data = super
+      @collapseFromCache()
+      data
+
+    renderOnReset: =>
+      @firstResetLanded = true
+      super
 
     toJSON: ->
       data = super
       _.extend({}, data,
-        firstResetLanded: not @empty
+        firstResetLanded: @firstResetLanded
       )
 
     # This will be used when we implement searching
     expandAll: ->
       for m in @collection.models
         if !m.groupView.isExpanded()
-          # force expand it
-          # but it will retain its state in cache
-          m.groupView.toggle()
+            #force expand it
+            #but it will retain it's state in cache
+            m.groupView.toggle()
 
+    #also can be used to collapse after searching
+    collapseFromCache: ->
+      for m in @collection.models
+        if !m.groupView.isExpanded()
+          #collapse it
+          m.groupView.toggle()

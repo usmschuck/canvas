@@ -50,10 +50,10 @@ xmlns:gd='http://schemas.google.com/g/2005'>
     <content type='text/html'
     src='https://docs.google.com/feeds/download/spreadsheets/Export?key=12345' />
     <link rel='alternate' type='text/html'
-    href='https://docs.google.com/a/instructure.com/spreadsheet/ccc?key=12345' />
+    href='https://docs.google.com/a/usms.com/spreadsheet/ccc?key=12345' />
     <link rel='http://schemas.google.com/docs/2007#embed'
     type='text/html'
-    href='https://docs.google.com/a/instructure.com/spreadsheet/ccc?key=12345&amp;output=html&amp;chrome=false&amp;widget=true' />
+    href='https://docs.google.com/a/usms.com/spreadsheet/ccc?key=12345&amp;output=html&amp;chrome=false&amp;widget=true' />
     <link rel='http://schemas.google.com/docs/2007#icon'
     type='image/png'
     href='https://ssl.gstatic.com/docs/doclist/images/icon_11_spreadsheet_list.png' />

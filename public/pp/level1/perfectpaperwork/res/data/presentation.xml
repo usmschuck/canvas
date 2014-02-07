@@ -1,0 +1,1788 @@
+<?xml version="1.0"?>
+<presentation title="Quick Start Training - Perfect Paperwork 2013" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{C84843C8-AEEF-4D09-9A68-848554B48A6F}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="292815" duration="24372"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="1237925" duration="103131"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="419770" duration="34951"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="327297" duration="27245"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="414755" duration="34533"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="784335" duration="65332"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="270872" duration="22543"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="419770" duration="34951"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="318833" duration="26540"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="375571" duration="31268"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="303159" duration="25234"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="478389" duration="39836"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="1001569" duration="83435"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="119466" duration="9926"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="699071" duration="58226"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="469925" duration="39131"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="216955" duration="18050"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="305354" duration="25417"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="163979" duration="13635"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="762706" duration="63529"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="1052038" duration="87640"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="1511584" duration="125936"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="1401243" duration="116741"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="349866" duration="29126"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="357076" duration="29727"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="1119120" duration="93231"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="443594" duration="36937"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="120720" duration="10031"/>
+		<soundAsset id="sndAsset28" src="sound29.mp3" embedded="0" size="599701" duration="49946"/>
+		<soundAsset id="sndAsset29" src="sound30.mp3" embedded="0" size="994359" duration="82834"/>
+		<soundAsset id="sndAsset30" src="sound31.mp3" embedded="0" size="1371150" duration="114233"/>
+		<soundAsset id="sndAsset31" src="sound32.mp3" embedded="0" size="537321" duration="44747"/>
+		<soundAsset id="sndAsset32" src="sound33.mp3" embedded="0" size="494062" duration="41142"/>
+		<soundAsset id="sndAsset33" src="sound34.mp3" embedded="0" size="945145" duration="78733"/>
+		<soundAsset id="sndAsset34" src="sound35.mp3" embedded="0" size="202536" duration="16848"/>
+		<soundAsset id="sndAsset35" src="sound36.mp3" embedded="0" size="348926" duration="29048"/>
+		<soundAsset id="sndAsset36" src="sound37.mp3" embedded="0" size="226359" duration="18834"/>
+		<soundAsset id="sndAsset37" src="sound38.mp3" embedded="0" size="758004" duration="63137"/>
+		<soundAsset id="sndAsset38" src="sound39.mp3" embedded="0" size="1067711" duration="88946"/>
+		<soundAsset id="sndAsset39" src="sound40.mp3" embedded="0" size="419770" duration="34951"/>
+		<soundAsset id="sndAsset40" src="sound41.mp3" embedded="0" size="262408" duration="21838"/>
+		<soundAsset id="sndAsset41" src="sound42.mp3" embedded="0" size="535440" duration="44591"/>
+		<soundAsset id="sndAsset42" src="sound43.mp3" embedded="0" size="1241687" duration="103444"/>
+		<soundAsset id="sndAsset43" src="sound44.mp3" embedded="0" size="1487760" duration="123951"/>
+		<soundAsset id="sndAsset44" src="sound45.mp3" embedded="0" size="923515" duration="76930"/>
+		<soundAsset id="sndAsset45" src="sound46.mp3" embedded="0" size="239525" duration="19931"/>
+		<soundAsset id="sndAsset46" src="sound47.mp3" embedded="0" size="574310" duration="47830"/>
+		<soundAsset id="sndAsset47" src="sound48.mp3" embedded="0" size="362092" duration="30145"/>
+		<soundAsset id="sndAsset48" src="sound49.mp3" embedded="0" size="285292" duration="23745"/>
+		<soundAsset id="sndAsset49" src="sound50.mp3" embedded="0" size="633243" duration="52741"/>
+		<soundAsset id="sndAsset50" src="sound51.mp3" embedded="0" size="183101" duration="15229"/>
+		<soundAsset id="sndAsset51" src="sound52.mp3" embedded="0" size="440146" duration="36649"/>
+		<soundAsset id="sndAsset52" src="sound53.mp3" embedded="0" size="275888" duration="22961"/>
+		<soundAsset id="sndAsset53" src="sound54.mp3" embedded="0" size="1184008" duration="98638"/>
+		<soundAsset id="sndAsset54" src="sound55.mp3" embedded="0" size="299711" duration="24946"/>
+		<soundAsset id="sndAsset55" src="sound56.mp3" embedded="0" size="281530" duration="23431"/>
+		<soundAsset id="sndAsset56" src="sound57.mp3" embedded="0" size="810666" duration="67526"/>
+		<soundAsset id="sndAsset57" src="sound58.mp3" embedded="0" size="3539104" duration="294896"/>
+		<soundAsset id="sndAsset58" src="sound59.mp3" embedded="0" size="472433" duration="39340"/>
+		<soundAsset id="sndAsset59" src="sound60.mp3" embedded="0" size="109749" duration="9116"/>
+		<soundAsset id="sndAsset60" src="sound61.mp3" embedded="0" size="238271" duration="19826"/>
+		<soundAsset id="sndAsset61" src="sound62.mp3" embedded="0" size="599701" duration="49946"/>
+		<soundAsset id="sndAsset62" src="sound63.mp3" embedded="0" size="316325" duration="26331"/>
+		<soundAsset id="sndAsset63" src="sound64.mp3" embedded="0" size="514438" duration="42840"/>
+		<soundAsset id="sndAsset64" src="sound65.mp3" embedded="0" size="117272" duration="9743"/>
+		<soundAsset id="sndAsset65" src="sound66.mp3" embedded="0" size="401589" duration="33436"/>
+		<soundAsset id="sndAsset66" src="sound67.mp3" embedded="0" size="64296" duration="5328"/>
+		<soundAsset id="sndAsset67" src="sound68.mp3" embedded="0" size="112570" duration="9351"/>
+		<soundAsset id="sndAsset68" src="sound69.mp3" embedded="0" size="117272" duration="9743"/>
+		<soundAsset id="sndAsset69" src="sound70.mp3" embedded="0" size="125736" duration="10448"/>
+		<soundAsset id="sndAsset70" src="sound71.mp3" embedded="0" size="207238" duration="17240"/>
+		<soundAsset id="sndAsset71" src="sound72.mp3" embedded="0" size="329491" duration="27428"/>
+		<soundAsset id="sndAsset72" src="sound73.mp3" embedded="0" size="456759" duration="38034"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="thmb29.swf" embedded="0"/>
+		<graphicAsset id="imgAsset29" src="thmb30.swf" embedded="0"/>
+		<graphicAsset id="imgAsset30" src="thmb31.swf" embedded="0"/>
+		<graphicAsset id="imgAsset31" src="thmb32.swf" embedded="0"/>
+		<graphicAsset id="imgAsset32" src="thmb33.swf" embedded="0"/>
+		<graphicAsset id="imgAsset33" src="thmb34.swf" embedded="0"/>
+		<graphicAsset id="imgAsset34" src="thmb35.swf" embedded="0"/>
+		<graphicAsset id="imgAsset35" src="thmb36.swf" embedded="0"/>
+		<graphicAsset id="imgAsset36" src="thmb37.swf" embedded="0"/>
+		<graphicAsset id="imgAsset37" src="thmb38.swf" embedded="0"/>
+		<graphicAsset id="imgAsset38" src="thmb39.swf" embedded="0"/>
+		<graphicAsset id="imgAsset39" src="thmb40.swf" embedded="0"/>
+		<graphicAsset id="imgAsset40" src="thmb41.swf" embedded="0"/>
+		<graphicAsset id="imgAsset41" src="thmb42.swf" embedded="0"/>
+		<graphicAsset id="imgAsset42" src="thmb43.swf" embedded="0"/>
+		<graphicAsset id="imgAsset43" src="thmb44.swf" embedded="0"/>
+		<graphicAsset id="imgAsset44" src="thmb45.swf" embedded="0"/>
+		<graphicAsset id="imgAsset45" src="thmb46.swf" embedded="0"/>
+		<graphicAsset id="imgAsset46" src="thmb47.swf" embedded="0"/>
+		<graphicAsset id="imgAsset47" src="thmb48.swf" embedded="0"/>
+		<graphicAsset id="imgAsset48" src="thmb49.swf" embedded="0"/>
+		<graphicAsset id="imgAsset49" src="thmb50.swf" embedded="0"/>
+		<graphicAsset id="imgAsset50" src="thmb51.swf" embedded="0"/>
+		<graphicAsset id="imgAsset51" src="thmb52.swf" embedded="0"/>
+		<graphicAsset id="imgAsset52" src="thmb53.swf" embedded="0"/>
+		<graphicAsset id="imgAsset53" src="thmb54.swf" embedded="0"/>
+		<graphicAsset id="imgAsset54" src="thmb55.swf" embedded="0"/>
+		<graphicAsset id="imgAsset55" src="thmb56.swf" embedded="0"/>
+		<graphicAsset id="imgAsset56" src="thmb57.swf" embedded="0"/>
+		<graphicAsset id="imgAsset57" src="thmb58.swf" embedded="0"/>
+		<graphicAsset id="imgAsset58" src="thmb59.swf" embedded="0"/>
+		<graphicAsset id="imgAsset59" src="thmb60.swf" embedded="0"/>
+		<graphicAsset id="imgAsset60" src="thmb61.swf" embedded="0"/>
+		<graphicAsset id="imgAsset61" src="thmb62.swf" embedded="0"/>
+		<graphicAsset id="imgAsset62" src="thmb63.swf" embedded="0"/>
+		<graphicAsset id="imgAsset63" src="thmb64.swf" embedded="0"/>
+		<graphicAsset id="imgAsset64" src="thmb65.swf" embedded="0"/>
+		<graphicAsset id="imgAsset65" src="thmb66.swf" embedded="0"/>
+		<graphicAsset id="imgAsset66" src="thmb67.swf" embedded="0"/>
+		<graphicAsset id="imgAsset67" src="thmb68.swf" embedded="0"/>
+		<graphicAsset id="imgAsset68" src="thmb69.swf" embedded="0"/>
+		<graphicAsset id="imgAsset69" src="thmb70.swf" embedded="0"/>
+		<graphicAsset id="imgAsset70" src="thmb71.swf" embedded="0"/>
+		<graphicAsset id="imgAsset71" src="thmb72.swf" embedded="0"/>
+		<graphicAsset id="imgAsset72" src="thmb73.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="23.3269997"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="102.0999985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="0" timeOffset="33.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="26.2000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="33.5000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="64.3000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="21.5000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="33.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="25.5000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="30.2399998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="24.2000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="38.7999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="82.4000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="8.8999996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="57.2000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="38.0999985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="0" timeOffset="17.0000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="0" timeOffset="24.3880000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="0" timeOffset="12.6000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="62.5000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="86.5999985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="124.9079971"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="115.6999969"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="28.0960000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="28.7000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="92.1859970"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="35.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="0" timeOffset="9.0000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset28">
+				<startTimestamp slideIndex="28" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="28" stepIndex="0" timeOffset="48.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset29">
+				<startTimestamp slideIndex="29" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="29" stepIndex="0" timeOffset="81.7839966"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset30">
+				<startTimestamp slideIndex="30" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="30" stepIndex="0" timeOffset="113.1900000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset31">
+				<startTimestamp slideIndex="31" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="31" stepIndex="0" timeOffset="43.7000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset32">
+				<startTimestamp slideIndex="32" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="32" stepIndex="0" timeOffset="40.0999985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset33">
+				<startTimestamp slideIndex="33" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="33" stepIndex="0" timeOffset="77.6999969"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset34">
+				<startTimestamp slideIndex="34" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="34" stepIndex="0" timeOffset="15.8000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset35">
+				<startTimestamp slideIndex="35" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="35" stepIndex="0" timeOffset="28.0000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset36">
+				<startTimestamp slideIndex="36" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="36" stepIndex="0" timeOffset="17.7999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset37">
+				<startTimestamp slideIndex="37" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="37" stepIndex="0" timeOffset="62.0999985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset38">
+				<startTimestamp slideIndex="38" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="38" stepIndex="0" timeOffset="87.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset39">
+				<startTimestamp slideIndex="39" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="39" stepIndex="0" timeOffset="33.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset40">
+				<startTimestamp slideIndex="40" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="40" stepIndex="0" timeOffset="20.7999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset41">
+				<startTimestamp slideIndex="41" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="41" stepIndex="0" timeOffset="43.5620000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset42">
+				<startTimestamp slideIndex="42" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="42" stepIndex="0" timeOffset="102.4000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset43">
+				<startTimestamp slideIndex="43" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="43" stepIndex="0" timeOffset="122.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset44">
+				<startTimestamp slideIndex="44" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="44" stepIndex="0" timeOffset="75.9000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset45">
+				<startTimestamp slideIndex="45" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="45" stepIndex="0" timeOffset="18.8999996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset46">
+				<startTimestamp slideIndex="46" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="46" stepIndex="0" timeOffset="46.7999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset47">
+				<startTimestamp slideIndex="47" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="47" stepIndex="0" timeOffset="29.1000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset48">
+				<startTimestamp slideIndex="48" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="48" stepIndex="0" timeOffset="22.7000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset49">
+				<startTimestamp slideIndex="49" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="49" stepIndex="0" timeOffset="51.7000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset50">
+				<startTimestamp slideIndex="50" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="50" stepIndex="0" timeOffset="14.1999998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset51">
+				<startTimestamp slideIndex="51" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="51" stepIndex="0" timeOffset="35.5999985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset52">
+				<startTimestamp slideIndex="52" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="52" stepIndex="0" timeOffset="21.9300000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset53">
+				<startTimestamp slideIndex="53" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="53" stepIndex="0" timeOffset="97.5999985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset54">
+				<startTimestamp slideIndex="54" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="54" stepIndex="0" timeOffset="23.8999996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset55">
+				<startTimestamp slideIndex="55" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="55" stepIndex="0" timeOffset="22.3999996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset56">
+				<startTimestamp slideIndex="56" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="56" stepIndex="0" timeOffset="66.4940000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset57">
+				<startTimestamp slideIndex="57" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="57" stepIndex="0" timeOffset="293.8649902"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset58">
+				<startTimestamp slideIndex="58" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="58" stepIndex="0" timeOffset="38.2999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset59">
+				<startTimestamp slideIndex="59" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="59" stepIndex="0" timeOffset="8.0850000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset60">
+				<startTimestamp slideIndex="60" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="60" stepIndex="0" timeOffset="18.7999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset61">
+				<startTimestamp slideIndex="61" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="61" stepIndex="0" timeOffset="48.8969994"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset62">
+				<startTimestamp slideIndex="62" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="62" stepIndex="0" timeOffset="25.2999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset63">
+				<startTimestamp slideIndex="63" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="63" stepIndex="0" timeOffset="41.7999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset64">
+				<startTimestamp slideIndex="64" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="64" stepIndex="0" timeOffset="8.6999998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset65">
+				<startTimestamp slideIndex="65" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="65" stepIndex="0" timeOffset="32.4000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset66">
+				<startTimestamp slideIndex="66" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="66" stepIndex="0" timeOffset="4.2779999"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset67">
+				<startTimestamp slideIndex="67" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="67" stepIndex="0" timeOffset="8.3000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset68">
+				<startTimestamp slideIndex="68" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="68" stepIndex="0" timeOffset="8.6999998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset69">
+				<startTimestamp slideIndex="69" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="69" stepIndex="0" timeOffset="9.3999996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset70">
+				<startTimestamp slideIndex="70" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="70" stepIndex="0" timeOffset="16.2000000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset71">
+				<startTimestamp slideIndex="71" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="71" stepIndex="0" timeOffset="26.3999996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset72">
+				<startTimestamp slideIndex="72" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="72" stepIndex="0" timeOffset="37.0000000"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="Perfect Paperwork" titleNormalized="perfect paperwork" src="slide1.swf" size="14966" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="19.3269997"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Perfect Paperwork
+Filling Out the USMS Merchant Application</text>
+		</slide>
+		<slide index="1" title="Application Page 1" titleNormalized="application page 1" src="slide2.swf" size="40587" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="102.0989985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Application Page 1</text>
+		</slide>
+		<slide index="2" title="Perfect Paperwork Helps YOU" titleNormalized="perfect paperwork helps you" src="slide3.swf" size="5035" advanceOnTime="0" framesCount="325" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="324" playTime="13.5000000" pauseTime="20.4000015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Perfect Paperwork Helps YOU
+Avoid stips by providing the information on the application – This saves YOU time
+Think of all application fields as necessary and required
+Get to know underwriting guidelines</text>
+		</slide>
+		<slide index="3" title="Agent or Rep Name" titleNormalized="agent or rep name" src="slide4.swf" size="7365" advanceOnTime="0" framesCount="25" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="24" playTime="1.0000000" pauseTime="25.2000008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Agent or Rep Name</text>
+		</slide>
+		<slide index="4" title="Legal Name and DBA" titleNormalized="legal name and dba" src="slide5.swf" size="4784" advanceOnTime="0" framesCount="37" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="36" playTime="1.5000000" pauseTime="32.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Legal Name and DBA</text>
+		</slide>
+		<slide index="5" title="Business Entity Type" titleNormalized="business entity type" src="slide6.swf" size="4712" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="64.2990031"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Entity Type
+X</text>
+		</slide>
+		<slide index="6" title="Legal Name and DBA" titleNormalized="legal name and dba" src="slide7.swf" size="4939" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="21.4990000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Legal Name and DBA
+Stein, Benjamin 
+Stein’s Signs
+X</text>
+		</slide>
+		<slide index="7" title="Business Entity Type" titleNormalized="business entity type" src="slide8.swf" size="4706" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="33.8990015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Entity Type
+X</text>
+		</slide>
+		<slide index="8" title="Legal Name and DBA" titleNormalized="legal name and dba" src="slide9.swf" size="4947" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="25.4990000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Legal Name and DBA
+Stein Family Enterprises
+Stein’s Signs
+X</text>
+		</slide>
+		<slide index="9" title="Business Entity Type" titleNormalized="business entity type" src="slide10.swf" size="4707" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="30.2389998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Entity Type
+X</text>
+		</slide>
+		<slide index="10" title="Legal Name and DBA" titleNormalized="legal name and dba" src="slide11.swf" size="4950" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="24.1990008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Legal Name and DBA
+Stein Family Enterprises, Inc.
+Stein’s Signs
+X</text>
+		</slide>
+		<slide index="11" title="Business Entity Type" titleNormalized="business entity type" src="slide12.swf" size="4847" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="38.7989992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Entity Type
+ LLC Treated Just Like Corporation
+ Non-Profit must be Corp or LLC</text>
+		</slide>
+		<slide index="12" title="Location Address and Mailing Address" titleNormalized="location address and mailing address" src="slide13.swf" size="13106" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="82.3990015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Location Address and Mailing Address</text>
+		</slide>
+		<slide index="13" title="Business Longevity" titleNormalized="business longevity" src="slide14.swf" size="18707" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="8.8989996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Longevity</text>
+		</slide>
+		<slide index="14" title="Business Information" titleNormalized="business information" src="slide15.swf" size="9785" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="57.1990008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Information</text>
+		</slide>
+		<slide index="15" title="Business Information" titleNormalized="business information" src="slide16.swf" size="7906" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="38.0989985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Information</text>
+		</slide>
+		<slide index="16" title="Prior Processing History" titleNormalized="prior processing history" src="slide17.swf" size="16294" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="16.9990000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Prior Processing History</text>
+		</slide>
+		<slide index="17" title="Business Information" titleNormalized="business information" src="slide18.swf" size="17391" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="24.3870005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Business Information</text>
+		</slide>
+		<slide index="18" title="Bankcard Sales Profile" titleNormalized="bankcard sales profile" src="slide19.swf" size="26208" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="12.5990004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Bankcard Sales Profile</text>
+		</slide>
+		<slide index="19" title="Type of Rate Plan" titleNormalized="type of rate plan" src="slide20.swf" size="22590" advanceOnTime="0" framesCount="1321" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="1320" playTime="55.0000000" pauseTime="7.5000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Type of Rate Plan
+Standard 3 Tier Plan
+
+Blended: Credit and Debit qualified rates are the same
+Unblended: Credit and Debit have separate qualified rates
+Downgrade Surcharges
+IC Assessments Plus Plan
+
+Passed-through fees and discount rates set by Visa/MC with small but fair markup from USMS</text>
+		</slide>
+		<slide index="20" title="Bankcard Sales Profile" titleNormalized="bankcard sales profile" src="slide21.swf" size="16390" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="86.5989985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Bankcard Sales Profile</text>
+		</slide>
+		<slide index="21" title="Principal Ownership" titleNormalized="principal ownership" src="slide22.swf" size="7530" advanceOnTime="0" framesCount="2377" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="2376" playTime="99.0000000" pauseTime="25.9079971"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Principal Ownership
+Sole Prop: One owner with 100% ownership
+All others: Varying percentages are possible
+Ownership of signers must EXCEED 50%</text>
+		</slide>
+		<slide index="22" title="Principal Ownership" titleNormalized="principal ownership" src="slide23.swf" size="56785" advanceOnTime="0" framesCount="385" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="384" playTime="16.0000000" pauseTime="99.6999969"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Principal Ownership</text>
+		</slide>
+		<slide index="23" title="Deposit Bank Information" titleNormalized="deposit bank information" src="slide24.swf" size="13000" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="28.0950007"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Deposit Bank Information</text>
+		</slide>
+		<slide index="24" title="Future Delivery / MOTO" titleNormalized="future delivery / moto" src="slide25.swf" size="35917" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="28.6990008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Future Delivery / MOTO</text>
+		</slide>
+		<slide index="25" title="IRS Reporting" titleNormalized="irs reporting" src="slide26.swf" size="41880" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="92.1849970"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>IRS Reporting</text>
+		</slide>
+		<slide index="26" title="Initials on Pages 1 and 2" titleNormalized="initials on pages 1 and 2" src="slide27.swf" size="16843" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="35.8990015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Initials on Pages 1 and 2</text>
+		</slide>
+		<slide index="27" title="Application Page 2" titleNormalized="application page 2" src="slide28.swf" size="44211" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="8.9990000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Application Page 2</text>
+		</slide>
+		<slide index="28" title="Bankcard Services" titleNormalized="bankcard services" src="slide29.swf" size="53939" advanceOnTime="0" framesCount="205" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="204" playTime="8.5000000" pauseTime="40.4000015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Bankcard Services</text>
+		</slide>
+		<slide index="29" title="Rate Calculation: 3 Tier" titleNormalized="rate calculation: 3 tier" src="slide30.swf" size="20088" advanceOnTime="0" framesCount="481" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset29">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="480" playTime="20.0000000" pauseTime="61.7839966"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Rate Calculation: 3 Tier
+Mid-Qual Surcharge: 1.00%
+Non-Qual Surcharge: 1.85%
+1.49
+1.00
+1.85
+1.49
+Qualified Rate
+Credit 1.49% or Debit 1.49%</text>
+		</slide>
+		<slide index="30" title="Rate Calculation: 3 Tier" titleNormalized="rate calculation: 3 tier" src="slide31.swf" size="29918" advanceOnTime="0" framesCount="2149" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset30">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="2148" playTime="89.5000000" pauseTime="23.6900024"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Qualified Rate
+Credit 1.49% or Debit 1.49%
+Rate Calculation: 3 Tier
+Mid-Qual Surcharge: 1.00%
+Non-Qual Surcharge: 1.85%
+Qualified Rate: 1.49%
+Qualified Rate: 		1.49%
++ Mid-Qual Surcharge 	1.00%
+Total Rate:		2.49%
+Qualified Rate: 		1.49%
++ Non-Qual Surcharge 	1.85%
+Total Rate:		3.34%</text>
+		</slide>
+		<slide index="31" title="Rate Calculation: Two Tier" titleNormalized="rate calculation: two tier" src="slide32.swf" size="6354" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset31">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="31.7000008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Rate Calculation: Two Tier
+Mid-Qual Surcharge: 1.65%
+Non-Qual Surcharge: 1.65%
+1.49
+1.65
+1.65
+1.49
+Qualified Rate
+Credit 1.49% or Debit 1.49%
+X</text>
+		</slide>
+		<slide index="32" title="Rate Calculation: Two Tier" titleNormalized="rate calculation: two tier" src="slide33.swf" size="6790" advanceOnTime="0" framesCount="517" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset32">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="516" playTime="21.5000000" pauseTime="18.5999985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Qualified Rate
+Credit 1.49% or Debit 1.49%
+Rate Calculation: Two Tier
+Mid-Qual Surcharge: 1.65%
+Qualified Rate: 1.49%
+Qualified Rate: 		1.49%
++ Mid-Qual Surcharge 	1.65%
+Total Rate:		3.14%
+X</text>
+		</slide>
+		<slide index="33" title="Rate Calculation: IC+" titleNormalized="rate calculation: ic+" src="slide34.swf" size="6059" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset33">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="67.6999969"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Rate Calculation: IC+
+USMS Markup: 0.40%
+0.40
+N/A
+N/A
+N/A
+Actual Interchange Charges
+Set by Visa/MC/DI
+X</text>
+		</slide>
+		<slide index="34" title="Rate Calculation: IC+" titleNormalized="rate calculation: ic+" src="slide35.swf" size="6067" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset34">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="11.3000002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Actual Interchange Charges
+Set by Visa/MC/DI
+Rate Calculation: IC+
+USMS Markup: 0.40%
+Interchange rates are charged based on total amount per Interchange category.
+
+USMS Markup is charged on total amount of volume
+X</text>
+		</slide>
+		<slide index="35" title="Rate Calculation: One Rate" titleNormalized="rate calculation: one rate" src="slide36.swf" size="5423" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset35">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="26.0000000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Rate Calculation: One Rate
+2.29
+N/A
+N/A
+N/A
+One Rate
+X</text>
+		</slide>
+		<slide index="36" title="Rate Calculation: One Rate" titleNormalized="rate calculation: one rate" src="slide37.swf" size="5806" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset36">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="13.7999992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>One Rate Plan
+Discount Rate
+Rate Calculation: One Rate
+On One Rate plan, merchant pays one rate for all transactions with no downgrades or surcharges.
+
+International transactions will be charged a cross-border fee.
+X</text>
+		</slide>
+		<slide index="37" title="Per-Item Charges" titleNormalized="per-item charges" src="slide38.swf" size="26399" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset37">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="62.0989985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Per-Item Charges
+0.25
+0.10
+0.10
+0.10</text>
+		</slide>
+		<slide index="38" title="Additional Fees" titleNormalized="additional fees" src="slide39.swf" size="18735" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset38">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="87.8990015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Additional Fees
+0.25
+0.20
+0.20
+0.05</text>
+		</slide>
+		<slide index="39" title="One Rate &amp; No-Fee/Low-Fee" titleNormalized="one rate &amp; no-fee/low-fee" src="slide40.swf" size="13594" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset39">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="26.9000015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>One Rate &amp; No-Fee/Low-Fee
+19.95
+Although the application indicates “One Rate Plan”, this field is also used for the No-Fee / Low-Fee plan initial monthly fee.</text>
+		</slide>
+		<slide index="40" title="No PIN Debit" titleNormalized="no pin debit" src="slide41.swf" size="4712" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset40">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="20.7989992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>No PIN Debit
+X</text>
+		</slide>
+		<slide index="41" title="PIN Debit" titleNormalized="pin debit" src="slide42.swf" size="4864" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset41">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="43.5610003"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>PIN Debit
+X
+0.20
+0.25
+5.00</text>
+		</slide>
+		<slide index="42" title="Monthly, Annual, and Exceptional Fees" titleNormalized="monthly, annual, and exceptional fees" src="slide43.swf" size="11418" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset42">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="102.3990015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Monthly, Annual, and Exceptional Fees
+11.90
+59
+25
+7.95
+5.00
+3.50</text>
+		</slide>
+		<slide index="43" title="American Express" titleNormalized="american express" src="slide44.swf" size="16883" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset43">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="122.8990015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>American Express</text>
+		</slide>
+		<slide index="44" title="EBT – Electronic Benefits" titleNormalized="ebt – electronic benefits" src="slide45.swf" size="14244" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset44">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="75.8990015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>EBT – Electronic Benefits</text>
+		</slide>
+		<slide index="45" title="No Gateway or Wireless" titleNormalized="no gateway or wireless" src="slide46.swf" size="31257" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset45">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="18.8989996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>No Gateway or Wireless
+X
+X</text>
+		</slide>
+		<slide index="46" title="Gateway Fees" titleNormalized="gateway fees" src="slide47.swf" size="14411" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset46">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="46.7989992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Gateway Fees
+X
+X
+15
+0.10
+200</text>
+		</slide>
+		<slide index="47" title="Wireless Terminal Services" titleNormalized="wireless terminal services" src="slide48.swf" size="13913" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset47">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="29.0990004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Wireless Terminal Services
+X
+45
+0.10
+19</text>
+		</slide>
+		<slide index="48" title="Cash Advance Pre-Approval" titleNormalized="cash advance pre-approval" src="slide49.swf" size="16278" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset48">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="22.6990008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Cash Advance Pre-Approval
+X
+10,000</text>
+		</slide>
+		<slide index="49" title="Payment for Equipment &amp; Services" titleNormalized="payment for equipment &amp; services" src="slide50.swf" size="21959" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset49">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="51.6990008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Payment for Equipment &amp; Services
+X</text>
+		</slide>
+		<slide index="50" title="Equipment and Software" titleNormalized="equipment and software" src="slide51.swf" size="4630" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset50">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="14.1989998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Equipment and Software</text>
+		</slide>
+		<slide index="51" title="Equipment and Software" titleNormalized="equipment and software" src="slide52.swf" size="24671" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset51">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="35.5989985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Equipment and Software</text>
+		</slide>
+		<slide index="52" title="Equipment and Software" titleNormalized="equipment and software" src="slide53.swf" size="28195" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset52">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="21.9290003"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Equipment and Software</text>
+		</slide>
+		<slide index="53" title="Equipment and Software" titleNormalized="equipment and software" src="slide54.swf" size="5293" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset53">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="97.5989985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Equipment and Software
+2
+Verifone
+Vx520-Dial
+X
+380
+760
+2
+Verifone
+Vx820
+X
+300
+600</text>
+		</slide>
+		<slide index="54" title="Equipment and Software" titleNormalized="equipment and software" src="slide55.swf" size="4937" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset54">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="23.8989996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Equipment and Software
+1
+USA E-Pay
+X
+100
+100</text>
+		</slide>
+		<slide index="55" title="Equipment and Software" titleNormalized="equipment and software" src="slide56.swf" size="7655" advanceOnTime="0" framesCount="493" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset55">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="492" playTime="20.5000000" pauseTime="1.8999996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Equipment and Software
+2
+Verifone
+Vx520-Dial
+X
+380
+760
+2
+Verifone
+Vx820
+X
+300
+600
+Lease
+Lease
+Rental
+Rental
+FTP
+FTP</text>
+		</slide>
+		<slide index="56" title="Total, Shipping, Merchant Club" titleNormalized="total, shipping, merchant club" src="slide57.swf" size="29703" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset56">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="66.4930033"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Total, Shipping, Merchant Club
+1360
+199
+X
+X
+15
+9.95
+1,574</text>
+		</slide>
+		<slide index="57" title="Equipment Setup Information" titleNormalized="equipment setup information" src="slide58.swf" size="35042" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset57">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="293.8639902"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Equipment Setup Information
+X
+X
+X
+X
+X
+X
+X
+X
+X</text>
+		</slide>
+		<slide index="58" title="Special Instructions" titleNormalized="special instructions" src="slide59.swf" size="4629" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset58">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="38.2989992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Special Instructions</text>
+		</slide>
+		<slide index="59" title="Special Instructions" titleNormalized="special instructions" src="slide60.swf" size="4818" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset59">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="8.0840000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Special Instructions
+Multi-MID with Merchant ID 272400123456
+Month-End Discount Requested</text>
+		</slide>
+		<slide index="60" title="Merchant Initials" titleNormalized="merchant initials" src="slide61.swf" size="22568" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset60">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="18.7989992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Merchant Initials</text>
+		</slide>
+		<slide index="61" title="Application Page 3" titleNormalized="application page 3" src="slide62.swf" size="45256" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset61">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="48.8959994"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Application Page 3</text>
+		</slide>
+		<slide index="62" title="Merchant Site Inspection" titleNormalized="merchant site inspection" src="slide63.swf" size="24699" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset62">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="21.2999992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Merchant Site Inspection
+Include exterior and interior photos of building and signage whenever possible</text>
+		</slide>
+		<slide index="63" title="Signatures" titleNormalized="signatures" src="slide64.swf" size="36051" advanceOnTime="0" framesCount="25" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset63">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="24" playTime="1.0000000" pauseTime="40.7999992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Signatures
+Each principal owner shown on page 1 must sign in two places!</text>
+		</slide>
+		<slide index="64" title="Merchant Application" titleNormalized="merchant application" src="slide65.swf" size="142924" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset64">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="2.6999998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Merchant Application</text>
+		</slide>
+		<slide index="65" title="No-Fee / Low-Fee Addendum" titleNormalized="no-fee / low-fee addendum" src="slide66.swf" size="66755" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset65">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="24.4000015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>No-Fee / Low-Fee Addendum</text>
+		</slide>
+		<slide index="66" title="Cap Sheet" titleNormalized="cap sheet" src="slide67.swf" size="22480" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset66">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="4.2769999"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Cap Sheet</text>
+		</slide>
+		<slide index="67" title="Cap Sheet" titleNormalized="cap sheet" src="slide68.swf" size="20088" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset67">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="8.2990002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Cap Sheet</text>
+		</slide>
+		<slide index="68" title="Cap Sheet" titleNormalized="cap sheet" src="slide69.swf" size="13067" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset68">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="8.6989998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Cap Sheet</text>
+		</slide>
+		<slide index="69" title="Cap Sheet" titleNormalized="cap sheet" src="slide70.swf" size="28315" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset69">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="9.3989996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Cap Sheet</text>
+		</slide>
+		<slide index="70" title="Cap Sheet" titleNormalized="cap sheet" src="slide71.swf" size="8024" advanceOnTime="0" framesCount="13" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset70">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="12" playTime="0.5000000" pauseTime="15.7000008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Cap Sheet</text>
+		</slide>
+		<slide index="71" title="Cap Sheet" titleNormalized="cap sheet" src="slide72.swf" size="31504" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset71">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="26.3989996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Cap Sheet</text>
+		</slide>
+		<slide index="72" title="Final Exam" titleNormalized="final exam" src="slide73.swf" size="4571" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset72">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="RandomBarsVertical" duration="1.0000000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="36.9990000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Final Exam
+Your course final exam will be an exercise in filling out the USMS Merchant Account application completely and correctly.</text>
+		</slide>
+	</slides>
+</presentation>

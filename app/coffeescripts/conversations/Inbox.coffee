@@ -352,7 +352,7 @@ define [
         $(document).triggerHandler('document_fragment_change', hash)
 
     initializeHelp: ->
-      $('#conversations-intro-menu-item, #conversations-intro-btn').click (e) =>
+      $('#help_crumb').click (e) =>
         e.preventDefault()
         introSlideshow()
 

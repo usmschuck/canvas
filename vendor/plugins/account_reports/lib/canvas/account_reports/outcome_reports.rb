@@ -104,8 +104,7 @@ module Canvas::AccountReports
             AND sub.user_id = pseudonyms.user_id", parameters])).
         where("
           ct.tag_type = 'learning_outcome'
-          AND ct.workflow_state <> 'deleted'
-          AND (r.id IS NULL OR (r.artifact_type IS NOT NULL AND r.artifact_type <> 'Submission'))"
+          AND ct.workflow_state <> 'deleted'"
       )
 
       unless @include_deleted
@@ -206,8 +205,7 @@ module Canvas::AccountReports
                  AND r.artifact_type = 'QuizSubmission'
                LEFT OUTER JOIN assessment_questions aq ON aq.id = r.associated_asset_id
                  AND r.associated_asset_type = 'AssessmentQuestion'").
-        where("ct.workflow_state <> 'deleted'
-               AND (r.id IS NULL OR (r.artifact_type IS NOT NULL AND r.artifact_type <> 'Submission'))")
+        where("ct.workflow_state <> 'deleted'")
 
       unless @include_deleted
         students = students.where("p.workflow_state<>'deleted' AND c.workflow_state='available'")

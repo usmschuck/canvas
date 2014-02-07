@@ -77,7 +77,7 @@ describe "external tools" do
       f('#external_tool_name').send_keys(tool_name)
       f('#external_tool_consumer_key').send_keys('fdjaklfjdaklfdjaslfjajfkljsalkjflas')
       f('#external_tool_shared_secret').send_keys('r08132ufio1jfj1iofj3j1kf3ljl1')
-      f('#external_tool_domain').send_keys('instructure.com')
+      f('#external_tool_domain').send_keys('usms.com')
       fj('.ui-dialog:visible .btn-primary').click()
       wait_for_ajaximations
       f(".edit_tool_link[data-edit-external-tool='#{ContextExternalTool.find_by_name(tool_name).id}']").click
@@ -404,7 +404,7 @@ describe "external tools" do
     it "should launch assignment external tools when viewing assignment" do
       @tool = @course.context_external_tools.create!(:name => "new tool", :consumer_key => "key", :shared_secret => "secret", :domain => 'example.com', :custom_fields => {'a' => '1', 'b' => '2'})
       assignment_model(:course => @course, :points_possible => 40, :submission_types => 'external_tool', :grading_type => 'points')
-      tag = @assignment.build_external_tool_tag(:url => "http://example.com")
+      tag = @assignment.build_external_tool_tag(:url => "http://example.com/one")
       tag.content_type = 'ContextExternalTool'
       tag.save!
       get "/courses/#{@course.id}/assignments/#{@assignment.id}"
@@ -626,7 +626,7 @@ describe "external tools" do
           f('#external_tool_name').send_keys(tool_name)
           f('#external_tool_consumer_key').send_keys('fdjaklfjdaklfdjaslfjajfkljsalkjflas')
           f('#external_tool_shared_secret').send_keys('r08132ufio1jfj1iofj3j1kf3ljl1')
-          f('#external_tool_domain').send_keys('instructure.com')
+          f('#external_tool_domain').send_keys('usms.com')
           f('#external_tool_form').submit()
           wait_for_ajaximations
           f("#external_tool_#{ContextExternalTool.find_by_name(tool_name).id} .edit_tool_link").click

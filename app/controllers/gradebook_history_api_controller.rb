@@ -213,16 +213,16 @@ class GradebookHistoryApiController < ApplicationController
   # @argument course_id [Integer]
   #   The id of the contextual course for this API call
   #
-  # @argument assignment_id [Optional, Integer]
+  # @argument assignment_id [Integer, Optional]
   #   The ID of the assignment for which you want to see submissions. If
   #   absent, versions of submissions from any assignment in the course are
   #   included.
   #
-  # @argument user_id [Optional, Integer]
+  # @argument user_id [Integer, Optional]
   #   The ID of the user for which you want to see submissions. If absent,
   #   versions of submissions from any user in the course are included.
   #
-  # @argument ascending [Optional, Boolean]
+  # @argument ascending [Boolean, Optional]
   #   Returns submission versions in ascending date order (oldest first). If
   #   absent, returns submission versions in descending date order (newest
   #   first).

@@ -41,7 +41,7 @@ describe "/shared/_login" do
     @account = Account.default
     config = @account.account_authorization_configs.build
     config.auth_type = 'ldap'
-    config.change_password_url = "http://www.instructure.com"
+    config.change_password_url = "http://www.usms.com"
     config.save!
     @account.forgot_password_external_url.should == config.change_password_url
     assigns[:domain_root_account] = @account
@@ -54,7 +54,7 @@ describe "/shared/_login" do
     @account = Account.default
     config = @account.account_authorization_configs.build
     config.auth_type = 'ldap'
-    config.change_password_url = "http://www.instructure.com"
+    config.change_password_url = "http://www.usms.com"
     config.save!
     @account.forgot_password_external_url.should == config.change_password_url
     assigns[:domain_root_account] = @account

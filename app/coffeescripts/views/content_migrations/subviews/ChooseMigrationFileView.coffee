@@ -1,8 +1,7 @@
 define [
   'Backbone'
   'jst/content_migrations/subviews/ChooseMigrationFile'
-  'i18n!content_migrations'
-], (Backbone, template, I18n) ->
+], (Backbone, template) -> 
   class ChooseMigrationFile extends Backbone.View
     template: template
 
@@ -44,12 +43,12 @@ define [
       unless preAttachment?.name && fileElement
         fileErrors.push
                     type: "required"
-                    message: I18n.t("file_required", "You must select a file to import content from")
+                    message: "You must select a file to import content from"
 
       if @fileSize(fileElement) > @fileSizeLimit
         fileErrors.push
                     type: "upload_limit_exceeded"
-                    message: I18n.t("file_too_large", "Your migration cannot exceed %{file_size}", file_size: @humanReadableSize(@fileSizeLimit))
+                    message: "You're migration cannot exceed #{@humanReadableSize(@fileSizeLimit)}"
 
       errors.file = fileErrors if fileErrors.length
       errors

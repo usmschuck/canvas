@@ -142,41 +142,41 @@ describe TextHelper do
 
   context "format_message" do
     it "should detect and linkify URLs" do
-      str = th.format_message("click here: (http://www.instructure.com) to check things out\nnewline").first
+      str = th.format_message("click here: (http://www.usms.com) to check things out\nnewline").first
       html = Nokogiri::HTML::DocumentFragment.parse(str)
       link = html.css('a').first
-      link['href'].should == "http://www.instructure.com"
+      link['href'].should == "http://www.usms.com"
 
-      str = th.format_message("click here: http://www.instructure.com\nnewline").first
+      str = th.format_message("click here: http://www.usms.com\nnewline").first
       html = Nokogiri::HTML::DocumentFragment.parse(str)
       link = html.css('a').first
-      link['href'].should == "http://www.instructure.com"
+      link['href'].should == "http://www.usms.com"
 
-      str = th.format_message("click here: www.instructure.com/a/b?a=1&b=2\nnewline").first
+      str = th.format_message("click here: www.usms.com/a/b?a=1&b=2\nnewline").first
       html = Nokogiri::HTML::DocumentFragment.parse(str)
       link = html.css('a').first
-      link['href'].should == "http://www.instructure.com/a/b?a=1&b=2"
+      link['href'].should == "http://www.usms.com/a/b?a=1&b=2"
 
-      str = th.format_message("click here: http://www.instructure.com/\nnewline").first
+      str = th.format_message("click here: http://www.usms.com/\nnewline").first
       html = Nokogiri::HTML::DocumentFragment.parse(str)
       link = html.css('a').first
-      link['href'].should == "http://www.instructure.com/"
+      link['href'].should == "http://www.usms.com/"
 
-      str = th.format_message("click here: http://www.instructure.com/courses/1/wiki/informação").first
+      str = th.format_message("click here: http://www.usms.com/courses/1/wiki/informação").first
       html = Nokogiri::HTML::DocumentFragment.parse(str)
       link = html.css('a').first
-      link['href'].should == "http://www.instructure.com/courses/1/wiki/informa%C3%A7%C3%A3o"
+      link['href'].should == "http://www.usms.com/courses/1/wiki/informa%C3%A7%C3%A3o"
 
-      str = th.format_message("click here: http://www.instructure.com/'onclick=alert(document.cookie)//\nnewline").first
+      str = th.format_message("click here: http://www.usms.com/'onclick=alert(document.cookie)//\nnewline").first
       html = Nokogiri::HTML::DocumentFragment.parse(str)
       link = html.css('a').first
       # we don't match parens in a url, so the link ends on the opening paren
-      link['href'].should == "http://www.instructure.com/%27onclick=alert"
+      link['href'].should == "http://www.usms.com/%27onclick=alert"
     end
 
     it "should handle having the placeholder in the text body" do
-      str = th.format_message("this text has the placeholder #{TextHelper::AUTO_LINKIFY_PLACEHOLDER} embedded right in it.\nhttp://www.instructure.com/\n").first
-      str.should == "this text has the placeholder #{TextHelper::AUTO_LINKIFY_PLACEHOLDER} embedded right in it.<br/>\r\n<a href='http://www.instructure.com/'>http://www.instructure.com/</a><br/>\r"
+      str = th.format_message("this text has the placeholder #{TextHelper::AUTO_LINKIFY_PLACEHOLDER} embedded right in it.\nhttp://www.usms.com/\n").first
+      str.should == "this text has the placeholder #{TextHelper::AUTO_LINKIFY_PLACEHOLDER} embedded right in it.<br/>\r\n<a href='http://www.usms.com/'>http://www.usms.com/</a><br/>\r"
     end
   end
 

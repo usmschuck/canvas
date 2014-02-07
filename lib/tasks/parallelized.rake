@@ -14,15 +14,8 @@ unless ARGV.any? { |a| a =~ /\Agems/ }
     end
 
     task :nonselenium, :count do |t, args|
-
-      Rake::Task['spec:single'].execute #first rake task to run the files that fail in parallel in a single thread
-
-      if File.zero?('tmp/parallel_log/rspec.failures')
-        Rake::Task['parallel:nonseleniumparallel'].invoke(args[:count])
-      else
-        abort(`cat tmp/parallel_log/rspec.failures`)
-      end
-
+      Rake::Task['spec:single'].invoke #first rake task to run the files that fail in parallel in a single thread
+      Rake::Task['parallel:nonseleniumparallel'].invoke(args[:count])
     end
 
     task :selenium, :count, :build_section do |t, args|
@@ -30,7 +23,7 @@ unless ARGV.any? { |a| a =~ /\Agems/ }
 
       #used to split selenium builds when :build_section is set split it in two.
       test_files = FileList['spec/selenium/**/*_spec.rb'] + FileList['vendor/plugins/*/spec_canvas/selenium/*_spec.rb']
-      test_files = test_files.to_a.sort_by! { |file| File.size(file) }
+      test_files = test_files.to_a.sort_by! {|file| File.size(file)}
 
       test_files_a_sum = 0
       test_files_b_sum = 0

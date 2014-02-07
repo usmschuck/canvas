@@ -6,10 +6,9 @@ define ->
     url = (page) -> "/api/v1/context/2/resource?page=#{page}&per_page=2"
     lastID = thisPage * 2
     urls =
-      current: url thisPage
       first: url 1
       last: url 10
-    links = ['<' + urls.current + '>; rel="current"']
+    links = []
     if thisPage < 10
       urls.next = url thisPage + 1
       links.push '<' + urls.next + '>; rel="next"'

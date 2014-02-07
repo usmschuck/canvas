@@ -197,6 +197,10 @@ define [
 
     htmlUrl: => @get 'html_url'
 
+    modules: (names)  =>
+      return @get 'modules' unless arguments.length > 0
+      @set 'modules', names
+
     labelId: =>
       return @id
 
@@ -213,7 +217,7 @@ define [
         'gradeGroupStudentsIndividually', 'groupCategoryId', 'frozen',
         'frozenAttributes', 'freezeOnCopy', 'canFreeze', 'isSimple',
         'gradingStandardId', 'isLetterGraded', 'assignmentGroupId', 'iconType',
-        'published', 'htmlUrl', 'labelId'
+        'published', 'htmlUrl', 'modules', 'labelId'
       ]
       hash = id: @get 'id'
       for field in fields

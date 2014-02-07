@@ -60,7 +60,7 @@ class EventStream::Index
   end
 
   def insert(record, key)
-    ttl_seconds = event_stream.ttl_seconds(record.created_at)
+    ttl_seconds = event_stream.ttl_seconds(record)
     return if ttl_seconds < 0
 
     bucket, ordered_id = bookmark_for(record)
@@ -96,15 +96,11 @@ class EventStream::Index
     end
   end
 
-  def select_cql
-    "SELECT ordered_id, #{id_column} FROM #{table} WHERE #{key_column} = ?"
-  end
+  private
 
   def insert_cql
     "INSERT INTO #{table} (#{key_column}, ordered_id, #{id_column}) VALUES (?, ?, ?) USING TTL ?"
   end
-
-  private
 
   def history(key, pager, options)
     # get the bucket to start at from the bookmark
@@ -149,7 +145,7 @@ class EventStream::Index
       else
         ordered_id_clause = nil
       end
-      qs = "#{select_cql} AND ordered_id >= ? #{ordered_id_clause} ORDER BY ordered_id DESC LIMIT #{limit}"
+      qs = "SELECT ordered_id, #{id_column} FROM #{table} WHERE #{key_column} = ? AND ordered_id >= ? #{ordered_id_clause} ORDER BY ordered_id DESC LIMIT #{limit}"
 
       # execute the query collecting the results. set the bookmark iff there
       # was a result after the full page

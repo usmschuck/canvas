@@ -55,8 +55,7 @@ htmlEscape, DiscussionTopic, Announcement, Assignment, $, preventDefault, Missin
     isAnnouncement: => @model.constructor is Announcement
 
     toJSON: ->
-      data = super
-      json = _.extend data, @options,
+      json = _.extend super, @options,
         showAssignment: !!@assignmentGroupCollection
         useForGrading: @model.get('assignment')?
         isTopic: @isTopic()
@@ -65,7 +64,6 @@ htmlEscape, DiscussionTopic, Announcement, Assignment, $, preventDefault, Missin
         canAttach: @permissions.CAN_ATTACH
         canModerate: @permissions.CAN_MODERATE
         isLargeRoster: ENV?.IS_LARGE_ROSTER || false
-        threaded: data.discussion_type is "threaded"
       json.assignment = json.assignment.toView()
       json
 
@@ -132,14 +130,14 @@ htmlEscape, DiscussionTopic, Announcement, Assignment, $, preventDefault, Missin
     getFormData: ->
       data = super
       data.title ||= I18n.t 'default_discussion_title', 'No Title'
-      data.discussion_type = if data.threaded is '1' then 'threaded' else 'side_comment'
-      data.podcast_has_student_posts = false unless data.podcast_enabled is '1'
+      data.discussion_type = if data.threaded then 'threaded' else 'side_comment'
+      data.podcast_has_student_posts = false unless data.podcast_enabled
 
       assign_data = data.assignment
       delete data.assignment
 
-      if assign_data?.set_assignment is '1'
-        data.set_assignment = '1'
+      if assign_data?.set_assignment
+        data.set_assignment = true
         data.assignment = @updateAssignment(assign_data)
         data.delayed_post_at = ''
         data.lock_at = ''
@@ -148,9 +146,12 @@ htmlEscape, DiscussionTopic, Announcement, Assignment, $, preventDefault, Missin
         # DiscussionTopics get a model created for them in their
         # constructor. Delete it so the API doesn't automatically
         # create assignments unless the user checked "Use for Grading".
+        # We're doing this here because syncWithMultipart doesn't call
+        # the model's toJSON method unfortunately, so assignment params
+        # would be sent in the response, creating an assignment.
         # The controller checks for set_assignment on the assignment model,
         # so we can't make it undefined here for the case of discussion topics.
-        data.assignment = {set_assignment: '0'}
+        data.assignment = {set_assignment: false}
 
       # these options get passed to Backbone.sync in ValidatedFormView
       @saveOpts = multipart: !!data.attachment, proxyAttachment: true
@@ -202,7 +203,7 @@ htmlEscape, DiscussionTopic, Announcement, Assignment, $, preventDefault, Missin
     )
 
     validateBeforeSave: (data, errors) =>
-      if @isTopic() && data.set_assignment is '1'
+      if @isTopic() && data.set_assignment
         if @assignmentGroupSelector?
           errors = @assignmentGroupSelector.validateBeforeSave(data, errors)
         unless ENV?.IS_LARGE_ROSTER

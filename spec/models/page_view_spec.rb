@@ -85,8 +85,9 @@ describe PageView do
           @user2 = User.create! { |u| u.id = @user.local_id }
           account = Account.create!
           course_model(:account => account)
-          pv = PageView.new(user: @pv_user, context: @course)
-          pv.request_id = UUIDSingleton.instance.generate
+          pv = page_view_model
+          pv.user = @pv_user
+          pv.context = @course
           pv.store
 
           PageView.process_cache_queue

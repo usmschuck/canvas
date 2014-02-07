@@ -4,12 +4,12 @@ class WiziqConference < WebConference
 
   attr_reader :time_zone, :attendee_url, :presenter_url
 
-  def admin_join_url(user, return_to="http://www.instructure.com")
+  def admin_join_url(user, return_to="http://www.usms.com")
     join_wiziq_conference
     @presenter_url
   end
 
-  def participant_join_url(user, return_to="http://www.instructure.com")
+  def participant_join_url(user, return_to="http://www.usms.com")
     join_wiziq_conference_as_attendee(user)
   end
 

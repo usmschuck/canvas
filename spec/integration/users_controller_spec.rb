@@ -114,7 +114,7 @@ describe UsersController do
     it "should render" do
       user_with_pseudonym(:active_all => 1)
       @johnstclair = @user.update_attributes(:name => 'John St. Clair', :sortable_name => 'St. Clair, John')
-      user_with_pseudonym(:active_all => 1, :username => 'jtolds@instructure.com', :name => 'JT Olds')
+      user_with_pseudonym(:active_all => 1, :username => 'jtolds@usms.com', :name => 'JT Olds')
       @jtolds = @user
       Account.default.add_user(@user)
       user_session(@user, @pseudonym)
@@ -198,33 +198,33 @@ describe UsersController do
     it "should maintain protocol and domain name in fallback" do
       disable_avatars!
       enable_cache do
-        get "http://someschool.instructure.com/images/users/#{User.avatar_key(@user.id)}"
-        response.should redirect_to "http://someschool.instructure.com/images/no_pic.gif"
+        get "http://someschool.usms.com/images/users/#{User.avatar_key(@user.id)}"
+        response.should redirect_to "http://someschool.usms.com/images/no_pic.gif"
 
-        get "https://otherschool.instructure.com/images/users/#{User.avatar_key(@user.id)}"
-        response.should redirect_to "https://otherschool.instructure.com/images/no_pic.gif"
+        get "https://otherschool.usms.com/images/users/#{User.avatar_key(@user.id)}"
+        response.should redirect_to "https://otherschool.usms.com/images/no_pic.gif"
       end
     end
 
     it "should maintain protocol and domain name in gravatar redirect fallback" do
       enable_cache do
-        get "http://someschool.instructure.com/images/users/#{User.avatar_key(@user.id)}"
-        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.instructure.com/images/messages/avatar-50.png")}"
+        get "http://someschool.usms.com/images/users/#{User.avatar_key(@user.id)}"
+        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.usms.com/images/messages/avatar-50.png")}"
 
-        get "https://otherschool.instructure.com/images/users/#{User.avatar_key(@user.id)}"
-        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("https://otherschool.instructure.com/images/messages/avatar-50.png")}"
+        get "https://otherschool.usms.com/images/users/#{User.avatar_key(@user.id)}"
+        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("https://otherschool.usms.com/images/messages/avatar-50.png")}"
       end
     end
 
     it "should return different urls for different fallbacks" do
       enable_cache do
-        get "http://someschool.instructure.com/images/users/#{User.avatar_key(@user.id)}"
-        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.instructure.com/images/messages/avatar-50.png")}"
+        get "http://someschool.usms.com/images/users/#{User.avatar_key(@user.id)}"
+        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.usms.com/images/messages/avatar-50.png")}"
 
-        get "http://someschool.instructure.com/images/users/#{User.avatar_key(@user.id)}?fallback=#{CGI.escape("/my/custom/fallback/url.png")}"
-        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.instructure.com/my/custom/fallback/url.png")}"
+        get "http://someschool.usms.com/images/users/#{User.avatar_key(@user.id)}?fallback=#{CGI.escape("/my/custom/fallback/url.png")}"
+        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.usms.com/my/custom/fallback/url.png")}"
 
-        get "http://someschool.instructure.com/images/users/#{User.avatar_key(@user.id)}?fallback=#{CGI.escape("https://test.domain/another/custom/fallback/url.png")}"
+        get "http://someschool.usms.com/images/users/#{User.avatar_key(@user.id)}?fallback=#{CGI.escape("https://test.domain/another/custom/fallback/url.png")}"
         response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("https://test.domain/another/custom/fallback/url.png")}"
       end
     end
@@ -234,11 +234,11 @@ describe UsersController do
         data = Rails.cache.instance_variable_get(:@data)
         orig_size = data.size
 
-        get "http://someschool.instructure.com/images/users/#{User.avatar_key(@user.id)}"
-        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.instructure.com/images/messages/avatar-50.png")}"
+        get "http://someschool.usms.com/images/users/#{User.avatar_key(@user.id)}"
+        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("http://someschool.usms.com/images/messages/avatar-50.png")}"
 
-        get "https://otherschool.instructure.com/images/users/#{User.avatar_key(@user.id)}?fallback=/my/custom/fallback/url.png"
-        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("https://otherschool.instructure.com/my/custom/fallback/url.png")}"
+        get "https://otherschool.usms.com/images/users/#{User.avatar_key(@user.id)}?fallback=/my/custom/fallback/url.png"
+        response.should redirect_to "https://secure.gravatar.com/avatar/000?s=50&d=#{CGI::escape("https://otherschool.usms.com/my/custom/fallback/url.png")}"
 
         diff = data.select{|k,v|k =~ /avatar_img/}.size - orig_size
         diff.should > 0
@@ -246,11 +246,11 @@ describe UsersController do
         @user.update_attribute(:avatar_image, {'type' => 'attachment', 'url' => '/images/thumbnails/foo.gif'})
         data.select{|k,v|k =~ /avatar_img/}.size.should == orig_size
 
-        get "http://someschool.instructure.com/images/users/#{User.avatar_key(@user.id)}"
-        response.should redirect_to "http://someschool.instructure.com/images/thumbnails/foo.gif"
+        get "http://someschool.usms.com/images/users/#{User.avatar_key(@user.id)}"
+        response.should redirect_to "http://someschool.usms.com/images/thumbnails/foo.gif"
 
-        get "http://otherschool.instructure.com/images/users/#{User.avatar_key(@user.id)}?fallback=#{CGI::escape("https://test.domain/my/custom/fallback/url.png")}"
-        response.should redirect_to "http://otherschool.instructure.com/images/thumbnails/foo.gif"
+        get "http://otherschool.usms.com/images/users/#{User.avatar_key(@user.id)}?fallback=#{CGI::escape("https://test.domain/my/custom/fallback/url.png")}"
+        response.should redirect_to "http://otherschool.usms.com/images/thumbnails/foo.gif"
         data.select{|k,v|k =~ /avatar_img/}.size.should == orig_size + diff
       end
     end
@@ -277,7 +277,7 @@ describe UsersController do
       user_with_pseudonym(:active_all => 1)
       Account.default.add_user(@user)
       @admin = @user
-      user_with_pseudonym(:active_all => 1, :username => 'user2@instructure.com')
+      user_with_pseudonym(:active_all => 1, :username => 'user2@usms.com')
       user_session(@admin)
 
       get user_admin_merge_url(@user, :pending_user_id => @admin.id)

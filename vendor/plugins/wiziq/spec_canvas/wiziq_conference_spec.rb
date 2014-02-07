@@ -28,7 +28,7 @@ describe WiziqConference do
       'presenters' => [{ 'presenter_url' => 'http://example.com/presenter_url', }],
     })
     conference = factory_with_protected_attributes(WiziqConference, :title => "my test conference", :user => @user, :context => @course)
-    conference.admin_join_url(@user,"http://www.instructure.com").should == "http://example.com/presenter_url"
+    conference.admin_join_url(@user,"http://www.usms.com").should == "http://example.com/presenter_url"
     conference.conference_key.should == '12345'
   end
 
@@ -37,7 +37,7 @@ describe WiziqConference do
       'presenter_url' => 'http://example.com/presenter_url',
     })
     conference = factory_with_protected_attributes(WiziqConference, :title => "my test conference", :user => @user, :context => @course, :conference_key => '12345')
-    conference.admin_join_url(@user,"http://www.instructure.com").should == "http://example.com/presenter_url"
+    conference.admin_join_url(@user,"http://www.usms.com").should == "http://example.com/presenter_url"
   end
 
   it 'should get participant urls and allow re-joining' do
@@ -53,9 +53,9 @@ describe WiziqConference do
       'attendee_url' => 'http://example.com/attendee_url?1',
     })
     conference = factory_with_protected_attributes(WiziqConference, :title => "my test conference", :user => @user, :context => @course, :conference_key => '12345')
-    conference.participant_join_url(@s1,"http://www.instructure.com").should == "http://example.com/attendee_url?1"
-    conference.participant_join_url(@s2,"http://www.instructure.com").should == "http://example.com/attendee_url?2"
-    conference.participant_join_url(@s1,"http://www.instructure.com").should == "http://example.com/attendee_url?1"
+    conference.participant_join_url(@s1,"http://www.usms.com").should == "http://example.com/attendee_url?1"
+    conference.participant_join_url(@s2,"http://www.usms.com").should == "http://example.com/attendee_url?2"
+    conference.participant_join_url(@s1,"http://www.usms.com").should == "http://example.com/attendee_url?1"
   end
 
   it "should confirm valid config" do

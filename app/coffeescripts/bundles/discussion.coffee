@@ -138,12 +138,6 @@ require [
 
   ##
   # routes
-  router.route 'topic', 'topic', ->
-    $container.scrollTop $('#discussion_topic')
-    setTimeout ->
-      $('#discussion_topic').focus()
-      $container.one "scroll", -> router.navigate('')
-    , 10
   router.route 'entry-:id', 'id', entriesView.goToEntry
   router.route 'page-:page', 'page', (page) ->
     entriesView.render page

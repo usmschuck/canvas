@@ -248,14 +248,6 @@ class Course < ActiveRecord::Base
     end
   end
 
-  def module_items_visible_to(user)
-    if self.grants_right?(user, :manage_content)
-      self.context_module_tags.not_deleted.joins(:context_module).where("context_modules.workflow_state <> 'deleted'")
-    else
-      self.context_module_tags.active.joins(:context_module).where(:context_modules => {:workflow_state => 'active'})
-    end
-  end
-
   def verify_unique_sis_source_id
     return true unless self.sis_source_id
     infer_root_account unless self.root_account_id
@@ -984,12 +976,7 @@ class Course < ActiveRecord::Base
     can :read and can :read_outcomes
 
     # Active students
-    given { |user|
-      available?  && user &&
-        user.cached_current_enrollments.any? { |e|
-        e.course_id == id && e.participating_student?
-      }
-    }
+    given { |user| self.available? && user && user.cached_current_enrollments.any?{|e| e.course_id == self.id && e.participating_student? } }
     can :read and can :participate_as_student and can :read_grades and can :read_outcomes
 
     given { |user| (self.available? || self.completed?) && user && user.cached_not_ended_enrollments.any?{|e| e.course_id == self.id && e.participating_observer? && e.associated_user_id} }
@@ -2921,7 +2908,6 @@ class Course < ActiveRecord::Base
   add_setting :lock_all_announcements, :boolean => true, :default => false
   add_setting :large_roster, :boolean => true, :default => lambda { |c| c.root_account.large_course_rosters? }
   add_setting :public_syllabus, :boolean => true, :default => false
-  add_setting :enable_draft, boolean: true, default: false
 
   def user_can_manage_own_discussion_posts?(user)
     return true if allow_student_discussion_editing?
@@ -2985,9 +2971,6 @@ class Course < ActiveRecord::Base
       self.replacement_course_id = new_course.id
       self.workflow_state = 'deleted'
       self.save!
-      # Assign original course profile to the new course (automatically saves it)
-      new_course.profile = self.profile
-
       Course.find(new_course.id)
     end
   end
@@ -3123,12 +3106,5 @@ class Course < ActiveRecord::Base
     self.enrollments.invited.except(:includes).includes(:user => :communication_channels).find_each do |e|
       e.re_send_confirmation! if e.invited?
     end
-  end
-
-  # Public: Determine if draft state is enabled for this course.
-  #
-  # Returns a boolean (default: false).
-  def draft_state_enabled?
-    (root_account.allow_draft? && enable_draft?) || root_account.enable_draft?
   end
 end

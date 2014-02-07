@@ -436,7 +436,7 @@ describe BasicLTI do
           <blti:title>Other Name</blti:title>
           <blti:description>Description</blti:description>
           <blti:launch_url>http://example.com</blti:launch_url>
-          <blti:extensions platform="canvas.instructure.com">
+          <blti:extensions platform="canvas.usms.com">
             <lticm:property name="privacy_level">public</lticm:property>
             <lticm:options name="course_navigation">
               <lticm:property name="url">https://example.com/attendance?param1=1&param2=2</lticm:property>

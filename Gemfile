@@ -117,7 +117,7 @@ group :test do
   gem 'simplecov', '0.7.1' if ENV['COVERAGE'] != nil && ENV['COVERAGE'] == "1" # for coverage reporting
   gem 'bluecloth',    '2.0.10' # for generating api docs
   gem 'mocha',        :git => 'git://github.com/ccutrer/mocha.git', :require => false
-  gem 'parallelized_specs', '0.4.64'
+  gem 'parallelized_specs', '0.4.59'
   gem 'thin', '1.5.1'
   if CANVAS_RAILS3
     gem 'rspec-rails',  '2.13.0'
@@ -129,7 +129,7 @@ group :test do
   gem 'webrat',       '0.7.3'
   gem 'yard',         '0.8.0'
   gem 'yard-appendix',  '>=0.1.8'
-  gem 'timecop',      '0.6.3'
+  gem 'timecop',      '0.5.9.1'
   gem 'test-unit',  '1.2.3'
 end
 

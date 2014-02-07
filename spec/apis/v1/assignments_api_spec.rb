@@ -208,7 +208,6 @@ describe AssignmentsApiController, :type => :integration do
                              :free_form_criterion_comments => true)
 
       @assignment.create_rubric_association(:rubric => @rubric,
-                                            :context => @course,
                                             :purpose => 'grading',
                                             :use_for_grading => true)
       json = api_get_assignments_index_from_course(@course)
@@ -593,13 +592,13 @@ describe AssignmentsApiController, :type => :integration do
 
       @student.register!
       @student.communication_channels.create(
-        :path => "student@instructure.com").confirm!
+        :path => "student@usms.com").confirm!
       @student.email_channel.notification_policies.
         find_or_create_by_notification_id(notification.id).
         update_attribute(:frequency, 'immediately')
 
       @ta.register!
-      @ta.communication_channels.create(:path => "ta@instructure.com").confirm!
+      @ta.communication_channels.create(:path => "ta@usms.com").confirm!
       @ta.email_channel.notification_policies.
         find_or_create_by_notification_id(notification.id).
         update_attribute(:frequency, 'immediately')
@@ -834,7 +833,7 @@ describe AssignmentsApiController, :type => :integration do
         @notification = Notification.create! :name => "Assignment Changed"
         course_with_teacher(:active_all => true)
         student_in_course(:course => @course, :active_all => true)
-        @student.communication_channels.create(:path => "student@instructure.com").confirm!
+        @student.communication_channels.create(:path => "student@usms.com").confirm!
         @student.email_channel.notification_policies.
           find_or_create_by_notification_id(@notification.id).
           update_attribute(:frequency, 'immediately')

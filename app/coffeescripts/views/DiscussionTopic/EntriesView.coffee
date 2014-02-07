@@ -98,7 +98,6 @@ define [
       @$window.scrollTo $el, 200,
         offset: -150
         onAfter: =>
-          $el.focus()
           # pretty blinking
           setTimeout (-> $el.addClass 'highlight' ), 200
           setTimeout (-> $el.removeClass 'highlight' ), 400

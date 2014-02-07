@@ -219,13 +219,13 @@ describe Assignment do
     it "should only count submissions in the user's visible section(s)" do
       course_with_teacher(:active_all => true)
       @section = @course.course_sections.create!(:name => 'section 2')
-      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@instructure.com')
+      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@usms.com')
       @section.enroll_user(@user2, 'StudentEnrollment', 'active')
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@usms.com')
       @course.enroll_student(@user1).update_attribute(:workflow_state, 'active')
 
       # enroll a section-limited TA
-      @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@instructure.com')
+      @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@usms.com')
       ta_enrollment = @course.enroll_ta(@ta)
       ta_enrollment.limit_privileges_to_course_section = true
       ta_enrollment.workflow_state = 'active'
@@ -1346,20 +1346,20 @@ describe Assignment do
     context "varied due date notifications" do
       before do
         course_with_teacher(:active_all => true)
-        @teacher.communication_channels.create(:path => "teacher@instructure.com").confirm!
+        @teacher.communication_channels.create(:path => "teacher@usms.com").confirm!
 
-        @studentA = user_with_pseudonym(:active_all => true, :name => 'StudentA', :username => 'studentA@instructure.com')
-        @studentA.communication_channels.create(:path => "studentA@instructure.com").confirm!
-        @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@instructure.com')
-        @ta.communication_channels.create(:path => "ta1@instructure.com").confirm!
+        @studentA = user_with_pseudonym(:active_all => true, :name => 'StudentA', :username => 'studentA@usms.com')
+        @studentA.communication_channels.create(:path => "studentA@usms.com").confirm!
+        @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@usms.com')
+        @ta.communication_channels.create(:path => "ta1@usms.com").confirm!
         @course.enroll_student(@studentA).update_attribute(:workflow_state, 'active')
         @course.enroll_user(@ta, 'TaEnrollment', :enrollment_state => 'active', :limit_privileges_to_course_section => true)
 
         @section2 = @course.course_sections.create!(:name => 'section 2')
-        @studentB = user_with_pseudonym(:active_all => true, :name => 'StudentB', :username => 'studentB@instructure.com')
-        @studentB.communication_channels.create(:path => "studentB@instructure.com").confirm!
-        @ta2 = user_with_pseudonym(:active_all => true, :name => 'TA2', :username => 'ta2@instructure.com')
-        @ta2.communication_channels.create(:path => "ta2@instructure.com").confirm!
+        @studentB = user_with_pseudonym(:active_all => true, :name => 'StudentB', :username => 'studentB@usms.com')
+        @studentB.communication_channels.create(:path => "studentB@usms.com").confirm!
+        @ta2 = user_with_pseudonym(:active_all => true, :name => 'TA2', :username => 'ta2@usms.com')
+        @ta2.communication_channels.create(:path => "ta2@usms.com").confirm!
         @section2.enroll_user(@studentB, 'StudentEnrollment', 'active')
         @course.enroll_user(@ta2, 'TaEnrollment', :section => @section2, :enrollment_state => 'active', :limit_privileges_to_course_section => true)
 
@@ -1824,20 +1824,24 @@ describe Assignment do
     end
 
     it "should mark comments as hidden for submission zip uploads" do
-      course_with_teacher
-      student_in_course
+      create_and_submit
+      @assignment.muted = true
+      @assignment.save!
 
-      @assignment = @course.assignments.create! name: "Mute Comment Test",
-                                                submission_types: %w(online_upload)
-      @assignment.update_attribute :muted, true
-      submit_homework(@student)
+      temp = Tempfile.new('sub.txt')
 
-      zip = zip_submissions
+      group = {:user => @user, :submission => @submission, :display_name => 'sub.txt', :filename => temp.path}
 
-      @assignment.generate_comments_from_files(zip.open.path, @user)
+      fake = mock()
+      fake.stubs(:map).returns([])
+      fake.stubs(:unzip_files).returns(fake)
+      ZipExtractor.stubs(:new).returns(fake)
+      @assignment.stubs(:partition_for_user).returns([[group]])
 
-      submission = @assignment.submission_for_student(@student)
-      submission.submission_comments.last.hidden.should == true
+      @assignment.generate_comments_from_files(temp.path, @user)
+
+      @submission.reload
+      @submission.submission_comments.last.hidden.should == true
     end
   end
 
@@ -2350,50 +2354,6 @@ describe Assignment do
       a.allowed_extensions.should == ["doc", "xls", "txt"]
     end
   end
-
-  describe '#generate_comments_from_files' do
-    before do
-      course_with_teacher
-      @students = 3.times.map { student_in_course; @student }
-
-      @assignment = @course.assignments.create! :name => "zip upload test",
-                                                :submission_types => %w(online_upload)
-    end
-
-    it "should work for individuals" do
-      s1 = @students.first
-      submit_homework(s1)
-
-      zip = zip_submissions
-
-      comments, ignored = @assignment.generate_comments_from_files(
-        zip.open.path,
-        @teacher)
-
-      comments.map { |g| g.map { |c| c.submission.user } }.should == [[s1]]
-      ignored.should be_empty
-    end
-
-    it "should work for groups" do
-      s1, s2 = @students
-
-      gc = @course.group_categories.create! name: "Homework Groups"
-      @assignment.update_attributes group_category_id: gc.id,
-                                    grade_group_students_individually: false
-      g1, g2 = 2.times.map { |i| gc.groups.create! name: "Group #{i}" }
-      g1.add_user(s1)
-      g1.add_user(s2)
-
-      submit_homework(s1)
-      zip = zip_submissions
-
-      comments, _ = @assignment.generate_comments_from_files(
-        zip.open.path,
-        @teacher)
-
-      comments.map { |g| g.map { |c| c.submission.user } }.should == [[s1, s2]]
-    end
-  end
 end
 
 def setup_assignment_with_group
@@ -2447,23 +2407,3 @@ def setup_assignment
   @c = course_model(:workflow_state => "available")
   @c.enroll_student(@u)
 end
-
-def submit_homework(student)
-  a = Attachment.create! context: student,
-                         filename: "homework.pdf",
-                         uploaded_data: StringIO.new("blah blah blah")
-  @assignment.submit_homework(student, attachments: [a],
-                                       submission_type: "online_upload")
-  a
-end
-
-def zip_submissions
-  zip = Attachment.new filename: 'submissions.zip'
-  zip.user = @teacher
-  zip.workflow_state = 'to_be_zipped'
-  zip.context = @assignment
-  zip.save!
-  ContentZipper.process_attachment(zip, @teacher)
-  zip
-end
-

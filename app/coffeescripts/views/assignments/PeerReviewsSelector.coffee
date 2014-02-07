@@ -46,13 +46,9 @@ define [
       @$peerReviewsAssignAt.datetime_field()
 
     toJSON: =>
-      frozenAttributes = @parentModel.frozenAttributes()
-
       peerReviews: @parentModel.peerReviews()
       automaticPeerReviews: @parentModel.automaticPeerReviews()
       peerReviewCount: @parentModel.peerReviewCount()
       peerReviewsAssignAt: @parentModel.peerReviewsAssignAt()
-      frozenAttributes: frozenAttributes
-      peerReviewsFrozen: _.include(frozenAttributes, 'peer_reviews')
+      frozenAttributes: @parentModel.frozenAttributes()
       nested: @nested
-      prefix: 'assignment' if @nested

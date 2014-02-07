@@ -341,21 +341,21 @@ describe Enrollment do
         @enrollment.state.should eql(:invited)
         @enrollment.state_based_on_date.should eql(:invited)
         @enrollment.accept
-        @enrollment.reload.state.should eql(:active)
+        @enrollment.state.should eql(:active)
         @enrollment.state_based_on_date.should eql(:active)
 
         @enrollment.start_at = 4.days.ago
         @enrollment.end_at = 2.days.ago
         @enrollment.workflow_state = 'invited'
         @enrollment.save!
-        @enrollment.reload.state.should eql(:invited)
+        @enrollment.state.should eql(:invited)
         @enrollment.state_based_on_date.should eql(:completed)
         @enrollment.accept.should be_false
 
         @enrollment.start_at = 2.days.from_now
         @enrollment.end_at = 4.days.from_now
         @enrollment.save!
-        @enrollment.reload.state.should eql(:invited)
+        @enrollment.state.should eql(:invited)
         @enrollment.state_based_on_date.should eql(:invited)
         @enrollment.accept.should be_true
       end
@@ -372,7 +372,7 @@ describe Enrollment do
         @section.save!
         @enrollment.state.should eql(:invited)
         @enrollment.accept
-        @enrollment.reload.state.should eql(:active)
+        @enrollment.state.should eql(:active)
         @enrollment.state_based_on_date.should eql(:active)
 
         @section.start_at = 4.days.ago
@@ -380,7 +380,7 @@ describe Enrollment do
         @section.save!
         @enrollment.workflow_state = 'invited'
         @enrollment.save!
-        @enrollment.reload.state.should eql(:invited)
+        @enrollment.state.should eql(:invited)
         if should_be_invited
           @enrollment.state_based_on_date.should eql(:invited)
           @enrollment.accept.should be_true
@@ -393,7 +393,6 @@ describe Enrollment do
         @section.end_at = 4.days.from_now
         @section.save!
         @enrollment.save!
-        @enrollment.reload
         if should_be_invited
           @enrollment.state.should eql(:active)
           @enrollment.state_based_on_date.should eql(:active)
@@ -550,7 +549,7 @@ describe Enrollment do
 
           @enrollment.workflow_state = 'invited'
           @enrollment.save!
-          @enrollment.reload.state.should == :invited
+          @enrollment.state.should == :invited
           @enrollment.state_based_on_date.should == :completed
         end
       end
@@ -605,14 +604,14 @@ describe Enrollment do
         @enrollment.start_at = 4.days.ago
         @enrollment.end_at = 2.days.ago
         @enrollment.save!
-        @enrollment.reload.state.should eql(:active)
+        @enrollment.state.should eql(:active)
         @enrollment.state_based_on_date.should eql(:completed)
 
         sleep 1
         @enrollment.start_at = 2.days.from_now
         @enrollment.end_at = 4.days.from_now
         @enrollment.save!
-        @enrollment.reload.state.should eql(:active)
+        @enrollment.state.should eql(:active)
         @enrollment.state_based_on_date.should eql(:inactive)
       end
 
@@ -801,16 +800,16 @@ describe Enrollment do
       @course.conclude_at = 4.days.from_now
       @course.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :active
-      @student_enrollment.reload.state_based_on_date.should == :inactive
+      @teacher_enrollment.state_based_on_date.should == :active
+      @student_enrollment.state_based_on_date.should == :inactive
 
       # Term dates superset of course dates, now in ending non-overlap
       @course.start_at = 4.days.ago
       @course.conclude_at = 2.days.ago
       @course.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :active
-      @student_enrollment.reload.state_based_on_date.should == :completed
+      @teacher_enrollment.state_based_on_date.should == :active
+      @student_enrollment.state_based_on_date.should == :completed
 
       # Course dates completely before term dates, now in term dates
       @course.start_at = 6.days.ago
@@ -820,32 +819,32 @@ describe Enrollment do
       @term.end_at = 2.days.from_now
       @term.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :active
-      @student_enrollment.reload.state_based_on_date.should == :completed
+      @teacher_enrollment.state_based_on_date.should == :active
+      @student_enrollment.state_based_on_date.should == :completed
 
       # Course dates completely after term dates, now in term dates
       @course.start_at = 4.days.from_now
       @course.conclude_at = 6.days.from_now
       @course.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :active
-      @student_enrollment.reload.state_based_on_date.should == :inactive
+      @teacher_enrollment.state_based_on_date.should == :active
+      @student_enrollment.state_based_on_date.should == :inactive
 
       # Now between course and term dates, term first
       @term.start_at = 4.days.ago
       @term.end_at = 2.days.ago
       @term.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :completed
-      @student_enrollment.reload.state_based_on_date.should == :inactive
+      @teacher_enrollment.state_based_on_date.should == :completed
+      @student_enrollment.state_based_on_date.should == :inactive
 
       # Now after both dates
       @course.start_at = 4.days.ago
       @course.conclude_at = 2.days.ago
       @course.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :completed
-      @student_enrollment.reload.state_based_on_date.should == :completed
+      @teacher_enrollment.state_based_on_date.should == :completed
+      @student_enrollment.state_based_on_date.should == :completed
 
       # Now before both dates
       @course.start_at = 2.days.from_now
@@ -855,16 +854,16 @@ describe Enrollment do
       @term.end_at = 4.days.from_now
       @term.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :inactive
-      @student_enrollment.reload.state_based_on_date.should == :inactive
+      @teacher_enrollment.state_based_on_date.should == :inactive
+      @student_enrollment.state_based_on_date.should == :inactive
 
       # Now between course and term dates, course first
       @course.start_at = 4.days.ago
       @course.conclude_at = 2.days.ago
       @course.save!
 
-      @teacher_enrollment.reload.state_based_on_date.should == :completed
-      @student_enrollment.reload.state_based_on_date.should == :completed
+      @teacher_enrollment.state_based_on_date.should == :completed
+      @student_enrollment.state_based_on_date.should == :completed
 
     end
 
@@ -882,7 +881,6 @@ describe Enrollment do
       @enrollment.start_at = 4.days.ago
       @enrollment.end_at = 2.days.ago
       @enrollment.save!
-      @enrollment.reload
       @enrollment.active?.should be_false
       @enrollment.inactive?.should be_false
       @enrollment.completed?.should be_true
@@ -891,7 +889,6 @@ describe Enrollment do
       @enrollment.start_at = 2.days.from_now
       @enrollment.end_at = 4.days.from_now
       @enrollment.save!
-      @enrollment.reload
       @enrollment.active?.should be_false
       @enrollment.inactive?.should be_true
       @enrollment.completed?.should be_false
@@ -940,7 +937,6 @@ describe Enrollment do
       @enrollment.end_at = 2.days.ago
       @enrollment.completed_at = nil
       @enrollment.save!
-      @enrollment.reload
 
       @enrollment.completed_at.should == @enrollment.end_at
       @enrollment.completed_at = yesterday
@@ -1122,9 +1118,9 @@ describe Enrollment do
 
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @course.enroll_user(@user)
-      Enrollment.invited.for_email('jt@instructure.com').count.should == 1
+      Enrollment.invited.for_email('jt@usms.com').count.should == 1
     end
 
     it "should not return non-candidate enrollments" do
@@ -1132,30 +1128,30 @@ describe Enrollment do
       # mismatched e-mail
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'bob@instructure.com')
+      @user.communication_channels.create!(:path => 'bob@usms.com')
       @course.enroll_user(@user)
       # registered user
       user
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @user.register!
       @course.enroll_user(@user)
       # active e-mail
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com') { |cc| cc.workflow_state = 'active' }
+      @user.communication_channels.create!(:path => 'jt@usms.com') { |cc| cc.workflow_state = 'active' }
       @course.enroll_user(@user)
       # accepted enrollment
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @course.enroll_user(@user).accept
       # rejected enrollment
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @course.enroll_user(@user).reject
 
-      Enrollment.invited.for_email('jt@instructure.com').should == []
+      Enrollment.invited.for_email('jt@usms.com').should == []
     end
   end
 
@@ -1165,11 +1161,11 @@ describe Enrollment do
         course(:active_all => 1)
         user
         @user.update_attribute(:workflow_state, 'creation_pending')
-        @user.communication_channels.create!(:path => 'jt@instructure.com')
+        @user.communication_channels.create!(:path => 'jt@usms.com')
         @enrollment = @course.enroll_user(@user)
-        Enrollment.cached_temporary_invitations('jt@instructure.com').length.should == 1
+        Enrollment.cached_temporary_invitations('jt@usms.com').length.should == 1
         @enrollment.accept
-        Enrollment.cached_temporary_invitations('jt@instructure.com').should == []
+        Enrollment.cached_temporary_invitations('jt@usms.com').should == []
       end
     end
 
@@ -1210,54 +1206,54 @@ describe Enrollment do
           course(:active_all => 1)
           user
           @user.update_attribute(:workflow_state, 'creation_pending')
-          @user.communication_channels.create!(:path => 'jt@instructure.com')
+          @user.communication_channels.create!(:path => 'jt@usms.com')
           @enrollment1 = @course.enroll_user(@user)
           @shard1.activate do
             account = Account.create!
             course(:active_all => 1, :account => account)
             user
             @user.update_attribute(:workflow_state, 'creation_pending')
-            @user.communication_channels.create!(:path => 'jt@instructure.com')
+            @user.communication_channels.create!(:path => 'jt@usms.com')
             @enrollment2 = @course.enroll_user(@user)
           end
 
-          pending "working CommunicationChannel.associated_shards" unless CommunicationChannel.associated_shards('jt@instructure.com').length == 2
+          pending "working CommunicationChannel.associated_shards" unless CommunicationChannel.associated_shards('jt@usms.com').length == 2
         end
 
         it "should include invitations from other shards" do
-          Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+          Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           @shard1.activate do
-            Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+            Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           end
           @shard2.activate do
-            Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+            Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           end
         end
 
         it "should have a single cache for all shards" do
           enable_cache do
             @shard2.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+              Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
             end
             Shard.expects(:with_each_shard).never
             @shard1.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+              Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
             end
-            Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+            Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           end
         end
 
         it "should invalidate the cache from any shard" do
           enable_cache do
             @shard2.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+              Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
               @enrollment2.reject!
             end
             @shard1.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').should == [@enrollment1]
+              Enrollment.cached_temporary_invitations('jt@usms.com').should == [@enrollment1]
               @enrollment1.reject!
             end
-            Enrollment.cached_temporary_invitations('jt@instructure.com').should == []
+            Enrollment.cached_temporary_invitations('jt@usms.com').should == []
           end
 
         end

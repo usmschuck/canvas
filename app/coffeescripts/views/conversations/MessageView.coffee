@@ -36,8 +36,7 @@ define [
 
     toggleStar: (e) ->
       e.preventDefault()
-      @model.toggleStarred()
-      @model.save()
+      @model.save(starred: !@model.get('starred'))
 
     toggleRead: (e) ->
       e.preventDefault()

@@ -26,7 +26,7 @@ define [
 
   class PaginatedCollection extends Backbone.Collection
 
-    # Matches the name of each link: "current", "next," "prev," "first," or "last."
+    # Matches the name of each link: "next," "prev," "first," or "last."
     nameRegex: /rel="([a-z]+)/
 
     # Matches the full link, e.g. "/api/v1/accounts/1/users?page=1&per_page=15"
@@ -34,36 +34,33 @@ define [
 
     pageRegex: /\Wpage=(\d+)/
 
-    perPageRegex: /\Wper_page=(\d+)/
-
-    initialize: ->
-      super
-      @urls = {}
+    perPageRegex: /\per_page=(\d+)/
 
     ##
-    # options.page: 'current', 'next', 'prev', 'first', 'last', 'top', 'bottom'
+    # have to do this stuff here or else 'reset' and other events are fired
+    # before _setStateAfterFetch has happened, so the state is just barely off
+    parse: (response, xhr) ->
+      @_urlCache ?= []
+      @_lastFetchOptions ?= {}
+      @_setStateAfterFetch xhr, @_lastFetchOptions
+      @_urlCache.push @_lastFetchOptions.url unless @_lastFetchOptions.url in @_urlCache
+      delete @_lastFetchOptions
+      super
+
+    ##
+    # options.page: 'next', 'prev', 'first', 'last', 'top', 'bottom'
     fetch: (options = {}) ->
       exclusionFlag = "fetching#{capitalize options.page}Page"
       @[exclusionFlag] = true
       if options.page?
         options.url = @urls[options.page] if @urls?
-        options.remove = false unless options.remove?
+        options.add = true unless options.add?
         # API keeps params intact, kill data here to avoid appending in super
         options.data = ''
-      else
-        # we want the first fetch to reset (since a lot of existing code wants a reset event)
-        options.reset = true unless options.reset?
+      @_lastFetchOptions = options
       @trigger 'beforeFetch', this, options
       @trigger "beforeFetch:#{options.page}", this, options if options.page?
-
-      # have to do this stuff here or else 'reset' and other events are fired
-      # before _setStateAfterFetch has happened, so the state is just barely off
-      xhr = null
-      options.dataFilter = (data) =>
-        @_setStateAfterFetch(xhr, options)
-        data
-
-      xhr = super(options).done (response, text, xhr) =>
+      super(options).done (response, text, xhr) =>
         @[exclusionFlag] = false
         @trigger 'fetch', this, response, options
         @trigger "fetch:#{options.page}", this, response, options if options.page?
@@ -75,11 +72,9 @@ define [
     canFetch: (page) ->
       @urls? and @urls[page]?
 
-    _setStateAfterFetch: (xhr, options) =>
-      @_urlCache ?= []
+    _setStateAfterFetch: (xhr, options={}) =>
       urlIsNotCached = options.url not in @_urlCache
-      @_urlCache.push options.url if not urlIsNotCached
-      firstRequest = !@atLeastOnePageFetched
+      firstRequest = !@urls?
       setBottom = firstRequest or (options.page in ['next', 'bottom'] and urlIsNotCached)
       setTop = firstRequest or (options.page in ['prev', 'top'] and urlIsNotCached)
       oldUrls = @urls

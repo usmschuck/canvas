@@ -44,12 +44,12 @@ describe AccessToken do
   describe "token scopes" do
     let(:token) do
       token = AccessToken.new
-      token.scopes = %w{https://canvas.instructure.com/login/oauth2/auth/user_profile https://canvas.instructure.com/login/oauth2/auth/accounts}
+      token.scopes = %w{https://canvas.usms.com/login/oauth2/auth/user_profile https://canvas.usms.com/login/oauth2/auth/accounts}
       token
     end
 
     it "should match named scopes" do
-      token.scoped_to?(['https://canvas.instructure.com/login/oauth2/auth/user_profile', 'accounts']).should == true
+      token.scoped_to?(['https://canvas.usms.com/login/oauth2/auth/user_profile', 'accounts']).should == true
     end
 
     it "should not partially match scopes" do

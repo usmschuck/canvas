@@ -149,9 +149,8 @@ class CollectionsController < ApplicationController
   # Creates a new collection. You can only create collections on your own user,
   # or on a group to which you belong.
   #
-  # @argument name [String]
-  #
-  # @argument visibility [String, "public"|"private"]
+  # @argument name
+  # @argument visibility
   #
   # @example_request
   #     curl -H 'Authorization: Bearer <token>' \ 
@@ -177,11 +176,9 @@ class CollectionsController < ApplicationController
   #
   # Collection visibility cannot be modified once the collection is created.
   #
-  # @argument name [String]
-  #
-  # @argument visibility [String, "public"|"private"]
-  #    Be advised that setting a public collection to private will permanantly
-  #    remove all of its followers.
+  # @argument name
+  # @argument visibility Be advised that setting a public collection to private
+  #     will permanantly remove all of its followers.
   #
   # @example_request
   #     curl -H 'Authorization: Bearer <token>' \ 

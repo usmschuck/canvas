@@ -51,20 +51,16 @@ define [
         @showGroupCategoryCreateDialog()
 
     toJSON: =>
-      frozenAttributes = @parentModel.frozenAttributes()
-
       groupCategoryId: @parentModel.groupCategoryId()
       groupCategories: @groupCategories
       gradeGroupStudentsIndividually: @parentModel.gradeGroupStudentsIndividually()
-      frozenAttributes: frozenAttributes
-      groupCategoryIdFrozen: _.include(frozenAttributes, 'group_category_id')
+      frozenAttributes: @parentModel.frozenAttributes()
       nested: @nested
-      prefix: 'assignment' if @nested
 
     filterFormData: (data) =>
       hasGroupCategory = data.has_group_category
       delete data.has_group_category
-      unless hasGroupCategory is '1'
+      unless hasGroupCategory
         data.group_category_id = null
         data.grade_group_students_individually = false
       data

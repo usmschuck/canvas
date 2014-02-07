@@ -718,7 +718,7 @@ describe Account do
       user_with_pseudonym(:active_all => 1)
       @user.update_attributes(:name => "John St. Clair", :sortable_name => "St. Clair, John")
       @johnstclair = @user
-      user_with_pseudonym(:active_all => 1, :username => 'jt@instructure.com', :name => 'JT Olds')
+      user_with_pseudonym(:active_all => 1, :username => 'jt@usms.com', :name => 'JT Olds')
       @jtolds = @user
       Account.default.fast_all_users.should == [@jtolds, @johnstclair]
     end
@@ -989,29 +989,6 @@ describe Account do
       account.update_account_associations
       account.reload
       account.associated_courses.sort_by(&:id).should == [c1, c2]
-    end
-  end
-
-  describe "#draft_state_enabled?" do
-    context "a root account" do
-      it "should return its own enable_draft setting" do
-        account = Account.create!
-        account.settings[:enable_draft] = true
-
-        account.should be_draft_state_enabled
-      end
-    end
-
-    context "a sub-account" do
-      it "should return its root account's enable_draft setting" do
-        root_account = Account.create!
-        sub_account  = Account.create!
-        sub_account.root_account_id          = root_account.id
-        root_account.settings[:enable_draft] = true
-        root_account.save!
-
-        sub_account.should be_draft_state_enabled
-      end
     end
   end
 end

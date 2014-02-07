@@ -28,7 +28,7 @@ require [
   pageViews = new PageViewCollection
   pageViews.url = "/api/v1/users/#{userId}/page_views"
 
-  fetchOptions = reset: true
+  fetchOptions = add: false
 
   pageViewsView = new PageViewView
     collection: pageViews

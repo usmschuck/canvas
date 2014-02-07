@@ -43,8 +43,6 @@ define [
       @$newStartDate.val(@oldStartDate).trigger('change') if @oldStartDate
       @$newEndDate.val(@oldEndDate).trigger('change') if @oldEndDate
 
-      @collection.on 'remove', => @$el.find('#addDaySubstitution').focus()
-
     # Toggle content. Show's content when checked 
     # and hides content when unchecked. Sets date_shift_options
     # flag to true or false because you need to indicate if we 
@@ -66,11 +64,6 @@ define [
     createDaySubView: (event) => 
       event.preventDefault()
       @collection.add new DaySubModel
-
-      # Focus on the last date substitution added
-      $lastDaySubView = @collection.last()?.view.$el
-      $lastDaySubView.find('select').first().focus()
-
 
     updateNewDates: (course) =>
       @$oldStartDate.val(course.start_at).trigger('change')

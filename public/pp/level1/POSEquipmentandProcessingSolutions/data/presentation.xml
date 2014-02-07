@@ -1,0 +1,1198 @@
+<?xml version="1.0"?>
+<presentation title="POS Equipment and Processing Solutions" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{147E8F65-5C03-48FF-8D1D-077D797D0D44}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="89373" duration="7418"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="537321" duration="44747"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="561145" duration="46733"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="172443" duration="14341"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="635750" duration="52950"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="419770" duration="34951"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="323535" duration="26932"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="522901" duration="43546"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="798755" duration="66533"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="352374" duration="29335"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="393125" duration="32731"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="515692" duration="42945"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="471179" duration="39235"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="224165" duration="18651"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="357076" duration="29727"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="462715" duration="38530"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="304413" duration="25338"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="508482" duration="42344"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="251750" duration="20950"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="965520" duration="80431"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="339208" duration="28238"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="427920" duration="35631"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="349866" duration="29126"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="720701" duration="60029"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="432936" duration="36048"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="467731" duration="38948"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="847656" duration="70608"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="242033" duration="20140"/>
+		<soundAsset id="sndAsset28" src="sound29.mp3" embedded="0" size="423218" duration="35239"/>
+		<soundAsset id="sndAsset29" src="sound30.mp3" embedded="0" size="456759" duration="38034"/>
+		<soundAsset id="sndAsset30" src="sound31.mp3" embedded="0" size="442340" duration="36832"/>
+		<soundAsset id="sndAsset31" src="sound32.mp3" embedded="0" size="600955" duration="50050"/>
+		<soundAsset id="sndAsset32" src="sound33.mp3" embedded="0" size="316325" duration="26331"/>
+		<soundAsset id="sndAsset33" src="sound34.mp3" embedded="0" size="324789" duration="27036"/>
+		<soundAsset id="sndAsset34" src="sound35.mp3" embedded="0" size="466477" duration="38844"/>
+		<soundAsset id="sndAsset35" src="sound36.mp3" embedded="0" size="121974" duration="10135"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="thmb29.swf" embedded="0"/>
+		<graphicAsset id="imgAsset29" src="thmb30.swf" embedded="0"/>
+		<graphicAsset id="imgAsset30" src="thmb31.swf" embedded="0"/>
+		<graphicAsset id="imgAsset31" src="thmb32.swf" embedded="0"/>
+		<graphicAsset id="imgAsset32" src="thmb33.swf" embedded="0"/>
+		<graphicAsset id="imgAsset33" src="thmb34.swf" embedded="0"/>
+		<graphicAsset id="imgAsset34" src="thmb35.swf" embedded="0"/>
+		<graphicAsset id="imgAsset35" src="thmb36.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="6.6370000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="43.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="0" timeOffset="45.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="13.5500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="52.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="34.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="26.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="42.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="65.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="28.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="31.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="42.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="38.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="17.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="28.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="37.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="0" timeOffset="24.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="0" timeOffset="41.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="0" timeOffset="20.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="79.6500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="27.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="34.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="28.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="59.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="35.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="38.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="69.8300000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="0" timeOffset="19.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset28">
+				<startTimestamp slideIndex="28" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="28" stepIndex="0" timeOffset="34.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset29">
+				<startTimestamp slideIndex="29" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="29" stepIndex="0" timeOffset="37.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset30">
+				<startTimestamp slideIndex="30" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="30" stepIndex="0" timeOffset="36.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset31">
+				<startTimestamp slideIndex="31" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="31" stepIndex="0" timeOffset="49.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset32">
+				<startTimestamp slideIndex="32" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="32" stepIndex="0" timeOffset="25.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset33">
+				<startTimestamp slideIndex="33" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="33" stepIndex="0" timeOffset="26.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset34">
+				<startTimestamp slideIndex="34" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="34" stepIndex="0" timeOffset="38.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset35">
+				<startTimestamp slideIndex="35" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="35" stepIndex="0" timeOffset="9.3500000"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="15374" advanceOnTime="0" framesCount="25" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="24" playTime="1.0000000" pauseTime="5.6370001"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>USMS University™
+Quick Start Training
+Point of Sale Equipment
+And Processing Solutions</text>
+		</slide>
+		<slide index="1" title="" titleNormalized="" src="slide2.swf" size="18367" advanceOnTime="0" framesCount="73" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="72" playTime="3.0000000" pauseTime="40.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+In The Beginning…
+
+Transactions were done the old-fashioned way with paper drafts, floor-limit auto-approvals, and telephone authorizations. Merchants had to check a paper Card-Recovery Bulletin to see if a card were still valid.
+New technology-Electronic Data Capture or EDC was introduced in the 1980s which used Point of Sale Terminals to process transactions. 
+Today, there’s a virtual plethora of processing devices and methods.
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="2" title="Point of Sale Terminals" titleNormalized="point of sale terminals" src="slide3.swf" size="18272" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="35.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+POS Terminals are used for:
+Reading magnetic cards
+Reading SMART cards
+Reading Contactless RFID cards
+Capturing all necessary transaction information
+Performing electronic authorizations
+Completing sales and credits (swiped and keyed)
+Printing receipts
+Reporting on transaction activity
+Facilitate transactions using credit cards, debit cards, gift cards, EBT, checks, and more.
+Point of Sale Terminals</text>
+		</slide>
+		<slide index="3" title="" titleNormalized="" src="slide4.swf" size="29582" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="7.0500002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Today’s Market Leaders in POS Terminals
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="4" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide5.swf" size="10806" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="46.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Setting up a POS device:
+
+POS terminals capture and transmit sensitive information to banks and third party processors. 
+Setting up a POS device is a technical process which USMS™ usually handles on behalf of its agents. 
+Once account is opened by USMS, the next step is to “program the terminal” whether a new terminal or one already owned by the merchant. 
+For each merchant a special software application is loaded on top of the terminal’s operating system, based on merchant requirements such as retail, restaurant with tips, salon, rental car, etc. 
+After the download, the merchant’s transactions are now routed to the new merchant account.
+
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="5" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide6.swf" size="14120" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="26.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Processing Platforms, Programs and Terminal Compatibility:
+
+POS terminals and applications must be certified to work on specific processing platforms.
+Vital, Global Payments, First Data are some of the major processors.
+A terminal or application that works on First Data, will not necessarily work on Global. 
+Application parameters vary with business type, merchant needs, IP versus dial up, etc. 
+For example: Retail stores use different applications than restaurants, restaurants with tips use different application than restaurants without tips (e.g. a fast food restaurant). 
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="6" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide7.swf" size="14760" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="19.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Processing Platforms, Programs and Terminal Compatibility:
+
+USMS publishes and updates a Terminal Matrix showing specific terminals, applications and platforms the terminal is certified with. Familiarize yourself with this document and study any updates. Available on agent web site.
+
+Additional applications such as gift cards, check conversion, or guarantee must also be certified with the terminal, credit card processor or gift card, or check guarantee vendor. See Terminal Matrix.
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="7" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide8.swf" size="14083" advanceOnTime="0" framesCount="445" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="444" playTime="18.5000000" pauseTime="24.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Installation Procedures at USMS:
+
+USMS approves account
+USMS builds file application
+Terminal is loaded and tested on-site
+Terminal is shipped to the merchant or agent
+For Merchant/owner terminal reprograms- application is built at USMS, tested, “staged” for downloading by agent or merchant, then downloaded by dialing into the USMS download center
+If needed, the terminal can be shipped back to USMS to be downloaded
+USMS technical department or agent trains the merchant on use and runs test transactions
+
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="8" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide9.swf" size="16651" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="54.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Troubleshooting Terminal Issues, find out or ensure the following:
+
+The merchant should have a dedicated phone line –so that an uninterrupted download can be done. 
+Merchants that use the same phone line for card transactions that they speak on often run into difficulties with interrupted transactions.
+Dial-up POS terminals require analog phone lines (POTS: plain old telephone service) and do not work properly on digital phone lines without a specific filter installed. 
+An alternative to dial-up terminals are IP terminals that work on DSL or other IP enabled connections
+
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="9" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide10.swf" size="21710" advanceOnTime="0" framesCount="121" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="120" playTime="5.0000000" pauseTime="23.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Types of Terminals:
+
+ALL-PURPOSE TERMINALS perform basic functions such as Sale, Void, Credit, Auth-Only and Force. They usually have built-in thermal printers and PIN-pads. Examples: 
+VeriFone VX Series
+Hypercom 4200 Series 
+
+
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="10" title="Omni Vx510 LE" titleNormalized="omni vx510 le" src="slide11.swf" size="18390" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="BlindsVertical" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="27.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Omni Vx510 LE
+Basic Everyday Unit 
+Single application 
+Credit + 1 application
+Internal/External Pin Debit OK 
+Sleek Design
+Recommendation
+General Retail/MOTO</text>
+		</slide>
+		<slide index="11" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide12.swf" size="16889" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="33.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Types of Terminals:
+FULL-FEATURE TERMINALS-These machines hold more than one application (a.k.a. multi-application terminals) best used when:
+More than one merchant account is loaded (such as hair salon with many stylists each using their own account). 
+Other applications are used for Gift Cards or Check Guarantee or Check Conversion on the same terminal. 
+Examples: 
+VeriFone Vx510LE
+Hypercom T4205
+
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="12" title="Omni Vx510 DM" titleNormalized="omni vx510 dm" src="slide13.swf" size="18809" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="BlindsVertical" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="32.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Omni Vx510 DM
+Mid Range Unit
+Multi Application 
+Giftcards OK 
+Check Processing OK
+Internal/External Debit OK
+Internet Connectivity
+Recommendations
+Multi Merchants
+Retail w/Tips 
+High Traffic Retail 
+Restaurants W W/O Tips 
+
+
+</text>
+		</slide>
+		<slide index="13" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide14.swf" size="23596" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="7.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+ADVANCED TERMINALS:
+Capable of high-speed Ethernet (IP) connectivity (authorization responses in one to two seconds)
+Ability of reading chip-based Smart Cards 
+
+Examples:
+VeriFone Vx570
+Hypercom T4220
+Dejavoo X8
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="14" title="Omni Vx570" titleNormalized="omni vx570" src="slide15.swf" size="17389" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="BlindsVertical" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="22.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Omni Vx570
+High End Unit 
+Multi Application 
+Giftcards OK 
+Check Processing OK
+Internal/External Debit OK
+Internet Connectivity 
+Recommendations
+Multi Merchants
+Retail w/Tips 
+High Traffic Retail 
+Restaurants W W/O Tips 
+</text>
+		</slide>
+		<slide index="15" title="Point-of-Sale Terminals" titleNormalized="point-of-sale terminals" src="slide16.swf" size="27290" advanceOnTime="0" framesCount="301" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="300" playTime="12.5000000" pauseTime="25.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+WIRELESS TERMINALS:
+There are merchants who need mobility and work best with a wireless terminal:
+Limos and taxis
+Carpet Cleaners
+Contractors
+Flea market merchants
+Pizza delivery
+With wireless terminals merchants get real-time authorizations resulting in lower risk, faster funds, lower rates and fewer charge backs than they would if they keyed transactions. Examples of Wireless Terminals Include:
+Verifone Vx670
+Nurit 8020
+Hypercom M 4230 
+Way Systems 5000
+Point-of-Sale Terminals</text>
+		</slide>
+		<slide index="16" title="Way 5000 with S40 Printer" titleNormalized="way 5000 with s40 printer" src="slide17.swf" size="17864" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="BlindsVertical" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="19.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Way 5000 with S40 Printer
+Mid Range Wireless
+Wireless
+Better Reception
+Longer Battery Life 
+Shorter Load Time 
+Debit OK
+Tips OK
+Giftcards No
+Check Processing NO
+Separate Receipt Printer
+</text>
+		</slide>
+		<slide index="17" title="Nurit 8020" titleNormalized="nurit 8020" src="slide18.swf" size="21793" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="BlindsVertical" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="35.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Nurit 8020 
+Mid Range Wireless
+Wireless or Land Line 
+CDMA or GPRS
+Debit OK
+Giftcards OK
+Check Processing OK
+Tips OK
+Multi Merchant OK 
+Internal Receipt Printer
+
+</text>
+		</slide>
+		<slide index="18" title="Omni Vx 670" titleNormalized="omni vx 670" src="slide19.swf" size="19538" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="BlindsVertical" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="13.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Omni Vx 670
+High End Wireless
+Wireless or Land Line 
+CDMA or GPRS + WIFI
+Debit OK
+Giftcards OK
+Check Processing OK
+Tips OK
+Multi Merchant OK 
+Internal Receipt Printer
+</text>
+		</slide>
+		<slide index="19" title="PIN-Pads" titleNormalized="pin-pads" src="slide20.swf" size="20601" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="69.6500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+PIN PADS:
+Merchants require a PIN (Personal Identification Number) Pad in order to process PIN Debit Transactions. 
+There are two types of PIN Pads- internal (built into terminal) and external (separate peripheral).
+External PIN-pads make the transactions easier for the cardholders and merchants.
+PIN Pads are securely encrypted and in a secure environment. If a merchant is reprogramming with USMS and has a PIN Pad, the PIN Pad must be shipped to USMS to be re-encrypted, or USMS will exchange their current PIN Pad for one in stock. 
+Examples of PIN Pads include:
+Verifone 1000SE
+Hypercom S9
+
+PIN-Pads</text>
+		</slide>
+		<slide index="20" title="" titleNormalized="" src="slide21.swf" size="45521" advanceOnTime="0" framesCount="61" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="60" playTime="2.5000000" pauseTime="24.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Verifone MX830 Multi-lane Retail PIN-Pad
+PIN-Pads</text>
+		</slide>
+		<slide index="21" title="" titleNormalized="" src="slide22.swf" size="78354" advanceOnTime="0" framesCount="325" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="324" playTime="13.5000000" pauseTime="21.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Check Imagers and Readers
+
+ 
+CHECK READERS (MICR READERS):
+Until recently the primary way to scan checks was to slide the check through a MICR (MICR = Magnetic Ink Character Recognition) Reader or Check Reader, which scans account data from checks, which is printed in magnetic ink. 
+
+CHECK IMAGERS:
+Create and store check images that can be converted into electronic transactions and forwarded for remittance (called Check Conversion). 
+
+With new technology and laws governing electronic check presentment (Check 21) Check Imagers are preferred because of scanning and storing-making images available for retrieval. 
+ 
+Check Imagers plug into most modern terminals. It is a simple and fast process to scan the check. The check is then handed back to the check writer, while the scanned check is cleared electronically.
+MICR 
+Readers
+
+Check 
+Imager
+</text>
+		</slide>
+		<slide index="22" title="" titleNormalized="" src="slide23.swf" size="58077" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="21.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+POS Software
+POS Software:
+ PC-based POS terminal.
+ Process payments using a regular PC.
+ Recurring billing cycles, import large transaction lists.
+ Integrates with PC-based cash registers (POS Systems).
+ Capable of handling swiped and keyed transactions.</text>
+		</slide>
+		<slide index="23" title="Payment Gateways" titleNormalized="payment gateways" src="slide24.swf" size="6344" advanceOnTime="0" framesCount="325" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="324" playTime="13.5000000" pauseTime="45.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Payment Gateways
+Payment Gateways were initially created to process e-commerce transactions
+Today Payment Gateways are used for a variety of processing solutions:
+E-commerce transactions
+As virtual terminal for manually entered transactions
+Hi speed swipe over IP transactions
+Integrated payment solution with various POS software
+Wireless connectivity
+As terminal host software (front-end)
+Use for a variety of specialty services- e-check, recurring billing, ACH, fraud detection, convenience fees and more
+</text>
+		</slide>
+		<slide index="24" title="Payment Gateways" titleNormalized="payment gateways" src="slide25.swf" size="21165" advanceOnTime="0" framesCount="373" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="372" playTime="15.5000000" pauseTime="19.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Payment Gateways
+How Internet Merchants Accept Cards:
+Live E-Commerce transactions are performed on-line with a payment gateway
+Gateways are usually integrated to “shopping carts”- and pull transaction data from the cart
+USMS offers a variety of gateways providing compatibility with most shopping carts
+Popular Payment Gateways include:
+Authorize.net
+USA E-Pay
+E-Processing Network
+USMS Gateway
+POSLinx
+
+</text>
+		</slide>
+		<slide index="25" title="Payment Gateways" titleNormalized="payment gateways" src="slide26.swf" size="7101" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="36.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Payment Gateways
+Card numbers are entered via an on-line payment page or manually by merchant via “Virtual Terminal”: 
+Manually enter mail order/telephone order transactions.
+Most payment gateways automatically close batches at night and send transaction data to the processor for settlement. User can set for manual batching.
+Today all Payment Gateways must be PCI Level I secure.</text>
+		</slide>
+		<slide index="26" title="Payment Gateways" titleNormalized="payment gateways" src="slide27.swf" size="5732" advanceOnTime="0" framesCount="188" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="187" playTime="7.7916667" pauseTime="62.0383352"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Payment Gateways
+Payment gateways provide numerous options for processing all types of transactions:
+Accept e-checks on your web site: Electronic checks allow for one-time check payment on-line
+Link to wireless devices such as I-Phone, smart phones or wireless terminals
+Recurring billing for credit card and ACH: Excellent service for membership billing, health clubs, rents, etc.
+Fraud prevention software: Scores transactions and identifies likelihood of a fraudulent transaction that could result in a costly charge back 
+Consumer Convenience fee billing capability (required for government processing) with GovTeller’s POSLinx gateway
+Check with Agent support for which gateways are recommend for which applications
+
+
+</text>
+		</slide>
+		<slide index="27" title="Payment Gateways" titleNormalized="payment gateways" src="slide28.swf" size="13360" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="12.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Payment Gateways
+Gateway History:
+
+U.S. Merchant Systems was the first reseller of Authorize.net in 1997 and Authorize.net has been a preferred vendor ever since.
+U.S. Merchant Systems was the founder of IntelliPay, another popular payment gateway.</text>
+		</slide>
+		<slide index="28" title="Point of Sale Systems" titleNormalized="point of sale systems" src="slide29.swf" size="20448" advanceOnTime="0" framesCount="327" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="326" playTime="13.5833333" pauseTime="20.8666674"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Point of Sale Systems
+Integrated Point of Sale Systems:
+Computerized cash registers for specialized industries:
+Retail
+Restaurants
+Night Clubs
+Multiple functions:
+Inventory control
+Menu ordering
+“Pay at the Table” feature
+Inexpensive paging system for calling patrons when table is ready
+Client CRM
+Cash register
+Payment processing device</text>
+		</slide>
+		<slide index="29" title="Point of Sale Systems" titleNormalized="point of sale systems" src="slide30.swf" size="5161" advanceOnTime="0" framesCount="126" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset29">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="125" playTime="5.2083333" pauseTime="32.0416667"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Point of Sale Systems
+Used by desirable high-end low-risk merchants.
+Often uses POS Software or gateway to integrate with processors.
+Software used can be for dial up or IP transactions
+Usually serviced and supported by a Value-Added Reseller.
+Alliance with VARs can get you access to these merchants.
+
+</text>
+		</slide>
+		<slide index="30" title="" titleNormalized="" src="slide31.swf" size="24467" advanceOnTime="0" framesCount="543" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset30">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="542" playTime="22.5833333" pauseTime="13.4666659"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+POS System Developers:
+Supported by USMS:
+Blogic
+ZingCheckout
+Aloha
+Squirrel
+Micros
+PAR
+RMS Touch
+Microsoft RMS
+Sable
+POSITouch
+DigitalDining
+CheckInn
+POS Systems</text>
+		</slide>
+		<slide index="31" title="" titleNormalized="" src="slide32.swf" size="15131" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset31">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="38.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Petroleum
+Automated Fuel Dispensers / Petroleum POS:
+
+ Pay-at-the-Pump Solutions
+ Credit Card, Debit Card and Fleet Card
+ Serviced by VARs and/or specialized technicians
+ Retail (inside the store) Solutions
+ Require specialized processing platforms (e.g. BuyPass)
+</text>
+		</slide>
+		<slide index="32" title="" titleNormalized="" src="slide33.swf" size="180242" advanceOnTime="0" framesCount="483" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset32">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="482" playTime="20.0833333" pauseTime="5.4666659"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+AFD Systems:
+USMS can support many AFD systems including: 
+ 
+Gilbarco G-Site AFP
+AutoGas AFP
+VeriFone Ruby
+Fuel Links PC 2000
+MicroEnergetics AFP/Cstore
+PetroVend
+CCISLINK
+DRB Systems SiteWatch AFP
+Gasboy CFN AFP
+Petroleum</text>
+		</slide>
+		<slide index="33" title="" titleNormalized="" src="slide34.swf" size="6645" advanceOnTime="0" framesCount="176" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset33">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="175" playTime="7.2916667" pauseTime="18.9583333"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+IVR and Voice Authorizations
+VOICE AUTHORIZATIONS
+ 
+The main reason Voice Authorizations are used today are:
+ 
+ POS Terminal temporarily out of service. Merchants obtain Auth Codes by calling in to get the Voice Authorization and when the terminal is back on-line then enter the transactions for settlement.
+
+ Remote Access –Merchant would like to accept a bankcard but is not near their POS Terminal. 
+
+ Call Center Message – Occasionally the merchant is required to call our “Call Center”. This can be for a fraudulent card, or Issuer wants information from merchant and/or cardholder.</text>
+		</slide>
+		<slide index="34" title="" titleNormalized="" src="slide35.swf" size="30015" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset34">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="32.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+INTERACTIVE VOICE RESPONSE (IVR) 
+a.k.a. TOUCHPHONE
+ 
+Voice Authorizations do not capture and settle transactions. IVR is a feature that gives merchants the options to perform a completed Sale, Voids, Returns/Credits Authorization Only, and capture and settlement for funding using the telephone keypad. 
+IVR and Voice Authorizations</text>
+		</slide>
+		<slide index="35" title="Chapter Quiz" titleNormalized="chapter quiz" src="slide36.swf" size="11734" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset35">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="9.3490004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Chapter Quiz
+© 2013 U.S. Merchant Systems. All rights reserved.
+36
+Please take a moment to complete the chapter quiz on USMS University</text>
+		</slide>
+	</slides>
+</presentation>

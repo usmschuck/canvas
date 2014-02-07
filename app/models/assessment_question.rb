@@ -227,7 +227,6 @@ class AssessmentQuestion < ActiveRecord::Base
     question = HashWithIndifferentAccess.new
     qdata = qdata.with_indifferent_access
     previous_data = assessment_question.question_data rescue {}
-    question[:regrade_option] = qdata[:regrade_option] if qdata[:regrade_option].present?
     question[:points_possible] = (qdata[:points_possible] || previous_data[:points_possible] || 0.0).to_f
     question[:correct_comments] = check_length(qdata[:correct_comments] || previous_data[:correct_comments] || "", 'correct comments', 5.kilobyte)
     question[:incorrect_comments] = check_length(qdata[:incorrect_comments] || previous_data[:incorrect_comments] || "", 'incorrect comments', 5.kilobyte)
@@ -561,13 +560,6 @@ class AssessmentQuestion < ActiveRecord::Base
         context.content_migration.add_missing_content_links(:class => self.to_s,
          :id => hash['assessment_question_id'], :field => field, :missing_links => missing_links,
          :url => "/#{context.class.to_s.underscore.pluralize}/#{context.id}/question_banks/#{bank.id}#question_#{hash['assessment_question_id']}_question_text")
-      end
-      if hash[:import_warnings]
-        hash[:import_warnings].each do |warning|
-          context.content_migration.add_warning(warning, {
-              :fix_issue_html_url => "/#{context.class.to_s.underscore.pluralize}/#{context.id}/question_banks/#{bank.id}#question_#{hash['assessment_question_id']}_question_text"
-          })
-        end
       end
     end
     hash.delete(:missing_links)

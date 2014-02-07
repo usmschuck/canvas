@@ -26,11 +26,12 @@ define [
       # has a date, and either has both a start and end time or neither
       o.start_date && (!!o.start_time == !!o.end_time)
 
-    toJSON: ->
-      {calendar_event: @_filterAttributes(super)}
-
-    present: ->
-      Backbone.Model::toJSON.call(this)
+    toJSON: (forView) ->
+      json = super
+      if forView
+        json
+      else
+        {calendar_event: @_filterAttributes(json)}
 
     fetch: (options = {}) ->
       options =  _.clone(options)
@@ -39,7 +40,7 @@ define [
       success = options.success
       delete options.success
 
-      error = options.error ? ->
+      error = Backbone.wrapError(options.error, model, options)
       delete options.error
 
       if @get('id')
@@ -51,7 +52,7 @@ define [
         [syncResp, syncStatus, syncXhr] = syncArgs
         [sectionsResp] = sectionArgs
         calEventData = CalendarEvent.mergeSectionsIntoCalendarEvent(syncResp, _.sortBy(sectionsResp, 'id'))
-        return false unless model.set(model.parse(calEventData), options)
+        return false unless model.set(model.parse(calEventData, syncXhr), options)
         success?(model, calEventData)
 
       $.when(syncDfd, sectionsDfd)

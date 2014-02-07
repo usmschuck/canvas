@@ -42,7 +42,7 @@ describe Pseudonym do
 
   it "should validate the presence of user and account ids" do
     u = User.create!
-    p = Pseudonym.new(:unique_id => 'cody@instructure.com')
+    p = Pseudonym.new(:unique_id => 'cody@usms.com')
     p.save.should be_false
 
     p.account_id = Account.default.id
@@ -62,8 +62,8 @@ describe Pseudonym do
 
   it "should not allow active duplicates" do
     u = User.create!
-    p1 = Pseudonym.create!(:unique_id => 'cody@instructure.com', :user => u)
-    p2 = Pseudonym.create(:unique_id => 'cody@instructure.com', :user => u)
+    p1 = Pseudonym.create!(:unique_id => 'cody@usms.com', :user => u)
+    p2 = Pseudonym.create(:unique_id => 'cody@usms.com', :user => u)
     # Failed; p1 is still active
     p2.should be_new_record
     p2.workflow_state = 'deleted'
@@ -72,7 +72,7 @@ describe Pseudonym do
     p1.workflow_state = 'deleted'
     p1.save!
     # Should allow creating a new active one if the others are deleted
-    Pseudonym.create!(:unique_id => 'cody@instructure.com', :user => u)
+    Pseudonym.create!(:unique_id => 'cody@usms.com', :user => u)
   end
 
   it "should share a root_account_id with its account" do
@@ -91,12 +91,12 @@ describe Pseudonym do
   
   it "should find the correct pseudonym for logins" do
     user = User.create!
-    p1 = Pseudonym.create!(:unique_id => 'Cody@instructure.com', :user => user)
-    p2 = Pseudonym.create!(:unique_id => 'codY@instructure.com', :user => user) { |p| p.workflow_state = 'deleted' }
-    Pseudonym.custom_find_by_unique_id('cody@instructure.com').should == p1
+    p1 = Pseudonym.create!(:unique_id => 'Cody@usms.com', :user => user)
+    p2 = Pseudonym.create!(:unique_id => 'codY@usms.com', :user => user) { |p| p.workflow_state = 'deleted' }
+    Pseudonym.custom_find_by_unique_id('cody@usms.com').should == p1
     account = Account.create!
-    p3 = Pseudonym.create!(:unique_id => 'cOdy@instructure.com', :account => account, :user => user)
-    Pseudonym.custom_find_by_unique_id('cody@instructure.com', :all).sort.should == [p1, p3]
+    p3 = Pseudonym.create!(:unique_id => 'cOdy@usms.com', :account => account, :user => user)
+    Pseudonym.custom_find_by_unique_id('cody@usms.com', :all).sort.should == [p1, p3]
   end
 
   it "should associate to another user" do
@@ -288,7 +288,7 @@ describe Pseudonym do
 
   it "should determine if the password is managed" do
     u = User.create!
-    p = Pseudonym.create!(:unique_id => 'jt@instructure.com', :user => u)
+    p = Pseudonym.create!(:unique_id => 'jt@usms.com', :user => u)
     p.sis_user_id = 'jt'
     p.should_not be_managed_password
     p.account.account_authorization_configs.create!(:auth_type => 'ldap')
@@ -304,26 +304,26 @@ describe Pseudonym do
       u = User.create!
       u.register
       p = u.pseudonyms.create!(:unique_id => 'jt', :account => account) { |p| p.sis_user_id = 'jt' }
-      p.instance_variable_set(:@ldap_result, {:mail => ['jt@instructure.com']})
+      p.instance_variable_set(:@ldap_result, {:mail => ['jt@usms.com']})
 
       p.add_ldap_channel
       u.reload
       u.communication_channels.length.should == 1
-      u.email_channel.path.should == 'jt@instructure.com'
+      u.email_channel.path.should == 'jt@usms.com'
       u.email_channel.should be_active
       u.email_channel.destroy
 
       p.add_ldap_channel
       u.reload
       u.communication_channels.length.should == 1
-      u.email_channel.path.should == 'jt@instructure.com'
+      u.email_channel.path.should == 'jt@usms.com'
       u.email_channel.should be_active
       u.email_channel.update_attribute(:workflow_state, 'unconfirmed')
 
       p.add_ldap_channel
       u.reload
       u.communication_channels.length.should == 1
-      u.email_channel.path.should == 'jt@instructure.com'
+      u.email_channel.path.should == 'jt@usms.com'
       u.email_channel.should be_active
     end
   end

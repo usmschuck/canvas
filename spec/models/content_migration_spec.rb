@@ -691,6 +691,7 @@ describe ContentMigration do
           :learning_outcome_id => lo2.id
         }
       ]
+      rub.alignments_changed = true
       rub.save!
       rub.associate_with(@copy_from, @copy_from)
 
@@ -723,6 +724,7 @@ describe ContentMigration do
               :learning_outcome_id => lo.id
           }
       ]
+      rub.alignments_changed = true
       rub.save!
 
       from_assign = @copy_from.assignments.create!(:title => "some assignment")
@@ -763,40 +765,6 @@ describe ContentMigration do
       run_course_copy
 
       @copy_to.quizzes.find_by_migration_id(mig_id(@quiz)).should_not be_nil
-    end
-
-    it "should create a new assignment if copying a new quiz (even if the assignment migration_id matches)" do
-      pending unless Qti.qti_enabled?
-      quiz = @copy_from.quizzes.create!(:title => "new quiz")
-      quiz2 = @copy_to.quizzes.create!(:title => "already existing quiz")
-
-      [quiz, quiz2].each do |q|
-        q.did_edit
-        q.offer!
-      end
-
-      a = quiz2.assignment
-      a.migration_id = mig_id(quiz.assignment)
-      a.save!
-
-      run_course_copy
-
-      @copy_to.quizzes.map(&:title).sort.should == ["already existing quiz", "new quiz"]
-      @copy_to.assignments.map(&:title).sort.should == ["already existing quiz", "new quiz"]
-
-      # Re-copying should find and update the old "new" quiz and assignment
-      @cm = ContentMigration.new(:context => @copy_to, :user => @user, :source_course => @copy_from, :copy_options => {:everything => "1"})
-      @cm.user = @user
-      @cm.migration_settings[:import_immediately] = true
-      @cm.save!
-
-      quiz.title = "mwhaha changed"
-      quiz.save!
-
-      run_course_copy
-
-      @copy_to.quizzes.map(&:title).sort.should == ["already existing quiz", "mwhaha changed"]
-      @copy_to.assignments.map(&:title).sort.should == ["already existing quiz", "mwhaha changed"]
     end
 
     it "should have correct question count on copied surveys and practive quizzes" do
@@ -1198,7 +1166,7 @@ describe ContentMigration do
       mod1.add_item({ :title => 'Example 1', :type => 'external_url', :url => 'http://a.example.com/' })
       mod1.add_item :type => 'context_module_sub_header', :title => "Sub Header"
       tool = @copy_from.context_external_tools.create!(:name => "b", :url => "http://www.google.com", :consumer_key => '12345', :shared_secret => 'secret')
-      tool2 = @copy_from.context_external_tools.create!(:name => "b", :url => "http://www.instructure.com", :consumer_key => '12345', :shared_secret => 'secret')
+      tool2 = @copy_from.context_external_tools.create!(:name => "b", :url => "http://www.usms.com", :consumer_key => '12345', :shared_secret => 'secret')
       mod1.add_item :type => 'context_external_tool', :id => tool.id, :url => tool.url
       topic = @copy_from.discussion_topics.create!(:title => "topic")
       topic2 = @copy_from.discussion_topics.create!(:title => "topic2")

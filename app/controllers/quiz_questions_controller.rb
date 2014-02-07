@@ -57,9 +57,7 @@ class QuizQuestionsController < ApplicationController
     if authorized_action(@quiz, @current_user, :update)
       @question = @quiz.quiz_questions.find(params[:id])
       question_data = params[:question]
-      question_data[:regrade_user] = @current_user
       question_data ||= {}
-
       if question_data[:quiz_group_id]
         @group = @quiz.quiz_groups.find(question_data[:quiz_group_id])
         if question_data[:quiz_group_id] != @question.quiz_group_id
@@ -67,7 +65,6 @@ class QuizQuestionsController < ApplicationController
           @question.position = @group.quiz_questions.length
         end
       end
-
       @question.question_data = question_data
       @question.save
       @quiz.did_edit if @quiz.created?

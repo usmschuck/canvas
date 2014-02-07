@@ -38,7 +38,15 @@ class RubricsController < ApplicationController
     @actual_rubric = @rubric_association.rubric
   end
 
+  def assessments
+    if authorized_action(@context, @current_user, :manage)
+      @rubric_associations = @context.rubric_associations.bookmarked
+      @rubrics = @rubric_associations.map{|r| r.rubric}
+    end
+  end
+  
   def create
+    @invitees = params[:rubric_association].delete(:invitations) rescue nil
     update
   end
   
@@ -50,6 +58,7 @@ class RubricsController < ApplicationController
   # instead of the old one.
   def update
     params[:rubric_association] ||= {}
+    params[:rubric_association].delete(:invitations)
     @association_object = RubricAssociation.get_association_object(params[:rubric_association])
     params[:rubric][:user] = @current_user if params[:rubric]
     if (!@association_object || authorized_action(@association_object, @current_user, :read)) && authorized_action(@context, @current_user, :manage_rubrics)
@@ -75,7 +84,7 @@ class RubricsController < ApplicationController
         @rubric.user = @current_user
       end
       if params[:rubric] && (@rubric.grants_right?(@current_user, session, :update) || (@association && @association.grants_right?(@current_user, session, :update))) #authorized_action(@rubric, @current_user, :update)
-        @association = @rubric.update_with_association(@current_user, params[:rubric], @context, params[:rubric_association])
+        @association = @rubric.update_with_association(@current_user, params[:rubric], @context, params[:rubric_association], @invitees)
         @rubric = @association.rubric if @association
       end
       json_res = {}

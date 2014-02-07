@@ -50,11 +50,11 @@ describe "conversations" do
     it "should not open the conversation when the gear menu is clicked" do
       create_conversation
       wait_for_ajaximations
-      f('#menu-wrapper .al-options').should be_nil
+      f('.al-options').should_not be_displayed
       driver.execute_script "$('.admin-link-hover-area').addClass('active')"
       f('.admin-links button').click
       wait_for_ajaximations
-      f('#menu-wrapper .al-options').should be_displayed
+      f('.al-options').should be_displayed
       f('.messages').should_not be_displayed
     end
 
@@ -354,43 +354,6 @@ describe "conversations" do
       f('.others').click
       f('#others_popup').should be_displayed
       ff('#others_popup li').count.should == (@conversation_students.count - 2) # - 2 because the first 2 show up in the conversation summary
-    end
-  end
-
-  context "help menu" do
-    # temporary. remove when we release new conversations
-    it "should just be an intro button if you aren't a site admin" do
-      student_in_course(:course => @course, :active_all => true)
-      new_conversation
-      f('#help-btn').should be_nil
-      f('#conversations-intro-btn').should be_displayed
-      f('#conversations-intro-btn').click
-      wait_for_ajaximations
-      ff('#conversations_intro').last.should be_displayed
-    end
-
-    it "should switch to new conversations and redirect" do
-      site_admin_logged_in
-      @user.watched_conversations_intro
-      @user.save
-      new_conversation
-      f('#help-btn').click
-      expect_new_page_load { fj('#try-new-conversations-menu-item').click }
-      f('#inbox').should be_nil # #inbox is in the old conversations ui and not the new ui
-      f('.help-btn').click
-      expect_new_page_load {  fj('#switch-to-old-conversations-menu-item').click }
-      f('#inbox').should be_displayed
-    end
-
-    it "should show the intro" do
-      site_admin_logged_in
-      @user.watched_conversations_intro
-      @user.save
-      new_conversation
-      f('#help-btn').click
-      fj('#conversations-intro-menu-item').click
-      wait_for_animations
-      ff('#conversations_intro').last.should be_displayed
     end
   end
 end

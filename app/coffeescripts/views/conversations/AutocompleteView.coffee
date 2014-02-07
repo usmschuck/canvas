@@ -1,10 +1,9 @@
 define [
-  'i18n!conversations'
   'Backbone'
   'underscore'
   'jst/conversations/autocompleteToken'
   'jst/conversations/autocompleteResult'
-], (I18n, {View}, _, tokenTemplate, resultTemplate) ->
+], ({View}, _, tokenTemplate, resultTemplate) ->
 
   # Public: Helper method for capitalizing a string
   #
@@ -14,9 +13,6 @@ define [
   capitalize = (string) -> string.charAt(0).toUpperCase() + string.slice(1)
 
   class AutocompleteView extends View
-
-    # Public: Limit selection to one result.
-    @optionProperty('single')
 
     # Internal: Current result set from the server.
     collection: null
@@ -29,17 +25,8 @@ define [
 
     course: null
 
-    # Internal: Currently selected results.
-    tokens: []
-
     # Internal: Construct the search URL for the given term.
-    url: (term) ->
-      url = "/api/v1/search/recipients/?search=#{term}&per_page=5"
-      url += "&context=course_#{@course}" if @course
-      url
-
-    messages:
-      noResults: I18n.t('no_results_found', 'No results found')
+    url: (term) -> "/api/v1/search/recipients/?search=#{term}&per_page=5&context=course_#{@course}"
 
     # Internal: Map of key names to codes.
     keys:
@@ -55,22 +42,16 @@ define [
       '.ac-input'       : '$input'
       '.ac-token-list'  : '$tokenList'
       '.ac-result-list' : '$resultList'
-      '.ac-placeholder' : '$placeholder'
-      '.ac-clear'       : '$clearBtn'
-      '.ac-search-btn'  : '$searchBtn'
 
     # Internal: Event map.
     events:
-      'blur      .ac-input'            : '_onInputBlur'
-      'click     .ac-input-box'        : '_onWidgetClick'
-      'click     .ac-clear'            : '_onClearTokens'
-      'click     .ac-token-remove-btn' : '_onRemoveToken'
-      'click     .ac-search-btn'       : '_onSearch'
-      'focus     .ac-input'            : '_onInputFocus'
-      'input     .ac-input'            : '_onSearchTermChange'
-      'keydown   .ac-input'            : '_onInputAction'
-      'mousedown .ac-result'           : '_onResultClick'
-      'mouseenter .ac-result-list'     : '_clearSelectedStyles'
+      'blur      .ac-input'        : '_onInputBlur'
+      'click     .ac-input-box'    : '_onWidgetClick'
+      'focus     .ac-input'        : '_onInputFocus'
+      'input     .ac-input'        : '_onSearchTermChange'
+      'keydown   .ac-input'        : '_onInputAction'
+      'mousedown .ac-result'       : '_onResultClick'
+      'mouseenter .ac-result-list' : '_clearSelectedStyles'
 
     # Public: Create and configure a new instance.
     #
@@ -90,7 +71,6 @@ define [
     toggleResultList: (isVisible, deferred) ->
       @$resultList.attr('aria-hidden', !isVisible)
       @$input.attr('aria-expanded', isVisible)
-      @$resultList.empty() if !isVisible
       @$resultList.toggle(isVisible)
       @$resultList.disableWhileLoading(deferred) if isVisible and deferred
 
@@ -110,7 +90,6 @@ define [
     #
     # Returns a model object.
     _getModel: (id) ->
-      #id = parseInt(id) if (id).match and !id.match(/_/)
       _.find(@collection, (model) -> model.id == id)
 
     # Internal: Remove the "selected" class from result list items.
@@ -146,7 +125,6 @@ define [
     # Returns nothing.
     _onInputBlur: (e) ->
       @$inputBox.removeClass('focused')
-      @$placeholder.css(opacity: 1) unless @tokens.length or @$input.val()
       @toggleResultList(false)
 
     # Internal: Set proper styles on widget when input is focused.
@@ -156,7 +134,6 @@ define [
     # Returns nothing.
     _onInputFocus: (e) ->
       @$inputBox.addClass('focused')
-      @$placeholder.css(opacity: 0)
       unless $(e.target).hasClass('ac-input')
         @$input[0].selectionStart = @$input.val().length
 
@@ -177,21 +154,19 @@ define [
       @currentRequest = null
       resultElements  = _.map searchResults, (r) ->
         resultTemplate(_.extend({}, r, guid: $.guid++))
-      if searchResults.length
+      if searchResults
         @$resultList.html(resultElements.join(''))
         $el = @$resultList.find('li:first').addClass('selected')
         @selectedModel = @_getModel($el.data('id'))
         @$input.attr('aria-activedescendant', $el.attr('id'))
       else
-        @$resultList.html( $('<li />', class: 'ac-result text-center').text(@messages.noResults) )
+        @$resultList.html( $('<li />').text('There are no results matching your search.') )
 
     # Internal: Fetch and display autocomplete results from the server.
     #
-    # fetchIfEmpty - Fetch a result set, even if no query exists (default: false)
-    #
     # Returns nothing.
-    __fetchResults: (fetchIfEmpty = false) ->
-      return unless @$input.val() or fetchIfEmpty
+    __fetchResults: ->
+      return if !@$input.val()
       @currentRequest?.abort()
       @currentRequest = $.getJSON(@url(@$input.val()), @_onSearchResultLoad)
       @toggleResultList(true, @currentRequest)
@@ -202,7 +177,8 @@ define [
     #
     # Returns nothing.
     _onBackspaceKey: (e) ->
-      @_removeToken(_.last(@tokens)) if !@$input.val()
+      if !@$input.val()
+        @$tokenList.find('li.ac-token:last-child').remove()
 
     # Internal: Handle down-arrow events.
     #
@@ -226,8 +202,7 @@ define [
     # Returns nothing.
     _onEscapeKey: (e) ->
       e.preventDefault() && e.stopPropagation()
-      @toggleResultList(false)
-      setTimeout((=> @$input.focus()), 0)
+      @toggleResultList(false) && @$input.focus()
 
     # Internal: Add the current @selectedModel to the list of tokens.
     #
@@ -236,7 +211,10 @@ define [
     # Returns nothing.
     _onEnterKey: (e) ->
       e.preventDefault() && e.stopPropagation()
-      @_addToken(@selectedModel) if @selectedModel
+      @toggleResultList(false)
+      @$tokenList.append(tokenTemplate(@selectedModel))
+      @selectedModel = null
+      @$input.val('')
 
     # Internal: Add the clicked model to the list of tokens.
     #
@@ -245,79 +223,10 @@ define [
     # Returns nothing.
     _onResultClick: (e) ->
       e.preventDefault() && e.stopPropagation()
-      @_addToken(@_getModel($(e.currentTarget).data('id')))
-
-    # Internal: Clear the current token.
-    #
-    # e - Event object.
-    #
-    # Returns nothing.
-    _onClearTokens: (e) ->
-      e.preventDefault()
-      @_removeToken(@tokens[0], false) while @tokens.length
-      @$clearBtn.hide()
-      @$input.prop('disabled', false).focus()
-      # fire a single token change event
-      @trigger('enabled')
-      @trigger('changeToken', @tokenParams())
-
-    # Internal: Handle clicks on token remove buttons.
-    #
-    # e - Event object.
-    #
-    # Returns nothing.
-    _onRemoveToken: (e) ->
-      e.preventDefault()
-      @_removeToken($(e.currentTarget).siblings('input').val())
-
-    # Internal: Handle clicks to the search button.
-    #
-    # e - Event object.
-    #
-    # Returns nothing.
-    _onSearch: (e) ->
-      @_fetchResults(true)
-      @$input.focus()
-
-    # Internal: Add the given model to the token list.
-    #
-    # model - Result model (user or course)
-    #
-    # Returns nothing.
-    _addToken: (model) =>
-      @tokens.push(model.id)
-      @$tokenList.append(tokenTemplate(model))
-      @toggleResultList(false)
+      @$tokenList.append(tokenTemplate(@_getModel($(e.currentTarget).data('id'))))
       @selectedModel = null
+      @toggleResultList(false)
       @$input.val('')
-      if @options.single
-        @$clearBtn.show().focus()
-        @$input.prop('disabled', true)
-        @$searchBtn.prop('disabled', true)
-        @trigger('disabled')
-      @trigger('changeToken', @tokenParams())
-
-    # Internal: Remove the given model from the token list.
-    #
-    # id - The ID of the result to remove from the token list.
-    # silent - If true, don't fire a changeToken event (default: false).
-    #
-    # Returns nothing.
-    _removeToken: (id, silent = false) ->
-      @$tokenList.find("input[value=#{id}]").parent().remove()
-      @tokens.splice(_.indexOf(id), 1)
-      @$clearBtn.hide() unless @tokens.length
-      if @options.single and !@tokens.length
-        @$input.prop('disabled', false)
-        @$searchBtn.prop('disabled', false)
-        @trigger('enabled')
-      @trigger('changeToken', @tokenParams()) unless silent
-
-    # Public: Return the current tokens as an array of params.
-    #
-    # Returns an array of context_id strings.
-    tokenParams: ->
-      _.map(@tokens, (t) -> if (t).match then t else "user_#{t}")
 
     # Internal: Handle up-arrow events.
     #
@@ -337,11 +246,6 @@ define [
     setCourse: (course) ->
       return if course == @course
       @course = course
-      @$input.prop('disabled', !course)
-      @$searchBtn.prop('disabled', !course)
+      @$input.attr('disabled', !course)
       @$inputBox.toggleClass('disabled', !course)
       @$tokenList.find('li.ac-token').remove()
-      @tokens = []
-
-    setTokens: (tokens) ->
-      _.each(tokens, @_addToken)

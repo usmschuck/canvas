@@ -24,10 +24,7 @@ require [
   'compiled/views/assignments/IndexView'
   'compiled/views/assignments/AssignmentSettingsView'
   'compiled/views/assignments/AssignmentGroupWeightsView'
-  'compiled/views/assignments/ToggleShowByView'
-], (AssignmentGroupCollection, Course, InputFilterView,
-  AssignmentGroupListView, CreateGroupView, IndexView, AssignmentSettingsView,
-  AssignmentGroupWeightsView, ToggleShowByView) ->
+], (AssignmentGroupCollection, Course, InputFilterView, AssignmentGroupListView, CreateGroupView, IndexView, AssignmentSettingsView, AssignmentGroupWeightsView) ->
 
   course = new Course
   course.url = ENV.URLS.course_url
@@ -35,6 +32,7 @@ require [
 
   assignmentGroups = new AssignmentGroupCollection [],
     course: course
+    modules: ENV.MODULES
     params:
       include: ["assignments"]
       override_assignment_dates: !ENV.PERMISSIONS.manage
@@ -47,7 +45,6 @@ require [
 
   assignmentSettingsView = false
   createGroupView = false
-  showByView = false
 
   if ENV.PERMISSIONS.manage
     assignmentSettingsView = new AssignmentSettingsView
@@ -58,19 +55,14 @@ require [
     createGroupView = new CreateGroupView
       assignmentGroups: assignmentGroups
       course: course
-  else
-    showByView = new ToggleShowByView
-      course: course
-      assignmentGroups: assignmentGroups
 
   @app = new IndexView
     assignmentGroupsView: assignmentGroupsView
     inputFilterView: inputFilterView
     assignmentSettingsView: assignmentSettingsView
     createGroupView: createGroupView
-    showByView: showByView
 
   @app.render()
 
   # kick it all off
-  assignmentGroups.fetch(reset: true)
+  assignmentGroups.fetch() # TODO: reset this instead
