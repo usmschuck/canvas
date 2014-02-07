@@ -179,7 +179,7 @@ describe "assignment rubrics" do
       outcome_with_rubric
       @assignment = @course.assignments.create(:name => 'assignment with rubric')
       @association = @rubric.associate_with(@assignment, @course, :purpose => 'grading', :use_for_grading => true)
-      @submission = @assignment.submit_homework(@student, {:url => "http://www.instructure.com/"})
+      @submission = @assignment.submit_homework(@student, {:url => "http://www.usms.com/"})
       @rubric.data[0][:ignore_for_scoring] = '1'
       @rubric.points_possible = 5
       @rubric.alignments_changed = true

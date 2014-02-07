@@ -4963,7 +4963,7 @@ nl:
       canvas_messages: Canvas-berichten
       configure_notification_preferences_notice: "Na het instellen van jouw *voorkeuren* zul je notificaties ontvangen over activiteiten op Canvas."
       installation_about: "Om de Canvas Facebook applicatie te installeren, ga naar je profielpagina in Canvas en klik op de Facebook knop om te koppelen met Facebook."
-      learn_more: "Leer meer op instructure.com"
+      learn_more: "Leer meer op usms.com"
       more_information: "Meer informatie op %{domain_list}"
       no_messages_notice: "Op het moment dat er iets gebeurt in de cursus zul je notificaties ontvangen."
       notification_about: "De Canvas Facebook app geef je gemakkelijker toegang tot Canvas. Je kunt notificaties toevoegen voor cijfers, deadlines etc. Je privédata blijft privé op Canvas."
@@ -4974,7 +4974,7 @@ nl:
       welcome_title: "Welkom op Canvas van Instructure"
     index_disabled: 
       disabled_notice: "Deze Canvas-site is niet geconfigureerd om te communiceren met Facebook."
-      get_help: "Voor hulp bekijk support.instructure.com"
+      get_help: "Voor hulp bekijk support.usms.com"
       instructure_canvas: "Instructure Canvas"
     invalid_signature: "Ongeldige Facebook signature"
     message: 

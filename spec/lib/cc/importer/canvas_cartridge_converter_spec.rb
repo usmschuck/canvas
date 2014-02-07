@@ -105,7 +105,7 @@ describe "Canvas Cartridge importing" do
   
   it "should import external tools" do
     tool1 = @copy_from.context_external_tools.new
-    tool1.url = 'http://instructure.com'
+    tool1.url = 'http://usms.com'
     tool1.name = 'instructure'
     tool1.description = "description of boring"
     tool1.privacy_level = 'name_only'
@@ -308,7 +308,7 @@ describe "Canvas Cartridge importing" do
   it "should import v1 grading standards" do
     doc = Nokogiri::XML(%{
 <?xml version="1.0" encoding="UTF-8"?>
-<gradingStandards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://canvas.instructure.com/xsd/cccv1p0" xsi:schemaLocation="http://canvas.instructure.com/xsd/cccv1p0 http://canvas.instructure.com/xsd/cccv1p0.xsd">
+<gradingStandards xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://canvas.usms.com/xsd/cccv1p0" xsi:schemaLocation="http://canvas.usms.com/xsd/cccv1p0 http://canvas.usms.com/xsd/cccv1p0.xsd">
   <gradingStandard identifier="i293372c956d13a7d48d913a7d971e35d" version="1">
     <title>Standard eh</title>
     <data>[["A", 1], ["A-", 0.92], ["B+", 0.88], ["B", 0.84], ["B!-", 0.82], ["C+", 0.79], ["C", 0.76], ["C-", 0.73], ["D+", 0.69], ["D", 0.66], ["D-", 0.63], ["F", 0.6]]</data>
@@ -606,8 +606,8 @@ describe "Canvas Cartridge importing" do
       <a href=\"/courses/%s/modules/%s\">some module</a>
       <img src="/courses/%s/files/%s/preview" alt="picture.png" /></p>
       <div>
-        <div><img src="http://www.instructure.com/images/header-logo.png"></div>
-        <div><img src="http://www.instructure.com/images/header-logo.png"></div>
+        <div><img src="http://www.usms.com/images/header-logo.png"></div>
+        <div><img src="http://www.usms.com/images/header-logo.png"></div>
       </div>}
     page = @copy_from.wiki.wiki_pages.create!(:title => "some page", :body => body_with_link % [ @copy_from.id, @copy_from.id, @copy_from.id, @copy_from.id, @copy_from.id, mod.id, @copy_from.id, from_att.id ], :editing_roles => "teachers", :hide_from_students => true, :notify_of_update => true)
     @copy_from.save!
@@ -671,8 +671,8 @@ describe "Canvas Cartridge importing" do
 
     body_with_link = %{<p>Watup? <strong>eh?</strong><a href="/courses/%s/assignments">Assignments</a></p>
 <div>
-  <div><img src="http://www.instructure.com/images/header-logo.png"></div>
-  <div><img src="http://www.instructure.com/images/header-logo.png"></div>
+  <div><img src="http://www.usms.com/images/header-logo.png"></div>
+  <div><img src="http://www.usms.com/images/header-logo.png"></div>
 </div>}
     asmnt = @copy_from.assignments.new
     asmnt.title = "Nothing Assignment"

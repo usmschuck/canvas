@@ -1,0 +1,15 @@
+<% fields_for :settings, OpenObject.new(settings) do |f| %>
+  <table style="width: 650px;" class="formtable">
+    <tr>
+      <td colspan="2">
+        <%= mt :description, 'Puts in the users name to a PDF fillable certificate. PDF\'s must have a form field with id: NAME" ' %>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <%= mt :description, "The location of all fillable PDFs:" %>
+        <%= f.text_field :pdfLocation %><br>
+      </td>
+    </tr>
+  </table>
+<% end %>

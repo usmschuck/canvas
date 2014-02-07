@@ -113,7 +113,7 @@ class ConversationsController < ApplicationController
   #       "properties": ["attachments"],
   #       "audience": [2],
   #       "audience_contexts": {"courses": {"1": ["StudentEnrollment"]}, "groups": {}},
-  #       "avatar_url": "https://canvas.instructure.com/images/messages/avatar-group-50.png",
+  #       "avatar_url": "https://canvas.usms.com/images/messages/avatar-group-50.png",
   #       "participants": [{"id": 1, "name": "Joe TA"}, {"id": 2, "name": "Jane Teacher"}],
   #       "visible": true
   #     }
@@ -316,7 +316,7 @@ class ConversationsController < ApplicationController
   #     "properties": ["attachments"],
   #     "audience": [2],
   #     "audience_contexts": {"courses": {"1": []}, "groups": {}},
-  #     "avatar_url": "https://canvas.instructure.com/images/messages/avatar-50.png",
+  #     "avatar_url": "https://canvas.usms.com/images/messages/avatar-50.png",
   #     "participants": [{"id": 1, "name": "Joe TA"}, {"id": 2, "name": "Jane Teacher"}, {"id": 3, "name": "Bob Student"}],
   #     "messages":
   #       [
@@ -416,7 +416,7 @@ class ConversationsController < ApplicationController
   #     "properties": ["attachments"],
   #     "audience": [2],
   #     "audience_contexts": {"courses": {"1": []}, "groups": {}},
-  #     "avatar_url": "https://canvas.instructure.com/images/messages/avatar-50.png",
+  #     "avatar_url": "https://canvas.usms.com/images/messages/avatar-50.png",
   #     "participants": [{"id": 1, "name": "Joe TA"}]
   #   }
   def update
@@ -494,7 +494,7 @@ class ConversationsController < ApplicationController
   #     "properties": [],
   #     "audience": [2, 3, 4],
   #     "audience_contexts": {"courses": {"1": []}, "groups": {}},
-  #     "avatar_url": "https://canvas.instructure.com/images/messages/avatar-group-50.png",
+  #     "avatar_url": "https://canvas.usms.com/images/messages/avatar-group-50.png",
   #     "participants": [{"id": 1, "name": "Joe TA"}, {"id": 2, "name": "Jane Teacher"}, {"id": 3, "name": "Bob Student"}, {"id": 4, "name": "Jim Admin"}],
   #     "messages":
   #       [
@@ -548,7 +548,7 @@ class ConversationsController < ApplicationController
   #     "properties": [],
   #     "audience": [2, 3],
   #     "audience_contexts": {"courses": {"1": []}, "groups": {}},
-  #     "avatar_url": "https://canvas.instructure.com/images/messages/avatar-group-50.png",
+  #     "avatar_url": "https://canvas.usms.com/images/messages/avatar-group-50.png",
   #     "participants": [{"id": 1, "name": "Joe TA"}, {"id": 2, "name": "Jane Teacher"}, {"id": 3, "name": "Bob Student"}],
   #     "messages":
   #       [

@@ -1,0 +1,1515 @@
+<?xml version="1.0"?>
+<presentation title="Sales Cycle Part I" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{BC3F996C-4306-4BF7-8913-06A23954B123}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="131692" duration="10945"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="228867" duration="19043"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="599701" duration="49946"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="269618" duration="22439"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="379959" duration="31634"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="406291" duration="33828"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="91881" duration="7627"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="261155" duration="21733"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="230121" duration="19147"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="218836" duration="18207"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="307861" duration="25626"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="335760" duration="27951"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="350493" duration="29178"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="418516" duration="34847"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="406291" duration="33828"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="301906" duration="25129"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="477135" duration="39732"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="404097" duration="33645"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="249243" duration="20741"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="412560" duration="34351"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="303159" duration="25234"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="305667" duration="25443"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="412560" duration="34351"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="412560" duration="34351"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="253945" duration="21133"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="375257" duration="31242"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="379959" duration="31634"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="293755" duration="24450"/>
+		<soundAsset id="sndAsset28" src="sound29.mp3" embedded="0" size="414755" duration="34533"/>
+		<soundAsset id="sndAsset29" src="sound30.mp3" embedded="0" size="317579" duration="26435"/>
+		<soundAsset id="sndAsset30" src="sound31.mp3" embedded="0" size="245481" duration="20427"/>
+		<soundAsset id="sndAsset31" src="sound32.mp3" embedded="0" size="200028" duration="16640"/>
+		<soundAsset id="sndAsset32" src="sound33.mp3" embedded="0" size="318833" duration="26540"/>
+		<soundAsset id="sndAsset33" src="sound34.mp3" embedded="0" size="184355" duration="15333"/>
+		<soundAsset id="sndAsset34" src="sound35.mp3" embedded="0" size="317579" duration="26435"/>
+		<soundAsset id="sndAsset35" src="sound36.mp3" embedded="0" size="95643" duration="7941"/>
+		<soundAsset id="sndAsset36" src="sound37.mp3" embedded="0" size="230121" duration="19147"/>
+		<soundAsset id="sndAsset37" src="sound38.mp3" embedded="0" size="336701" duration="28029"/>
+		<soundAsset id="sndAsset38" src="sound39.mp3" embedded="0" size="363346" duration="30249"/>
+		<soundAsset id="sndAsset39" src="sound40.mp3" embedded="0" size="501899" duration="41795"/>
+		<soundAsset id="sndAsset40" src="sound41.mp3" embedded="0" size="553935" duration="46132"/>
+		<soundAsset id="sndAsset41" src="sound42.mp3" embedded="0" size="436384" duration="36336"/>
+		<soundAsset id="sndAsset42" src="sound43.mp3" embedded="0" size="376511" duration="31346"/>
+		<soundAsset id="sndAsset43" src="sound44.mp3" embedded="0" size="420710" duration="35030"/>
+		<soundAsset id="sndAsset44" src="sound45.mp3" embedded="0" size="278082" duration="23144"/>
+		<soundAsset id="sndAsset45" src="sound46.mp3" embedded="0" size="177145" duration="14733"/>
+		<soundAsset id="sndAsset46" src="sound47.mp3" embedded="0" size="203476" duration="16927"/>
+		<soundAsset id="sndAsset47" src="sound48.mp3" embedded="0" size="232315" duration="19330"/>
+		<soundAsset id="sndAsset48" src="sound49.mp3" embedded="0" size="84671" duration="7026"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="thmb29.swf" embedded="0"/>
+		<graphicAsset id="imgAsset29" src="thmb30.swf" embedded="0"/>
+		<graphicAsset id="imgAsset30" src="thmb31.swf" embedded="0"/>
+		<graphicAsset id="imgAsset31" src="thmb32.swf" embedded="0"/>
+		<graphicAsset id="imgAsset32" src="thmb33.swf" embedded="0"/>
+		<graphicAsset id="imgAsset33" src="thmb34.swf" embedded="0"/>
+		<graphicAsset id="imgAsset34" src="thmb35.swf" embedded="0"/>
+		<graphicAsset id="imgAsset35" src="thmb36.swf" embedded="0"/>
+		<graphicAsset id="imgAsset36" src="thmb37.swf" embedded="0"/>
+		<graphicAsset id="imgAsset37" src="thmb38.swf" embedded="0"/>
+		<graphicAsset id="imgAsset38" src="thmb39.swf" embedded="0"/>
+		<graphicAsset id="imgAsset39" src="thmb40.swf" embedded="0"/>
+		<graphicAsset id="imgAsset40" src="thmb41.swf" embedded="0"/>
+		<graphicAsset id="imgAsset41" src="thmb42.swf" embedded="0"/>
+		<graphicAsset id="imgAsset42" src="thmb43.swf" embedded="0"/>
+		<graphicAsset id="imgAsset43" src="thmb44.swf" embedded="0"/>
+		<graphicAsset id="imgAsset44" src="thmb45.swf" embedded="0"/>
+		<graphicAsset id="imgAsset45" src="thmb46.swf" embedded="0"/>
+		<graphicAsset id="imgAsset46" src="thmb47.swf" embedded="0"/>
+		<graphicAsset id="imgAsset47" src="thmb48.swf" embedded="0"/>
+		<graphicAsset id="imgAsset48" src="thmb49.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="10.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="18.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="5" timeOffset="9.3590001"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="21.6369991"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="30.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="33.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="6.8499999"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="20.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="18.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="17.4200000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="24.8479996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="27.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="28.3999996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="34.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="33.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="24.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="0" timeOffset="38.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="0" timeOffset="32.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="0" timeOffset="19.9470000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="33.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="24.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="24.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="33.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="33.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="20.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="30.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="30.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="0" timeOffset="23.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset28">
+				<startTimestamp slideIndex="28" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="28" stepIndex="0" timeOffset="33.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset29">
+				<startTimestamp slideIndex="29" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="29" stepIndex="0" timeOffset="25.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset30">
+				<startTimestamp slideIndex="30" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="30" stepIndex="0" timeOffset="19.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset31">
+				<startTimestamp slideIndex="31" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="31" stepIndex="0" timeOffset="15.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset32">
+				<startTimestamp slideIndex="32" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="32" stepIndex="0" timeOffset="25.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset33">
+				<startTimestamp slideIndex="33" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="33" stepIndex="0" timeOffset="14.5500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset34">
+				<startTimestamp slideIndex="34" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="34" stepIndex="0" timeOffset="25.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset35">
+				<startTimestamp slideIndex="35" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="35" stepIndex="0" timeOffset="7.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset36">
+				<startTimestamp slideIndex="36" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="36" stepIndex="0" timeOffset="18.3479996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset37">
+				<startTimestamp slideIndex="37" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="37" stepIndex="0" timeOffset="27.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset38">
+				<startTimestamp slideIndex="38" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="38" stepIndex="0" timeOffset="29.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset39">
+				<startTimestamp slideIndex="39" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="39" stepIndex="0" timeOffset="41.0159988"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset40">
+				<startTimestamp slideIndex="40" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="40" stepIndex="0" timeOffset="45.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset41">
+				<startTimestamp slideIndex="41" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="41" stepIndex="0" timeOffset="35.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset42">
+				<startTimestamp slideIndex="42" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="42" stepIndex="0" timeOffset="30.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset43">
+				<startTimestamp slideIndex="43" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="43" stepIndex="0" timeOffset="34.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset44">
+				<startTimestamp slideIndex="44" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="44" stepIndex="0" timeOffset="22.3619995"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset45">
+				<startTimestamp slideIndex="45" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="45" stepIndex="0" timeOffset="13.9499998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset46">
+				<startTimestamp slideIndex="46" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="46" stepIndex="0" timeOffset="16.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset47">
+				<startTimestamp slideIndex="47" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="47" stepIndex="0" timeOffset="18.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset48">
+				<startTimestamp slideIndex="48" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="48" stepIndex="0" timeOffset="6.2500000"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="15501" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="4.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>USMS University™
+Quick Start Training 
+Sales Cycle Part 1 Contact, Building Rapport and Buyer Interview</text>
+		</slide>
+		<slide index="1" title="" titleNormalized="" src="slide2.swf" size="5521" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="12.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Selling is a process of sequential steps that if done correctly, without any steps omitted, will lead to many sales.
+
+This process is known as the Sales Cycle.
+
+Professionals must know and master each step of the sales cycle. 
+
+Why is it important to know the Sales Cycle?</text>
+		</slide>
+		<slide index="2" title="" titleNormalized="" src="slide3.swf" size="6208" advanceOnTime="0" framesCount="246" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="7.9860000"/>
+				<step start="1" end="49" playTime="2.0000000" pauseTime="4.8629999"/>
+				<step start="50" end="98" playTime="2.0000000" pauseTime="3.1980000"/>
+				<step start="99" end="147" playTime="2.0000000" pauseTime="7.4670000"/>
+				<step start="148" end="196" playTime="2.0000000" pauseTime="8.2760000"/>
+				<step start="197" end="245" playTime="2.0000000" pauseTime="7.3590016"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+
+If you do not properly greet the client and immediately create some interest-you’ll never get any further. 
+
+If you don’t build rapport and trust, they won’t buy from you. 
+
+If you don’t conduct a great buyer interview and determine their needs, then you won’t present the right solutions in your presentation. 
+
+If your presentation effectively answers their needs and you handle any objections, you can close. 
+
+Once they’re sold, if you follow up and let them know you care, you’ll get referrals and the cycle will start all over again.
+Understanding and properly using the sales cycle in
+exact sequence is essential to success in any type of sales:</text>
+		</slide>
+		<slide index="3" title="" titleNormalized="" src="slide4.swf" size="14367" advanceOnTime="0" framesCount="481" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="480" playTime="20.0000000" pauseTime="1.6369991"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Contact-Greeting New Prospects
+Building Rapport
+The Buyer Interview (Qualifying)
+The Presentation
+Trial Closing
+Objection Handling
+Closing
+Follow Up
+Referrals
+
+
+
+The Steps of the Sales Cycle
+Never change the sequence, cut any portion or drop out a step. Keep in form, master the steps and you’ll close more than you believed possible.</text>
+		</slide>
+		<slide index="4" title="" titleNormalized="" src="slide5.swf" size="14863" advanceOnTime="0" framesCount="649" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="648" playTime="27.0000000" pauseTime="3.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Contact
+
+The Sales Cycle
+Building Rapport
+Buyer Interview
+Presentation
+Trial Closing
+Objection Handling
+Closing
+Follow Up
+Referrals</text>
+		</slide>
+		<slide index="5" title="" titleNormalized="" src="slide6.swf" size="14689" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="21.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+
+More contacts equals more money for you. 
+
+Make a lasting first impression. 
+
+Until you can get their attention, you’re just an interruption. 
+
+Grab their attention in a way that makes them eager to hear your presentation. 
+
+Use a name that will mean something positive to them, a referral, or a big fat claim that you can back up. 
+
+Use mystery, humor, sincere compliments, intriguing questions, etc. to open the door and make them “all ears”.
+The Contact-Opening Statement</text>
+		</slide>
+		<slide index="6" title="" titleNormalized="" src="slide7.swf" size="15684" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="4.8499999"/>
+			</animationSteps>
+			<notes>red</notes>
+			<notesNormalized>red</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;red&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+The Contact Step is all about making a profound Opening Statement
+Contact</text>
+		</slide>
+		<slide index="7" title="" titleNormalized="" src="slide8.swf" size="17973" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="9.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Be different – have fun. People like people who change their mental and Emotional states! Look and sound professional:
+
+Once you have the prospect on the phone or in person, speak clearly and quickly get to the point. 
+
+State your name, company name and why you’re calling on them. 
+Contact</text>
+		</slide>
+		<slide index="8" title="" titleNormalized="" src="slide9.swf" size="26273" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="13.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Lead with a Big Fat Claim:
+
+
+“Our company has helped thousands of businesses increase their bottom line with some little known techniques to turn your credit card processing system into a major cash flow generating machine!”
+Contact</text>
+		</slide>
+		<slide index="9" title="" titleNormalized="" src="slide10.swf" size="5278" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="11.9200001"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Lead with a Regional Claim:
+
+“I work with many businesses in your area such as (names) that were being way overcharged for credit card services that never took advantage of some of the more competitive programs being offered.”
+
+Contact</text>
+		</slide>
+		<slide index="10" title="" titleNormalized="" src="slide11.swf" size="5771" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="16.8479996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Lead with a Specialty Product:
+“My company would like to provide financing for some of your customers who don’t qualify for your standard plan.”
+
+Lead with Gift Cards:
+“I’d like to show you how gift and loyalty cards would be the most profitable items in your store and how you can get more customers and earn thousands of extra dollars with them.”
+Contact</text>
+		</slide>
+		<slide index="11" title="" titleNormalized="" src="slide12.swf" size="17232" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="16.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Lead with Cash Advance:
+
+“If your business now or ever has needed cash our merchant service program can advance you thousands of dollars when you need it most. ”
+
+Lead with Wireless:
+
+“I’d like to show you how to reduce your costs and charge backs and increase transaction speed with our wireless processing solution.” 
+Contact</text>
+		</slide>
+		<slide index="12" title="" titleNormalized="" src="slide13.swf" size="6625" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="20.3999996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Lead with a Reference:
+
+“Mr. Smith from Smith’s bakery recommended I call you. I put several hundred dollars back in his pocket this year and he felt you might like the same service….” 
+
+Lead with Instant Credit:
+
+“I’m calling to find out if you would like to offer some of your customers up to $2,500, 90 day instant credit with no credit check or application required.” 
+Get up to $2,500 Instant Credit
+No Application, No Credit Check
+Come in or Call 1-888-XXX-XXXX for details
+Valid Checking Account and ID Required
+Contact</text>
+		</slide>
+		<slide index="13" title="" titleNormalized="" src="slide14.swf" size="5663" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="30.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Incoming Lead:
+
+"Thanks for calling. I appreciate the opportunity to serve your needs. What were you most interested in Mr. Jones? 
+
+Once they tell you (regardless of the service they’re interested in- try this):
+
+“Great. We really have a lot of clients that are benefiting from our __________ (gift and loyalty cards, consumer financing, lower rates, Instant Credit, etc.). I’ll do everything possible to provide you with the information you need…”
+Contact</text>
+		</slide>
+		<slide index="14" title="" titleNormalized="" src="slide15.swf" size="6342" advanceOnTime="0" framesCount="337" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="336" playTime="14.0000000" pauseTime="19.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Early Objections are the objections you get at first just about talking to you. The following are listed in order from most common to least:
+“I’m not interested”
+“I’m in a contract or renewed contract already”
+“Owner isn’t interested” (Gatekeeper)
+“I’m happy with what I have”
+“I’m not ready yet”
+“The owner is not available” (Gatekeeper)
+Handling Early Objections</text>
+		</slide>
+		<slide index="15" title="" titleNormalized="" src="slide16.swf" size="5682" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="15.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+More Early Objections:
+
+“I don’t have enough time”
+“I don’t have enough customers asking to pay with cards”
+“I used to take cards and not too many people paid that way.”
+“You’re the fifteenth call today”
+“Is this a sales call?” 
+
+Handling Early Objections</text>
+		</slide>
+		<slide index="16" title="" titleNormalized="" src="slide17.swf" size="5924" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="34.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I’m not interested.”
+	
+You: 	“OK. Well every business owner wants to save money, isn’t that true? (Don’t pause too long for answer- go quickly to this next line): Are you really not interested or just too busy right now- because if you’re too busy, I’d be happy to call back at a better time. When’s the best time to talk?”
+
+When they agree they’re just too busy and give you the time, schedule the call. If they still waffle, try this:
+
+You:	 “When I call back give me just 30 seconds. If you don’t like what I have to say, feel free to hang up on me.”
+Handling Early Objections</text>
+		</slide>
+		<slide index="17" title="" titleNormalized="" src="slide18.swf" size="5643" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="28.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Head it off at the pass. 
+Don’t allow the prospect to give you the objection, “I’m not interested.” Handle it with a question before they can bring up the objection. 
+
+Prospect:	“Hello. This is ________.”
+
+You:	“Hello __________. This is ____(Your Name Only). Are you interested in learning how to use your merchant account to make more money and increase profits in your business?”
+Handling Early Objections</text>
+		</slide>
+		<slide index="18" title="" titleNormalized="" src="slide19.swf" size="5264" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="17.9470005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I’m already in a contract.” (Or they ask you- “Am I in a contract right now?”)
+
+You:	“Maybe, who knows, let’s see. Maybe it doesn’t matter. It’s possible the increased revenue will be far greater than the cost of switching. I mean look, I’ll risk a few minutes of my time if you will.”
+Handling Early Objections</text>
+		</slide>
+		<slide index="19" title="" titleNormalized="" src="slide20.swf" size="5247" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="31.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I’m still not interested” or “Just too busy”
+
+You:	“Tell you what. I’ll gamble a $100 Visa Gift Card that I can make it worth your while. Give me just a minute or two and I’ll do most of the work.” (Works with a Visa Gift Card promotion- or use any similar promotion).
+Handling Early Objections</text>
+		</slide>
+		<slide index="20" title="" titleNormalized="" src="slide21.swf" size="5313" advanceOnTime="0" framesCount="73" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="72" playTime="3.0000000" pauseTime="21.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Gatekeeper:	“The owner isn’t interested.” 
+
+You:	“OK, well maybe, who knows- maybe if I can save your boss some money (or help your boss make more money), it will help you get a raise!” 
+
+Get the gatekeeper on your side.
+Handling Early Objections</text>
+		</slide>
+		<slide index="21" title="" titleNormalized="" src="slide22.swf" size="5223" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="22.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+
+You:		“You know _________ (gatekeeper’s name), most business owners want to learn how to save or make more money, right? I mean, is he/she really not interested or just too busy right now?” 
+
+If the gatekeeper agrees the boss is too busy, try to schedule with the gatekeeper the best time to call back.
+Handling Early Objections</text>
+		</slide>
+		<slide index="22" title="" titleNormalized="" src="slide23.swf" size="5817" advanceOnTime="0" framesCount="121" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="120" playTime="5.0000000" pauseTime="28.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I’m happy with what I have.”
+
+You:	“That’s awesome. Would you mind telling me what they do that’s makes you happy? I’d like to find out so I can make sure I’m providing that level of service to my clients.”
+
+Prospect:	“Bla, bla, bla.” (Note what they say) 
+
+You:	“Sounds good. In addition to what you just told me, is there anything that company could improve upon?”
+
+Prospect:	“Call wait time, pricing, etc.” (Note what they say) 
+
+Handling Early Objections</text>
+		</slide>
+		<slide index="23" title="" titleNormalized="" src="slide24.swf" size="5691" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="29.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+You:		“OK. Well if there was a company that could make you just as happy, or even happier and provide better wait times and save you money…., would you consider switching?”
+
+NOTE:	
+If the prospect still insists they are happy and isn’t interested in switching, try:
+
+You:		“Thanks. I appreciate your time. You’ve made me a better salesperson. If there’s anything I can ever do for you- let me know. Can I send you my contact information? What’s your email address?”
+Handling Early Objections</text>
+		</slide>
+		<slide index="24" title="" titleNormalized="" src="slide25.swf" size="4899" advanceOnTime="0" framesCount="25" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="24" playTime="1.0000000" pauseTime="19.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Get the email address, add to CRM and stay in touch. You never know when they change their mind about switching services. This happens frequently.
+Handling Early Objections</text>
+		</slide>
+		<slide index="25" title="" titleNormalized="" src="slide26.swf" size="5641" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="26.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I’m not ready yet.” (New business or business that hasn’t yet accepted cards)
+
+You:	 “I understand. When will you be ready (or when will business be open)?”
+
+Prospect:	“About a month.”
+
+You: 	“No problem. What if you had once less thing to worry about later? How about if we get everything approved and ready, but we don’t bill you until your business is open?”
+Handling Early Objections</text>
+		</slide>
+		<slide index="26" title="" titleNormalized="" src="slide27.swf" size="5674" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="26.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Gatekeeper: “The owner is not available.”
+
+You:	 “OK. When is the best time to reach him/her?”
+
+Let the gatekeeper answer and schedule a call back for then in the CRM. Also, leave a message with the gatekeeper like this:
+
+You:	 “Thanks ____ (gatekeeper name). Can you tell ______ (owner’s name) to call me ______(your name only) at _______. Who knows, maybe if I save him/her enough money that’ll help you get a raise (chuckle).”
+Handling Early Objections</text>
+		</slide>
+		<slide index="27" title="" titleNormalized="" src="slide28.swf" size="5599" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="19.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I don’t have enough time right now.”
+
+You: 	“Understood. I can call back. I only need a minute when I do. If we’re on the phone any longer than that, it’s because you’ll want to be, I promise. When’s the best time to call back?”
+
+NOTE:	
+Be prepared. Often times when you use the above they will let you speak right then.
+Handling Early Objections</text>
+		</slide>
+		<slide index="28" title="" titleNormalized="" src="slide29.swf" size="5686" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="29.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I don’t have enough customers asking to pay with cards.”
+
+You:	 “You know now-a-days if you don’t advertise that you take cards, then people think you don’t accept them? It’s almost like advertising that you don’t accept cards. What would happen if you advertised that you did take cards?”
+
+Prospect:	“I don’t know if it will make any difference.”
+
+You: 	“Well- is it possible that your potential clients that would want to pay with a card might be going to your competitors?”
+Handling Early Objections</text>
+		</slide>
+		<slide index="29" title="" titleNormalized="" src="slide30.swf" size="5710" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset29">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="21.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect:	“I used to take cards and not too many people paid that way.” 
+
+You:	 “OK. How long ago was that?”
+
+Let them answer. If it was more than a few years ago use:
+
+You:	 “Well, you know, with the economy the way it is today, more people might need to use their credit cards or check cards. With so many people on government assistance, you also might want to take EBT.” (if they ask what EBT is- that’s a great lead in to a sale pitch).
+Handling Early Objections</text>
+		</slide>
+		<slide index="30" title="" titleNormalized="" src="slide31.swf" size="5515" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset30">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="15.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect: “You’re the 15th call today about this.” (or something similar)
+
+You: 	“Well, that’s exactly why I’m calling. Maybe 15 is your lucky number.” 
+
+Or use:
+You: 	“Well, that’s exactly why I’m calling. Maybe you’re just waiting for the right person to take care of your needs.”
+Handling Early Objections</text>
+		</slide>
+		<slide index="31" title="" titleNormalized="" src="slide32.swf" size="5520" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset31">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="11.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Prospect: “Is this a sales call?”
+
+You: “Actually, I’d prefer to think of it as a customer service call.” 
+
+You could continue with (if needed):
+
+You:	 “After all I’m not about to ask you for any money. Frankly, I want to give you some back.”
+Handling Early Objections</text>
+		</slide>
+		<slide index="32" title="" titleNormalized="" src="slide33.swf" size="5063" advanceOnTime="0" framesCount="25" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset32">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="24" playTime="1.0000000" pauseTime="24.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Building your sales pipeline is all about getting to the next level and then the next effectively with as many prospects as possible. When you learn to master these Early Objections- the ones that get prospects to stop you from even talking to them, you will find that you move more prospects through the pipeline to become Clients. We all want more clients.
+Handling Early Objections</text>
+		</slide>
+		<slide index="33" title="" titleNormalized="" src="slide34.swf" size="10569" advanceOnTime="0" framesCount="205" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset33">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="204" playTime="8.5000000" pauseTime="6.0500002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+
+Tony Robbins 
+Asked the top sales people what the single most important part of sales was, their reply was unanimous:
+
+ “Rapport”
+Building Rapport</text>
+		</slide>
+		<slide index="34" title="" titleNormalized="" src="slide35.swf" size="5793" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset34">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="19.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Build Rapport:
+
+You can have the best products the world has ever seen. 
+You can have unbeatable prices. 
+You can memorize and recite every close ever used in any sales situation since time began. But…
+
+If the prospect doesn’t like you, or trust you, or believe that you have their best interests at heart…you will not make the sale!
+You want to connect and become their best friend.
+Building Rapport</text>
+		</slide>
+		<slide index="35" title="" titleNormalized="" src="slide36.swf" size="9247" advanceOnTime="0" framesCount="85" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset35">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="84" playTime="3.5000000" pauseTime="3.6500001"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+	“They won’t care how much you know - till they know how much you care.”
+Building Rapport
+-Zig Ziglar</text>
+		</slide>
+		<slide index="36" title="" titleNormalized="" src="slide37.swf" size="18237" advanceOnTime="0" framesCount="121" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset36">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="120" playTime="5.0000000" pauseTime="13.3479996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+How to build rapport:
+
+Listen to them and empathetically put yourself in their place.
+
+People will tell you how to sell them.
+
+You just have to ask the right questions, and be a good listener.
+
+Continue to build rapport throughout the sales cycle.
+Building Rapport</text>
+		</slide>
+		<slide index="37" title="" titleNormalized="" src="slide38.swf" size="10429" advanceOnTime="0" framesCount="205" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset37">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="204" playTime="8.5000000" pauseTime="18.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Ask questions like: 
+
+“Tell me about your business. What do you do, how’d you get started?”
+
+“What inspired you to go into business for yourself?” 
+
+“How did it feel to wake up in the middle of the night with the entrepreneurial seizure to go into business?” 
+
+“That’s an interesting business, how did you get involved?”
+
+“What are your long term goals in business?” 
+
+Building Rapport</text>
+		</slide>
+		<slide index="38" title="" titleNormalized="" src="slide39.swf" size="15170" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset38">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="22.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+The Buyer Interview-Qualifying:
+
+Now that you have their attention and a little rapport, you want them to tell you more about their business (and themselves). This will tell you: 
+
+What kind of product(s) to recommend
+If you are talking to the right person
+Hot buttons that will get them to act (Probe for problems and magnify the hurt- like not making enough money)
+How they make decisions
+Buyer Interview</text>
+		</slide>
+		<slide index="39" title="" titleNormalized="" src="slide40.swf" size="11668" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset39">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="32.0159988"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+RULES OF THE BUYER INTERVIEW:
+
+If you don’t qualify, you’re selling blind. Properly qualify and your efficiency and income will improve dramatically.  
+
+Interview in proper sequence. 
+
+First obtain who the decision makers are and if you have the right one. “Besides yourself, is there anyone else that helps make important decisions?”
+
+Meet with all decision makers if possible. If the person available is at least one of the decision makers, you may need to continue qualifying and do the rest of the sales cycle. Keep in mind that you may have to re-present (do the entire sales cycle) later with another or other decision makers.
+Buyer Interview</text>
+		</slide>
+		<slide index="40" title="" titleNormalized="" src="slide41.swf" size="15143" advanceOnTime="0" framesCount="397" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset40">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="396" playTime="16.5000000" pauseTime="28.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Basic Qualifying Questions: 
+
+“What would you like to improve over your current card processing relationship?”
+“How much overall per year in savings would you like to see in order to feel it’s worthwhile to switch?”
+“If you were able to realize that total amount of savings, how soon would you like to capitalize on it?”
+“Would you be willing to invest in new equipment if it provided you an opportunity to use new solutions that increase your sales?”
+“If I could fulfill all those needs for service and savings, are you able to move forward right away?” (This question helps flush out any hidden objections).
+“Is there a specific challenge that you would like me to solve for you?”
+Buyer Interview</text>
+		</slide>
+		<slide index="41" title="" titleNormalized="" src="slide42.swf" size="18587" advanceOnTime="0" framesCount="337" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset41">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="336" playTime="14.0000000" pauseTime="21.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+For larger, more sophisticated clients or clients 
+with special technology needs:
+
+“Do have you specific reporting needs?”
+“Do you have any particular billing needs?”
+“What type of point of sale solution do you currently use? Do you know whether the system will interface with other processors?”
+For E-commerce: “What type of shopping cart and gateway do you have?”
+For sophisticated or larger merchants there may be several additional questions you have to ask. 
+ Learning what to ask is a function of training and experience. 
+Buyer Interview</text>
+		</slide>
+		<slide index="42" title="" titleNormalized="" src="slide43.swf" size="16775" advanceOnTime="0" framesCount="277" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset42">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="276" playTime="11.5000000" pauseTime="19.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Questions for new businesses:
+
+“How will accepting credit cards help your business grow?” 
+
+“Do you know the benefits of accepting debit with a PIN Pad?”
+
+“Will you accept checks?” (Even if “No” offer check guarantee)
+
+“Do you know why so many businesses are selling gift cards?”
+
+“What do you guess your monthly credit card sales will be? (This is an extremely valuable question because you will use this information later to help you close the sale). 
+When they answer the above question, ask: 
+“How soon would you like to begin realizing that additional $$ amount in sales?”
+Buyer Interview</text>
+		</slide>
+		<slide index="43" title="" titleNormalized="" src="slide44.swf" size="6265" advanceOnTime="0" framesCount="409" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset43">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="408" playTime="17.0000000" pauseTime="17.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Buyer Interview questions for general merchant service offers:
+
+“Do you have a gift card or gift certificate program?”
+
+“Are there times that your business could use extra cash in a hurry?” (Cash advance)
+
+“Do you offer an in store credit program or instant credit plan?”
+
+“What type of point of sale system or terminal do you have?” 
+
+“Do you own, rent or lease the terminal?”
+
+“Can you provide me with some recent statements so I can analyze them?”
+
+“Do you have a Pin Pad/Accept debit?”
+
+“What is your monthly volume/average ticket?” 
+Buyer Interview</text>
+		</slide>
+		<slide index="44" title="" titleNormalized="" src="slide45.swf" size="11134" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset44">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="15.3619995"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+The key to the buyer interview is to get the information and not veer off course. 
+When the merchant begins to ask questions handle them quickly and get back to your buyer interview.
+Maintain control of the sales cycle. 
+Here’s a great rule about sales from Tom Hopkins:
+ 
+“If I say it they can doubt me, if they say it it’s true!” 
+
+This is the power of asking many questions.
+Buyer Interview</text>
+		</slide>
+		<slide index="45" title="" titleNormalized="" src="slide46.swf" size="5886" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset45">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="4.9499998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+High Powered Questions to ask in the Buyer Interview:
+
+Once you’ve obtained the ammunition needed from the buyer interview, use this technique to help you understand where you are in the sales process and to begin “closing” the sale: 
+
+“In choosing the type of company you’d want to handle your money, what qualities do you want that company to have?” (Very few sales people will ever ask such a powerful question)
+
+Usual Prospect Answers:  
+Stability, excellent service, good track record, caring, security, competitive rates, added services and solutions.
+Buyer Interview</text>
+		</slide>
+		<slide index="46" title="" titleNormalized="" src="slide47.swf" size="5339" advanceOnTime="0" framesCount="73" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset46">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="72" playTime="3.0000000" pauseTime="13.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+High Powered Questions to ask in the Buyer Interview:
+
+If you are presenting an opportunity specifically to help the client save money, ask the following:
+
+“How much money per year would you have to save in order to get excited about (or: serious consider) switching providers?”
+Buyer Interview</text>
+		</slide>
+		<slide index="47" title="" titleNormalized="" src="slide48.swf" size="10736" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset47">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="9.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant systems. All rights reserved.
+Pre-trial closing question:
+
+
+“If I could show you that U.S. Merchant Systems can meet all those criteria: stability, integrity, excellent service, and we can save you enough money to be excited about, is there any reason why we couldn’t do business?” 
+
+If they say there’s no reason they couldn’t do business- now is the time to set an appointment (if on the phone) or move into your presentation
+
+If the merchant has any objection, he’ll bring it up. You may have to move into the presentation in order to satisfy the objection and show that you can deliver. Otherwise handle what comes up and then move to your presentation if appropriate.
+Buyer Interview</text>
+		</slide>
+		<slide index="48" title="Chapter Quiz" titleNormalized="chapter quiz" src="slide49.swf" size="11741" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset48">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="6.2490000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Chapter Quiz
+© 2013 U.S. Merchant Systems. All rights reserved.
+49
+Please take a moment to complete the chapter quiz on USMS University</text>
+		</slide>
+	</slides>
+</presentation>

@@ -21,8 +21,8 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper.rb')
 describe WebConference do
   before do
     WebConference.stubs(:plugins).returns(
-        [web_conference_plugin_mock("dim_dim", {:domain => "dimdim.instructure.com"}),
-         web_conference_plugin_mock("big_blue_button", {:domain => "bbb.instructure.com", :secret_dec => "secret"}),
+        [web_conference_plugin_mock("dim_dim", {:domain => "dimdim.usms.com"}),
+         web_conference_plugin_mock("big_blue_button", {:domain => "bbb.usms.com", :secret_dec => "secret"}),
          web_conference_plugin_mock("wimba", {:domain => "wimba.test"}),
          web_conference_plugin_mock("broken_plugin", {:foor => :bar})]
     )

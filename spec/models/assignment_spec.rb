@@ -219,13 +219,13 @@ describe Assignment do
     it "should only count submissions in the user's visible section(s)" do
       course_with_teacher(:active_all => true)
       @section = @course.course_sections.create!(:name => 'section 2')
-      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@instructure.com')
+      @user2 = user_with_pseudonym(:active_all => true, :name => 'Student2', :username => 'student2@usms.com')
       @section.enroll_user(@user2, 'StudentEnrollment', 'active')
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Student1', :username => 'student1@usms.com')
       @course.enroll_student(@user1).update_attribute(:workflow_state, 'active')
 
       # enroll a section-limited TA
-      @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@instructure.com')
+      @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@usms.com')
       ta_enrollment = @course.enroll_ta(@ta)
       ta_enrollment.limit_privileges_to_course_section = true
       ta_enrollment.workflow_state = 'active'
@@ -1346,20 +1346,20 @@ describe Assignment do
     context "varied due date notifications" do
       before do
         course_with_teacher(:active_all => true)
-        @teacher.communication_channels.create(:path => "teacher@instructure.com").confirm!
+        @teacher.communication_channels.create(:path => "teacher@usms.com").confirm!
 
-        @studentA = user_with_pseudonym(:active_all => true, :name => 'StudentA', :username => 'studentA@instructure.com')
-        @studentA.communication_channels.create(:path => "studentA@instructure.com").confirm!
-        @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@instructure.com')
-        @ta.communication_channels.create(:path => "ta1@instructure.com").confirm!
+        @studentA = user_with_pseudonym(:active_all => true, :name => 'StudentA', :username => 'studentA@usms.com')
+        @studentA.communication_channels.create(:path => "studentA@usms.com").confirm!
+        @ta = user_with_pseudonym(:active_all => true, :name => 'TA1', :username => 'ta1@usms.com')
+        @ta.communication_channels.create(:path => "ta1@usms.com").confirm!
         @course.enroll_student(@studentA).update_attribute(:workflow_state, 'active')
         @course.enroll_user(@ta, 'TaEnrollment', :enrollment_state => 'active', :limit_privileges_to_course_section => true)
 
         @section2 = @course.course_sections.create!(:name => 'section 2')
-        @studentB = user_with_pseudonym(:active_all => true, :name => 'StudentB', :username => 'studentB@instructure.com')
-        @studentB.communication_channels.create(:path => "studentB@instructure.com").confirm!
-        @ta2 = user_with_pseudonym(:active_all => true, :name => 'TA2', :username => 'ta2@instructure.com')
-        @ta2.communication_channels.create(:path => "ta2@instructure.com").confirm!
+        @studentB = user_with_pseudonym(:active_all => true, :name => 'StudentB', :username => 'studentB@usms.com')
+        @studentB.communication_channels.create(:path => "studentB@usms.com").confirm!
+        @ta2 = user_with_pseudonym(:active_all => true, :name => 'TA2', :username => 'ta2@usms.com')
+        @ta2.communication_channels.create(:path => "ta2@usms.com").confirm!
         @section2.enroll_user(@studentB, 'StudentEnrollment', 'active')
         @course.enroll_user(@ta2, 'TaEnrollment', :section => @section2, :enrollment_state => 'active', :limit_privileges_to_course_section => true)
 

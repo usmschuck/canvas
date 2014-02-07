@@ -5,7 +5,7 @@ module Wiziq
       :description => lambda{ t :description, "Wiziq virtual classroom" },
       :website => 'http://wiziq.com',
       :author => 'Instructure',
-      :author_website => 'http://www.instructure.com/',
+      :author_website => 'http://www.usms.com/',
       :version => '1.0.0',
       :settings_partial => 'plugins/wiziq_settings',
       :settings => {:api_url => 'http://class.api.wiziq.com/'}

@@ -581,7 +581,7 @@ describe 'Submissions API', :type => :integration do
     sub1 = submit_homework(a1, student1) { |s| s.attachments = [attachment_model(:context => student1, :folder => nil)] }
 
     sub2a1 = attachment_model(:context => student2, :filename => 'snapshot.png', :content_type => 'image/png')
-    sub2 = submit_homework(a1, student2, :url => "http://www.instructure.com") { |s|
+    sub2 = submit_homework(a1, student2, :url => "http://www.usms.com") { |s|
       s.attachment = sub2a1
     }
 
@@ -760,7 +760,7 @@ describe 'Submissions API', :type => :integration do
            "body"=>nil,
            "submitted_at"=>"1970-01-01T04:00:00Z",
            "attempt"=>1,
-           "url"=>"http://www.instructure.com",
+           "url"=>"http://www.usms.com",
            "submission_type"=>"online_url",
            "user_id"=>student2.id,
            "preview_url" => "http://www.example.com/courses/#{@course.id}/assignments/#{a1.id}/submissions/#{student2.id}?preview=1&version=0",
@@ -788,7 +788,7 @@ describe 'Submissions API', :type => :integration do
            "workflow_state" => "graded",
            "late"=>false}],
         "attempt"=>1,
-        "url"=>"http://www.instructure.com",
+        "url"=>"http://www.usms.com",
         "submission_type"=>"online_url",
         "user_id"=>student2.id,
         "attachments" =>

@@ -159,7 +159,7 @@ describe "admin settings tab" do
 
   context "quiz ip address filter" do
 
-    def add_quiz_filter name ="www.canvas.instructure.com", value="192.168.217.1/24"
+    def add_quiz_filter name ="www.canvas.usms.com", value="192.168.217.1/24"
       fj("#ip_filters .name[value='']:visible").send_keys name
       fj("#ip_filters .value[value='']:visible").send_keys value
       click_submit
@@ -182,7 +182,7 @@ describe "admin settings tab" do
     it "should add another quiz filter" do
       add_quiz_filter
       f(".add_ip_filter_link").click
-      add_quiz_filter "www.canvas.instructure.com/tests", "129.186.127.12/4"
+      add_quiz_filter "www.canvas.usms.com/tests", "129.186.127.12/4"
     end
 
     it "should edit a quiz filter " do

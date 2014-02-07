@@ -36,7 +36,7 @@ describe ContentZipper do
         if f.file?
           f.name.should =~ /some-999-_-1234-guy/
           f.get_input_stream.read.should match(%r{This submission was a url, we&#39;re taking you to the url link now.})
-          f.get_input_stream.read.should be_include("http://www.instructure.com/")
+          f.get_input_stream.read.should be_include("http://www.usms.com/")
         end
       end
     end

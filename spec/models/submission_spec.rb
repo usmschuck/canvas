@@ -31,7 +31,7 @@ describe Submission do
       :assignment_id => @assignment.id,
       :user_id => @user.id,
       :grade => "1.5",
-      :url => "www.instructure.com"
+      :url => "www.usms.com"
     }
   end
 
@@ -46,7 +46,7 @@ describe Submission do
 
   it "should add http:// to the body for long urls, too" do
     s = Submission.create!(@valid_attributes)
-    s.url.should == 'http://www.instructure.com'
+    s.url.should == 'http://www.usms.com'
 
     long_url = ("a"*300 + ".com")
     s.url = long_url

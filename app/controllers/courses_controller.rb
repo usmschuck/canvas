@@ -64,7 +64,7 @@ require 'set'
 #
 #       // course calendar
 #       calendar: {
-#         ics: "https:\/\/canvas.instructure.com\/feeds\/calendars\/course_abcdef.ics"
+#         ics: "https:\/\/canvas.usms.com\/feeds\/calendars\/course_abcdef.ics"
 #       }
 #
 #       // the type of page that users will see when they first visit the course

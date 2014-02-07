@@ -1,0 +1,1708 @@
+<?xml version="1.0"?>
+<presentation title="Rates and Fees" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{668D9A0D-CD21-41C3-956A-7071D7DAF308}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="68057" duration="5642"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="968028" duration="80640"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="623525" duration="51931"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="428234" duration="35657"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="561145" duration="46733"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="291248" duration="24241"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="1596848" duration="133041"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="279336" duration="23248"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="387169" duration="32235"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="407545" duration="33933"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="483091" duration="40228"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="102853" duration="8542"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="754555" duration="62850"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="394379" duration="32835"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="381213" duration="31738"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="341716" duration="28447"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="719760" duration="59951"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="221657" duration="18442"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="388423" duration="32339"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="364286" duration="30328"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="414755" duration="34533"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="221657" duration="18442"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="328550" duration="27350"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="433876" duration="36127"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="413501" duration="34429"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="471179" duration="39235"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="543277" duration="45244"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="540456" duration="45008"/>
+		<soundAsset id="sndAsset28" src="sound29.mp3" embedded="0" size="204730" duration="17031"/>
+		<soundAsset id="sndAsset29" src="sound30.mp3" embedded="0" size="448296" duration="37328"/>
+		<soundAsset id="sndAsset30" src="sound31.mp3" embedded="0" size="240779" duration="20035"/>
+		<soundAsset id="sndAsset31" src="sound32.mp3" embedded="0" size="443594" duration="36937"/>
+		<soundAsset id="sndAsset32" src="sound33.mp3" embedded="0" size="1167081" duration="97227"/>
+		<soundAsset id="sndAsset33" src="sound34.mp3" embedded="0" size="861135" duration="71732"/>
+		<soundAsset id="sndAsset34" src="sound35.mp3" embedded="0" size="246735" duration="20532"/>
+		<soundAsset id="sndAsset35" src="sound36.mp3" embedded="0" size="368048" duration="30641"/>
+		<soundAsset id="sndAsset36" src="sound37.mp3" embedded="0" size="234510" duration="19513"/>
+		<soundAsset id="sndAsset37" src="sound38.mp3" embedded="0" size="266170" duration="22151"/>
+		<soundAsset id="sndAsset38" src="sound39.mp3" embedded="0" size="685279" duration="57077"/>
+		<soundAsset id="sndAsset39" src="sound40.mp3" embedded="0" size="588730" duration="49031"/>
+		<soundAsset id="sndAsset40" src="sound41.mp3" embedded="0" size="597194" duration="49737"/>
+		<soundAsset id="sndAsset41" src="sound42.mp3" embedded="0" size="710043" duration="59141"/>
+		<soundAsset id="sndAsset42" src="sound43.mp3" embedded="0" size="715999" duration="59637"/>
+		<soundAsset id="sndAsset43" src="sound44.mp3" embedded="0" size="1461115" duration="121730"/>
+		<soundAsset id="sndAsset44" src="sound45.mp3" embedded="0" size="800008" duration="66638"/>
+		<soundAsset id="sndAsset45" src="sound46.mp3" embedded="0" size="537008" duration="44721"/>
+		<soundAsset id="sndAsset46" src="sound47.mp3" embedded="0" size="474941" duration="39549"/>
+		<soundAsset id="sndAsset47" src="sound48.mp3" embedded="0" size="461461" duration="38426"/>
+		<soundAsset id="sndAsset48" src="sound49.mp3" embedded="0" size="576505" duration="48013"/>
+		<soundAsset id="sndAsset49" src="sound50.mp3" embedded="0" size="733866" duration="61126"/>
+		<soundAsset id="sndAsset50" src="sound51.mp3" embedded="0" size="135140" duration="11232"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="thmb29.swf" embedded="0"/>
+		<graphicAsset id="imgAsset29" src="thmb30.swf" embedded="0"/>
+		<graphicAsset id="imgAsset30" src="thmb31.swf" embedded="0"/>
+		<graphicAsset id="imgAsset31" src="thmb32.swf" embedded="0"/>
+		<graphicAsset id="imgAsset32" src="thmb33.swf" embedded="0"/>
+		<graphicAsset id="imgAsset33" src="thmb34.swf" embedded="0"/>
+		<graphicAsset id="imgAsset34" src="thmb35.swf" embedded="0"/>
+		<graphicAsset id="imgAsset35" src="thmb36.swf" embedded="0"/>
+		<graphicAsset id="imgAsset36" src="thmb37.swf" embedded="0"/>
+		<graphicAsset id="imgAsset37" src="thmb38.swf" embedded="0"/>
+		<graphicAsset id="imgAsset38" src="thmb39.swf" embedded="0"/>
+		<graphicAsset id="imgAsset39" src="thmb40.swf" embedded="0"/>
+		<graphicAsset id="imgAsset40" src="thmb41.swf" embedded="0"/>
+		<graphicAsset id="imgAsset41" src="thmb42.swf" embedded="0"/>
+		<graphicAsset id="imgAsset42" src="thmb43.swf" embedded="0"/>
+		<graphicAsset id="imgAsset43" src="thmb44.swf" embedded="0"/>
+		<graphicAsset id="imgAsset44" src="thmb45.swf" embedded="0"/>
+		<graphicAsset id="imgAsset45" src="thmb46.swf" embedded="0"/>
+		<graphicAsset id="imgAsset46" src="thmb47.swf" embedded="0"/>
+		<graphicAsset id="imgAsset47" src="thmb48.swf" embedded="0"/>
+		<graphicAsset id="imgAsset48" src="thmb49.swf" embedded="0"/>
+		<graphicAsset id="imgAsset49" src="thmb50.swf" embedded="0"/>
+		<graphicAsset id="imgAsset50" src="thmb51.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="4.8499999"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="79.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="0" timeOffset="51.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="34.8800000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="45.9449997"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="23.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="132.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="22.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="31.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="33.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="39.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="7.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="62.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="32.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="30.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="27.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="0" timeOffset="59.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="0" timeOffset="17.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="0" timeOffset="31.5489998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="29.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="33.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="17.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="26.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="35.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="33.6500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="38.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="44.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="0" timeOffset="44.2299995"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset28">
+				<startTimestamp slideIndex="28" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="28" stepIndex="0" timeOffset="16.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset29">
+				<startTimestamp slideIndex="29" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="29" stepIndex="0" timeOffset="36.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset30">
+				<startTimestamp slideIndex="30" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="30" stepIndex="0" timeOffset="19.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset31">
+				<startTimestamp slideIndex="31" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="31" stepIndex="0" timeOffset="36.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset32">
+				<startTimestamp slideIndex="32" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="32" stepIndex="0" timeOffset="96.4499969"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset33">
+				<startTimestamp slideIndex="33" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="33" stepIndex="0" timeOffset="70.9499969"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset34">
+				<startTimestamp slideIndex="34" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="34" stepIndex="0" timeOffset="19.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset35">
+				<startTimestamp slideIndex="35" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="35" stepIndex="0" timeOffset="29.8470000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset36">
+				<startTimestamp slideIndex="36" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="36" stepIndex="0" timeOffset="18.7199993"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset37">
+				<startTimestamp slideIndex="37" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="37" stepIndex="0" timeOffset="21.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset38">
+				<startTimestamp slideIndex="38" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="38" stepIndex="0" timeOffset="56.2999992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset39">
+				<startTimestamp slideIndex="39" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="39" stepIndex="0" timeOffset="48.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset40">
+				<startTimestamp slideIndex="40" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="40" stepIndex="0" timeOffset="48.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset41">
+				<startTimestamp slideIndex="41" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="41" stepIndex="0" timeOffset="58.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset42">
+				<startTimestamp slideIndex="42" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="42" stepIndex="0" timeOffset="58.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset43">
+				<startTimestamp slideIndex="43" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="43" stepIndex="0" timeOffset="120.9499969"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset44">
+				<startTimestamp slideIndex="44" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="44" stepIndex="0" timeOffset="65.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset45">
+				<startTimestamp slideIndex="45" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="45" stepIndex="0" timeOffset="43.9199982"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset46">
+				<startTimestamp slideIndex="46" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="46" stepIndex="0" timeOffset="38.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset47">
+				<startTimestamp slideIndex="47" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="47" stepIndex="0" timeOffset="37.6500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset48">
+				<startTimestamp slideIndex="48" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="48" stepIndex="0" timeOffset="47.2319984"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset49">
+				<startTimestamp slideIndex="49" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="49" stepIndex="0" timeOffset="60.3289986"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset50">
+				<startTimestamp slideIndex="50" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="50" stepIndex="0" timeOffset="10.4499998"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="18638" advanceOnTime="0" framesCount="73" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="72" playTime="3.0000000" pauseTime="1.8499999"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>USMS University™
+Quick Start Training
+Rates &amp; Fees</text>
+		</slide>
+		<slide index="1" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide2.swf" size="6647" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="75.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+To understand rates and fees know the different card types:
+
+Consumer Credit Cards –Standard Visa, MC and Discover cards with credit lines and pre-set spending limits.
+Consumer Debit Cards – Aka: Check Cards, Visa, MC and Discover cards linked to checking or savings accounts. Most Debit cards also operate as: ATM cards, Visa/MC cards, and PIN Debit cards.
+PIN Debit Cards
+EBT (Electronic Benefits Transfer)- for government programs such as welfare
+Commercial Cards –Cards issued to companies or government agencies.
+Rewards Cards –Visa Signature, World MasterCard, and others where the issuer offers a Rewards Program for use- such as Air Miles.
+International Cards – Issued by banks outside the United States.
+2</text>
+		</slide>
+		<slide index="2" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide3.swf" size="146013" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="45.6500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+DISCOUNT FEE / DISCOUNT RATE
+The percentage of all V/MC/D or other cards the merchant pays to accept cards. For Visa/MC/D this includes costs of:
+Interchange Discount
+ISO/MSP (or bank) mark up
+3
+1.89
+0.25
+1.50
+0.25
+0.20
+0.05
+0.30
+0.30
+11.90
+25.00
+1.89%
+If a sale is $100.00 the amount deducted (discounted) is $1.89 making the net deposit $98.11</text>
+		</slide>
+		<slide index="3" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide4.swf" size="161733" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="27.8800011"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+TRANSACTION FEE / AUTHORIZATION FEE
+The amount the merchant pays for each transaction whether authorized or declined and includes:
+Interchange “*Per Item Fee” Authorization Costs (tiered accounts)
+Settlement Costs
+ISO/MSP (or bank) mark up  
+
+
+4
+1.89
+0.25
+0.25
+1.50
+11.90
+15.00
+$0.25
+If a merchant performs 100 transactions, the total in transaction fees charged at month-end is $25.00.
+59.00
+0.25</text>
+		</slide>
+		<slide index="4" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide5.swf" size="6622" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="35.4449997"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+OTHER FEES:
+
+BATCH HEADER FEE
+The Transaction Fee applied for every batch the merchant submits. A batch is a bundle of previously authorized transactions- usually from the same day and is submitted for settlement (funding). 
+
+NON-BANKCARD FEE / “T &amp; E” FEE
+This is a transaction fee charged by the ISO/MSP (or bank) to process authorizations for Travel and Entertainment Cards such as American Express. Amex charges their discount fees directly to the merchant.
+
+STATEMENT FEE / CUSTOMER SERVICE FEE
+A flat monthly amount charged to cover statements, 24-hour customer service and account on-file fees.
+
+ANNUAL FEE
+A membership fee charged annually beginning on the third month of processing.
+5</text>
+		</slide>
+		<slide index="5" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide6.swf" size="217483" advanceOnTime="0" framesCount="445" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="444" playTime="18.5000000" pauseTime="4.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+© 2011 U.S. Merchant Systems. All rights reserved.
+6
+T and E Fee
+1.89
+0.25
+0.25
+59.00
+11.90
+0.25
+$0.25
+Batch Header Fee
+Annual Fee
+Statement Fee
+$11.90
+$0.25
+$59.00
+Example rates only. Actual rates may vary</text>
+		</slide>
+		<slide index="6" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide7.swf" size="6739" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="120.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Additional Fees:
+
+MONTHLY MINIMUM
+The minimum amount of discount rate and transaction fees billed to clients. Example: Client processes $500 at 2% = $10 and 30 transactions at $0.25 = $7.50, Total= $17.50. If the minimum fee is $25, the merchant is billed an additional $7.50 to make up the difference. With an IC+ program, only the discount rate markup counts toward the minimum.
+
+CHARGEBACK FEE
+This is the fee charged to a merchant for processing a chargeback (dispute)
+
+RETRIEVAL FEE
+This is the fee charged to the merchant for “Requests for Information” from the issuer to validate a transaction, called a retrieval. Sometimes retrievals precede charge backs. 
+
+REJECT FEE
+The additional cost to collect fees when a merchant’s bank account rejects amount billed (usually $25).
+7</text>
+		</slide>
+		<slide index="7" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide8.swf" size="292750" advanceOnTime="0" framesCount="445" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="444" playTime="18.5000000" pauseTime="3.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+8
+Charge Back Fee
+1.89
+59.00
+1.50
+0.25
+0.25
+25.00
+11.90
+0.25
+$25
+Monthly Minimum
+ACH Reject Fee
+Retrieval Fee
+$15.00
+$30
+$30.00
+Example rates only. Actual rates may vary
+11.90</text>
+		</slide>
+		<slide index="8" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide9.swf" size="6481" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="20.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+PIN DEBIT FEES:
+
+PIN-DEBIT NETWORK FEES
+PIN Debit networks such as Star, Interlink, Maestro, AFFN, NYCE, Pulse, Accel, TYME, and MAC have their own fee structures which include a discount and per item (transaction fee) fees. 
+Due to the numerous networks and fee structures, USMS passes all network fees to merchants. These fees are itemized on the merchant’s statement. 
+PIN DEBIT TRANSACTION FEE
+The fee a merchant pays to USMS for each PIN-Debit transaction. The fee includes costs of authorization, settlement and ISO/MSP markup. This is separate and in addition to any network fees.
+9</text>
+		</slide>
+		<slide index="9" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide10.swf" size="6590" advanceOnTime="0" framesCount="229" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="228" playTime="9.5000000" pauseTime="23.6500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+PIN DEBIT FEES:
+
+PIN DEBIT DISCOUNT FEE
+This is a separate discount fee (percentage) the merchant pays to USMS for each PIN-Debit transaction, separate from the discount charged for PIN-Debit network fees.
+DEBIT ACCESS FEE
+Often times account executives will charge a separate monthly fee for debit access- usually not more than $5.00
+EBT FEES:
+EBT (Electronic Benefits Transfer) is a government assistance program that provides a debit card to benefits recipients. The fees charged to process EBT are generally the same as PIN Debit transaction Fees. There are no network fees or added discount fees charged with EBT. Like PIN Debit, requires a PIN Pad.
+10</text>
+		</slide>
+		<slide index="10" title="USMS Rates and Fees (If PIN-Debit Desired)" titleNormalized="usms rates and fees (if pin-debit desired)" src="slide11.swf" size="89510" advanceOnTime="0" framesCount="313" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="312" playTime="13.0000000" pauseTime="26.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees (If PIN-Debit Desired)
+11
+PIN Debit Trans Fee
+PIN Debit Monthly Fee
+PIN Debit Discount
+1.89
+0.25
+0.25
+0.25
+11.90
+x
+59.00
+25.00
+0.05
+x
+0.25
+0.95
+5.00</text>
+		</slide>
+		<slide index="11" title="USMS Rates and Fees (PIN-Debit NOT Desired)" titleNormalized="usms rates and fees (pin-debit not desired)" src="slide12.swf" size="60253" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="3.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees (PIN-Debit NOT Desired)
+12
+Check NO
+1.89
+0.25
+0.25
+0.25
+11.90
+x
+59.00
+25.00
+0.05
+x</text>
+		</slide>
+		<slide index="12" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide13.swf" size="6190" advanceOnTime="0" framesCount="205" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="204" playTime="8.5000000" pauseTime="53.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+
+American Express (Amex):
+
+Amex sets their own discount fees and charges the merchant directly. USMS has no discretion over these rates. 
+If the merchant is new or does not accept Amex USMS arranges to set up the account with Amex, recommended for all merchants.
+If merchant already accepts Amex, agents must write their existing Amex merchant ID on the USMS application so that we can re-route their Amex transactions through our systems.  
+For each Amex transaction processed through USMS, we charge a separate transaction fee- listed on the application under “Non-Bankcard Authorization Fee”, and usually ranges from $0.15 to $0.30 per transaction
+
+13</text>
+		</slide>
+		<slide index="13" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide14.swf" size="5998" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="26.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Additional Fees:
+
+Diner’s Club and Carte Blanche:
+These cards are automatically accepted by any location that accepts MasterCard. 
+
+AVS/Address Verification Fee
+This is a fee charged for the merchant to use the AVS system. For card not present transactions (keyed/MOTO) the AVS system provides a higher level of security by verifying the card holder address and matching it to the card itself. 
+
+14</text>
+		</slide>
+		<slide index="14" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide15.swf" size="7638" advanceOnTime="0" framesCount="409" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="408" playTime="17.0000000" pauseTime="13.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Pass Through Fees:
+
+Network Access and Acquirer Fees:
+These are fees charged by Visa, MC, and Discover for directly managing the connection costs into their network:
+Visa: 		$0.0195
+MC: 		$0.0185
+Discover:		$0.0075
+Visa Fixed Acquirer Network Fee (FANF)
+FANF is based on # of locations and/or gross VISA volume. 	
+Dues and Assessments:
+These are the fees charged by Visa, MC and Discover for allowing the merchants to use their system:
+Visa:		0.12%
+MC:		0.12%
+Discover:		0.115%
+These are called pass-through fees because USMS, like most card processors, directly passes through the cost to the merchant. These are hard-coded on the USMS Application and may NOT be changed.
+
+15</text>
+		</slide>
+		<slide index="15" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide16.swf" size="5894" advanceOnTime="0" framesCount="529" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="528" playTime="22.0000000" pauseTime="5.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+PCI DSS:
+
+There have been companies that have had large security violations where cardholder data was compromised and obtained by criminals for fraudulent use usually by hacking into the system.
+As a result, the credit card and banking industries teamed up to create PCI DSS- Payment Card Industry Data Security Standard.
+PCI DSS requires that all merchants and credit card companies meet security standards or risk thousands of dollars in fines for security violations.
+16</text>
+		</slide>
+		<slide index="16" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide17.swf" size="6154" advanceOnTime="0" framesCount="337" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="336" playTime="14.0000000" pauseTime="45.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+PCI Compliance Fees:
+
+Each merchant has to undergo a security scan yearly that the credit card processor must ensure.
+USMS charges a PCI Compliance Fee of $7.95 per month which provides the following to each merchant:
+Access to PCI security information web site
+Annual Security Scan
+$50,000 per occurrence breach insurance (with optional additional coverage)- a benefit offered by very few companies
+17</text>
+		</slide>
+		<slide index="17" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide18.swf" size="6012" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="6.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Government Reporting Fees:
+
+The US Federal Government passed the Housing and Economic Recovery Act on July 30th, 2008. 
+Credit card processing companies are now required to report the total amount of credit card sales received by each merchant and forward a 1099 at year end.
+The Act requires USMS and other processing companies to verify the Federal Tax ID number of each merchant through a government web site. If the Tax ID number is inaccurate, the credit card processing company is required to withhold 28% of the merchant’s transaction amounts and forward the money to the federal government at the end of the year.
+18</text>
+		</slide>
+		<slide index="18" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide19.swf" size="6137" advanceOnTime="0" framesCount="325" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="324" playTime="13.5000000" pauseTime="18.0489998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Government Reporting Fees:
+
+This is a daunting task and responsibility for all credit card processing companies and incurs large expenses to perform 
+2011 is the first year in which the act goes into effect and all reports must be forwarded to the US Government in January of 2012
+Although the actual overall costs of administering this work cannot be fully determined as of yet, USMS will charge each client a $3.50 per month government reporting fee.
+The fee charged by USMS is much less than many competitors anticipate- some of which are charging as much as $99 per year. 
+19</text>
+		</slide>
+		<slide index="19" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide20.swf" size="5767" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="18.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Interchange:
+The systems and process that facilitates and regulates the flow of transaction information through the Visa, MasterCard and Discover networks between all member financial institutions. 
+Interchange is used to perform Authorizations and Settlements (funding). 
+Other types of transactions that flow through Interchange are Charge Backs and Retrievals. 
+20</text>
+		</slide>
+		<slide index="20" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide21.swf" size="6149" advanceOnTime="0" framesCount="277" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="276" playTime="11.5000000" pauseTime="22.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Interchange Reimbursement Fees
+
+Fees collected by Acquirers (card processor’s bank) and reimbursed to the Issuers for all Visa, MasterCard and Discover transactions processed. 
+There are many levels or categories of Interchange, based on Merchant Type (MCC) and the manner transactions are submitted into Interchange. 
+Another factor is what type of Bankcard is used, such as Consumer Card, Commercial Card, Rewards Card, Check Card, etc. 
+Other factors that determine Interchange Fees are: Card Present, Card Not Present, E-commerce, AVS use, transaction size (small ticket, large ticket) and when batch is presented
+21</text>
+		</slide>
+		<slide index="21" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide22.swf" size="6286" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="7.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+The cost of Interchange is composed of three main components:
+Interchange Discount:
+A percentage of each merchant transaction paid to the issuer.
+Interchange Per Item Fee:
+A per transaction portion or flat fee, averaging about 10 cents, paid to the issuer.
+Dues and Assessments:
+Dues and Assessments (discussed earlier) are fees charged in each transaction and paid directly to Visa, MasterCard and Discover. 
+22</text>
+		</slide>
+		<slide index="22" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide23.swf" size="6307" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="17.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Processing Costs:
+All ISOs/MSPs incur additional processing costs per transaction. These costs cover the following:
+Authorization-the costs to process the data of a transaction
+Capture and Settlement -capturing and settling funds 
+BIN Fee-a small cost per transaction paid to the sponsoring bank. 
+All the above are generally bundled into what is commonly called the transaction cost and marketed to the merchant as either “Transaction Fee” or “Authorization Fee”. 
+
+23</text>
+		</slide>
+		<slide index="23" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide24.swf" size="6298" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="24.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Component Costs of a single credit card transaction to USMS:
+One sale made by a merchant has the following component costs- that make up the total cost per sale (USMS costs, excluding markup):
+Interchange
+Dues and assessments
+Network Access or Network Acquirer fees
+Authorization fee costs (includes authorization, capture, settlement, and BIN fee)
+AVS costs for some card not present transactions
+
+24</text>
+		</slide>
+		<slide index="24" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide25.swf" size="7100" advanceOnTime="0" framesCount="433" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="432" playTime="18.0000000" pauseTime="15.6500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+Component Costs of a single credit card transaction to the Merchant:
+One sale made by a merchant has the following component costs: 
+Discount rate (includes cost of Interchange plus markup)
+Dues and assessments
+Network Access or Network Acquirer fees
+Transaction Fee (includes authorization, capture, settlement, and BIN fee costs plus markup)
+AVS fee (includes USMS AVS fee cost plus markup)
+Possible downgrade surcharges:
+MID Qualified
+Non Qualified
+Rewards Cards
+International Cards
+
+25</text>
+		</slide>
+		<slide index="25" title="USMS Rates and Fees" titleNormalized="usms rates and fees" src="slide26.swf" size="131099" advanceOnTime="0" framesCount="44" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="43" playTime="1.7916667" pauseTime="36.6583341"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Rates and Fees
+26
+Interchange Examples
+Interchange Discount Fee
+Interchange Per Item (Trans.) Fee</text>
+		</slide>
+		<slide index="26" title="" titleNormalized="" src="slide27.swf" size="5808" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="37.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Pricing Methods:
+There are several ways to price accounts but the following are the major pricing methods:
+Tiered: Includes qualified, mid-qualified and non-qualified card rates
+Interchange Plus: Passes along all Interchange rates and fees and adds a mark up
+Membership or Flat Rate: Passes along Interchange and transaction fee costs with a flat monthly fee to cover all other costs and mark up
+27
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="27" title="" titleNormalized="" src="slide28.swf" size="5699" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="38.7299995"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Qualified Rates:
+
+Qualified transactions are transactions that cleared through the interchange category that is most applicable for that specific merchant. 
+
+Example: Retail Store- the Interchange Cost for a Visa Card Present Retail Consumer Credit Card transaction is 1.54% + 10 cents. Suppose USMS charged (considering all costs) 1.89% + 25 cents (plus network access fees and dues and assessments)
+28
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="28" title="" titleNormalized="" src="slide29.swf" size="5775" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="10.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Qualified Rates:
+
+Generally if the Interchange rates charged to USMS for a transaction are the same or less than the Interchange rates used to determined the merchant’s qualified rates, only the qualified rate is charged to the merchant (no surcharges).
+
+Example: If the merchant’s qualified rate was based on CPS Retail Card Present Credit Transaction (IC Cost 1.54% + 10 cents) and the transaction cleared at an Interchange category known as CPS Retail 2- Developing markets (IC Cost 1.43% + 5 cents), USMS would only charge the qualified rate. 
+29
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="29" title="" titleNormalized="" src="slide30.swf" size="5898" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset29">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="30.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Qualified Rates:
+
+Suppose that same merchant hand keyed a transaction, did not use AVS and the transaction cleared Interchange under the category (Electronic Interchange Reimbursement Fee-EIRF) and the Interchange cost is 2.30% and 10 cents.
+
+Obviously the cost of the EIRF transaction is greater than the amount we are charging the merchant for “Qualified” transactions. 
+
+USMS makes up for this with a surcharge know as either: Mid-qualified or Non-qualified surcharge. 
+
+
+30
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="30" title="" titleNormalized="" src="slide31.swf" size="6113" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset30">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="9.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Downgrades:
+
+Downgrade is the term used to describe a transaction that did not meet the specifications of a qualified transaction, ie: higher Interchange cost. 
+When this occurs in tiered pricing, the transactions that did not meet qualified specifications are surcharged under one of the following:
+Mid-qualified surcharge
+Non-qualified surcharge
+Rewards surcharge
+31
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="31" title="" titleNormalized="" src="slide32.swf" size="6054" advanceOnTime="0" framesCount="337" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset31">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="336" playTime="14.0000000" pauseTime="22.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Mid-Qualified transaction surcharges are for the middle tiers of Interchange downgrades. 
+For example, if the merchant were set to do swipe transactions (IC cost 1.54% + 10 cents), but hand-keyed a transaction and used AVS (IC cost 1.80% + 10 cents), they would incur a Mid-Qualified surcharge. 
+Mid-Qualified surcharges range from 0.65% + 10 cents to 1.11% + 10 cents.
+Downgrade surcharges are a major source of additional revenue for agents and the company.
+32
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="32" title="" titleNormalized="" src="slide33.swf" size="6927" advanceOnTime="0" framesCount="361" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset32">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="360" playTime="15.0000000" pauseTime="81.4499969"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+How Mid- and Non-Qualified Surcharges Work 
+For example, the merchant’s Qualified Discount Rate is 1.74%
+Also, say mid-qual total rate is 2.59%
+Also, say non-qual total rate is 3.14%
+Mid-Qual surcharge is 0.85%
+Non-Qual surcharge is 1.40%
+33
+USMS Rates and Fees
+	2.59%
+1.74%
+	0.85%
+	3.14%
+1.74%
+	1.40%</text>
+		</slide>
+		<slide index="33" title="" titleNormalized="" src="slide34.swf" size="7037" advanceOnTime="0" framesCount="325" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset33">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="324" playTime="13.5000000" pauseTime="57.4499969"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Per-Item Surcharges Work the Same Way
+For example, the merchant’s Authorization Fee is 25 cents
+Also, say mid-qual total per-item is 35¢
+Mid-Qual surcharge is 10¢
+Also, say non-qual total rate is 35¢
+Non-Qual surcharge is 10¢
+34
+USMS Rates and Fees
+	35¢
+25¢
+	10¢
+	35¢
+25¢
+	10¢</text>
+		</slide>
+		<slide index="34" title="" titleNormalized="" src="slide35.swf" size="184144" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset34">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="12.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+35
+MID-QUALIFIED SURCHARGE
+1.89
+0.25
+0.25
+25.00
+11.90
+0.25
+0.85
+This amount is added to the Qualified Rate and Transaction Fee
+USMS Rates and Fees
+Example rates only. Actual rates may vary
+0.10
+59.00
+0.05</text>
+		</slide>
+		<slide index="35" title="" titleNormalized="" src="slide36.swf" size="5687" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset35">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="25.3470001"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Non-Qualified transaction surcharges are for the highest tiers of Interchange downgrades. 
+For example, if the merchant were set to do swipe transactions (IC cost 1.54% + 10 cents), but instead accepted a corporate card that cleared under the category of “Commercial Standard” (IC cost 2.95% + 10 cents), they would incur a Non-Qualified surcharge. 
+Non-qualified surcharges generally range from 1.25% + 10 cents to 1.71% + 10 cents.
+36
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="36" title="" titleNormalized="" src="slide37.swf" size="210647" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset36">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="11.7199993"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+37
+NON-QUALIFIED SURCHARGE
+1.89
+0.25
+0.25
+25.00
+11.90
+0.25
+1.40
+This amount is added to the Qualified Rate and Transaction Fee
+USMS Rates and Fees
+Example rates only. Actual rates may vary
+0.10
+59.00
+0.05
+0.85
+0.10</text>
+		</slide>
+		<slide index="37" title="" titleNormalized="" src="slide38.swf" size="5499" advanceOnTime="0" framesCount="37" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset37">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="36" playTime="1.5000000" pauseTime="19.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Rewards Card transaction surcharges vary greatly. 
+Rewards Card surcharges range from 0.69% + 0 cents to 1.59% + 10 cents depending on the Rewards card
+These fees are disclosed on the application under “Bankcard Services Terms” and are rarely changed
+38
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="38" title="" titleNormalized="" src="slide39.swf" size="225638" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset38">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="49.2999992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+39
+Check Card Rate &amp; per-item
+1.89
+0.25
+0.25
+25.00
+11.90
+0.25
+1.39
+This amount is added to the Qualified Rate and Transaction Fee
+USMS Rates and Fees Check-Card Rates
+Example rates only. Actual rates may vary
+0.10
+59.00
+0.05
+0.85
+0.10
+1.40
+0.10</text>
+		</slide>
+		<slide index="39" title="" titleNormalized="" src="slide40.swf" size="6292" advanceOnTime="0" framesCount="313" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset39">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="312" playTime="13.0000000" pauseTime="35.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Tiered Pricing Options:
+USMS offers several options of tiered pricing as follows:
+Standard 3 Tier: Qualified, Mid-qualified, Non-qualified
+Two Tier Plan: Qualified, and all downgrades bundled into one additional pricing tier- downgrades are usually priced at 1.41% + 10 cents 
+Blended Rates: Credit cards and check cards are priced the same.
+Unblended Rates: Credit cards and check cards have separate pricing.
+See pricing guide for details and suggested rates 
+40
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="40" title="" titleNormalized="" src="slide41.swf" size="6030" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset40">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="41.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Interchange Plus Pricing:
+Interchange Plus pricing- also known as IC+ or IC/Assessments Plus is a fair way to price some larger accounts
+With IC+ pricing, USMS passes along all Interchange costs along with Dues and Assessments and Network Access fees
+We then add a markup- depending on volume, risk level of account, competitiveness of situation, which ranges from 0.20% to 1.50% or more
+All other fees apply: AVS, PCI, Statement Fees, Monthly Minimums, Authorization Fees, etc.
+
+41
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="41" title="" titleNormalized="" src="slide42.swf" size="6140" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset41">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="49.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Interchange Plus Pricing:
+USMS offers Interchange Plus Pricing to qualifying merchants as follows:
+Merchant’s volume is generally greater than $10,000 per month
+Or, merchant is already on Interchange plus pricing and insists on keeping that type of pricing
+Or, it is difficult to determine what types of qualified rates the merchant might qualify for under a tiered program
+IC+ programs are usually LESS PROFITABLE than traditional tiered pricing
+
+42
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="42" title="" titleNormalized="" src="slide43.swf" size="6362" advanceOnTime="0" framesCount="301" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset42">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="300" playTime="12.5000000" pauseTime="46.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Pricing Accounts:
+When pricing accounts, use the following guidelines:
+When converting an account to USMS based on saving, ensure you save the client enough money to make it worth their while, but don’t give away too much as you and USMS deserve to make a profit as well
+Take into account the monthly volume of the account
+Have an understanding of the relative risk of the account. Riskier accounts should be priced higher
+When in doubt check with Sales Support or your Sales Manager
+Look over the USMS Pricing Guide to get more ideas
+43
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="43" title="" titleNormalized="" src="slide44.swf" size="102632" advanceOnTime="0" framesCount="1813" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset43">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="1812" playTime="75.5000000" pauseTime="45.4499969"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+44
+Pricing Guideline
+Signing bonus grids have this basic form. These charts assist you greatly in pricing merchant accounts. 
+Always have your signing bonus grids handy as you are working.
+Please consult Sales Support if you need a copy of your grids.
+Rates Section
+Signing Bonus Calculation
+Additional Fees
+Downgrade Surcharges
+Transaction Fees
+Important Notes</text>
+		</slide>
+		<slide index="44" title="" titleNormalized="" src="slide45.swf" size="96603" advanceOnTime="0" framesCount="1141" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset44">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="1140" playTime="47.5000000" pauseTime="18.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+45
+Pricing Guideline
+Columns are equivalent sets of rates
+Blended Rates are same for debit and credit
+Easy reference for periodic service fees
+Quick reference for downgrade surcharges
+Unblended rates are different for debit&amp;credit
+The farther to the right that you price the account, the more profitable the account will be.
+However, if you price it too high, you may not get the sale. You must strike a balance.</text>
+		</slide>
+		<slide index="45" title="" titleNormalized="" src="slide46.swf" size="6058" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset45">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="36.9199982"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Gateway Fees:
+In order to understand gateway fees, let’s refresh your memory on what a gateway does:
+A gateway is used for e-commerce transactions
+Used with a PC as a virtual terminal
+Can be integrated with various POS software
+Performs other functions such as e-checks, recurring billing, fraud prevention, government transaction convenience fee billing and more
+46
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="46" title="" titleNormalized="" src="slide47.swf" size="6783" advanceOnTime="0" framesCount="541" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset46">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="540" playTime="22.5000000" pauseTime="16.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Gateway Fees:
+Various fees associated with a gateway include:
+Set up fees
+Monthly service fees
+Per transaction fees
+Specialty gateway services may include:
+E-check
+Recurring billing (credit card and ACH)
+Fraud prevention systems
+Convenience fee component
+Quick books patch
+Specialty services will have their own additional fees- see pricing guide or schedule A
+47
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="47" title="" titleNormalized="" src="slide48.swf" size="6193" advanceOnTime="0" framesCount="85" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset47">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="84" playTime="3.5000000" pauseTime="34.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Additional Fees:
+On-line Access Fee- provides a system that allows merchants to log in and see daily transaction data ($4.95 to 9.95 per month)
+Merchant Club Fee- USMS provides a merchant club with equipment replacement warranty ($9.95 month)
+ Wireless Access Fees (used with wireless terminals):
+Usually includes a set up fee of $25 to $49
+Monthly access fee- $12 to $19
+Per transaction fee- usually ) $0.10
+48
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="48" title="" titleNormalized="" src="slide49.swf" size="6223" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset48">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="36.2319984"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Additional Fees:
+Application/Set Up Fees: 
+Usually optional for various services
+For Bankcard some agents charge up to $99
+Equipment Purchase or Lease- covered separately
+Shipping Fees- see schedule A-4
+Other Services:
+Other services such as check guarantee, gift cards, payroll and accounting services naturally carry their own fees
+49
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="49" title="" titleNormalized="" src="slide50.swf" size="6110" advanceOnTime="0" framesCount="301" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset49">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="300" playTime="12.5000000" pauseTime="47.8289986"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+USMS Pricing Philosophy:
+Be fair
+Be competitive
+Be profitable
+Think long term
+Agents earn revenue share in nearly every category of fee charged by USMS and earn long term residual income. 
+For details and costs consult your Schedule A-4 and other pricing schedules
+50
+USMS Rates and Fees</text>
+		</slide>
+		<slide index="50" title="Chapter Quiz" titleNormalized="chapter quiz" src="slide51.swf" size="4660" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset50">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="10.4489998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Chapter Quiz
+© 2013 U.S. Merchant Systems. All rights reserved.
+51
+Please take a moment to complete the chapter quiz on USMS University</text>
+		</slide>
+	</slides>
+</presentation>

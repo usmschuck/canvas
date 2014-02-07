@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- Created with iSpring --><!-- 1022 644 --><!--type flash --><!--mainFolder ../ -->
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<title>Sales Cycle Part II The Presentation</title>
+	<script src="lms.js"></script>
+<script src="data/isplayer.js"></script>
+
+	<style>
+		body {
+			background-color: #8a8a8a;
+			overflow: hidden;
+		}
+	</style>
+</head>
+<body>
+<script>
+	(function(){
+		var ldr = new ispring.presenter.loader.CombinedPresentationLoaderWithAPI((function(start){
+	var params = {
+		presentationId: "",
+		slidesToView: 31,
+		slidesWeight: 1,
+		quizzes: [],	// empty for now
+		totalScore: 100,
+		passingScore: 100,
+		timeLimit: 3600,
+		exitOnTimeout: false,
+		showMessageOnTimeout: false,
+		timeoutMessage: "",
+		flags: 3,
+		tincan:
+		{
+			endPoint: "",
+			auth:
+			{
+				type: "",
+				key: "",
+				login: "",
+				password: "",
+				name: "",
+				email: ""
+			}
+		}
+	};
+
+	var lms = iSpring.LMS.create("ISPRING_LMS_ID", "1.2", params);
+	lms.initialize(start);
+})
+);
+		ldr.playerInitEvent().addHandler(function(player){
+			(function(player){
+	(function(player){
+	var lms = iSpring.LMS.instance();
+	lms.start(player);
+
+	window.onunload = window.onbeforeunload = function()
+	{
+		lms.closeLms();
+	};
+})(player);
+
+})(player);
+		});
+		ldr.load("data/player.swf", "html5.html", "ios.html", "10.1.0", undefined, undefined);
+	})();
+</script>
+</body>
+</html>

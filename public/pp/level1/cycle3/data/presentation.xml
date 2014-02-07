@@ -1,0 +1,1539 @@
+<?xml version="1.0"?>
+<presentation title="Sales Cycle Part III Objections and Closing" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{2965009A-9828-43D6-B95D-BBDA83937E86}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="72759" duration="6034"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="317579" duration="26435"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="310369" duration="25835"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="247989" duration="20636"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="316325" duration="26331"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="243287" duration="20244"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="462715" duration="38530"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="247989" duration="20636"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="442340" duration="36832"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="374004" duration="31137"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="440146" duration="36649"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="311623" duration="25939"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="516946" duration="43049"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="416008" duration="34638"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="195326" duration="16248"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="374004" duration="31137"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="148306" duration="12329"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="465850" duration="38791"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="636691" duration="53028"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="416008" duration="34638"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="408799" duration="34037"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="365540" duration="30432"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="343910" duration="28630"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="396887" duration="33044"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="576505" duration="48013"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="735120" duration="61231"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="286546" duration="23849"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="363346" duration="30249"/>
+		<soundAsset id="sndAsset28" src="sound29.mp3" embedded="0" size="410366" duration="34168"/>
+		<soundAsset id="sndAsset29" src="sound30.mp3" embedded="0" size="424472" duration="35343"/>
+		<soundAsset id="sndAsset30" src="sound31.mp3" embedded="0" size="433876" duration="36127"/>
+		<soundAsset id="sndAsset31" src="sound32.mp3" embedded="0" size="178399" duration="14837"/>
+		<soundAsset id="sndAsset32" src="sound33.mp3" embedded="0" size="408799" duration="34037"/>
+		<soundAsset id="sndAsset33" src="sound34.mp3" embedded="0" size="613808" duration="51121"/>
+		<soundAsset id="sndAsset34" src="sound35.mp3" embedded="0" size="371496" duration="30928"/>
+		<soundAsset id="sndAsset35" src="sound36.mp3" embedded="0" size="601582" duration="50102"/>
+		<soundAsset id="sndAsset36" src="sound37.mp3" embedded="0" size="442340" duration="36832"/>
+		<soundAsset id="sndAsset37" src="sound38.mp3" embedded="0" size="399081" duration="33227"/>
+		<soundAsset id="sndAsset38" src="sound39.mp3" embedded="0" size="447355" duration="37250"/>
+		<soundAsset id="sndAsset39" src="sound40.mp3" embedded="0" size="361778" duration="30119"/>
+		<soundAsset id="sndAsset40" src="sound41.mp3" embedded="0" size="250183" duration="20819"/>
+		<soundAsset id="sndAsset41" src="sound42.mp3" embedded="0" size="281530" duration="23431"/>
+		<soundAsset id="sndAsset42" src="sound43.mp3" embedded="0" size="262408" duration="21838"/>
+		<soundAsset id="sndAsset43" src="sound44.mp3" embedded="0" size="311623" duration="25939"/>
+		<soundAsset id="sndAsset44" src="sound45.mp3" embedded="0" size="437638" duration="36440"/>
+		<soundAsset id="sndAsset45" src="sound46.mp3" embedded="0" size="110062" duration="9142"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="thmb29.swf" embedded="0"/>
+		<graphicAsset id="imgAsset29" src="thmb30.swf" embedded="0"/>
+		<graphicAsset id="imgAsset30" src="thmb31.swf" embedded="0"/>
+		<graphicAsset id="imgAsset31" src="thmb32.swf" embedded="0"/>
+		<graphicAsset id="imgAsset32" src="thmb33.swf" embedded="0"/>
+		<graphicAsset id="imgAsset33" src="thmb34.swf" embedded="0"/>
+		<graphicAsset id="imgAsset34" src="thmb35.swf" embedded="0"/>
+		<graphicAsset id="imgAsset35" src="thmb36.swf" embedded="0"/>
+		<graphicAsset id="imgAsset36" src="thmb37.swf" embedded="0"/>
+		<graphicAsset id="imgAsset37" src="thmb38.swf" embedded="0"/>
+		<graphicAsset id="imgAsset38" src="thmb39.swf" embedded="0"/>
+		<graphicAsset id="imgAsset39" src="thmb40.swf" embedded="0"/>
+		<graphicAsset id="imgAsset40" src="thmb41.swf" embedded="0"/>
+		<graphicAsset id="imgAsset41" src="thmb42.swf" embedded="0"/>
+		<graphicAsset id="imgAsset42" src="thmb43.swf" embedded="0"/>
+		<graphicAsset id="imgAsset43" src="thmb44.swf" embedded="0"/>
+		<graphicAsset id="imgAsset44" src="thmb45.swf" embedded="0"/>
+		<graphicAsset id="imgAsset45" src="thmb46.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="5.2410000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="25.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="0" timeOffset="25.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="19.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="25.5419998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="19.4470000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="37.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="19.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="36.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="30.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="35.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="25.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="42.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="33.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="15.4499998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="30.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="1" timeOffset="10.8920000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="3" timeOffset="23.1919997"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="3" timeOffset="37.9180000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="33.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="33.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="29.6320000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="27.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="32.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="47.2350000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="60.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="23.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="1" timeOffset="23.1280000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset28">
+				<startTimestamp slideIndex="28" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="28" stepIndex="0" timeOffset="33.3779984"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset29">
+				<startTimestamp slideIndex="29" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="29" stepIndex="0" timeOffset="34.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset30">
+				<startTimestamp slideIndex="30" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="30" stepIndex="0" timeOffset="35.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset31">
+				<startTimestamp slideIndex="31" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="31" stepIndex="0" timeOffset="14.0469999"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset32">
+				<startTimestamp slideIndex="32" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="32" stepIndex="0" timeOffset="33.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset33">
+				<startTimestamp slideIndex="33" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="33" stepIndex="0" timeOffset="50.3359985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset34">
+				<startTimestamp slideIndex="34" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="34" stepIndex="0" timeOffset="30.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset35">
+				<startTimestamp slideIndex="35" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="35" stepIndex="0" timeOffset="49.3260000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset36">
+				<startTimestamp slideIndex="36" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="36" stepIndex="0" timeOffset="36.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset37">
+				<startTimestamp slideIndex="37" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="37" stepIndex="0" timeOffset="32.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset38">
+				<startTimestamp slideIndex="38" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="38" stepIndex="0" timeOffset="36.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset39">
+				<startTimestamp slideIndex="39" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="39" stepIndex="0" timeOffset="29.3239994"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset40">
+				<startTimestamp slideIndex="40" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="40" stepIndex="0" timeOffset="20.0200000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset41">
+				<startTimestamp slideIndex="41" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="41" stepIndex="0" timeOffset="22.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset42">
+				<startTimestamp slideIndex="42" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="42" stepIndex="0" timeOffset="21.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset43">
+				<startTimestamp slideIndex="43" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="43" stepIndex="0" timeOffset="25.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset44">
+				<startTimestamp slideIndex="44" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="44" stepIndex="0" timeOffset="35.6599998"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset45">
+				<startTimestamp slideIndex="45" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="45" stepIndex="0" timeOffset="8.3500000"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="20922" advanceOnTime="0" framesCount="85" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="84" playTime="3.5000000" pauseTime="1.7410002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>USMS University™
+Quick Start Training
+Sales Cycle Part 3 Handling Objections &amp; Closing
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="1" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide2.swf" size="14154" advanceOnTime="0" framesCount="325" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="324" playTime="13.5000000" pauseTime="12.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Handling Objections:
+
+When sales masters hear an objection they know they are near the close.
+They use a system to handle objections.
+Handling the objection often leads to the final close. 
+
+Overcoming Objections:
+
+Become a great closer: Whenever you lose a sale over an unhandled objection, make a note of that objection and come up with ways to handle that objection in the future.
+
+2
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="2" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide3.swf" size="5738" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="21.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Objections Are Your Friends:
+
+Many sales people worry that they are about to lose the sale when they hear an objection. 
+
+Top Professionals, know that “Objections are Your Friends”. and a reason to celebrate! That means you are about to make the sale. 
+
+In order for the prospect to object, they must have first thought about buying—then came up with a reason why it wouldn’t work. 
+3
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="3" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide4.swf" size="6803" advanceOnTime="0" framesCount="373" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="372" playTime="15.5000000" pauseTime="4.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+10-Step Objection Handling System used by top closers: 
+ 
+ Ignore it.
+ Hear them Out
+ Feed it Back
+ Question it
+ Isolate the Objection
+ Align with the Prospect
+ Turn Objection into a Question
+ Answer the Question
+ Tie it Down
+ Assume the Sale
+4
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="4" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide5.swf" size="5950" advanceOnTime="0" framesCount="373" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="372" playTime="15.5000000" pauseTime="10.0419998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step One: Ignore the objection:
+
+When a client objects, they don’t always mean it.
+Acknowledge them and move on. 
+(Example: Client says, “It costs too much”. You say “I understand” and (move on to another feature/benefit of your product). 
+Ignored objections that first come up often will not be brought up again. 
+
+If it comes up again, move to Step Two…
+
+5
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="5" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide6.swf" size="16624" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="8.4470005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Two: Hear them out. 
+
+Shut up and listen. 
+
+Never argue. 
+
+Sometimes they’ll talk themselves out of the objection. 
+
+If they don’t talk themselves out of the objection they’ll tell you what you need to close the sale. 
+
+If they haven’t fully explained the objection, move on to Step Three…
+6
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="6" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide7.swf" size="6546" advanceOnTime="0" framesCount="493" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="492" playTime="20.5000000" pauseTime="17.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Three: Feed it back: 
+
+Client: “It costs too much”. You: “It costs too much?” 
+
+You really just want their real reason. 
+
+Example: “Costs too much” can mean:
+“I don’t have the money”
+“Compared to your competitors”
+“You didn’t present a strong enough case that what you offered is worth the investment”. 
+
+Don’t answer their objections before you know exactly what they are or you’ll be wasting time and they won’t feel heard. 
+
+If, they still haven’t explained their reasons, move on to Step Four…
+7
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="7" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide8.swf" size="15093" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="10.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Four: Question it: 
+
+“I know you have a reason for saying that, do you mind if I ask what it is?”
+
+Then shut up and listen. Remember, they are telling you how to close the sale. 
+
+When you have their real reason for the objection, move on to Step Five…
+8
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="8" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide9.swf" size="5862" advanceOnTime="0" framesCount="373" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="372" playTime="15.5000000" pauseTime="20.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Five: Isolate the objection (Make it final):
+
+Critical Step: If you fail to isolate the objection, you may have to handle one objection after another. 
+
+Top sales pros who use this system don’t want to win arguments, they want to win sales. 
+
+Almost always, the client will have one true objection. 
+
+If you try to isolate it and they bring up another objection, the second objection is real. 
+
+Ignore the first objection and go back to step 3, using the second (real) objection. 
+9
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="9" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide10.swf" size="6083" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="22.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+How to Isolate Objections:
+
+Use questions: 
+
+“Is that the only thing stopping you?” (If not, find out what it is and go back to step 3) 
+
+“You like everything else? Our service? Our company?, The product?” 
+
+“If it wasn’t for your concerns about the investment, then you’d go through with this, right?” 
+
+You want to get a few “yeses” from them before moving on to Step Six…
+10
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="10" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide11.swf" size="6247" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="28.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Six: Align with them: 
+
+Once you understand their true objection, make sure they know you heard them and you’re on their side:  
+
+“I often hear that from clients.” 
+
+“I would probably have the same concern, if I was about to make this investment”. 
+
+“I agree with you and…” 
+
+“I respect that and…” 
+
+Or you can use “feel, felt, found”. “I know how you feel. Many of our clients have felt the same way. But what they found was ….”) 
+
+11
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="11" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide12.swf" size="15643" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="19.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+12
+©2011 U.S. Merchant Systems. All rights reserved.
+
+Words ‘And’ versus ‘But’:
+
+If you say “I agree with you but”, you negate everything before “but”. What the client will hear is “I don’t agree with you at all but I will pretend to in order to try and manipulate you into a sale”. 
+
+Also the “and” allows you to go to Step Seven…
+</text>
+		</slide>
+		<slide index="12" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide13.swf" size="6206" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="32.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Seven: Turn the objection into a question: 
+
+An objection is a statement. 
+
+It doesn’t require an answer. 
+
+A question does require an answer. 
+
+Best Part: YOU design the question:
+
+Example: Client concerned with ability to afford your offer. Pick up from step 6 with a question like: “…and that brings up a question. The question I hear you asking is: ‘How can I get the benefits of this package like (list some benefits) and still fit it in my budget’ … is that the question?”
+
+If they say yes, you move to Step Eight…
+
+13
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="13" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide14.swf" size="5640" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="25.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Eight: Answer the question:
+
+Turnaround: “That’s the very reason you need to do this now”
+
+Outweigh it: “What would be more important, (benefit) or (investment)”; Minimize it (reduce it to the ridiculous) $X per week/per day, etc., or Explain it: “That’s because” 
+
+Once you’ve answered the question, go to Step Nine…
+14
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="14" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide15.swf" size="31565" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="11.4499998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+15
+©2011 U.S. Merchant Systems. All rights reserved.
+
+Step Nine: Tie it down:
+
+“That answers your question, doesn’t it?” or “That handles that, doesn’t it”. Get their agreement that you’ve answered their question. 
+
+Then go right to Step Ten…
+</text>
+		</slide>
+		<slide index="15" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide16.swf" size="5835" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="21.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Step Ten: Assume the sale:
+
+They’re ready to buy. Don’t look for new objections. 
+
+They went through the process of “buying” in their mind and came up with an objection that you masterfully isolated and handled. 
+
+You aligned with them and provided a cushion, turned their concern into (their) question and answered that question to their satisfaction. 
+
+Pull out the paperwork and start filling it out, with their help.
+16
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="16" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide17.swf" size="4944" advanceOnTime="0" framesCount="26" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="0.6570000"/>
+				<step start="1" end="25" playTime="1.0000000" pauseTime="9.8920002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+	“Even if you think you know what the objection is, always take them through the process so they feel heard and you have fully handled it.” 
+17
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="17" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide18.swf" size="5633" advanceOnTime="0" framesCount="40" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="2.6750001"/>
+				<step start="1" end="13" playTime="0.5000000" pauseTime="5.4190001"/>
+				<step start="14" end="26" playTime="0.5000000" pauseTime="5.7030001"/>
+				<step start="27" end="39" playTime="0.5000000" pauseTime="22.6920013"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+If Merchant Services are offered in conjunction with other products and services:
+
+Why do I need to switch my merchant account to get all of these other services?
+
+“Actually you don’t have to witch, but USMS, unlike your bank, can provide better pricing to you on these other services when we are handling your credit card processing. Providing that service to you helps reduce your overall cost in the other services and you only have to call one company to take care of all your needs. 
+18
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="18" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide19.swf" size="19273" advanceOnTime="0" framesCount="52" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="3.8640000"/>
+				<step start="1" end="25" playTime="1.0000000" pauseTime="4.1830001"/>
+				<step start="26" end="38" playTime="0.5000000" pauseTime="4.7839999"/>
+				<step start="39" end="51" playTime="0.5000000" pauseTime="37.4180000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+19
+©2011 U.S. Merchant Systems. All rights reserved.
+
+If merchant objects to a package offer:
+
+“I don’t know if I’ll realize all those extra sales!”
+
+“I get it. You’re not sure if the numbers we show for return on investment are real, isn’t that the question? (isolate objection). &lt;Client agrees&gt;. We estimated that the additional services could bring you as much as $1,000,000 in additional revenue over the next 5 years. That’s $200,000 per year. Suppose we cut that number in half, at $100,000 per year, or even by three quarters- isn’t it still worth the investment? &lt;Client agrees&gt;.</text>
+		</slide>
+		<slide index="19" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide20.swf" size="5849" advanceOnTime="0" framesCount="229" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="228" playTime="9.5000000" pauseTime="24.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+HANDLING OBJECTIONS:
+
+“There are too many fees for this service!”
+
+“I know how you feel. Sometimes the number of different fees is a stumbling block for some businesses to take advantage of the return on investment that they’ll get from this package- and that’s too bad. 
+That’s why I’ve taken the time to show you the real impact that these services will have to your bottom line. Based on this fact, it’s not really the number of fees we should be focusing on but the return on investment, isn’t that true (tie down)?”
+20
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="20" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide21.swf" size="5599" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="27.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+With package offer:
+
+“Your equipment prices are much higher than your competitors!” 
+
+ “I know it may appear that way, but it’s important to keep in mind that my competitors aren’t offering you the same solution. 
+Many of the services we’re providing you have a start up cost and we’ve bundled them into one simple monthly installment. After all that’s what you want isn’t it- an overall solution to increase your bottom line and an easy way to make the investment?”
+21
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="21" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide22.swf" size="5801" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="23.1320000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+HANDLING OBJECTIONS:
+
+“Why should I do business with you, when I can get this from my bank?”
+
+ “One benefit of using USMS is that we can deposit your funds in any bank. You won’t be locked into the same bank if you’re ever not happy with that bank want to move your account. 
+You’ll never be in the position of having to re-apply for this service if you want to go to another bank. See how this gives your business greater flexibility?”
+22
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="22" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide23.swf" size="5628" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="21.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	 “There’s not enough savings to justify switching.”
+ (Suppose savings are $500 per year)
+
+You:		“I see- look at it this way, if you make a 10% net profit each year you have to do an additional $5,000 in sales just to pay the bank’s fees. 
+
+Based on that, why would you work just for the bank’s benefit?”
+23
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="23" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide24.swf" size="5465" advanceOnTime="0" framesCount="73" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="72" playTime="3.0000000" pauseTime="29.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	 “Can I try this for 6 months and see how it goes?” (referring to package purchase/lease)
+
+You:		“Although no one can guarantee the exact results, keep in mind that we estimated about $2,000 in new sales with the additional services. Even if you only did 20% of that, you’re still way ahead, aren’t you? And, besides, with the saving on credit card processing, this opportunity really costs you nothing, doesn’t it?”
+24
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="24" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide25.swf" size="6109" advanceOnTime="0" framesCount="205" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="204" playTime="8.5000000" pauseTime="38.7350006"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	“I really don’t like leases”.
+
+You: “I understand- what is it that you don’t like about them?”
+
+Merchant:	“I just don’t like having the obligation.”
+
+You:	 “I see. Well if you purchased the package outright, you’d still have the expense, wouldn’t you? I mean, the purpose of the lease to assist with your cash flow. Besides, wouldn’t it be great to have new, state of the art equipment and the additional services, knowing that it’s an investment in growing your business?”
+
+NOTE: MERCHANT MIGHT SAY HE STILL HATES LEASES. OFFER SHORTER TERM LEASE OR FOR CASH PRICE.
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="25" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide26.swf" size="5924" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="50.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	“I’ve been offered the equipment for FREE:
+
+You: 	“Im glad you brought this up. As business people we know that no company can truly give FREE equipment. You must be paying for it somehow- like your cell phone company, the cost is built into the fees. Consider this, you get free equipment but you pay higher rates and fees and end up paying a lot more for the same thing. 
+I know this, because our company also offers a free terminals. I know it ultimately cost my clients more. And with all free equipment offers, if you don’t return it on time or in good shape, you pay for it anyhow. 
+If you’re not happy with the company’s service, you’re locked in because of the free equipment. When you own or lease your equipment, you can use it any way you want. 
+
+26
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="26" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide27.swf" size="5799" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="16.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant: 	“I want to think about it.”
+
+You:		“Great. Obviously, you wouldn’t take the time to think this over unless you were seriously interested, would you? (Say this next part lightly) I mean, I’m sure you’re not telling me that just to get rid of me, are you?”
+“So, can I assume you’ll give it very careful consideration?” 
+ (Let them answer) 
+27
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="27" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide28.swf" size="5197" advanceOnTime="0" framesCount="74" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="6.3210000"/>
+				<step start="1" end="73" playTime="3.0000000" pauseTime="20.1280007"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+“Just to clarify my thinking, what part of this do you want to think over? (Don’t pause here- keep going) Is it the quality of service? Is it _____________? (one or two additional questions) Is it something I’ve forgotten to cover? Seriously, now, please level with me. Could it be the money?” (Most times they’ll say yes- then you can handle the actual objection)
+28
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="28" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide29.swf" size="6146" advanceOnTime="0" framesCount="265" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="264" playTime="11.0000000" pauseTime="22.3779984"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	“The additional package is too expensive.”
+
+You: 	“OK. Can you clarify that for me?”
+
+Merchant:	“It’s too much monthly expense.”
+
+You:	 “OK. How much too much?”
+
+Merchant:	“About $20 too much.”
+
+You:	 “All right, well that’s about 67 cents per day. For less than the cost of a cup of coffee, wouldn’t it make sense to make an investment in your business that could bring you thousands in new sales?”
+29
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="29" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide30.swf" size="5633" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset29">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="27.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	“Is there a contract term? I don’t want to be locked in.”
+
+You:	 “We have a three year agreement. You mentioned that you were with your last company for about nine years. Based on that, and the savings, is a three year term really all that big a deal?”
+
+Merchant:	“What if I’m not happy with your service?”
+
+You:	 “Good news is that we provide you with a written service guarantee. If we don’t live up to it, you can cancel per the terms of the guarantee.”
+30
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="30" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide31.swf" size="6352" advanceOnTime="0" framesCount="301" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset30">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="300" playTime="12.5000000" pauseTime="22.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	“It’s too much trouble to switch.”
+You:		“Can you elaborate?”
+Merchant:	“Last time we switched, our terminal was down for a couple of days.”
+You:		“I understand. How about if I come after hours and handle the download personally?”
+NOTE: IF THEY ARE GETTING NEW EQUIPMENT, SAY:
+You: 	“No need to worry. We won’t disconnect or cancel your old service until we know that the new service is fully functional.”
+You: 	“Also, don’t forget- with all the savings your getting paid to switch.”
+31
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="31" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide32.swf" size="15699" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset31">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="10.0469999"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Merchant:	 “I’m in a contract right now.”
+You:		“OK. Well let’s see what it cost to end it. if it’s less than the amount of the first year’s savings, you’ll save some money this year and a lot more each year after that.
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="32" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide33.swf" size="38352" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset32">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="28.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+HANDLING OBJECTIONS:
+
+“I've never heard of your company before. How do I know that I can trust you?”
+
+“I hear you. Do you consider the Better Business Bureau to be a reputable source of information on companies? (Most will say yes). Great! If I show you that U.S. Merchant Systems has a very good BBB record and a personal service guarantee from our Founder, would that handle your concern?” – when they say yes, show them and close the sale. (If not enough, use client testimonials)
+33
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="33" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide34.swf" size="6186" advanceOnTime="0" framesCount="301" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset33">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="300" playTime="12.5000000" pauseTime="37.8359985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+HANDLING OBJECTIONS:
+
+“Your company has too many fees!”
+
+“Can you clarify that for me?”
+
+“You charge transaction fees, batch fees, statement fees and annual fees. I don’t have to pay all those fees to my bank!”
+
+“ I understand how you feel. Many of my clients felt the same way. But what they found was that even though U.S. Merchant Systems charges these fees, their total investment with our company each month was significantly less than it was with their bank- even when the bank just charged a discount fee.”
+
+“We’ve actually found that if we ‘un-bundle’ these fees to our clients we ultimately charge them less because we don’t have to overcompensate with the rate to ensure we cover all the costs. Doesn’t that make sense?” 
+34
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="34" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide35.swf" size="5591" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset34">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="24.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+HANDLING OBJECTIONS: 
+
+“I’ve been with my bank for years and I’m not sure I want to change!”
+
+“A smart bank will do everything possible to create customer loyalty. That’s what enables them to charge extra for the service. U.S. Merchant Systems can provide the same or even better service for less. The extra money you pay your bank is yours and you worked hard for it. After all, you can find a better use for that money than paying it to your bank, can’t you?” 
+
+35
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="35" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide36.swf" size="6251" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset35">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="38.8260002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+HANDLING OBJECTIONS: 
+
+“My customers know I only accept cash.”
+
+“I understand. Most of our customers wish they could get by with only accepting cash. However, now-a-days most businesses accept cards because so fewer and fewer consumers feel the need to carry much cash anymore.
+ 
+“With Visa and MasterCard check card customers expect you to offer them the convenience of paying by card. Business owners who for years only took cash, like supermarkets, fast food, even lawyers and doctors, realized that too many consumers just don’t carry much cash or use checks these days. 
+
+“So why have such a disadvantage in your business? Wouldn’t now be the best time to start taking cards?”
+36
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="36" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide37.swf" size="6002" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset36">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="28.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+CLOSING
+
+If you have to close hard at the end, it means you didn’t do your job up front. This should be one of the easiest parts of the sales process. 
+
+The Assumptive Close:
+
+(This is the easiest and one of the easiest to overlook- don’t ask for the order, just write it): 
+
+“John, I’ll go ahead and fill in the paperwork for you. What’s the name of the bank you’ll be having us deposit the funds to?”
+
+When John answers—you win.
+37
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="37" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide38.swf" size="6020" advanceOnTime="0" framesCount="301" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset37">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="300" playTime="12.5000000" pauseTime="19.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+CLOSING
+
+ALTERNATE CHOICE CLOSES:
+
+“Mary, did you want the agreement: in your name or both names?”
+
+“Sarah, did you want the 202 or 1000 Pin Pad with your system? OK, just autograph here and we'll get this started for you.” 
+
+“John, would you like to decide where to have the equipment installed now or would you prefer to wait until the equipment arrives?” 
+
+When they answer, complete the paperwork.
+38
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="38" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide39.swf" size="33648" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset38">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="30.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+CLOSING
+
+STATEMENT CLOSES:
+
+“Joe, you mentioned earlier that you could increase your bottom line business by an additional $5,000 per month with this package. With the total monthly investment of $150 that’s a return of 3,300% on your money. Based on this fact, wouldn’t you agree that this investment makes sense?” 
+
+39
+©2011 U.S. Merchant Systems. All rights reserved.
+
+When he says yes, you say:
+
+“I thought it was a wise decision myself. Let me have your autograph right here and I’ll complete the paperwork.”
+</text>
+		</slide>
+		<slide index="39" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide40.swf" size="9756" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset39">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="22.8239994"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+CLOSING
+
+THE SHARP ANGLE CLOSE:
+
+This is best used when you have to give something up to close such as a lower total investment or monthly investment, or some other special favor:
+
+“If I understand you correctly, if we reduce the monthly investment to $_______ you’ll go ahead with this today?” Nod and get agreement (people pay more for quality, however, sometimes they’ll do it for a lower investment). 
+
+40
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="40" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide41.swf" size="14898" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset40">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="18.0200005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Tags 
+
+When you get close to a sale, lack information, feel you’ve lost control- and whenever you have a legitimate buyer- TAG- Don’t be foolish and lose the sale and a commission- get help. TAG!!
+41
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="41" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide42.swf" size="10889" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset41">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="17.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Tags 
+
+The “I’m New” Tag:
+
+ “I really appreciate your time and the opportunity to earn your business. I’m still very new with U.S. Merchant Systems and I’m still learning. I would greatly appreciate it if I can have my manager speak with you and ensure that I really covered all your needs. I’ll get him on the phone right away.”	
+
+42
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="42" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide43.swf" size="5338" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset42">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="16.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Tags 
+
+The “I’ll Bet My Manager Can Handle That” Tag: 
+
+When the customer asks you a question that you can’t answer or you simply feel you are losing the customer: “Mr. Jones, I really don’t know the answer to that question, but, I’ll bet my manager can handle that. Let me get her on the phone.” 
+
+43
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="43" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide44.swf" size="5351" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset43">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="20.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Tags 
+
+The “Would Ya if I Could” Tag:
+
+Use this tag when there is a condition, that if overcome you may be able to close- such as the pricing or rates requested by the client are too low: “Mrs. Carson, if I could get that approved by my manager, can we earn your business today?”
+44
+©2011 U.S. Merchant Systems. All rights reserved.
+</text>
+		</slide>
+		<slide index="44" title="Handling Objections and Closing" titleNormalized="handling objections and closing" src="slide45.swf" size="14555" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset44">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="31.1599998"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Handling Objections and Closing
+Message from U.S. Merchant Systems Founder and CEO:
+
+“Selling and closing are not difficult tasks. Anyone can master sales and closing techniques. But, it’s sort of like any other activity that one intends to be good at such as sports or playing a musical instrument. You have to learn and practice. If you practice the sales cycle, objection handling and closing techniques we provided for you in this training- you can be great at selling anything.” 
+
+©2011 U.S. Merchant Systems. All rights reserved.
+
+45</text>
+		</slide>
+		<slide index="45" title="Chapter Quiz" titleNormalized="chapter quiz" src="slide46.swf" size="11740" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset45">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="8.3490004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Chapter Quiz
+© 2013 U.S. Merchant Systems. All rights reserved.
+46
+Please take a moment to complete the chapter quiz on USMS University</text>
+		</slide>
+	</slides>
+</presentation>

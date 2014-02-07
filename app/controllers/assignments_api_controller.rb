@@ -104,7 +104,7 @@
 #       // an external tool.
 #       external_tool_tag_attributes: {
 #         // URL to the external tool
-#         url: "http://instructure.com",
+#         url: "http://usms.com",
 #         // Whether or not there is a new tab for the external tool
 #         new_tab: false,
 #         // the identifier for this tool_tag
@@ -450,7 +450,7 @@ class AssignmentsApiController < ApplicationController
   #   Example:
   #     external_tool_tag_attributes: {
   #       // url to the external tool
-  #       url: "http://instructure.com",
+  #       url: "http://usms.com",
   #       // create a new tab for the module, defaults to false.
   #       new_tab: false
   #     }

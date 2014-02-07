@@ -36,13 +36,13 @@ describe AccountsController do
     end
     
     it "should use the correct entity_id" do
-      HostUrl.stubs(:default_host).returns('bob.cody.instructure.com')
+      HostUrl.stubs(:default_host).returns('bob.cody.usms.com')
       @aac = @account.account_authorization_configs.create!(:auth_type => "saml")
       
       get "/saml_meta_data"
       response.should be_success
       doc = Nokogiri::XML(response.body)
-      doc.at_css("EntityDescriptor")['entityID'].should == "http://bob.cody.instructure.com/saml2"
+      doc.at_css("EntityDescriptor")['entityID'].should == "http://bob.cody.usms.com/saml2"
     end
 
   end

@@ -77,7 +77,7 @@ describe "external tools" do
       f('#external_tool_name').send_keys(tool_name)
       f('#external_tool_consumer_key').send_keys('fdjaklfjdaklfdjaslfjajfkljsalkjflas')
       f('#external_tool_shared_secret').send_keys('r08132ufio1jfj1iofj3j1kf3ljl1')
-      f('#external_tool_domain').send_keys('instructure.com')
+      f('#external_tool_domain').send_keys('usms.com')
       fj('.ui-dialog:visible .btn-primary').click()
       wait_for_ajaximations
       f(".edit_tool_link[data-edit-external-tool='#{ContextExternalTool.find_by_name(tool_name).id}']").click
@@ -626,7 +626,7 @@ describe "external tools" do
           f('#external_tool_name').send_keys(tool_name)
           f('#external_tool_consumer_key').send_keys('fdjaklfjdaklfdjaslfjajfkljsalkjflas')
           f('#external_tool_shared_secret').send_keys('r08132ufio1jfj1iofj3j1kf3ljl1')
-          f('#external_tool_domain').send_keys('instructure.com')
+          f('#external_tool_domain').send_keys('usms.com')
           f('#external_tool_form').submit()
           wait_for_ajaximations
           f("#external_tool_#{ContextExternalTool.find_by_name(tool_name).id} .edit_tool_link").click

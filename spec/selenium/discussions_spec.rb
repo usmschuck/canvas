@@ -112,7 +112,7 @@ describe "discussions" do
       end
 
       it "should search by author" do
-        user_name = 'jake@instructure.com'
+        user_name = 'jake@usms.com'
         title = 'new one'
         new_teacher = teacher_in_course(:course => @course, :active_all => true, :name => user_name)
         what_to_create == DiscussionTopic ? @course.discussion_topics.create!(:title => title, :user => new_teacher.user) : announcement_model(:title => title, :user => new_teacher.user)

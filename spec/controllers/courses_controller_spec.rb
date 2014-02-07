@@ -165,7 +165,7 @@ describe CoursesController do
 
     it "should not reject invitation for bad parameters" do
       course_with_student(:active_course => true, :active_user => true)
-      post 'enrollment_invitation', :course_id => @course.id, :reject => '1', :invitation => "#{@enrollment.uuid}https://canvas.instructure.com/courses/#{@course.id}?invitation=#{@enrollment.uuid}"
+      post 'enrollment_invitation', :course_id => @course.id, :reject => '1', :invitation => "#{@enrollment.uuid}https://canvas.usms.com/courses/#{@course.id}?invitation=#{@enrollment.uuid}"
       response.should be_redirect
       response.should redirect_to(course_url(@course.id))
       assigns[:pending_enrollment].should be_nil
@@ -500,7 +500,7 @@ describe CoursesController do
       it "should auto-redirect to registration page when it's a self-enrollment" do
         course_with_student(:active_course => 1)
         @user = User.new
-        @user.communication_channels.build(:path => "jt@instructure.com")
+        @user.communication_channels.build(:path => "jt@usms.com")
         @user.workflow_state = 'creation_pending'
         @user.save!
         @enrollment = @course.enroll_student(@user)
