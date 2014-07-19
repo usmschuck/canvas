@@ -1611,7 +1611,7 @@ describe ContentMigration do
       mod1.add_item({ :title => 'Example 1', :type => 'external_url', :url => 'http://a.example.com/' })
       mod1.add_item :type => 'context_module_sub_header', :title => "Sub Header"
       tool = @copy_from.context_external_tools.create!(:name => "b", :url => "http://www.google.com", :consumer_key => '12345', :shared_secret => 'secret')
-      tool2 = @copy_from.context_external_tools.create!(:name => "b", :url => "http://www.instructure.com", :consumer_key => '12345', :shared_secret => 'secret')
+      tool2 = @copy_from.context_external_tools.create!(:name => "b", :url => "http://www.usms.com", :consumer_key => '12345', :shared_secret => 'secret')
       mod1.add_item :type => 'context_external_tool', :id => tool.id, :url => tool.url
       topic = @copy_from.discussion_topics.create!(:title => "topic")
       topic2 = @copy_from.discussion_topics.create!(:title => "topic2")

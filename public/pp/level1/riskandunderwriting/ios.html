@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>Risk and Underwriting</title>
+    <link rel="stylesheet" type="text/css" href="data/ios/style.css" media="all" />
+    <script>
+        var launchTime = 0;
+        function getAppUrl()
+        {
+            var params = (window.parent.document.getElementById('content_url') || { value: "" }).value.split("?", 2)[1]
+            var host = "ismobile://" + window.location.host;
+            var path = window.location.pathname.split("/");
+            path.length = path.length - 1;
+            var res = host + path.join("/") + (params ? "/?" + params : "/");
+            return res;
+        }
+
+        function startApp()
+        {
+            setTimeout(showPlayer, 1000);
+            launchTime = new Date().getTime();
+            var frmLoad = document.getElementById("app_loader");
+            frmLoad.src = getAppUrl();
+        }
+
+        function showPlayer()
+        {
+            if ((new Date().getTime()) - launchTime < 1500)
+            {
+                document.location = "data/ispinstall.html";
+            }
+            else
+            {
+                document.getElementById("mainLayer").style.display = 'block';
+            }
+        }
+
+        function launch()
+        {
+            setTimeout(startApp, 50);
+        }
+
+    </script>
+</head>
+<body>
+
+    <div id="mainLayer" class="main ios">
+      <div class="top_shadow">
+        <div class="left_top_shadow"></div>
+        <div class="middle_top_shadow"></div>
+        <div class="right_top_shadow"></div>
+      </div>
+      <div class="left_shadow">
+        <div class="top_left_shadow"></div>
+        <div class="middle_left_shadow"></div>
+        <div class="bottom_left_shadow"></div>
+      </div>
+
+      <div class="container">
+        <div class="image_wrapper">
+          <img class="img_ipad" src="data/ios/ipad.jpg" title="ipad"/>
+          <img class="img_in_ipad" src="data/ios/ios_thumb.png" title="ipad-img"/>
+        </div>
+        <div class="info_wrapper">
+          <h1 class="title">Risk and Underwriting</h1>
+          <p class="text">The presentation will be launched in the free iSpring Mobile App.</p>
+          <div class="button_wrapper">
+            <a class="launch_button" title="Label" href="#" onclick="launch()">
+              <img src="data/ios/launch_button.png" alt="Launch" width="160px" />
+              <span class="button_text">Launch</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="right_shadow">
+        <div class="top_right_shadow"></div>
+        <div class="middle_right_shadow"></div>
+        <div class="bottom_right_shadow"></div>
+      </div>
+      <div class="bottom_shadow">
+        <div class="left_bottom_shadow"></div>
+        <div class="middle_bottom_shadow"></div>
+        <div class="right_bottom_shadow"></div>
+      </div>
+    </div>
+
+<div>
+    <iframe id="app_loader"></iframe>
+</div>
+
+</body>
+</html>

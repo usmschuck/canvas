@@ -608,13 +608,13 @@ describe AssignmentsApiController, type: :request do
 
       @student.register!
       @student.communication_channels.create(
-        :path => "student@instructure.com").confirm!
+        :path => "student@usms.com").confirm!
       @student.email_channel.notification_policies.
         find_or_create_by_notification_id(notification.id).
         update_attribute(:frequency, 'immediately')
 
       @ta.register!
-      @ta.communication_channels.create(:path => "ta@instructure.com").confirm!
+      @ta.communication_channels.create(:path => "ta@usms.com").confirm!
       @ta.email_channel.notification_policies.
         find_or_create_by_notification_id(notification.id).
         update_attribute(:frequency, 'immediately')
@@ -970,7 +970,7 @@ describe AssignmentsApiController, type: :request do
         @notification = Notification.create! :name => "Assignment Changed"
         course_with_teacher(:active_all => true)
         student_in_course(:course => @course, :active_all => true)
-        @student.communication_channels.create(:path => "student@instructure.com").confirm!
+        @student.communication_channels.create(:path => "student@usms.com").confirm!
         @student.email_channel.notification_policies.
           find_or_create_by_notification_id(@notification.id).
           update_attribute(:frequency, 'immediately')

@@ -62,23 +62,23 @@ describe PseudonymSessionsController do
   end
 
   it "should re-render if incorrect password" do
-    user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty')
-    post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'dvorak'}
+    user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty')
+    post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'dvorak'}
     assert_status(400)
     response.should render_template('new')
   end
 
   it "should re-render if no password given" do
-    user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty')
-    post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => ''}
+    user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty')
+    post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => ''}
     assert_status(400)
     response.should render_template('new')
     flash[:error].should match(/no password/i)
   end
 
   it "password auth should work" do
-    user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty')
-    post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'qwerty'}
+    user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty')
+    post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'qwerty'}
     response.should be_redirect
     response.should redirect_to(dashboard_url(:login_success => 1))
     assigns[:user].should == @user
@@ -136,16 +136,16 @@ describe PseudonymSessionsController do
     it "should login for a pseudonym from a different account" do
       account = Account.create!
       Account.any_instance.stubs(:trusted_account_ids).returns([account.id])
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty', :account => account)
-      post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'qwerty'}
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty', :account => account)
+      post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'qwerty'}
       response.should redirect_to(dashboard_url(:login_success => 1))
     end
 
     it "should login for a user with multiple identical pseudonyms" do
       account1 = Account.create!
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty', :account => account1)
-      @pseudonym = @user.pseudonyms.create!(:account => Account.site_admin, :unique_id => 'jt@instructure.com', :password => 'qwerty', :password_confirmation => 'qwerty')
-      post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'qwerty'}
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty', :account => account1)
+      @pseudonym = @user.pseudonyms.create!(:account => Account.site_admin, :unique_id => 'jt@usms.com', :password => 'qwerty', :password_confirmation => 'qwerty')
+      post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'qwerty'}
       response.should redirect_to(dashboard_url(:login_success => 1))
       # it should have preferred the site admin pseudonym
       assigns[:pseudonym].should == @pseudonym
@@ -155,9 +155,9 @@ describe PseudonymSessionsController do
       account1 = Account.create!
       account2 = Account.create!
       Account.any_instance.stubs(:trusted_account_ids).returns([account1.id, account2.id])
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty', :account => account1)
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty', :account => account2)
-      post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'qwerty'}
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty', :account => account1)
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty', :account => account2)
+      post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'qwerty'}
       response.should_not be_success
       response.should render_template('pseudonym_sessions/new')
     end
@@ -165,9 +165,9 @@ describe PseudonymSessionsController do
     it "should login a site admin user with other identical pseudonyms" do
       account1 = Account.create!
       Account.any_instance.stubs(:trusted_account_ids).returns([account1.id, Account.site_admin.id])
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty', :account => account1)
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty', :account => Account.site_admin)
-      post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'qwerty'}
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty', :account => account1)
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty', :account => Account.site_admin)
+      post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'qwerty'}
       response.should redirect_to(dashboard_url(:login_success => 1))
       # it should have preferred the site admin pseudonym
       assigns[:pseudonym].should == @pseudonym
@@ -177,11 +177,11 @@ describe PseudonymSessionsController do
       specs_require_sharding
 
       it "should login for a user from a different shard" do
-        user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty', :account => Account.site_admin)
+        user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty', :account => Account.site_admin)
         @shard1.activate do
           account = Account.create!
           HostUrl.stubs(:default_domain_root_account).returns(account)
-          post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'qwerty' }
+          post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'qwerty' }
           response.should redirect_to(dashboard_url(:login_success => 1))
           assigns[:pseudonym].should == @pseudonym
         end
@@ -191,8 +191,8 @@ describe PseudonymSessionsController do
 
   context "merging" do
     it "should set merge params correctly in the session" do
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty')
-      @cc = @user.communication_channels.create!(:path => 'jt+1@instructure.com')
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty')
+      @cc = @user.communication_channels.create!(:path => 'jt+1@usms.com')
       get 'new', :confirm => @cc.confirmation_code, :expected_user_id => @user.id
       response.should render_template 'new'
       session[:confirm].should == @cc.confirmation_code
@@ -200,11 +200,11 @@ describe PseudonymSessionsController do
     end
 
     it "should redirect back to merge users" do
-      user_with_pseudonym(:username => 'jt@instructure.com', :active_all => 1, :password => 'qwerty')
-      @cc = @user.communication_channels.create!(:path => 'jt+1@instructure.com')
+      user_with_pseudonym(:username => 'jt@usms.com', :active_all => 1, :password => 'qwerty')
+      @cc = @user.communication_channels.create!(:path => 'jt+1@usms.com')
       session[:confirm] = @cc.confirmation_code
       session[:expected_user_id] = @user.id
-      post 'create', :pseudonym_session => { :unique_id => 'jt@instructure.com', :password => 'qwerty' }
+      post 'create', :pseudonym_session => { :unique_id => 'jt@usms.com', :password => 'qwerty' }
       response.should redirect_to(registration_confirmation_url(@cc.confirmation_code, :login_success => 1, :enrollment => nil, :confirm => 1))
     end
   end
@@ -501,7 +501,7 @@ describe PseudonymSessionsController do
         session[:saml_unique_id].should == @unique_id
       end
     end
-    
+
     it "should use the eppn saml attribute if configured" do
       ConfigFile.stub('saml', {})
       unique_id = 'foo'
@@ -1038,29 +1038,29 @@ describe PseudonymSessionsController do
 
         it "should create a new channel" do
           CommunicationChannel.any_instance.expects(:send_otp!).once
-          post 'otp_login', :otp_login => { :phone_number => '(800) 555-5555', :carrier => 'instructure.com' }
+          post 'otp_login', :otp_login => { :phone_number => '(800) 555-5555', :carrier => 'usms.com' }
           response.should render_template('otp_login')
           @cc = @user.communication_channels.sms.first
           @cc.should be_unconfirmed
-          @cc.path.should == '8005555555@instructure.com'
+          @cc.path.should == '8005555555@usms.com'
           session[:pending_otp_communication_channel_id].should == @cc.id
           assigns[:cc].should == @cc
         end
 
         it "should re-use an existing channel" do
-          @cc = @user.communication_channels.sms.create!(:path => '8005555555@instructure.com')
+          @cc = @user.communication_channels.sms.create!(:path => '8005555555@usms.com')
           @cc.any_instantiation.expects(:send_otp!).once
-          post 'otp_login', :otp_login => { :phone_number => '(800) 555-5555', :carrier => 'instructure.com' }
+          post 'otp_login', :otp_login => { :phone_number => '(800) 555-5555', :carrier => 'usms.com' }
           response.should render_template('otp_login')
           session[:pending_otp_communication_channel_id].should == @cc.id
           assigns[:cc].should == @cc
         end
 
         it "should re-use an existing retired channel" do
-          @cc = @user.communication_channels.sms.create!(:path => '8005555555@instructure.com')
+          @cc = @user.communication_channels.sms.create!(:path => '8005555555@usms.com')
           @cc.retire!
           @cc.any_instantiation.expects(:send_otp!).once
-          post 'otp_login', :otp_login => { :phone_number => '(800) 555-5555', :carrier => 'instructure.com' }
+          post 'otp_login', :otp_login => { :phone_number => '(800) 555-5555', :carrier => 'usms.com' }
           response.should render_template('otp_login')
           @cc.should be_unconfirmed
           session[:pending_otp_communication_channel_id].should == @cc.id

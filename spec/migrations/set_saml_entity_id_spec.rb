@@ -24,7 +24,7 @@ describe 'SetSamlEntityId' do
     ConfigFile.stub('saml', {
             :entity_id => "http://watup_fool.com/saml2"
     })
-    HostUrl.stubs(:default_host).returns('bob.cody.instructure.com')
+    HostUrl.stubs(:default_host).returns('bob.cody.usms.com')
     @account = Account.new
     @account.save
     @aac = @account.account_authorization_configs.create!(:auth_type => "saml")
@@ -55,7 +55,7 @@ describe 'SetSamlEntityId' do
     SetSamlEntityId.up
 
     @aac.reload
-    @aac.entity_id.should == "http://bob.cody.instructure.com/saml2"
+    @aac.entity_id.should == "http://bob.cody.usms.com/saml2"
   end
   
   

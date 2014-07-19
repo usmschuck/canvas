@@ -1,0 +1,58 @@
+d514c7491c26dcbbe82c89c4fd183c632ad3a729		branch '1.9.2' of git://github.com/ccutrer/mocha
+ea67b1c89ab7d2284b8a619663e81cc379b706b0		branch 'activesupport-integration-testing' of git://github.com/ccutrer/mocha
+aeff20317bdf859ce27ebb141f3970c6c9ae94ab		branch 'add-development-section-to-readme' of git://github.com/ccutrer/mocha
+03f0be5b6148f6a8221890d29f35cc82a17b79ba		branch 'alias-method-alternative' of git://github.com/ccutrer/mocha
+cf91bded89fe2172f2f82146aaacaa520f564b0e		branch 'fileutils-weirdness' of git://github.com/ccutrer/mocha
+3471145c13b74895b3e31520fe5653ca86958a70		branch 'macruby' of git://github.com/ccutrer/mocha
+a8713105a8043058bb956eed23b299074e97dd61		branch 'master' of git://github.com/ccutrer/mocha
+457e753ec0c3ce975159c46b8cdf68010caed41f		branch 'minitest-and-testunit-integration-without-monkey-patching' of git://github.com/ccutrer/mocha
+080b5aeaa32fe3a35bc406d132b6683873a077eb		branch 'patch-release-v0.12.10' of git://github.com/ccutrer/mocha
+bbf8b13806731bc34e00e6c2d73f9003a45efae5		branch 'patch-release-v0.12.4' of git://github.com/ccutrer/mocha
+f88a78050af1f1ad98c917cb26ed3539e59fe7e0		branch 'patch-release-v0.12.5' of git://github.com/ccutrer/mocha
+e18a0c99d83ffdffa1db0012b48214ec1466c519		branch 'patch-release-v0.12.6' of git://github.com/ccutrer/mocha
+18e2c3cb1ba729a334ddff23cff2f09e16de42b8		branch 'patch-release-v0.12.7' of git://github.com/ccutrer/mocha
+e021207426e4cf36e3c29e394896677e82f1c7c5		branch 'patch-release-v0.12.8' of git://github.com/ccutrer/mocha
+970eaa814bf59797a408bc9b2356c5cf79ba51de		branch 'patch-release-v0.12.9' of git://github.com/ccutrer/mocha
+139604f1d2af2f8a61b859bbca5bb49e9df179e2		branch 'rename-and-deprecate-integration-module' of git://github.com/ccutrer/mocha
+497f5de009332c1a930d20f11871e83e27b7bad9		branch 'sequence-experiment-1' of git://github.com/ccutrer/mocha
+d0569869da15fa9d3d86b18047630452a21906df		branch 'stub-serialization' of git://github.com/ccutrer/mocha
+d08e97f7ef31c12e64294e46df693f3bc9ced6a2		branch 'test-0.13.2' of git://github.com/ccutrer/mocha
+04b02f0f900f6882bb4e856d762e6675d2d323a9	not-for-merge	tag 'rel-0_4_0' of git://github.com/ccutrer/mocha
+905761a694be46fb1b2273da5a2f9b274eafdfbb	not-for-merge	tag 'rel-0_5_0' of git://github.com/ccutrer/mocha
+f53e904cb477a8cceab459970502de027dfa8090	not-for-merge	tag 'rel-0_5_1' of git://github.com/ccutrer/mocha
+42e586753376b77f6a33a6c08dd346dc8c75352c	not-for-merge	tag 'rel-0_5_2' of git://github.com/ccutrer/mocha
+4aa1435e0ae38ffe9d15972ed11f055fc466c2d2	not-for-merge	tag 'rel-0_5_3' of git://github.com/ccutrer/mocha
+0825c4862d41814845e3920f33f6f5adc9400579	not-for-merge	tag 'rel-0_5_4' of git://github.com/ccutrer/mocha
+e543a88ee31b05a8bb236e9e7387a2e55fa29579	not-for-merge	tag 'rel-0_5_5' of git://github.com/ccutrer/mocha
+6c0513ffac3ca6be0c66fc0f8bbb49b2c6b4064b	not-for-merge	tag 'rel-0_9_0' of git://github.com/ccutrer/mocha
+aecd4fe81d44868c6ceaa7695b9a5b91cf899856	not-for-merge	tag 'rel-0_9_1' of git://github.com/ccutrer/mocha
+31182ea8b38b79aa50702aa839f6a29ebcf7d684	not-for-merge	tag 'rel-0_9_10' of git://github.com/ccutrer/mocha
+aae7fdfdff52bb759cca74a2459ce105bba6ff10	not-for-merge	tag 'rel-0_9_11' of git://github.com/ccutrer/mocha
+8bb523e8467626c23b271eb529c33fb118e368fe	not-for-merge	tag 'rel-0_9_12' of git://github.com/ccutrer/mocha
+36ec8d49d93e31adc34101f526159a31da241a73	not-for-merge	tag 'rel-0_9_9' of git://github.com/ccutrer/mocha
+9966390930e958151213b849e1a849d3a86cc475	not-for-merge	tag 'v0.10.0' of git://github.com/ccutrer/mocha
+b745cd6d99bb65576a524f13179de611eb76bee6	not-for-merge	tag 'v0.10.1' of git://github.com/ccutrer/mocha
+3f385b78cadb6b4a0ae0f73be30cc6a1a6f6f058	not-for-merge	tag 'v0.10.2' of git://github.com/ccutrer/mocha
+866b3b68e84527d3343772c0c0b8275080104619	not-for-merge	tag 'v0.10.3' of git://github.com/ccutrer/mocha
+72aa73f38627bf1b9abb93b2dc9d901d8908996c	not-for-merge	tag 'v0.10.4' of git://github.com/ccutrer/mocha
+939c4bc0042875e5e4cfd0e60337bcb365930bea	not-for-merge	tag 'v0.10.5' of git://github.com/ccutrer/mocha
+0347dd3f6aab94ee592a4f2f7be5bf9b12e35396	not-for-merge	tag 'v0.11.0' of git://github.com/ccutrer/mocha
+6219ce4cafdef8b2b32857dcda0194a4f0de5541	not-for-merge	tag 'v0.11.1' of git://github.com/ccutrer/mocha
+69ecb1be42a940a8b5f6729aeb232a2a7a1ff70f	not-for-merge	tag 'v0.11.2' of git://github.com/ccutrer/mocha
+5ee330aa2fa16faccf9e9ea53e8612eb42a0b959	not-for-merge	tag 'v0.11.3' of git://github.com/ccutrer/mocha
+e2e8f60aeb4bae6a7364bde9495d94cbf779ab1d	not-for-merge	tag 'v0.11.4' of git://github.com/ccutrer/mocha
+af41061bf0eb55894ac68267d7ebd58ed5748a23	not-for-merge	tag 'v0.12.0' of git://github.com/ccutrer/mocha
+58ec6525320008fc87722434851fb0575f6ffc4f	not-for-merge	tag 'v0.12.1' of git://github.com/ccutrer/mocha
+080b5aeaa32fe3a35bc406d132b6683873a077eb	not-for-merge	tag 'v0.12.10' of git://github.com/ccutrer/mocha
+b97ffae86e074bc2479f11a3cac93206ef5ba22b	not-for-merge	tag 'v0.12.2' of git://github.com/ccutrer/mocha
+1a136a7e0b1fc882d82c4e97baa71f960e2d12ca	not-for-merge	tag 'v0.12.3' of git://github.com/ccutrer/mocha
+a958fba89de0dad4ba4f903a3544672023d879c7	not-for-merge	tag 'v0.12.4' of git://github.com/ccutrer/mocha
+f88a78050af1f1ad98c917cb26ed3539e59fe7e0	not-for-merge	tag 'v0.12.5' of git://github.com/ccutrer/mocha
+13d77916564063650086a06af261979a0721e63f	not-for-merge	tag 'v0.12.6' of git://github.com/ccutrer/mocha
+420cc42a8a104e7b4b87a4c8732a817938b7da30	not-for-merge	tag 'v0.12.7' of git://github.com/ccutrer/mocha
+e021207426e4cf36e3c29e394896677e82f1c7c5	not-for-merge	tag 'v0.12.8' of git://github.com/ccutrer/mocha
+970eaa814bf59797a408bc9b2356c5cf79ba51de	not-for-merge	tag 'v0.12.9' of git://github.com/ccutrer/mocha
+907095878a64778083013806d3cb3ed330406405	not-for-merge	tag 'v0.13.0' of git://github.com/ccutrer/mocha
+c204c361bb753da8ed85301a52a41283ecdeac5e	not-for-merge	tag 'v0.13.1' of git://github.com/ccutrer/mocha
+5c1b3d08fa8239377bfed273a2f8458882437b9c	not-for-merge	tag 'v0.13.2' of git://github.com/ccutrer/mocha
+cd0959777da231cf50b88691cdf6e9eb16bbcf7c	not-for-merge	tag 'v0.13.3' of git://github.com/ccutrer/mocha

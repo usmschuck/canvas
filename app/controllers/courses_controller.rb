@@ -244,7 +244,7 @@ require 'set'
 #       "properties": {
 #         "ics": {
 #           "description": "The URL of the calendar in ICS format",
-#           "example": "https://canvas.instructure.com/feeds/calendars/course_abcdef.ics",
+#           "example": "https://canvas.usms.com/feeds/calendars/course_abcdef.ics",
 #           "type": "string"
 #          }
 #       }

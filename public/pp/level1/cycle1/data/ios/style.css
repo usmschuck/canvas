@@ -1,0 +1,297 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body, div, a, p, ul, ol, li, table, td, th,
+{
+    font-family: Tahoma;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Arial;
+}
+
+.left_float
+{
+    float: left;
+}
+
+.clear
+{
+    clear: both;
+}
+
+body
+{
+    background: #7F7F7F;
+    padding: 30px;
+}
+
+.main
+{
+    min-width: 691px;
+    min-height: 600px;
+    padding: 43px;
+    background: white;
+    position: relative;
+}
+
+.main.ios
+{
+    padding: 33px 20px;
+}
+
+
+/*ios style begin*/
+
+.image_wrapper
+{
+    position: absolute;
+    width: 284px;
+    height: 201px;
+}
+
+.img_ipad
+{
+    width: 284px;
+    height: 201px;
+}
+
+.img_in_ipad
+{
+    width: 185px;
+    height: 140px;
+    left: 50px;
+    position: absolute;
+    top: 34px;
+}
+
+.info_wrapper
+{
+    padding-left: 305px;
+    padding-top: 12px;
+}
+
+.title
+{
+    font-size: 33px;
+    font-weight: bold;
+    font-family: Helvetica;
+    margin-bottom: 15px;
+    line-height: 33px;
+    word-wrap: break-word;
+}
+
+.text
+{
+    font-size: 16px;
+    color: #646464;
+    line-height: 21px;
+    font-family: Helvetica;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.button_wrapper
+{
+    height: 70px;
+    width: 163px;
+    position: relative;
+}
+
+.launch_button
+{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+}
+
+.button_text
+{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 100%;
+    height: 25px;
+    color: #646464;
+    font: 28px/28px Helvetica;
+    cursor: pointer;
+    text-align: center;
+}
+
+/*ios style end*/
+
+/*install style begin*/
+
+.desk
+{
+    position: absolute;
+}
+
+.button,
+.button:hover
+{
+    display: inline-block;
+}
+
+.info_wrapper_install
+{
+    padding-left: 198px;
+}
+
+.title_install
+{
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight: bold;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+.text_install
+{
+    font-size: 20px;
+    color: #646464;
+    font-family: Helvetica;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+/*install style end*/
+
+/* shadow styles begin */
+
+.left_top_shadow
+{
+    height: 3px;
+    width: 14px;
+    background: url(./shadows/left-top-shadow.jpg);
+    position: absolute;
+    top: -3px;
+    left: -6px;
+}
+
+.middle_top_shadow
+{
+    position: absolute;
+    top: -4px;
+    height: 4px;
+    left: 8px;
+    min-width: 98.95%;
+    background: url(./shadows/top-shadow.jpg) repeat-x;
+}
+
+.right_top_shadow
+{
+    position: absolute;
+    top: -3px;
+    right: -6px;
+    height: 3px;
+    width: 14px;
+    background: url(./shadows/right-top-shadow.jpg);
+}
+
+.top_left_shadow
+{
+    height: 13px;
+    width: 8px;
+    background: url(./shadows/top-left-shadow.jpg);
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+
+.middle_left_shadow
+{
+    width: 9px;
+    background: url(./shadows/middle-left-shadow.jpg) repeat-y;
+    position: absolute;
+    left: -9px;
+    top: 13px;
+    min-height: 98%;
+}
+
+.bottom_left_shadow
+{
+    height: 3px;
+    width: 8px;
+    background: url(./shadows/bottom-left-shadow.jpg);
+    position: absolute;
+    bottom: 0;
+    left: -8px;
+}
+
+.top_right_shadow
+{
+    height: 13px;
+    width: 8px;
+    background: url(./shadows/top-right-shadow.jpg);
+    position: absolute;
+    top: 0;
+    right: -8px;
+}
+
+.middle_right_shadow
+{
+    width: 9px;
+    background: url(./shadows/middle-right-shadow.jpg) repeat-y;
+    position: absolute;
+    right: -9px;
+    top: 13px;
+    min-height: 98%;
+}
+
+.bottom_right_shadow
+{
+    height: 3px;
+    width: 8px;
+    background: url(./shadows/bottom-right-shadow.jpg);
+    position: absolute;
+    bottom: 0;
+    right: -8px;
+}
+
+.left_bottom_shadow
+{
+    height: 13px;
+    width: 16px;
+    background: url(./shadows/left-bottom-shadow.jpg);
+    position: absolute;
+    bottom: -13px;
+    left: -8px;
+    z-index: 999;
+}
+
+.middle_bottom_shadow
+{
+    height: 14px;
+    background: url(./shadows/middle-bottom-shadow.jpg) repeat-x;
+    position: absolute;
+    left: -3px;
+    bottom: -14px;
+    min-width: 99.6%;
+}
+
+.right_bottom_shadow
+{
+    height: 13px;
+    width: 16px;
+    background: url(./shadows/right-bottom-shadow.jpg);
+    position: absolute;
+    bottom: -13px;
+    right: -8px;
+}
+
+/* shadow styles end */

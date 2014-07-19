@@ -1,0 +1,906 @@
+<?xml version="1.0"?>
+<presentation title="Purchasing and Leasing" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{16651B29-15EA-4142-886E-0C81AF0B6410}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="108808" duration="9038"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="414755" duration="34533"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="579326" duration="48248"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="305667" duration="25443"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="329491" duration="27428"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="589984" duration="49136"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="695623" duration="57939"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="584028" duration="48640"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="357076" duration="29727"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="503466" duration="41926"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="610359" duration="50834"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="758004" duration="63137"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="694996" duration="57887"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="158023" duration="13139"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="526350" duration="43833"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="200028" duration="16640"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="279336" duration="23248"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="344851" duration="28708"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="450804" duration="37537"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="376511" duration="31346"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="233569" duration="19435"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="154261" duration="12826"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="270559" duration="22517"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="468671" duration="39026"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="263662" duration="21942"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="310369" duration="25835"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="226359" duration="18834"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="94389" duration="7836"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="8.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="33.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="0" timeOffset="47.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="24.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="26.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="48.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="57.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="47.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="28.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="41.1360000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="50.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="62.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="57.0870000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="12.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="43.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="15.8500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="0" timeOffset="22.4470000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="0" timeOffset="27.9150000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="0" timeOffset="36.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="30.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="18.6499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="12.0500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="21.7339993"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="38.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="21.1499996"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="25.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="18.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="0" timeOffset="7.0500000"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="15608" advanceOnTime="0" framesCount="25" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="24" playTime="1.0000000" pauseTime="7.2500000"/>
+			</animationSteps>
+			<notes>green</notes>
+			<notesNormalized>green</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;green&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>USMS University™
+Quick Start Training
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="1" title="Purchasing and Leasing" titleNormalized="purchasing and leasing" src="slide2.swf" size="25233" advanceOnTime="0" framesCount="649" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="648" playTime="27.0000000" pauseTime="6.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Purchasing and Leasing
+Cash, check, money order or cashier’s check- all considered “cash” payments
+
+ACH/EFT- funds for equipment or set up fees can be deducted from their business checking account when the account is approved and installed
+
+Credit card- Visa, MasterCard, American Express and Discover
+
+Leasing- products and services can be bundled in a lease 
+
+Deduction from Merchant Cash Advance proceeds
+
+Any combination of the above
+
+Merchants can acquire products and services from USMS™ via the following payment methods:
+</text>
+		</slide>
+		<slide index="2" title="Purchasing and Leasing" titleNormalized="purchasing and leasing" src="slide3.swf" size="35996" advanceOnTime="0" framesCount="325" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="324" playTime="13.5000000" pauseTime="33.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Purchasing and Leasing
+	When accepting payment from a merchant for products or services, clearly mark on the paperwork the specific payment types and amounts:
+
+Note payment method along with card number or account information on this part of the application (unless ACH)
+Total all fees here, for any amounts not covered by lease. Do not include Merchant Club amount in total.
+If Merchant Club is offered, enter the monthly fee here.</text>
+		</slide>
+		<slide index="3" title="Purchasing and Leasing" titleNormalized="purchasing and leasing" src="slide4.swf" size="50738" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="20.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Purchasing and Leasing
+	Leasing is a financial tool for an individual or business to obtain the use of something without having to purchase it for outright cash 
+</text>
+		</slide>
+		<slide index="4" title="Purchasing and Leasing" titleNormalized="purchasing and leasing" src="slide5.swf" size="14409" advanceOnTime="0" framesCount="373" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="372" playTime="15.5000000" pauseTime="11.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Purchasing and Leasing
+With a lease there’s no interest charged: Lessee pays a money factor built into payment
+
+With a lease the client has the option to purchase outright at the end of the term or return equipment to leasing company 
+
+Leases are not rentals
+
+Leases are non-cancelable
+
+For every lease there is a payment amount, a term and a buy-out option
+
+</text>
+		</slide>
+		<slide index="5" title="Purchasing and Leasing" titleNormalized="purchasing and leasing" src="slide6.swf" size="22956" advanceOnTime="0" framesCount="277" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="276" playTime="11.5000000" pauseTime="36.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Purchasing and Leasing
+ Lease Terms Example: 
+ $39.95 x 48 months, 10% buy-out. The buyout is the amount that the merchant can pay at the end to own the system after all payments are made. 
+
+ $39.95 x 48 month = 1,917.60. Merchant made all lease payments. Fair Market Value (FMV) 10% buyout is $191.76. 
+
+</text>
+		</slide>
+		<slide index="6" title="Purchasing and Leasing" titleNormalized="purchasing and leasing" src="slide7.swf" size="52578" advanceOnTime="0" framesCount="517" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="516" playTime="21.5000000" pauseTime="35.6500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Purchasing and Leasing
+Minimal capital outlay-usually one or two monthly payments up front. Sometimes no upfront payments are required
+
+100% tax deductible payment-versus calculating depreciation on a cash purchase
+
+Leases are assumable-can be transferred
+
+Establish business credit history
+
+Ability to utilize cash for more profit enhancing purchases such as marketing and inventory
+Tax Deductible
+Merchant Benefits</text>
+		</slide>
+		<slide index="7" title="" titleNormalized="" src="slide8.swf" size="30146" advanceOnTime="0" framesCount="205" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="204" playTime="8.5000000" pauseTime="39.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Ability to bundle products and service set up fees into a low monthly payment
+Provides a greater ability to earn higher commissions via more gross profit
+Ability to sell a payment versus negotiable cash price
+Get paid immediately upon lease verification and funding
+
+Sales Rep Benefits
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="8" title="" titleNormalized="" src="slide9.swf" size="9476" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="18.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+In calculating lease payments for your merchant, always discuss credit before you quote rates and fees. 
+High credit scores will provide higher funded amounts and therefore higher commissions, and consequently low credit scores will provide lower commissions. 
+Check your Agent program for appropriate lease factors (Schedule B).
+Calculating Lease Payments
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="9" title="" titleNormalized="" src="slide10.swf" size="8639" advanceOnTime="0" framesCount="349" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="348" playTime="14.5000000" pauseTime="26.6360016"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+A lease factor is a numerical equation used to determine the payment amount or the funded amount. Calculate payment amounts as follows:
+
+Sale Amount times Factor = Payment Amount. In other words: $2,000 X .0299 = $59.80 per month. 
+
+Therefore: Payment Amount divided by Factor = Funded Amount. In other words: $59.80/.0299 = $2,000.
+Lease Factors
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="10" title="" titleNormalized="" src="slide11.swf" size="18711" advanceOnTime="0" framesCount="121" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="120" playTime="5.0000000" pauseTime="45.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Most companies that provide leasing for POS equipment provide tiered factors based on credit scores 
+Credit Scores and Lease Factors
+Credit Report
+Example: 
+Product: 	Verifone VX510 Terminal 
+Term: 	 48 months
+Payment: 	$49.90 mo.
+*Sample Lease Factors: 	
+High credit Medium credit Low credit
+.0299 .0329 .0414
+*Consult Schedule B for actual factors. Factors are subject to change.
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="11" title="" titleNormalized="" src="slide12.swf" size="19844" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="55.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Calculating Funding Amount
+Credit Report
+High Credit: 		$49.90 divided by .0299 = 	$1,670.57
+Medium Credit: 	$49.90 divided by .0329 = 	$1,518.23
+Low Credit: 		$49.90 divided by .0414 = 	$1,206.52
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="12" title="" titleNormalized="" src="slide13.swf" size="13816" advanceOnTime="0" framesCount="181" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="180" playTime="7.5000000" pauseTime="49.5870018"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Credit Scores and Lease Factors
+Credit Report
+Qualify your customer
+If the client immediately responds with an 8,9, or 10, that’s an indication that credit is good. 
+If the client hesitates or says anything less than a 7, you can be assured there are credit issues. 
+Then write the lease at the higher payment or assume the lower credit score factor will be applied. 
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="13" title="" titleNormalized="" src="slide14.swf" size="13461" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="5.8500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Credit Scores and Lease Factors
+Credit Report
+“Mr. Johnson, the typical lease installment on this terminal is $59.90 per month, however, if your credit score is high enough, you may qualify for a lower monthly installment of $49.90. On a scale of one through ten how would you rate your credit?”
+Qualify your customer
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="14" title="" titleNormalized="" src="slide15.swf" size="38660" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="37.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Lease payments are automatically debited from the merchant’s bank-no exceptions
+
+Payments are debited monthly from the date of verification
+
+If no advanced payments are made with the lease, the first payment will be immediately deducted once the lease is verified
+Merchant Lease Payments
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="15" title="" titleNormalized="" src="slide16.swf" size="14882" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="10.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Azura Leasing- POS Equipment, ATMS
+Time Payment Corp- POS Equipment and a variety of commercial and consumer products
+USMS Leasing Partners
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="16" title="" titleNormalized="" src="slide17.swf" size="15147" advanceOnTime="0" framesCount="205" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="204" playTime="8.5000000" pauseTime="13.9470005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Sales and Use Tax
+Purchasing and Leasing
+Leasing companies also bill amounts for sales or use tax for the state and county the business resides in.
+This amount is automatically added to the payment each month and must be disclosed to your client.</text>
+		</slide>
+		<slide index="17" title="" titleNormalized="" src="slide18.swf" size="29203" advanceOnTime="0" framesCount="301" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="300" playTime="12.5000000" pauseTime="15.4150009"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Leasing companies require merchants insure leased items 
+Upon verification the leasing company will notify clients that proof of insurance is required 
+The merchant’s general business insurance policy is usually sufficient
+If the merchant operates from home, then the homeowner or renter’s policy may be sufficient
+If the merchant does not provide proof of insurance, the leasing company will provide insurance for a few dollars per month	
+Insurance
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="18" title="" titleNormalized="" src="slide19.swf" size="16425" advanceOnTime="0" framesCount="169" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="168" playTime="7.0000000" pauseTime="29.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+All leasing companies publish a list of lease caps
+
+A lease cap is the highest amount of monthly payment the leasing company will allow for that item or group of items 
+
+If several items are leased: Terminal, PIN Pad, Check Imager, then the lease cap would be the combined caps for each piece of equipment
+Lease Caps
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="19" title="" titleNormalized="" src="slide20.swf" size="18306" advanceOnTime="0" framesCount="85" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="84" playTime="3.5000000" pauseTime="27.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Example:		Item					 
+
+*48 Month Lease Cap	Terminal/Printer			 	$79.00
+			 PIN Pad 				$29.00
+		 	Check Imager				$39.00
+ 		Combined Lease Cap:				$147.00 							 per month
+Purchasing and Leasing
+Lease Caps</text>
+		</slide>
+		<slide index="20" title="" titleNormalized="" src="slide21.swf" size="27850" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="14.1499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Large Leases
+For larger or multi-location leases the cap would be extended by the number of units leased. For Example: If the merchant had 10 locations, the lease cap would be $147 x 10 = $1,470.00 per month. 
+For larger or multi-location leases you have the option of placing all equipment on one lease (if all leased to the same company, with same checking account), or provide a separate lease for each location. 
+For leases where the total funded amount exceeds $10,000 the leasing company will most likely require financials.
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="21" title="" titleNormalized="" src="slide22.swf" size="27404" advanceOnTime="0" framesCount="109" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="108" playTime="4.5000000" pauseTime="7.5500002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Other Equipment
+In addition to POS leasing, USMS™ can provide access for merchants to lease other products needed for their business as well as ATM Cash Machines.
+ 
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="22" title="" titleNormalized="" src="slide23.swf" size="26963" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="15.7339993"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Bundling Additional Products and Services
+Leases are for hardware, software or other capital equipment
+Intangible items or resale items such as set up fees and gift cards cannot be leased, however, these items may be “bundled” into the lease
+Bundling can occur as long as the lease cap does not exceed the amount allowed for the equipment or software being leased 
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="23" title="" titleNormalized="" src="slide24.swf" size="16876" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="32.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Bundling Additional Products and Services
+Package:				Lease Cap
+Verifone Terminal/Printer			$79.00
+Verifone PIN Pad 				$29.00
+Check Imager				$39.00
+500 Custom Gift Cards and Set Up		NA	
+100 Prepaid Visa Cards			NA
+Consumer Financing Set Up Fee		NA
+Installation Fee				NA
+Shipping					NA
+Total allowable lease cap:			$147.00
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="24" title="" titleNormalized="" src="slide25.swf" size="14344" advanceOnTime="0" framesCount="133" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="132" playTime="5.5000000" pauseTime="15.6499996"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Bundling Additional Products and Services
+Even though you’ve bundled the additional service and products, the lease cap is purely based on the equipment sold
+Therefore YOU ONLY MARK THE LEASABLE ITEMS ON THE LEASE
+The additional items would be noted on the Merchant Application or the Equipment and Services Agreement
+Purchasing and Leasing</text>
+		</slide>
+		<slide index="25" title="" titleNormalized="" src="slide26.swf" size="28004" advanceOnTime="0" framesCount="85" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="84" playTime="3.5000000" pauseTime="21.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+Calculating Gross Profits
+Product/Service (Example)			*Cost
+Verifone Terminal/Printer			$384.00
+Verifone PIN Pad 				$110.00
+Check Imager				$395.00
+500 Custom Gift Cards and Set Up		$520.00	
+100 Prepaid Visa Cards			$295.00
+Consumer Financing Set Up Fee			$ 95.00
+Installation Fee				$ 45.00
+Shipping					$ 25.00
+*Total Cost	 		 	 $1,869.00
+Lease Payment Charged:			$147.00
+**Funded Amount High Credit: $149.00/.0299 = 	$4,916.39
+Gross Profit: $4,916.39 - $1,869.00 =	 	$3,047.39
+Purchasing and Leasing
+Agent cost samples. Check Schedule B for actual costs.</text>
+		</slide>
+		<slide index="26" title="" titleNormalized="" src="slide27.swf" size="97426" advanceOnTime="0" framesCount="157" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="156" playTime="6.5000000" pauseTime="11.5499992"/>
+			</animationSteps>
+			<notes>green</notes>
+			<notesNormalized>green</notesNormalized>
+			<notesHtml>&lt;p&gt;&lt;font size="12"&gt;green&lt;/font&gt;&lt;/p&gt;</notesHtml>
+			<text>©2013 U.S. Merchant Systems. All rights reserved.
+No Strike overs or cross outs!!!
+No erasures!!!
+No white out!!!!
+STOP
+Made an error?
+Start Over!
+Get all signatures!!!
+Lease Paperwork</text>
+		</slide>
+		<slide index="27" title="Chapter Quiz" titleNormalized="chapter quiz" src="slide28.swf" size="4667" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="7.0490002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Chapter Quiz
+© 2013 U.S. Merchant Systems. All rights reserved.
+28
+Please take a moment to complete the chapter quiz on USMS University</text>
+		</slide>
+	</slides>
+</presentation>

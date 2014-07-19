@@ -126,7 +126,7 @@ shared_examples_for "external tools tests" do
     <blti:title>Other Name</blti:title>
     <blti:description>Description</blti:description>
     <blti:launch_url>http://example.com/other_url</blti:launch_url>
-    <blti:extensions platform="canvas.instructure.com">
+    <blti:extensions platform="canvas.usms.com">
       <lticm:property name="privacy_level">public</lticm:property>
       <lticm:property name="vendor_help_link">http://example.com/help</lticm:property>
       <lticm:options name="editor_button">

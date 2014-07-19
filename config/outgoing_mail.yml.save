@@ -1,0 +1,14 @@
+production:
+ address: ""
+  port: "465"
+  user_name: "master\hovanessb"
+  password: "Kug&Ilu39"
+  authentication: "plain" # plain, login, or cram_md5
+  domain: "usms.com"
+  outgoing_address: "hovi@usms.com"
+  default_name: "Hovaness Canvas"
+
+# If receiving mail from multiple inboxes (see incoming_mail.yml.example),
+# you'll want to include those addresses in a reply_to_addresses array so
+# Canvas will select the Reply-To field of outgoing messages from all of the
+# incoming mailboxes.

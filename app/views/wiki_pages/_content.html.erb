@@ -82,6 +82,41 @@ course will see this page first.  You can change that from [the course home page
             <%= user_content(@page.body) %>
           <% end %>
         <% end %>
+
+<!-- cjk here is where we customize the certificate button -->
+<%  if(request.fullpath == "/courses/1/wiki/certificate?module_item_id=37") %>
+       <%= @certName = 'Quick Start' %>
+       <%= certificate('Level-1-completion-cert.pdf', @certName) %>
+       <a href="/pp/pdfs/<%= @certName + " " + @current_user.name %>.pdf" class="btn btn button-secondary">Download Certificate</a>
+<% end%>
+
+<%  if(request.fullpath == "/courses/5/wiki/certificate-of-completion?module_item_id=57") %>
+       <%= @certName = 'Consumer Finance' %>
+       <%= certificate('ConsumerFinance-completion-cert.pdf', @certName) %>
+       <a href="/pp/pdfs/<%= @certName + " " + @current_user.name %>.pdf" class="btn btn button-secondary">Download Certificate</a>
+<% end%>
+
+<%  if(request.fullpath == "/courses/6/wiki/certificate?module_item_id=60") %>
+       <%= @certName = 'Prepaid Products' %>
+       <%= certificate('PrepaidProducts-completion-cert.pdf', @certName) %>
+       <a href="/pp/pdfs/<%= @certName + " " + @current_user.name %>.pdf" class="btn btn button-secondary">Download Certificate</a>
+<% end%>
+
+<%  if(request.fullpath == "/courses/3/wiki/certificate-of-completion?module_item_id=53") %>
+       <%= @certName = 'GiftAndLoyalty' %>
+       <%= certificate('GiftLoyalty-completion-cert.pdf', @certName) %>
+       <a href="/pp/pdfs/<%= @certName + " " + @current_user.name %>.pdf" class="btn btn button-secondary">Download Certificate</a>
+<% end%>
+
+<%  if(request.fullpath == "/courses/4/wiki/certificate-of-completion?module_item_id=89") %>
+       <%= @certName = 'Level 1' %>
+       <%= certificate('Level-1-completion-cert.pdf', @certName) %>
+       <a href="/pp/pdfs/<%= @certName + " " + @current_user.name %>.pdf" class="btn btn button-secondary">Download Certificate</a>
+<% end%>
+
+<!-- cjk end customization -->
+
+
       </div>
     <% end %>
   <% end %>

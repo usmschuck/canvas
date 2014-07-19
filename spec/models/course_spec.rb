@@ -854,9 +854,9 @@ describe Course, "gradebook_to_csv" do
 
   it "should include sis ids if enabled" do
     course(:active_all => true)
-    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
     student_in_course(:user => @user1)
-    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@instructure.com')
+    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@usms.com')
     student_in_course(:user => @user2)
     @user3 = user(:active_all => true, :name => 'JT')
     student_in_course(:user => @user3)
@@ -976,9 +976,9 @@ describe Course, "gradebook_to_csv" do
   it "should only include students once" do
     # students might have multiple enrollments in a course
     course(:active_all => true)
-    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
     student_in_course(:user => @user1)
-    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@instructure.com')
+    @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@usms.com')
     student_in_course(:user => @user2)
     @s2 = @course.course_sections.create!(:name => 'section2')
     StudentEnrollment.create!(:user => @user1, :course => @course, :course_section => @s2)
@@ -990,9 +990,9 @@ describe Course, "gradebook_to_csv" do
 
   it "should include muted if any assignments are muted" do
       course(:active_all => true)
-      @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+      @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
       student_in_course(:user => @user1)
-      @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@instructure.com')
+      @user2 = user_with_pseudonym(:active_all => true, :name => 'Cody', :username => 'cody@usms.com')
       student_in_course(:user => @user2)
       @user3 = user(:active_all => true, :name => 'JT')
       student_in_course(:user => @user3)
@@ -1039,9 +1039,9 @@ describe Course, "gradebook_to_csv" do
     course(:active_all => 1)
     @teacher.enrollments.first.update_attribute(:limit_privileges_to_course_section, true)
     @section = @course.course_sections.create!(:name => 'section 2')
-    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@instructure.com')
+    @user1 = user_with_pseudonym(:active_all => true, :name => 'Brian', :username => 'brianp@usms.com')
     @section.enroll_user(@user1, 'StudentEnrollment', 'active')
-    @user2 = user_with_pseudonym(:active_all => true, :name => 'Jeremy', :username => 'jeremy@instructure.com')
+    @user2 = user_with_pseudonym(:active_all => true, :name => 'Jeremy', :username => 'jeremy@usms.com')
     @course.enroll_student(@user2)
 
     csv = @course.gradebook_to_csv(:user => @teacher)

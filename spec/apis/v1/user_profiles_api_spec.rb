@@ -155,7 +155,7 @@ describe "User Profile API", type: :request do
 
     it "should return profile links, if requested" do
       @student.profile.save
-      @student.profile.links.create! :url => "http://instructure.com",
+      @student.profile.links.create! :url => "http://usms.com",
                                      :title => "Instructure"
 
       json = api_call(:get, "/api/v1/users/#{@student.id}/profile?include[]=links",
@@ -163,7 +163,7 @@ describe "User Profile API", type: :request do
                       :user_id => @student.to_param, :format => "json",
                       :include => %w(links))
       json["links"].should == [
-        {"url" => "http://instructure.com", "title" => "Instructure"}
+        {"url" => "http://usms.com", "title" => "Instructure"}
       ]
     end
   end

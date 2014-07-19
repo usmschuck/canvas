@@ -21,7 +21,7 @@ def submission_model(opts={})
   @student = opts.delete(:user) || user_with_pseudonym({:active_user => true, :username => 'student@example.com', :password => 'qwerty'}.merge(opts))
   @course.enroll_user(@student, "StudentEnrollment", {:enrollment_state => 'active'}.merge(opts))
   assignment.reload # it caches the course pre-student enrollment
-  @submission = assignment.submit_homework(@student, (opts.presence || { :url => "http://www.instructure.com/" }))
+  @submission = assignment.submit_homework(@student, (opts.presence || { :url => "http://www.usms.com/" }))
   @submission.save!
   @submission
 end

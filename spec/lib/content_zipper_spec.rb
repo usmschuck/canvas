@@ -63,7 +63,7 @@ describe ContentZipper do
         if f.file?
           f.name.should =~ /some-999----1234-guy/
           f.get_input_stream.read.should match(%r{This submission was a url, we&#x27;re taking you to the url link now.})
-          f.get_input_stream.read.should be_include("http://www.instructure.com/")
+          f.get_input_stream.read.should be_include("http://www.usms.com/")
         end
       end
     end
@@ -191,7 +191,7 @@ describe ContentZipper do
         it "should give logged out people no files" do
           zipped_files_for_user(nil).should == []
         end
-        
+
         it "should give all files if check_user=false" do
           zipped_files_for_user(nil, false).should == ["locked/sub-locked-vis.png", "hidden/sub-hidden.png", "hidden.png", "visible.png", "visible/sub-locked.png", "visible/sub-vis.png", "locked.png"].sort
         end
@@ -249,7 +249,7 @@ describe ContentZipper do
       names.should == ['otherfile.png']
     end
   end
-  
+
   describe "mark_successful!" do
     it "sets an instance variable representing a successful zipping" do
       zipper = ContentZipper.new

@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 #
 # Copyright (C) 2011 - 2014 Instructure, Inc.
 #
@@ -625,7 +626,7 @@ class AssignmentsApiController < ApplicationController
   #   Example:
   #     external_tool_tag_attributes: {
   #       // url to the external tool
-  #       url: "http://instructure.com",
+  #       url: "http://usms.com",
   #       // create a new tab for the module, defaults to false.
   #       new_tab: false
   #     }
@@ -763,7 +764,7 @@ class AssignmentsApiController < ApplicationController
   #   Example:
   #     external_tool_tag_attributes: {
   #       // url to the external tool
-  #       url: "http://instructure.com",
+  #       url: "http://usms.com",
   #       // create a new tab for the module, defaults to false.
   #       new_tab: false
   #     }

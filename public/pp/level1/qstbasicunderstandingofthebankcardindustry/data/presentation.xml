@@ -1,0 +1,985 @@
+<?xml version="1.0"?>
+<presentation title="QST Basic Understanding of the Bankcard Industry" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{11C709A8-1B41-4932-9772-08BC7CCD301D}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="144857" duration="12042"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="710043" duration="59141"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="1054546" duration="87849"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="497510" duration="41430"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="267110" duration="22230"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="401589" duration="33436"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="1090281" duration="90827"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="463969" duration="38635"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="612867" duration="51043"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="420710" duration="35030"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="358330" duration="29831"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="1731326" duration="144248"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="777125" duration="64731"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="237331" duration="19748"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="472433" duration="39340"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="210686" duration="17528"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="561145" duration="46733"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="738882" duration="61544"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="1069906" duration="89129"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="832296" duration="69328"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="542023" duration="45139"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="558950" duration="46550"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="1149213" duration="95738"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="292501" duration="24346"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="1214101" duration="101146"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="611613" duration="50938"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="621331" duration="51748"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="1199682" duration="99944"/>
+		<soundAsset id="sndAsset28" src="sound29.mp3" embedded="0" size="151754" duration="12617"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="thmb29.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="11.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="58.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="0" timeOffset="87.0500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="40.6500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="21.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="32.6500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="90.0500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="37.8499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="50.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="34.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="29.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="143.4499969"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="63.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="18.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="38.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="16.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="0" timeOffset="45.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="0" timeOffset="60.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="0" timeOffset="88.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="68.5500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="44.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="45.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="94.9499969"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="23.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="100.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="50.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="50.9500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="0" timeOffset="99.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset28">
+				<startTimestamp slideIndex="28" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="28" stepIndex="0" timeOffset="11.8400000"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="14950" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="11.2490000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>USMS University™
+Quick Start Training
+Basic Understanding of the Bankcard Industry</text>
+		</slide>
+		<slide index="1" title="" titleNormalized="" src="slide2.swf" size="20307" advanceOnTime="0" framesCount="349" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="348" playTime="14.5000000" pauseTime="43.8499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+2
+Visa &amp; MasterCard vs. Other Cards
+ Visa and MasterCard (V/MC) are only issued by member banks
+ V/MC formerly not-for-profit associations, now for-profit public companies
+ Visa and MasterCard are known as “bankcards”
+ American Express and JCB are issued directly by the companies (non-bankcards)
+ Visa, MasterCard and Discover merchant transactions are underwritten by the acquirer (assumed risk)
+ American Express and JCB underwrite all of their own merchant transactions
+ Diner’s Club today is issued as a specially-branded MasterCard
+</text>
+		</slide>
+		<slide index="2" title="" titleNormalized="" src="slide3.swf" size="15631" advanceOnTime="0" framesCount="959" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="958" playTime="39.9166667" pauseTime="47.1333364"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+3
+ Contract with Cardholder
+ Card Issuance
+ Issues Authentication and 
+ Authorization
+ Pays Acquirer for Cardholder’s 
+ Purchases
+ Reimbursed by Associations
+ Bills fees to Cardholder
+ Reimbursed by Cardholder
+Issuer
+Acquirer
+ Contract with Merchant
+ Card Acceptance
+ Requests Authentication and 
+ Authorization
+ Pays Merchant for Merchant’s 
+ Sales
+ Pays Associations
+ Bills fees to Merchant
+ Reimbursed by Issuer
+Roles and Responsibilities</text>
+		</slide>
+		<slide index="3" title="" titleNormalized="" src="slide4.swf" size="13256" advanceOnTime="0" framesCount="121" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="120" playTime="5.0000000" pauseTime="35.6500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+4
+Association Members
+
+The Associations
+All US Members (Issuers and Acquirers) are FDIC-Insured Financial Institutions</text>
+		</slide>
+		<slide index="4" title="" titleNormalized="" src="slide5.swf" size="13984" advanceOnTime="0" framesCount="433" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="432" playTime="18.0000000" pauseTime="3.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+5
+Issuer
+Acquirer
+Both
+Issuer vs. Acquirer</text>
+		</slide>
+		<slide index="5" title="" titleNormalized="" src="slide6.swf" size="31075" advanceOnTime="0" framesCount="385" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="384" playTime="16.0000000" pauseTime="16.6500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+6
+ Contract with Issuer
+
+ Buys Goods/Services
+
+ Cardholder promises 
+ to pay Issuer
+ Contract with Acquirer
+
+ Sells Goods/Services
+
+ Acquirer promises to 
+ pay Merchant.
+Cardholder
+Merchant
+Roles and Responsibilities</text>
+		</slide>
+		<slide index="6" title="" titleNormalized="" src="slide7.swf" size="67663" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="80.0500031"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+7
+Interchange
+Merchant
+(With Acquirer)
+Cardholder
+(With Issuer)
+Bank of America
+Deutsche Bank
+Credit Card Interchange System</text>
+		</slide>
+		<slide index="7" title="" titleNormalized="" src="slide8.swf" size="6311" advanceOnTime="0" framesCount="445" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="444" playTime="18.5000000" pauseTime="19.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+8
+ Provide Data Transport Networks to facilitate Interchange
+ Set and enforce compliance with Operating Regulations
+ Monitor and produce guidelines for Risk
+ Create advertising and promotions to support their brands
+ Develop New Products
+
+They DO NOT:
+
+ Issue credit cards
+ Approve Merchants to accept bankcards
+ Set credit limits to cardholders and Merchants
+Visa and MasterCard ‘Bankcard’ Associations
+
+Roles and Responsibilities</text>
+		</slide>
+		<slide index="8" title="" titleNormalized="" src="slide9.swf" size="5732" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="42.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+9
+ Is a MEMBER financial institution of the Associations (just like an Issuer)
+ Does its own card processing or outsources to a processor
+ Does its own sales or outsources to an ISO/MSP
+ May provide various levels of back office support
+ Manages risk and carries chargeback liability or outsources to ISO/MSPs and processors
+The Acquirer
+Roles and Responsibilities</text>
+		</slide>
+		<slide index="9" title="" titleNormalized="" src="slide10.swf" size="6396" advanceOnTime="0" framesCount="421" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="420" playTime="17.5000000" pauseTime="16.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+10
+ ISO – Independent Sales Organization (Visa Term)
+ MSP- Member Service Provider (MasterCard Term)
+ ISOs/MSPs provide various levels of service and support:
+ Sales and Installation
+ Customer Service
+ Underwriting
+ Risk Management
+ Statements and Reporting
+ Chargeback Administration
+ Retrieval (RFC) Administration 
+The ISO/MSP
+
+Roles and Responsibilities</text>
+		</slide>
+		<slide index="10" title="" titleNormalized="" src="slide11.swf" size="5937" advanceOnTime="0" framesCount="313" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="312" playTime="13.0000000" pauseTime="16.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+11
+ Typically a transaction-based company
+ Provides connectivity between the Associations and Members for:
+ Authorization 
+ Capture 
+ Clearing
+ Settlement
+ Also may provide various levels of back office support
+Third-Party Processors (TPPs)
+Roles and Responsibilities</text>
+		</slide>
+		<slide index="11" title="" titleNormalized="" src="slide12.swf" size="12549" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="131.4499969"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+12
+Transaction Authorization Cycle
+Bankcard Associations
+Acquirer
+TPP
+ISO/MSP
+Cardholder
+Merchant
+Issuer
+Authorization Response (Approved or Declined)</text>
+		</slide>
+		<slide index="12" title="" titleNormalized="" src="slide13.swf" size="14931" advanceOnTime="0" framesCount="901" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="900" playTime="37.5000000" pauseTime="26.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+13
+Transaction Settlement Cycle
+Bankcard Associations
+Acquirer
+TPP
+Merchant
+Issuer
+$
+$
+$
+Merchant’s Bank
+Merchant closes batch</text>
+		</slide>
+		<slide index="13" title="" titleNormalized="" src="slide14.swf" size="6016" advanceOnTime="0" framesCount="253" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="252" playTime="10.5000000" pauseTime="8.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+14
+Authorization
+Merchant Balancing
+Capture
+Clearing
+Interchange
+Settlement
+Funding
+The Life Cycle of a Transaction</text>
+		</slide>
+		<slide index="14" title="" titleNormalized="" src="slide15.swf" size="15372" advanceOnTime="0" framesCount="212" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="211" playTime="8.7916667" pauseTime="29.7583326"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+15
+PCI DSS stands for Payment Card Industry Data Security Standards. These are requirements designed to ensure that ALL companies that process, store or transmit credit card information maintain a secure environment. 
+PCI DSS applies to:
+All merchants
+Credit card processors
+Third party processors
+Issuers and Acquirers
+Terminal manufacturers
+Software and gateway providers 
+PCI DSS Compliance</text>
+		</slide>
+		<slide index="15" title="" titleNormalized="" src="slide16.swf" size="10972" advanceOnTime="0" framesCount="119" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="118" playTime="4.9166667" pauseTime="11.8333333"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+16
+The Payment Card Industry Security Standards Council (PCI SSC):
+Launched on September 7, 2006
+Manages the ongoing evolution of the Payment Card Industry (PCI) security standards
+Focus on improving security throughout the transaction process
+Administered and managed by the PCI SSC- an independent body created by the major payment card brands (Visa, MasterCard, American Express, Discover and JCB.). 
+Cardholder Security</text>
+		</slide>
+		<slide index="16" title="" titleNormalized="" src="slide17.swf" size="14693" advanceOnTime="0" framesCount="104" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="103" playTime="4.2916667" pauseTime="41.6583341"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+17
+PCI standards apply to ALL organizations or merchants, regardless of size or number of transactions, that accept, transmit, or store any cardholder data. Said another way, if any customer of that organization ever pays the merchant directly using a credit card or debit card, then the PCI DSS requirements apply.
+USMS strictly adheres to PCI requirements
+There is an organizational cost to administer all PCI requirements for merchants
+Cardholder Security</text>
+		</slide>
+		<slide index="17" title="" titleNormalized="" src="slide18.swf" size="16674" advanceOnTime="0" framesCount="121" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="120" playTime="5.0000000" pauseTime="55.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+18
+	The Housing and Economic Recovery Act of 2008 requires "merchant acquiring entities" to report gross amounts of merchant customers' electronic payment transactions to the IRS beginning on January 1, 2011. Required reporting and tax withholding began in 2012. All merchant acquiring entities must collect and verify the Tax Identification Number (TIN) and associated legal business name and address for each of their merchants on file.
+Housing and Economic Recovery Act</text>
+		</slide>
+		<slide index="18" title="" titleNormalized="" src="slide19.swf" size="6403" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="79.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+19
+Acquiring Bank or Acquirer: 
+Member financial institution of Visa or MasterCard that provides merchant accounts and acquirers sales drafts from merchants and pays the merchant with funds from issuers
+Approval Code or Authorization Code: 
+6-digit code given merchant for approved transaction
+Authorization Only or Pre-Authorization:
+A validation from issuer that card is valid for available credit. A portion of the open credit is reserved for this merchant. The sale may be processed later not processed at all. Car Rental is an example of merchant that performs an Auth Only of the estimated amount the cardholder will pay upon returning the vehicle
+Industry Terms</text>
+		</slide>
+		<slide index="19" title="" titleNormalized="" src="slide20.swf" size="6891" advanceOnTime="0" framesCount="313" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="312" playTime="13.0000000" pauseTime="55.5500031"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+20
+Average Ticket Size:
+Average dollar amount of merchant’s sales
+AVS (Address Verification Service):
+Automated fraud prevention system that allows card-not-present merchants to confirm a cardholder’s billing address while authorizing a transaction
+Bankcard: 
+Any plastic card issued for purchasing by a bank
+Basis Point:
+One one-hundredth (1/100) of a percent. For example, 0.20% = 20 basis points
+Industry Terms</text>
+		</slide>
+		<slide index="20" title="" titleNormalized="" src="slide21.swf" size="6382" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="35.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+21
+Batch:
+Collection of Captured transactions with Approval Codes that reside on a terminal, Internet Gateway or a processor’s Host system. When the batch is closed, the transactions are submitted for settlement by the processor. 
+Industry Terms
+BIN (Bank Identification Number):
+Six digits assigned by Visa to members to identify transactions relating to such members. There are Acquiring and Issuing BINs. 
+Card Not Present or CNP
+Environment where Cardholder and card are not physically present at the time of the sale. Examples of these are MOTO (Mail Order Telephone Order), most business-to-business and all Internet-based transactions.</text>
+		</slide>
+		<slide index="21" title="" titleNormalized="" src="slide22.swf" size="6407" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="36.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+22
+Chargeback:
+A card transaction with merchant that is disputed by consumer, where acquirer must return funds to issuer until resolved. Potential causes might be: Merchant did not deliver goods or services as promised, Merchant fraud, Unauthorized sales amount, Card was lost or stolen, etc. 
+Credit Transaction:
+Transaction which returns funds from merchant to cardholder (used for refunds).
+CVC2:
+Card validation code 2- MasterCard 3 digit code on the signature panel of card, used for security protection with card not present transactions.
+Industry Terms</text>
+		</slide>
+		<slide index="22" title="" titleNormalized="" src="slide23.swf" size="6705" advanceOnTime="0" framesCount="313" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="312" playTime="13.0000000" pauseTime="81.9499969"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+23
+CVV2:
+Card verification value 2- Visa 3 digit code on the signature panel of card, used for security protection with card not present transactions.
+DDA:
+Demand Deposit Account. The checking account the merchant uses for receiving settlement deposits and paying fees.
+Debit Card:
+Unlike a Credit Card, Debit Card purchases are deducted from a Cardholder's deposit account, similar to a check. Debit cards can be PIN Based, signature based, or both. 
+Debit Network:
+Network that processes debit transactions such as Interlink, Star, Maestro, NYCE, Pulse, Plus, MAC, and more.
+Industry Terms</text>
+		</slide>
+		<slide index="23" title="" titleNormalized="" src="slide24.swf" size="6220" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="14.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+24
+EBT:
+Electronic Benefits Transfer- stored value debit card issued by government agencies for payment of benefits such as welfare, food stamps, etc. 
+EFT:
+Electronic funds transfer- money moved electronically in the banking system. ACH (Automated Clearing House- FED system) and wire transfers are forms of EFT.
+Host:
+Refers to system maintained by the Processor (TPP), where Terminal or Gateway connects to for Authorizations and Batch Settlement. 
+Industry Terms</text>
+		</slide>
+		<slide index="24" title="" titleNormalized="" src="slide25.swf" size="6194" advanceOnTime="0" framesCount="246" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="245" playTime="10.2083333" pauseTime="90.1416651"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+25
+Interchange:
+The movement of money through the bankcard networks
+The movement of information through the bankcard networks
+Often used as shorthand for “the costs of Interchange” 
+Imprint:
+A manual or electronic “image” of card obtained by either swiping the card through card reader (electronic), or making an imprint (manual) to prove card was present at time of transaction.
+
+Industry Terms</text>
+		</slide>
+		<slide index="25" title="" titleNormalized="" src="slide26.swf" size="6055" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="41.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+26
+Keyed Transaction:
+A manually entered transaction (card was not swiped).
+MID:
+Merchant Identification Number.
+MOTO:
+Mail Order/ Telephone Order- used to designate certain card-not-present transactions, and now-a-days also included in this category would be Internet transactions.
+Industry Terms</text>
+		</slide>
+		<slide index="26" title="" titleNormalized="" src="slide27.swf" size="6274" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="41.9500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+27
+Open-To-Buy:
+The amount of credit available at a given time on a credit card holder's account. 
+Sale:
+The process where the Merchant submits an Authorized transaction to the Acquirer. 
+Settlement:
+Process where Third-Party Processor or Acquirer sends daily completed transaction information to Issuers, and other entities, so that actual funds may be transmitted in order for all involved (including the Cardholder and Merchant) to achieve their net position for that day. 
+Industry Terms</text>
+		</slide>
+		<slide index="27" title="" titleNormalized="" src="slide28.swf" size="6172" advanceOnTime="0" framesCount="217" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="216" playTime="9.0000000" pauseTime="90.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+28
+T and E Card:
+Travel and Entertainment card such as American Express. 
+Voice Authorization or Voice Auth:
+A transaction authorization that is provided by a phone operator when terminal is not working, or an issuer sends a “Please Call” message to the merchant.
+Void:
+The reversal of an approved and captured transaction that has not yet been settled (closed in a batch).
+Industry Terms</text>
+		</slide>
+		<slide index="28" title="Chapter Quiz" titleNormalized="chapter quiz" src="slide29.swf" size="11976" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="11.8390002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Chapter Quiz
+© 2013 U.S. Merchant Systems. All rights reserved.
+29
+Please take a moment to complete the chapter quiz on USMS University</text>
+		</slide>
+	</slides>
+</presentation>

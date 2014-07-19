@@ -667,7 +667,7 @@ describe "context_modules" do
     it "should add an external tool item to a module" do
       get "/courses/#{@course.id}/modules"
 
-      add_new_external_item('External Tool', 'www.instructure.com', 'Instructure')
+      add_new_external_item('External Tool', 'www.usms.com', 'Instructure')
     end
 
     it "should not save an invalid external tool" do

@@ -203,7 +203,7 @@ describe ExternalToolsController do
     http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd">
     <blti:title>Other Name</blti:title>
     <blti:description>Description</blti:description>
-    <blti:extensions platform="canvas.instructure.com">
+    <blti:extensions platform="canvas.usms.com">
       <lticm:property name="privacy_level">public</lticm:property>
     </blti:extensions>
     <cartridge_bundle identifierref="BLTI001_Bundle"/>
@@ -230,7 +230,7 @@ describe ExternalToolsController do
     <blti:title>Other Name</blti:title>
     <blti:description>Description</blti:description>
     <blti:launch_url>http://example.com/other_url</blti:launch_url>
-    <blti:extensions platform="canvas.instructure.com">
+    <blti:extensions platform="canvas.usms.com">
       <lticm:property name="privacy_level">public</lticm:property>
       <lticm:options name="editor_button">
         <lticm:property name="url">http://example.com/editor</lticm:property>
@@ -271,7 +271,7 @@ describe ExternalToolsController do
     http://www.imsglobal.org/xsd/imslticp_v1p0 http://www.imsglobal.org/xsd/lti/ltiv1p0/imslticp_v1p0.xsd">
     <blti:title>Other Name</blti:title>
     <blti:description>Description</blti:description>
-    <blti:extensions platform="canvas.instructure.com">
+    <blti:extensions platform="canvas.usms.com">
       <lticm:property name="privacy_level">public</lticm:property>
       <lticm:options name="editor_button">
         <lticm:property name="url">http://example.com/editor</lticm:property>
@@ -314,7 +314,7 @@ describe ExternalToolsController do
     <blti:title>Other Name</blti:title>
     <blti:description>Description</blti:description>
     <blti:launch_url>http://example.com/other_url</blti:launch_url>
-    <blti:extensions platform="canvas.instructure.com">
+    <blti:extensions platform="canvas.usms.com">
       <lticm:property name="privacy_level">public</lticm:property>
       <lticm:options name="editor_button">
         <lticm:property name="url">http://example.com/editor</lticm:property>

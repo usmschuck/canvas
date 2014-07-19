@@ -1440,20 +1440,20 @@ describe User do
 
       # auto-generated password
       @account2 = Account.create!
-      @user.pseudonyms.create!(:account => @account2, :unique_id => 'bracken@instructure.com')
+      @user.pseudonyms.create!(:account => @account2, :unique_id => 'bracken@usms.com')
       @user.find_or_initialize_pseudonym_for_account(@account1).should be_nil
 
       # delegated auth
       @account3 = Account.create!
       @account3.account_authorization_configs.create!(:auth_type => 'cas')
       @account3.should be_delegated_authentication
-      @user.pseudonyms.create!(:account => @account3, :unique_id => 'jacob@instructure.com', :password => 'abcdef', :password_confirmation => 'abcdef')
+      @user.pseudonyms.create!(:account => @account3, :unique_id => 'jacob@usms.com', :password => 'abcdef', :password_confirmation => 'abcdef')
       @user.find_or_initialize_pseudonym_for_account(@account1).should be_nil
 
       # conflict
       @user2 = User.create! { |u| u.workflow_state = 'registered' }
-      @user2.pseudonyms.create!(:account => @account1, :unique_id => 'jt@instructure.com', :password => 'abcdef', :password_confirmation => 'abcdef')
-      @user.pseudonyms.create!(:unique_id => 'jt@instructure.com', :password => 'ghijkl', :password_confirmation => 'ghijkl')
+      @user2.pseudonyms.create!(:account => @account1, :unique_id => 'jt@usms.com', :password => 'abcdef', :password_confirmation => 'abcdef')
+      @user.pseudonyms.create!(:unique_id => 'jt@usms.com', :password => 'ghijkl', :password_confirmation => 'ghijkl')
       @user.find_or_initialize_pseudonym_for_account(@account1).should be_nil
     end
 
@@ -2115,15 +2115,15 @@ describe User do
       @section2b = @course2.course_sections.create!(:name => 'section B')
 
       # put a student in each section
-      @studentA = user_with_pseudonym(:active_all => true, :name => 'StudentA', :username => 'studentA@instructure.com')
-      @studentB = user_with_pseudonym(:active_all => true, :name => 'StudentB', :username => 'studentB@instructure.com')
+      @studentA = user_with_pseudonym(:active_all => true, :name => 'StudentA', :username => 'studentA@usms.com')
+      @studentB = user_with_pseudonym(:active_all => true, :name => 'StudentB', :username => 'studentB@usms.com')
       @course1.enroll_student(@studentA).update_attribute(:workflow_state, 'active')
       @section1b.enroll_user(@studentB, 'StudentEnrollment', 'active')
       @course2.enroll_student(@studentA).update_attribute(:workflow_state, 'active')
       @section2b.enroll_user(@studentB, 'StudentEnrollment', 'active')
 
       # set up a TA, section-limited in one course and not the other
-      @ta = user_with_pseudonym(:active_all => true, :name => 'TA', :username => 'ta@instructure.com')
+      @ta = user_with_pseudonym(:active_all => true, :name => 'TA', :username => 'ta@usms.com')
       @course1.enroll_user(@ta, 'TaEnrollment', :enrollment_state => 'active', :limit_privileges_to_course_section => true)
       @course2.enroll_user(@ta, 'TaEnrollment', :enrollment_state => 'active', :limit_privileges_to_course_section => false)
 

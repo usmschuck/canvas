@@ -1,0 +1,1079 @@
+<?xml version="1.0"?>
+<presentation title="Sales Cycle Part II The Presentation" width="720.0000000" height="540.0000000" thmbWidth="78.0000000" thmbHeight="59.0000000" frameRate="24.0000000" looping="0" startingSlideShow="" pptVersion="2010" type="compound" hasExternalAudio="0" uid="{A1A373F7-48E3-409F-AACB-525EB75276B1}">
+	<presenters/>
+	<references/>
+	<soundAssets>
+		<soundAsset id="sndAsset0" src="sound1.mp3" embedded="0" size="84671" duration="7026"/>
+		<soundAsset id="sndAsset1" src="sound2.mp3" embedded="0" size="222911" duration="18546"/>
+		<soundAsset id="sndAsset2" src="sound3.mp3" embedded="0" size="244541" duration="20349"/>
+		<soundAsset id="sndAsset3" src="sound4.mp3" embedded="0" size="251437" duration="20924"/>
+		<soundAsset id="sndAsset4" src="sound5.mp3" embedded="0" size="278082" duration="23144"/>
+		<soundAsset id="sndAsset5" src="sound6.mp3" embedded="0" size="436384" duration="36336"/>
+		<soundAsset id="sndAsset6" src="sound7.mp3" embedded="0" size="126676" duration="10527"/>
+		<soundAsset id="sndAsset7" src="sound8.mp3" embedded="0" size="107241" duration="8907"/>
+		<soundAsset id="sndAsset8" src="sound9.mp3" embedded="0" size="118526" duration="9848"/>
+		<soundAsset id="sndAsset9" src="sound10.mp3" embedded="0" size="372750" duration="31033"/>
+		<soundAsset id="sndAsset10" src="sound11.mp3" embedded="0" size="256453" duration="21342"/>
+		<soundAsset id="sndAsset11" src="sound12.mp3" embedded="0" size="328550" duration="27350"/>
+		<soundAsset id="sndAsset12" src="sound13.mp3" embedded="0" size="553935" duration="46132"/>
+		<soundAsset id="sndAsset13" src="sound14.mp3" embedded="0" size="578072" duration="48143"/>
+		<soundAsset id="sndAsset14" src="sound15.mp3" embedded="0" size="432622" duration="36022"/>
+		<soundAsset id="sndAsset15" src="sound16.mp3" embedded="0" size="222911" duration="18546"/>
+		<soundAsset id="sndAsset16" src="sound17.mp3" embedded="0" size="154261" duration="12826"/>
+		<soundAsset id="sndAsset17" src="sound18.mp3" embedded="0" size="695623" duration="57939"/>
+		<soundAsset id="sndAsset18" src="sound19.mp3" embedded="0" size="574310" duration="47830"/>
+		<soundAsset id="sndAsset19" src="sound20.mp3" embedded="0" size="286546" duration="23849"/>
+		<soundAsset id="sndAsset20" src="sound21.mp3" embedded="0" size="168681" duration="14027"/>
+		<soundAsset id="sndAsset21" src="sound22.mp3" embedded="0" size="433876" duration="36127"/>
+		<soundAsset id="sndAsset22" src="sound23.mp3" embedded="0" size="182160" duration="15151"/>
+		<soundAsset id="sndAsset23" src="sound24.mp3" embedded="0" size="591238" duration="49240"/>
+		<soundAsset id="sndAsset24" src="sound25.mp3" embedded="0" size="270872" duration="22543"/>
+		<soundAsset id="sndAsset25" src="sound26.mp3" embedded="0" size="395633" duration="32940"/>
+		<soundAsset id="sndAsset26" src="sound27.mp3" embedded="0" size="469925" duration="39131"/>
+		<soundAsset id="sndAsset27" src="sound28.mp3" embedded="0" size="315071" duration="26226"/>
+		<soundAsset id="sndAsset28" src="sound29.mp3" embedded="0" size="544531" duration="45348"/>
+		<soundAsset id="sndAsset29" src="sound30.mp3" embedded="0" size="268364" duration="22334"/>
+		<soundAsset id="sndAsset30" src="sound31.mp3" embedded="0" size="87179" duration="7235"/>
+	</soundAssets>
+	<sharedAssetsLibrary src="assets.swf"/>
+	<graphicAssets>
+		<graphicAsset id="imgAsset0" src="thmb1.swf" embedded="0"/>
+		<graphicAsset id="imgAsset1" src="thmb2.swf" embedded="0"/>
+		<graphicAsset id="imgAsset2" src="thmb3.swf" embedded="0"/>
+		<graphicAsset id="imgAsset3" src="thmb4.swf" embedded="0"/>
+		<graphicAsset id="imgAsset4" src="thmb5.swf" embedded="0"/>
+		<graphicAsset id="imgAsset5" src="thmb6.swf" embedded="0"/>
+		<graphicAsset id="imgAsset6" src="thmb7.swf" embedded="0"/>
+		<graphicAsset id="imgAsset7" src="thmb8.swf" embedded="0"/>
+		<graphicAsset id="imgAsset8" src="thmb9.swf" embedded="0"/>
+		<graphicAsset id="imgAsset9" src="thmb10.swf" embedded="0"/>
+		<graphicAsset id="imgAsset10" src="thmb11.swf" embedded="0"/>
+		<graphicAsset id="imgAsset11" src="thmb12.swf" embedded="0"/>
+		<graphicAsset id="imgAsset12" src="thmb13.swf" embedded="0"/>
+		<graphicAsset id="imgAsset13" src="thmb14.swf" embedded="0"/>
+		<graphicAsset id="imgAsset14" src="thmb15.swf" embedded="0"/>
+		<graphicAsset id="imgAsset15" src="thmb16.swf" embedded="0"/>
+		<graphicAsset id="imgAsset16" src="thmb17.swf" embedded="0"/>
+		<graphicAsset id="imgAsset17" src="thmb18.swf" embedded="0"/>
+		<graphicAsset id="imgAsset18" src="thmb19.swf" embedded="0"/>
+		<graphicAsset id="imgAsset19" src="thmb20.swf" embedded="0"/>
+		<graphicAsset id="imgAsset20" src="thmb21.swf" embedded="0"/>
+		<graphicAsset id="imgAsset21" src="thmb22.swf" embedded="0"/>
+		<graphicAsset id="imgAsset22" src="thmb23.swf" embedded="0"/>
+		<graphicAsset id="imgAsset23" src="thmb24.swf" embedded="0"/>
+		<graphicAsset id="imgAsset24" src="thmb25.swf" embedded="0"/>
+		<graphicAsset id="imgAsset25" src="thmb26.swf" embedded="0"/>
+		<graphicAsset id="imgAsset26" src="thmb27.swf" embedded="0"/>
+		<graphicAsset id="imgAsset27" src="thmb28.swf" embedded="0"/>
+		<graphicAsset id="imgAsset28" src="thmb29.swf" embedded="0"/>
+		<graphicAsset id="imgAsset29" src="thmb30.swf" embedded="0"/>
+		<graphicAsset id="imgAsset30" src="thmb31.swf" embedded="0"/>
+	</graphicAssets>
+	<backgroundSound soundAssetId="" looping="0" volume="1.0000000"/>
+	<narration>
+		<audioTracks>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset0">
+				<startTimestamp slideIndex="0" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="0" stepIndex="0" timeOffset="6.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset1">
+				<startTimestamp slideIndex="1" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="1" stepIndex="0" timeOffset="17.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset2">
+				<startTimestamp slideIndex="2" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="2" stepIndex="0" timeOffset="19.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset3">
+				<startTimestamp slideIndex="3" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="3" stepIndex="0" timeOffset="20.1289997"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset4">
+				<startTimestamp slideIndex="4" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="4" stepIndex="0" timeOffset="22.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset5">
+				<startTimestamp slideIndex="5" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="5" stepIndex="0" timeOffset="35.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset6">
+				<startTimestamp slideIndex="6" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="6" stepIndex="0" timeOffset="9.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset7">
+				<startTimestamp slideIndex="7" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="7" stepIndex="0" timeOffset="8.1260000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset8">
+				<startTimestamp slideIndex="8" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="8" stepIndex="0" timeOffset="9.0500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset9">
+				<startTimestamp slideIndex="9" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="9" stepIndex="0" timeOffset="30.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset10">
+				<startTimestamp slideIndex="10" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="10" stepIndex="0" timeOffset="20.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset11">
+				<startTimestamp slideIndex="11" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="11" stepIndex="0" timeOffset="26.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset12">
+				<startTimestamp slideIndex="12" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="12" stepIndex="0" timeOffset="45.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset13">
+				<startTimestamp slideIndex="13" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="13" stepIndex="0" timeOffset="47.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset14">
+				<startTimestamp slideIndex="14" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="14" stepIndex="0" timeOffset="35.2319984"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset15">
+				<startTimestamp slideIndex="15" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="15" stepIndex="0" timeOffset="17.7500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset16">
+				<startTimestamp slideIndex="16" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="16" stepIndex="0" timeOffset="12.0500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset17">
+				<startTimestamp slideIndex="17" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="17" stepIndex="0" timeOffset="57.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset18">
+				<startTimestamp slideIndex="18" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="18" stepIndex="0" timeOffset="47.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset19">
+				<startTimestamp slideIndex="19" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="19" stepIndex="0" timeOffset="23.0499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset20">
+				<startTimestamp slideIndex="20" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="20" stepIndex="0" timeOffset="13.2500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset21">
+				<startTimestamp slideIndex="21" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="21" stepIndex="0" timeOffset="35.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset22">
+				<startTimestamp slideIndex="22" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="22" stepIndex="0" timeOffset="14.3500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset23">
+				<startTimestamp slideIndex="23" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="23" stepIndex="0" timeOffset="48.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset24">
+				<startTimestamp slideIndex="24" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="24" stepIndex="0" timeOffset="21.7490000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset25">
+				<startTimestamp slideIndex="25" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="25" stepIndex="0" timeOffset="32.1500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset26">
+				<startTimestamp slideIndex="26" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="26" stepIndex="0" timeOffset="38.3499985"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset27">
+				<startTimestamp slideIndex="27" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="27" stepIndex="0" timeOffset="25.4500000"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset28">
+				<startTimestamp slideIndex="28" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="28" stepIndex="0" timeOffset="44.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset29">
+				<startTimestamp slideIndex="29" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="29" stepIndex="0" timeOffset="21.5499992"/>
+			</audioTrack>
+			<audioTrack volume="1.0000000" soundAssetId="sndAsset30">
+				<startTimestamp slideIndex="30" stepIndex="-1" timeOffset="0.0000000"/>
+				<endTimestamp slideIndex="30" stepIndex="0" timeOffset="6.4489999"/>
+			</audioTrack>
+		</audioTracks>
+	</narration>
+	<settings>
+		<navigation type="restricted">
+			<keyboard enabled="1">
+				<actions>
+					<action name="playPause">
+						<shortcut code="32" control="0" shift="0"/>
+					</action>
+					<action name="nextSlide">
+						<shortcut code="34" control="0" shift="0"/>
+					</action>
+					<action name="previousSlide">
+						<shortcut code="33" control="0" shift="0"/>
+					</action>
+					<action name="nextStep">
+						<shortcut code="13" control="0" shift="0"/>
+					</action>
+					<action name="previousStep">
+						<shortcut code="13" control="0" shift="1"/>
+					</action>
+					<action name="firstSlide">
+						<shortcut code="36" control="1" shift="0"/>
+					</action>
+					<action name="lastSlide">
+						<shortcut code="35" control="1" shift="0"/>
+					</action>
+					<action name="lastViewedSlide">
+						<shortcut code="8" control="0" shift="0"/>
+					</action>
+					<action name="slideStart">
+						<shortcut code="36" control="0" shift="0"/>
+					</action>
+					<action name="slideEnd">
+						<shortcut code="35" control="0" shift="0"/>
+					</action>
+					<action name="seekForward">
+						<shortcut code="39" control="0" shift="0"/>
+					</action>
+					<action name="seekBackward">
+						<shortcut code="37" control="0" shift="0"/>
+					</action>
+					<action name="volumeUp">
+						<shortcut code="38" control="0" shift="0"/>
+					</action>
+					<action name="volumeDown">
+						<shortcut code="40" control="0" shift="0"/>
+					</action>
+					<action name="toggleFullscreen">
+						<shortcut code="70" control="1" shift="0"/>
+					</action>
+				</actions>
+			</keyboard>
+			<mouse enabled="1" target="step"/>
+			<gesture zoom="1"/>
+		</navigation>
+		<skin>
+			<colorSettings>
+				<color id="button.content.normal">#FFFFFF</color>
+				<color id="button.content.over">#FFFFFF</color>
+				<color id="button.face.normal">#777777</color>
+				<color id="button.face.over">#575757</color>
+				<color id="companyLogo.background">#FFFFFF</color>
+				<color id="hyperlink">#097CE7</color>
+				<color id="listItem.face.over">#E8E8E8</color>
+				<color id="listItem.face.pressed">#6E6E6E</color>
+				<color id="listItem.label.over">#000000</color>
+				<color id="listItem.label.pressed">#FFFFFF</color>
+				<color id="listItem.label.visited">#A1A1A1</color>
+				<color id="page.background">#8A8A8A</color>
+				<color id="panel.background">#F7F7F7</color>
+				<color id="panel.text">#323232</color>
+				<color id="player.background">#D4D4D4</color>
+				<color id="popup.background">#FFFFFF</color>
+				<color id="progress.background">#6E6E6E</color>
+				<color id="progress.loading">#D0D0D0</color>
+				<color id="progress.playback">#A1A1A1</color>
+				<color id="text">#4D4D4D</color>
+			</colorSettings>
+			<controlPanelSettings>
+				<visible>true</visible>
+				<showOutline>false</showOutline>
+				<showPlayPause>true</showPlayPause>
+				<showRewind>false</showRewind>
+				<showVolumeControl>true</showVolumeControl>
+				<showCCButton>false</showCCButton>
+				<showPrevButton>true</showPrevButton>
+				<showNextButton>true</showNextButton>
+				<showSlideOnlyButton>true</showSlideOnlyButton>
+				<progressBar>
+					<visible>true</visible>
+					<enabled>true</enabled>
+					<showLabels>true</showLabels>
+					<mode>slideTimeline</mode>
+				</progressBar>
+				<navigationMode>bySlides</navigationMode>
+			</controlPanelSettings>
+			<titlePanelSettings>
+				<showLogo>false</showLogo>
+				<visible>true</visible>
+				<buttons>
+					<button type="attachments" visible="true"/>
+					<button type="presenterInfo" visible="false"/>
+					<button type="markerTools" visible="true"/>
+					<button type="notes" visible="false"/>
+					<button type="outline" visible="false"/>
+				</buttons>
+			</titlePanelSettings>
+			<outlinePanelSettings>
+				<numberEntries>false</numberEntries>
+				<highlightViewedEntries>false</highlightViewedEntries>
+				<thumbnails>true</thumbnails>
+				<search>true</search>
+				<multilevel>true</multilevel>
+			</outlinePanelSettings>
+			<sidePanelSettings>
+				<showAtLeft>false</showAtLeft>
+				<showLogo>false</showLogo>
+				<showPresenterInfo>true</showPresenterInfo>
+				<showPresenterVideo>true</showPresenterVideo>
+				<visible>true</visible>
+				<tabsPanel>
+					<showOutline>true</showOutline>
+					<showNotes>true</showNotes>
+				</tabsPanel>
+			</sidePanelSettings>
+		</skin>
+		<appearance fullScreen="1" showSlidePreloader="1"/>
+		<playback autoStart="1" resumePresentationPlayback="0" syncWithVideoNarration="1" enableVideoControl="1"/>
+	</settings>
+	<slides embedded="0">
+		<slide index="0" title="" titleNormalized="" src="slide1.swf" size="15470" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset0">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="0.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>USMS University™
+Quick Start Training
+Sales Cycle Part 2 The Presentation</text>
+		</slide>
+		<slide index="1" title="" titleNormalized="" src="slide2.swf" size="10884" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset1">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="5.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+
+
+Presenting USMS as a company
+
+Presenting the benefits of doing business with YOU
+
+Presenting your recommended package and their benefits
+
+Presenting the total investment or savings
+2
+Presentation
+There are four key topics you need to cover in your presentation:
+</text>
+		</slide>
+		<slide index="2" title="" titleNormalized="" src="slide3.swf" size="9228" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset2">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="11.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+
+
+When you deliver a powerful presentation with conviction and sincerity, the Merchant will detect those qualities in you and TRUST you.
+
+While all steps are important, no part is as important as selling yourself. 
+3
+Presentation
+Successful representatives consider the presentation a valuable closing tool.</text>
+		</slide>
+		<slide index="3" title="" titleNormalized="" src="slide4.swf" size="18448" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset3">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="12.1289997"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+4
+“Every business faces stiff competition…. Merchants have options on whom to do business with. 
+ 
+“So, how do we distinguish ourselves from our competitors?... The answer is YOU! You are the most important ambassador of USMS. 
+
+“You are our most valuable commodity.”
+
+
+
+CEO- Stuart Rosenbaum 
+Presentation</text>
+		</slide>
+		<slide index="4" title="" titleNormalized="" src="slide5.swf" size="16616" advanceOnTime="0" framesCount="241" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset4">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="240" playTime="10.0000000" pauseTime="12.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Establish a feeling of confidence about USMS™. 
+
+What you show them are the only things many will learn about the company. 
+
+Establish credibility by educating your merchant about USMS™ and our purpose for being in business, which is to help them grow. 
+
+Have a presentation booklet or Power Point. Visual aids make presentations more credible.
+5
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="5" title="" titleNormalized="" src="slide6.swf" size="27504" advanceOnTime="0" framesCount="577" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset5">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="576" playTime="24.0000000" pauseTime="11.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Follow these steps in every presentation: 
+
+Show pictures of USMS and tell the story about us.
+
+In business since 1992
+Served more than 100,000 businesses
+Clients include Taco Bell, KFC, Pizza Hut, Little Caesars, and thousands of independent businesses 
+3 founders owned small businesses
+Founders understand the challenges of small business owners
+Committed to providing solutions for merchant’s success
+6
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="6" title="" titleNormalized="" src="slide7.swf" size="5237" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset6">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="5.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Show the Mission Statement:
+
+Our Mission is: “To Provide Clients with Payment Solutions and Service Beyond Their Expectations” 
+7
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="7" title="" titleNormalized="" src="slide8.swf" size="36684" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset7">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="2.1260004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Show our Better Business Bureau Record:
+
+“USMS has an excellent record of service with the Better Business Bureau.” 
+
+8
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="8" title="" titleNormalized="" src="slide9.swf" size="43486" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset8">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="3.0500002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Show the service guarantee:
+
+“Our founder cares enough about service that he puts his guarantee in writing.” 
+
+9
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="9" title="" titleNormalized="" src="slide10.swf" size="11698" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset9">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="18.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Discuss Key Points About Service:
+
+Hand picked customer service representatives-with extensive training. 
+24/7 customer service. 
+Highly trained loss prevention department reduces risk losses for our merchants.”
+
+Show our bank affiliation and answer any 
+concerns they have about security:
+
+“We’re backed by Deutsche Bank, the world’s largest. Your transactions are safe and your money is federally insured”
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="10" title="" titleNormalized="" src="slide11.swf" size="28656" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset10">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="8.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Show the list of products and services we have:
+
+“We offer many services designed to maximize cash flow, sales and payment options. 
+
+We carefully select services for various business types such as yours (show vertical brochure where applicable).
+
+Show client satisfaction letters that you have.
+
+“Here’s what some of our clients say about our service.”
+
+11
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="11" title="" titleNormalized="" src="slide12.swf" size="12817" advanceOnTime="0" framesCount="145" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset11">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="144" playTime="6.0000000" pauseTime="20.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Summarize what you’ve just shown 
+the merchant, and use a trial closing 
+question:
+
+“Based on your desire to deal with a reputable company, are you satisfied I’ve shown you that USMS is the type of company you’d like to do business with?”
+
+When they yes, you’re ready to move forward with your next step, selling yourself. Otherwise, answer any questions or objections before moving on.
+
+
+12
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="12" title="" titleNormalized="" src="slide13.swf" size="6973" advanceOnTime="0" framesCount="385" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset12">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="384" playTime="16.0000000" pauseTime="29.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Special Cases
+
+Sometimes the client needs a specific solution which you’ve uncovered in the buyer interview. Show that the company can service their particular situation (examples):
+
+Merchant requires Level III processing for purchasing cards:
+Show any material you have on Level III: 
+“As you can see from this document, USMS has all the ability for processing Level III transactions for your business.”
+ 
+The client needs IP connectivity for a fast food restaurant:
+Show the vertical brochure on QSR (Quick Serve Restaurants) 
+“We process many IP transactions for fast food restaurants such as Taco Bell and KFC. We know the QSR business and can provide all the technology you need.”
+13
+Presentation-Selling the Company</text>
+		</slide>
+		<slide index="13" title="" titleNormalized="" src="slide14.swf" size="6802" advanceOnTime="0" framesCount="337" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset13">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="336" playTime="14.0000000" pauseTime="33.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+
+For an e-commerce business with prior risk experience:
+Show any information you have on e-commerce solutions. 
+“At USMS we minimize your risks of fraudulent transactions and charge backs by using monitoring systems to detect fraudulent cards and provide you with optional charge back protection. We enable you to have open dialog with our risk department for fast resolution of challenges.”
+
+The merchant has a chain of stores and needs special reporting: 
+Show any information you have on chain reporting, or online reporting. 
+“USMS understands the needs of chain locations such as yours and provides the type of reporting you need for each location and the entire chain.”
+
+Understand what is important to the client and answer the concerns that you’ve uncovered during the buyer interview. 
+14
+Special Cases</text>
+		</slide>
+		<slide index="14" title="" titleNormalized="" src="slide15.swf" size="10091" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset14">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="23.2319984"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Selling yourself is the single most important part of the Sales Cycle. 
+When people identify with you, trust you, laugh with you, understand you, and feel good around you, you have sold yourself.
+ 
+If you don’t like meeting and communicating with people, no sales job is for you. 
+To make the big bucks you have to know how to communicate effectively and make the client like and trust you.
+
+Say this out loud 3 times: 
+NO MATTER WHERE I’M AT IN THE SALES CYCLE, I’M ALWAYS SELLING MYSELF.
+15
+Presentation-Selling Yourself</text>
+		</slide>
+		<slide index="15" title="" titleNormalized="" src="slide16.swf" size="12593" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset15">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="5.7500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Follow the Steps When Selling Yourself:
+
+Tell the client why you like the business you’re in and why you chose to represent USMS:
+“I really like the company because the owners and management have integrity and care about their customers. They also have the competence to do the job for my customers. That’s important to me.”
+
+This statement re-enforces the benefits of doing business with the company, but also speaks volumes about your own integrity as a sales representative.
+Tell them how you’ll handle their transaction:
+“Once we complete the paperwork, I’ll personally make sure everything goes smoothly. When you get your first statement I’ll go over it with you to insure you understand it. Has anyone ever done that with you before?”
+16
+Presentation-Selling Yourself</text>
+		</slide>
+		<slide index="16" title="" titleNormalized="" src="slide17.swf" size="32974" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset16">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="0.0500002"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Show them any client referral letters you have: 
+
+“Here’s what some of my existing clients say about my service.”
+
+Let them know you’ll be available for them:
+
+“I really value your business and want to ensure that all goes well. Here’s my cell and home numbers in case you need to reach me in a hurry. Once the installation is complete, I’ll check with you to see if everything’s OK.
+
+17
+"The service that you have thus far provided to Herbalife distributors is greatly appreciated. I would highly recommend U.S. Merchant Systems to other companies.”
+Mr. Douglass Braun VP Corporate Marketing Herbalife International
+Presentation-Selling Yourself</text>
+		</slide>
+		<slide index="17" title="" titleNormalized="" src="slide18.swf" size="6787" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset17">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="45.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+COMMUNICATION SKILLS
+
+
+There are very few endeavors, one can be successful in without the ability to communicate effectively. Here are some of the fundamentals: 
+
+Interruptions –Allow Merchants to finish their comments. This may tell you how to close the sale. Interruptions can cause missed opportunities. If they go on too long say, “ May I comment on that?” 
+
+Eye Contact –Look your Merchant in the eyes and observe their body language to see what catches their attention, identifying buying signals.
+
+Merchant Involvement – Get the Merchant involved with your presentation. Use demo units and presentation books while explaining services, features and benefits.
+
+Store Customers – If a store customer walks in, allow the Merchant to help them if needed. 
+18
+Presentation-Selling Yourself</text>
+		</slide>
+		<slide index="18" title="" titleNormalized="" src="slide19.swf" size="11416" advanceOnTime="0" framesCount="289" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset18">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="288" playTime="12.0000000" pauseTime="35.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+COMMUNICATION SKILLS
+
+Summarizing – After interruptions, summarize what was previously covered before continuing and get the Merchant back on track with their feelings and thoughts before the interruption occurred. 
+
+Humor –Successful sales people often use humor to break the ice. It’s a natural human quality for us to laugh. 
+
+Professional Dress –Professional dress is a communication!
+
+Acknowledging Communication- Let Merchants know that you understood their communication. Use phrases like, “So if I’m understanding you correctly…” or “Correct me if I’m wrong, but…..”.
+
+Focus – Stay focused on the conversation at hand rather than letting your mind wander and be distracted from listening intensively to the Merchant.
+19
+Presentation-Selling Yourself</text>
+		</slide>
+		<slide index="19" title="" titleNormalized="" src="slide20.swf" size="25954" advanceOnTime="0" framesCount="481" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset19">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="480" playTime="20.0000000" pauseTime="3.0499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Present complete product and service packages for:
+
+Larger sales
+Higher closing rates
+More commissions
+More residuals
+More services the merchant will benefit from
+Over selling causes you to lose credibility
+Offer too little and lose your competitive edge
+Your offer must be just the right combination of products and services
+20
+Presentation-Selling Products &amp; Services</text>
+		</slide>
+		<slide index="20" title="" titleNormalized="" src="slide21.swf" size="12948" advanceOnTime="0" framesCount="49" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset20">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="48" playTime="2.0000000" pauseTime="11.2500000"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+
+ 
+A trial close is a question that is used to ensure you’re on track with the client, narrow future objections, keep them involved and get them in the frame of mind to say yes. 
+21
+Presentation- Trial Closing</text>
+		</slide>
+		<slide index="21" title="" titleNormalized="" src="slide22.swf" size="6638" advanceOnTime="0" framesCount="337" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset21">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="336" playTime="14.0000000" pauseTime="21.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Types of Trial (or test) Closing Questions would be Tie Downs and Involvement Questions:
+
+“If this proposal makes sense, how soon do you want it delivered? 
+
+“How will you promote your site, once we’ve e-commerce enabled it for you?” 
+
+“Wouldn’t it be good to have this service ready for your grand opening?”
+
+”Does that make sense to you?”
+
+“Based on what I’ve told you so far, how do you feel about U.S. Merchant Systems and the service we offer?”
+
+Ask questions during the presentation to keep them involved.
+ 
+22
+Presentation- Trial Closing</text>
+		</slide>
+		<slide index="22" title="" titleNormalized="" src="slide23.swf" size="25446" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset22">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="6.3500004"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+PRESENTING THE TOTAL INVESTMENT 
+
+Keep in mind this key word: INVESTMENT. 
+Our services and products are for INVESTMENTS for merchants. 
+It’s important to understand the components of an investment. 
+23
+Presentation- The Investment</text>
+		</slide>
+		<slide index="23" title="" titleNormalized="" src="slide24.swf" size="7108" advanceOnTime="0" framesCount="481" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset23">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="480" playTime="20.0000000" pauseTime="28.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Investment Components:
+Benefits - Tell what the investment will do for your client: 
+
+Bring in more repeat business-Loyalty Cards
+
+Increase holiday sales-Gift Cards
+
+Reduce cost of handling checks- Check Conversion
+
+Reduce Check Losses-Check Conversion and Guarantee
+
+Create more means for clients to pay-Financing and Instant Credit
+
+Lower costs-Reduced Credit Card Rates and Debit with PIN Pad
+
+Faster transactions New POS Equipment and IP enabled terminals
+
+Increase overall revenue and bottom line- Entire Package 
+24
+Presentation- The Investment</text>
+		</slide>
+		<slide index="24" title="" titleNormalized="" src="slide25.swf" size="6504" advanceOnTime="0" framesCount="97" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset24">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="96" playTime="4.0000000" pauseTime="17.7490005"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Return on Investment:
+
+The motivating factor behind any investment is the 
+Return on Investment (ROI). By performing an 
+analysis using the merchant’s numbers for 
+processing, estimated gift card sales, clients 
+financed, etc., we show an estimated return that will
+“dwarf” any objection to the amount of money they 
+will need to invest.
+25
+Presentation- The Investment</text>
+		</slide>
+		<slide index="25" title="" titleNormalized="" src="slide26.swf" size="16097" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset25">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="24.1500015"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Investment Amount:
+
+The amount in cash, or monthly payment- or daily 
+Amount that they will invest in order to receive the 
+benefits and ROI they are hoping for.
+ 
+Net Return on Investment:
+
+The final realized gain anticipated after the investment 
+amount. This is THE number you want your client to focus 
+on because- when they agree they want to achieve this, your 
+fees are already included and you can close the sale.
+26
+Presentation- The Investment</text>
+		</slide>
+		<slide index="26" title="" titleNormalized="" src="slide27.swf" size="5990" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset26">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="30.3499985"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Before showing the total monthly investment ask the following:
+
+
+“Mr. Smith, I bet you’re wondering what’s all this going to run you?” Well, it’s essentially free. Think of this as an investment. The investment you make is expected to provide you a return of about $10,000 per month in sales revenue. 
+
+“Your monthly investment amount with discount, processing fees and equipment is ONLY: $298.00.
+
+“Your net monthly RETURN ON INVESTMENT IS $9,702.00- Not bad, eh?”
+27
+Presentation- Selling Products &amp; Services</text>
+		</slide>
+		<slide index="27" title="" titleNormalized="" src="slide28.swf" size="5958" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset27">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="17.4500008"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Many potential prospects will simply be interested in switching for the savings they will realize
+In order to present the savings first ask:
+“Based on the information I provided so far, do you get a good feeling that USMS can provide you with the level of service you were looking for?”
+When they say “Yes” move on to the next step- presenting the savings.
+28
+Presenting the Savings Analysis</text>
+		</slide>
+		<slide index="28" title="" titleNormalized="" src="slide29.swf" size="6280" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset28">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="36.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+Handle this step correctly and you’ll win a lot of new clients:
+
+NOTE: Suppose the client said they would be excited to switch for $500 per year, and you’ve determined you can save them more ($800 for example):
+“Earlier you mentioned that you’d be excited about switching if you could save $500 per year, right?”
+They Agree.
+“So, if I told you I’d save you $600 per year, you’d be a little more excited.”
+They say yes.
+“Well, good news. We can save you $800 per year- starting right now!”
+Take out your application and start filling it out. Don’t wait for them to say yes.
+29
+Presenting the Savings Analysis</text>
+		</slide>
+		<slide index="29" title="" titleNormalized="" src="slide30.swf" size="14184" advanceOnTime="0" framesCount="193" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset29">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="192" playTime="8.0000000" pauseTime="13.5499992"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>© 2013 U.S. Merchant Systems. All rights reserved.
+When the client agrees pull out your application and start writing. 
+
+Provide a complete breakdown of the fees once you go through the paperwork. 
+
+The key is: DO NOT SHORT CUT THE SALES CYCLE!
+
+In later sections learn how to complete a business and profit analysis and present a total package. 
+30
+Presentation- Selling Products &amp; Services</text>
+		</slide>
+		<slide index="30" title="Chapter Quiz" titleNormalized="chapter quiz" src="slide31.swf" size="11742" advanceOnTime="0" framesCount="1" hasEmbeddedFlashClip="0" hidden="0" level="0" advanceOnClick="1" thumbnailAssetId="imgAsset30">
+			<sounds/>
+			<videos/>
+			<transitionEffect name="CombHorizontal" duration="0.7500000" soundId="" looped="0"/>
+			<soundCommands/>
+			<videoCommands/>
+			<animationSteps>
+				<step start="0" end="0" playTime="0.0010000" pauseTime="6.4479999"/>
+			</animationSteps>
+			<notes/>
+			<notesNormalized/>
+			<notesHtml/>
+			<text>Chapter Quiz
+© 2013 U.S. Merchant Systems. All rights reserved.
+31
+Please take a moment to complete the chapter quiz on USMS University</text>
+		</slide>
+	</slides>
+</presentation>

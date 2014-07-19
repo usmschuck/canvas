@@ -38,7 +38,7 @@ routes.draw do
   end
 
   # So, this will look like:
-  # http://instructure.com/register/5R32s9iqwLK75Jbbj0
+  # http://usms.com/register/5R32s9iqwLK75Jbbj0
   match 'register/:nonce' => 'communication_channels#confirm', :as => :registration_confirmation
   # deprecated
   match 'pseudonyms/:id/register/:nonce' => 'communication_channels#confirm', :as => :registration_confirmation_deprecated

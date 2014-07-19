@@ -21,7 +21,7 @@ require File.expand_path(File.dirname(__FILE__) + '/../spec_helper.rb')
 describe WebConference do
   before do
     WebConference.stubs(:plugins).returns(
-        [web_conference_plugin_mock("big_blue_button", {:domain => "bbb.instructure.com", :secret_dec => "secret"}),
+        [web_conference_plugin_mock("big_blue_button", {:domain => "bbb.usms.com", :secret_dec => "secret"}),
          web_conference_plugin_mock("wimba", {:domain => "wimba.test"}),
          web_conference_plugin_mock("broken_plugin", {:foor => :bar})]
     )
@@ -75,7 +75,7 @@ describe WebConference do
       conference.started_at.should be_nil
       conference.ended_at.should be_nil
     end
-    
+
     it "should set start and end times when a paricipant is added" do
       user_model
       email = "email@email.com"
@@ -87,7 +87,7 @@ describe WebConference do
       conference.started_at.should eql(conference.start_at)
       conference.ended_at.should be_nil
     end
-    
+
     it "should not set ended_at if the conference is still active" do
       user_model
       email = "email@email.com"
@@ -99,7 +99,7 @@ describe WebConference do
       conference.should be_active
       conference.ended_at.should be_nil
     end
-    
+
     it "should not set ended_at if the conference is no longer active but end_at has not passed" do
       user_model
       email = "email@email.com"
@@ -111,7 +111,7 @@ describe WebConference do
       conference.active?(true).should eql(false)
       conference.ended_at.should be_nil
     end
-    
+
     it "should set ended_at if the conference is no longer active and end_at has passed" do
       user_model
       email = "email@email.com"
@@ -127,7 +127,7 @@ describe WebConference do
       conference.ended_at.should_not be_nil
       conference.ended_at.should < Time.now
     end
-    
+
     it "should set ended_at if it's more than 15 minutes past end_at" do
       user_model
       email = "email@email.com"
@@ -144,7 +144,7 @@ describe WebConference do
       conference.ended_at.should_not be_nil
       conference.ended_at.should < Time.now
     end
-    
+
     it "should be restartable if end_at has not passed" do
       user_model
       email = "email@email.com"
@@ -155,7 +155,7 @@ describe WebConference do
       conference.should_not be_finished
       conference.should be_restartable
     end
-    
+
     it "should not be restartable if end_at has passed" do
       user_model
       email = "email@email.com"

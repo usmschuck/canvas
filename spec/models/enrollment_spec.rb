@@ -1132,9 +1132,9 @@ describe Enrollment do
 
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @course.enroll_user(@user)
-      Enrollment.invited.for_email('jt@instructure.com').count.should == 1
+      Enrollment.invited.for_email('jt@usms.com').count.should == 1
     end
 
     it "should not return non-candidate enrollments" do
@@ -1142,30 +1142,30 @@ describe Enrollment do
       # mismatched e-mail
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'bob@instructure.com')
+      @user.communication_channels.create!(:path => 'bob@usms.com')
       @course.enroll_user(@user)
       # registered user
       user
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @user.register!
       @course.enroll_user(@user)
       # active e-mail
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com') { |cc| cc.workflow_state = 'active' }
+      @user.communication_channels.create!(:path => 'jt@usms.com') { |cc| cc.workflow_state = 'active' }
       @course.enroll_user(@user)
       # accepted enrollment
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @course.enroll_user(@user).accept
       # rejected enrollment
       user
       @user.update_attribute(:workflow_state, 'creation_pending')
-      @user.communication_channels.create!(:path => 'jt@instructure.com')
+      @user.communication_channels.create!(:path => 'jt@usms.com')
       @course.enroll_user(@user).reject
 
-      Enrollment.invited.for_email('jt@instructure.com').should == []
+      Enrollment.invited.for_email('jt@usms.com').should == []
     end
   end
 
@@ -1175,11 +1175,11 @@ describe Enrollment do
         course(:active_all => 1)
         user
         @user.update_attribute(:workflow_state, 'creation_pending')
-        @user.communication_channels.create!(:path => 'jt@instructure.com')
+        @user.communication_channels.create!(:path => 'jt@usms.com')
         @enrollment = @course.enroll_user(@user)
-        Enrollment.cached_temporary_invitations('jt@instructure.com').length.should == 1
+        Enrollment.cached_temporary_invitations('jt@usms.com').length.should == 1
         @enrollment.accept
-        Enrollment.cached_temporary_invitations('jt@instructure.com').should == []
+        Enrollment.cached_temporary_invitations('jt@usms.com').should == []
       end
     end
 
@@ -1233,54 +1233,54 @@ describe Enrollment do
           course(:active_all => 1)
           user
           @user.update_attribute(:workflow_state, 'creation_pending')
-          @user.communication_channels.create!(:path => 'jt@instructure.com')
+          @user.communication_channels.create!(:path => 'jt@usms.com')
           @enrollment1 = @course.enroll_user(@user)
           @shard1.activate do
             account = Account.create!
             course(:active_all => 1, :account => account)
             user
             @user.update_attribute(:workflow_state, 'creation_pending')
-            @user.communication_channels.create!(:path => 'jt@instructure.com')
+            @user.communication_channels.create!(:path => 'jt@usms.com')
             @enrollment2 = @course.enroll_user(@user)
           end
 
-          pending "working CommunicationChannel.associated_shards" unless CommunicationChannel.associated_shards('jt@instructure.com').length == 2
+          pending "working CommunicationChannel.associated_shards" unless CommunicationChannel.associated_shards('jt@usms.com').length == 2
         end
 
         it "should include invitations from other shards" do
-          Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+          Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           @shard1.activate do
-            Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+            Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           end
           @shard2.activate do
-            Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+            Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           end
         end
 
         it "should have a single cache for all shards" do
           enable_cache do
             @shard2.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+              Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
             end
             Shard.expects(:with_each_shard).never
             @shard1.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+              Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
             end
-            Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+            Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
           end
         end
 
         it "should invalidate the cache from any shard" do
           enable_cache do
             @shard2.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
+              Enrollment.cached_temporary_invitations('jt@usms.com').sort_by(&:global_id).should == [@enrollment1, @enrollment2].sort_by(&:global_id)
               @enrollment2.reject!
             end
             @shard1.activate do
-              Enrollment.cached_temporary_invitations('jt@instructure.com').should == [@enrollment1]
+              Enrollment.cached_temporary_invitations('jt@usms.com').should == [@enrollment1]
               @enrollment1.reject!
             end
-            Enrollment.cached_temporary_invitations('jt@instructure.com').should == []
+            Enrollment.cached_temporary_invitations('jt@usms.com').should == []
           end
 
         end

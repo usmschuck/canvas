@@ -639,17 +639,17 @@ describe SIS::CSV::UserImporter do
       "user_1,user1,User,Uno,user1@example.com,active"
     )
     user1 = Pseudonym.find_by_unique_id('user1').user
-    user1.communication_channels.create!(:path => 'JT@instructure.com')
+    user1.communication_channels.create!(:path => 'JT@usms.com')
 
     process_csv_data_cleanly(
       "user_id,login_id,first_name,last_name,email,status",
-      "user_1,user1,User,Uno,jt@instructure.com,active"
+      "user_1,user1,User,Uno,jt@usms.com,active"
     )
     user1.reload
     user1.communication_channels.count.should == 2
     user1.communication_channels.active.count.should == 1
     user1.email_channel.should be_active
-    user1.email.should == 'jt@instructure.com'
+    user1.email.should == 'jt@usms.com'
   end
 
   it "should re-activate retired e-mails" do

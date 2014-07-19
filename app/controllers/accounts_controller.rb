@@ -732,7 +732,7 @@ class AccountsController < ApplicationController
   end
 
   # TODO Refactor add_account_user and remove_account_user actions into
-  # AdminsController. see https://redmine.instructure.com/issues/6634
+  # AdminsController. see https://redmine.usms.com/issues/6634
   def add_account_user
     if authorized_action(@context, @current_user, :manage_account_memberships)
       list = UserList.new(params[:user_list],

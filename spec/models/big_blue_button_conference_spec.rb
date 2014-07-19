@@ -26,7 +26,7 @@ describe BigBlueButtonConference do
     before do
       WebConference.stubs(:plugins).returns([
         web_conference_plugin_mock("big_blue_button", {
-          :domain => "bbb.instructure.com", 
+          :domain => "bbb.usms.com", 
           :secret_dec => "secret",
         })
       ])
@@ -56,8 +56,8 @@ describe BigBlueButtonConference do
       params = {:fullName => user.name, :meetingID => conference.conference_key, :userID => user.id}
       admin_params = params.merge(:password => 'admin').to_query
       user_params = params.merge(:password => 'user').to_query
-      conference.admin_join_url(@user).should eql("http://bbb.instructure.com/bigbluebutton/api/join?#{admin_params}&checksum=" + Digest::SHA1.hexdigest("join#{admin_params}secret"))
-      conference.participant_join_url(@user).should eql("http://bbb.instructure.com/bigbluebutton/api/join?#{user_params}&checksum=" + Digest::SHA1.hexdigest("join#{user_params}secret"))
+      conference.admin_join_url(@user).should eql("http://bbb.usms.com/bigbluebutton/api/join?#{admin_params}&checksum=" + Digest::SHA1.hexdigest("join#{admin_params}secret"))
+      conference.participant_join_url(@user).should eql("http://bbb.usms.com/bigbluebutton/api/join?#{user_params}&checksum=" + Digest::SHA1.hexdigest("join#{user_params}secret"))
     end
 
     it "should confirm valid config" do
@@ -96,7 +96,7 @@ describe BigBlueButtonConference do
     before do
       WebConference.stubs(:plugins).returns([
         web_conference_plugin_mock("big_blue_button", {
-          :domain => "bbb.instructure.com",
+          :domain => "bbb.usms.com",
           :secret_dec => "secret",
           :recording_enabled => true,
         })
@@ -174,7 +174,7 @@ describe BigBlueButtonConference do
     before do
       WebConference.stubs(:plugins).returns([
         web_conference_plugin_mock("big_blue_button", {
-          :domain => "bbb.instructure.com",
+          :domain => "bbb.usms.com",
           :secret_dec => "secret",
           :recording_enabled => false,
         })

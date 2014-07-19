@@ -232,7 +232,7 @@ describe UsersController do
 
   context "POST 'create'" do
     it "should not allow creating when self_registration is disabled and you're not an admin'" do
-      post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal' }
+      post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal' }
       response.should_not be_success
     end
 
@@ -277,63 +277,64 @@ describe UsersController do
       end
 
       it "should create a pre_registered user" do
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
         response.should be_success
 
-        p = Pseudonym.find_by_unique_id('jacob@instructure.com')
+        p = Pseudonym.find_by_unique_id('jacob@usms.com')
         p.should be_active
         p.user.should be_pre_registered
         p.user.name.should == 'Jacob Fugal'
         p.user.communication_channels.length.should == 1
         p.user.communication_channels.first.should be_unconfirmed
-        p.user.communication_channels.first.path.should == 'jacob@instructure.com'
+        p.user.communication_channels.first.path.should == 'jacob@usms.com'
         p.user.associated_accounts.should == [Account.default]
       end
 
       it "should complain about conflicting unique_ids" do
         u = User.create! { |u| u.workflow_state = 'registered' }
-        p = u.pseudonyms.create!(:unique_id => 'jacob@instructure.com')
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
+        p = u.pseudonyms.create!(:unique_id => 'jacob@usms.com')
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
         assert_status(400)
         json = JSON.parse(response.body)
         json["errors"]["pseudonym"]["unique_id"].should be_present
-        Pseudonym.find_all_by_unique_id('jacob@instructure.com').should == [p]
+        Pseudonym.find_all_by_unique_id('jacob@usms.com').should == [p]
       end
 
       it "should not complain about conflicting ccs, in any state" do
         user1, user2, user3 = User.create!, User.create!, User.create!
-        cc1 = user1.communication_channels.create!(:path => 'jacob@instructure.com', :path_type => 'email')
-        cc2 = user2.communication_channels.create!(:path => 'jacob@instructure.com', :path_type => 'email') { |cc| cc.workflow_state == 'confirmed' }
-        cc3 = user3.communication_channels.create!(:path => 'jacob@instructure.com', :path_type => 'email') { |cc| cc.workflow_state == 'retired' }
+        cc1 = user1.communication_channels.create!(:path => 'jacob@usms.com', :path_type => 'email')
+        cc2 = user2.communication_channels.create!(:path => 'jacob@usms.com', :path_type => 'email') { |cc| cc.workflow_state == 'confirmed' }
+        cc3 = user3.communication_channels.create!(:path => 'jacob@usms.com', :path_type => 'email') { |cc| cc.workflow_state == 'retired' }
 
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
         response.should be_success
 
-        p = Pseudonym.find_by_unique_id('jacob@instructure.com')
+        p = Pseudonym.find_by_unique_id('jacob@usms.com')
         p.should be_active
         p.user.should be_pre_registered
         p.user.name.should == 'Jacob Fugal'
         p.user.communication_channels.length.should == 1
         p.user.communication_channels.first.should be_unconfirmed
-        p.user.communication_channels.first.path.should == 'jacob@instructure.com'
+        p.user.communication_channels.first.path.should == 'jacob@usms.com'
         [cc1, cc2, cc3].should_not be_include(p.user.communication_channels.first)
       end
 
       it "should re-use 'conflicting' unique_ids if it hasn't been fully registered yet" do
         u = User.create! { |u| u.workflow_state = 'creation_pending' }
-        p = Pseudonym.create!(:unique_id => 'jacob@instructure.com', :user => u)
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
+        p = Pseudonym.create!(:unique_id => 'jacob@usms.com', :user => u)
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
         response.should be_success
 
-        Pseudonym.find_all_by_unique_id('jacob@instructure.com').should == [p]
+        Pseudonym.find_all_by_unique_id('jacob@usms.com').should == [p]
         p.reload
         p.should be_active
         p.user.should be_pre_registered
         p.user.name.should == 'Jacob Fugal'
         p.user.communication_channels.length.should == 1
         p.user.communication_channels.first.should be_unconfirmed
-        p.user.communication_channels.first.path.should == 'jacob@instructure.com'
+        p.user.communication_channels.first.path.should == 'jacob@usms.com'
 
+<<<<<<< HEAD
         post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
         response.should_not be_success
       end
@@ -341,13 +342,45 @@ describe UsersController do
       it "should validate acceptance of the terms" do
         post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal' }
         assert_status(400)
+=======
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
+        response.should be_success
+
+        Pseudonym.find_all_by_unique_id('jacob@usms.com').should == [p]
+        p.reload
+        p.should be_active
+        p.user.should be_pre_registered
+        p.user.name.should == 'Jacob Fugal'
+        p.user.communication_channels.length.should == 1
+        p.user.communication_channels.first.should be_unconfirmed
+        p.user.communication_channels.first.path.should == 'jacob@usms.com'
+
+        # case sensitive?
+        post 'create', :pseudonym => { :unique_id => 'JACOB@usms.com' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1' }
+        response.should be_success
+
+        Pseudonym.by_unique_id('jacob@usms.com').all.should == [p]
+        Pseudonym.by_unique_id('JACOB@usms.com').all.should == [p]
+        p.reload
+        p.should be_active
+        p.user.should be_pre_registered
+        p.user.name.should == 'Jacob Fugal'
+        p.user.communication_channels.length.should == 1
+        p.user.communication_channels.first.should be_unconfirmed
+        p.user.communication_channels.first.path.should == 'jacob@usms.com'
+      end
+
+      it "should validate acceptance of the terms" do
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal' }
+        response.status.should =~ /400 Bad Request/
+>>>>>>> custom
         json = JSON.parse(response.body)
         json["errors"]["user"]["terms_of_use"].should be_present
       end
 
       it "should not validate acceptance of the terms if not required" do
         Setting.set('terms_required', 'false')
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal' }
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal' }
         response.should be_success
       end
 
@@ -366,14 +399,19 @@ describe UsersController do
       end
 
       it "should validate the self enrollment code" do
+<<<<<<< HEAD
         post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :self_enrollment_code => 'omg ... not valid', :initial_enrollment_type => 'student' }, :self_enrollment => '1'
         assert_status(400)
+=======
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :self_enrollment_code => 'omg ... not valid', :initial_enrollment_type => 'student' }, :self_enrollment => '1'
+        response.status.should =~ /400 Bad Request/
+>>>>>>> custom
         json = JSON.parse(response.body)
         json["errors"]["user"]["self_enrollment_code"].should be_present
       end
 
       it "should ignore the password if not self enrolling" do
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :initial_enrollment_type => 'student' }
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :initial_enrollment_type => 'student' }
         response.should be_success
         u = User.find_by_name 'Jacob Fugal'
         u.should be_pre_registered
@@ -384,7 +422,7 @@ describe UsersController do
         course(:active_all => true)
         @course.update_attribute(:self_enrollment, true)
 
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :self_enrollment_code => @course.self_enrollment_code, :initial_enrollment_type => 'student' }, :pseudonym_type => 'email', :self_enrollment => '1'
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :self_enrollment_code => @course.self_enrollment_code, :initial_enrollment_type => 'student' }, :pseudonym_type => 'email', :self_enrollment => '1'
         response.should be_success
         u = User.find_by_name 'Jacob Fugal'
         u.should be_pre_registered
@@ -417,8 +455,13 @@ describe UsersController do
       it "should validate the observee's credentials" do
         user_with_pseudonym(:active_all => true, :password => 'lolwut')
 
+<<<<<<< HEAD
         post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :observee => { :unique_id => @pseudonym.unique_id, :password => 'not it' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :initial_enrollment_type => 'observer' }
         assert_status(400)
+=======
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :observee => { :unique_id => @pseudonym.unique_id, :password => 'not it' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :initial_enrollment_type => 'observer' }
+        response.status.should =~ /400 Bad Request/
+>>>>>>> custom
         json = JSON.parse(response.body)
         json["errors"]["observee"]["unique_id"].should be_present
       end
@@ -426,7 +469,7 @@ describe UsersController do
       it "should link the user to the observee" do
         user_with_pseudonym(:active_all => true, :password => 'lolwut')
 
-        post 'create', :pseudonym => { :unique_id => 'jacob@instructure.com' }, :observee => { :unique_id => @pseudonym.unique_id, :password => 'lolwut' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :initial_enrollment_type => 'observer' }
+        post 'create', :pseudonym => { :unique_id => 'jacob@usms.com' }, :observee => { :unique_id => @pseudonym.unique_id, :password => 'lolwut' }, :user => { :name => 'Jacob Fugal', :terms_of_use => '1', :initial_enrollment_type => 'observer' }
         response.should be_success
         u = User.find_by_name 'Jacob Fugal'
         u.should be_pre_registered
@@ -447,9 +490,9 @@ describe UsersController do
         end
 
         it "should create a pre_registered user (in the correct account)" do
-          post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@instructure.com', :sis_user_id => 'testsisid' }, :user => { :name => 'Jacob Fugal' }
+          post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@usms.com', :sis_user_id => 'testsisid' }, :user => { :name => 'Jacob Fugal' }
           response.should be_success
-          p = Pseudonym.find_by_unique_id('jacob@instructure.com')
+          p = Pseudonym.find_by_unique_id('jacob@usms.com')
           p.account_id.should == account.id
           p.should be_active
           p.sis_user_id.should == 'testsisid'
@@ -468,12 +511,12 @@ describe UsersController do
 
 
         it "should not require acceptance of the terms" do
-          post 'create', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@instructure.com' }, :user => { :name => 'Jacob Fugal' }
+          post 'create', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@usms.com' }, :user => { :name => 'Jacob Fugal' }
           response.should be_success
         end
 
         it "should allow setting a password" do
-          post 'create', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@instructure.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal' }
+          post 'create', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@usms.com', :password => 'asdfasdf', :password_confirmation => 'asdfasdf' }, :user => { :name => 'Jacob Fugal' }
           u = User.find_by_name 'Jacob Fugal'
           u.should be_present
           u.pseudonym.should_not be_password_auto_generated
@@ -485,9 +528,9 @@ describe UsersController do
         account = Account.create!
         admin = account_admin_user_with_role_changes(:account => account, :role_changes => {'manage_sis' => false})
         user_session(admin)
-        post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@instructure.com', :sis_user_id => 'testsisid' }, :user => { :name => 'Jacob Fugal' }
+        post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@usms.com', :sis_user_id => 'testsisid' }, :user => { :name => 'Jacob Fugal' }
         response.should be_success
-        p = Pseudonym.find_by_unique_id('jacob@instructure.com')
+        p = Pseudonym.find_by_unique_id('jacob@usms.com')
         p.account_id.should == account.id
         p.should be_active
         p.sis_user_id.should be_nil
@@ -502,11 +545,20 @@ describe UsersController do
         @admin = @user
 
         u = User.create! { |u| u.workflow_state = 'registered' }
+<<<<<<< HEAD
         u.communication_channels.create!(:path => 'jacob@instructure.com', :path_type => 'email') { |cc| cc.workflow_state = 'active' }
         u.pseudonyms.create!(:unique_id => 'jon@instructure.com')
         CommunicationChannel.any_instance.expects(:send_merge_notification!)
         post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@instructure.com', :send_confirmation => '0' }, :user => { :name => 'Jacob Fugal' }
         response.should be_success
+=======
+        u.communication_channels.create!(:path => 'jacob@usms.com', :path_type => 'email') { |cc| cc.workflow_state = 'active' }
+        u.pseudonyms.create!(:unique_id => 'jon@usms.com')
+        post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@usms.com', :send_confirmation => '0' }, :user => { :name => 'Jacob Fugal' }
+        response.should be_success
+        p = Pseudonym.find_by_unique_id('jacob@usms.com')
+        Message.where(:communication_channel_id => p.user.email_channel, :notification_id => notification).first.should_not be_nil
+>>>>>>> custom
       end
 
       it "should not notify the user if the merge opportunity can't log in'" do
@@ -519,10 +571,10 @@ describe UsersController do
         @admin = @user
 
         u = User.create! { |u| u.workflow_state = 'registered' }
-        u.communication_channels.create!(:path => 'jacob@instructure.com', :path_type => 'email') { |cc| cc.workflow_state = 'active' }
-        post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@instructure.com', :send_confirmation => '0' }, :user => { :name => 'Jacob Fugal' }
+        u.communication_channels.create!(:path => 'jacob@usms.com', :path_type => 'email') { |cc| cc.workflow_state = 'active' }
+        post 'create', :format => 'json', :account_id => account.id, :pseudonym => { :unique_id => 'jacob@usms.com', :send_confirmation => '0' }, :user => { :name => 'Jacob Fugal' }
         response.should be_success
-        p = Pseudonym.find_by_unique_id('jacob@instructure.com')
+        p = Pseudonym.find_by_unique_id('jacob@usms.com')
         Message.where(:communication_channel_id => p.user.email_channel, :notification_id => notification).first.should be_nil
       end
     end

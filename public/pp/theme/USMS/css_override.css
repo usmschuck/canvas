@@ -1,0 +1,84 @@
+/* Replace the gray background with something that matches your colors.  You can use .pngs with alpha transparency. If you don't use an image, you need to remove ours*/
+#header { 
+    background: url("/pp/theme/USMS/menu_bg.jpg?v1") repeat-x scroll center transparent;
+    height:70px;
+    /* OR background-image: none; 
+    background-color: #EBF5FA;*/
+}
+
+/*replace the canvas logo with your logo*/
+#header-logo, #header.no-user #header-logo {
+    background: url("/pp/theme/USMS/USMSuniversity-WHITELOGO.png?v1") no-repeat scroll 0 0 transparent;
+    bottom: 9px;
+    height: 55px;
+    left: 15px;
+    width: 229px;
+}
+#login_forgot_password{
+    color:white;
+}
+
+/*if you replace the left canvas logo, move a smaller one to the right side of the header--I made the image gray first*/
+#header-logo-secondary {
+    background: url("/pp/theme/USMS/USMSuniversity-WHITELOGO2.png?v1") no-repeat scroll 0 0 transparent;
+    bottom: 11px;
+    height: 35;
+    position: absolute;
+    right: 79px;
+    width: 157px;
+    display: block;
+}
+
+/*if your logo is bigger, you can make room like this*/
+#menu { margin-left: 264px; }
+
+/*change the identity bar (the area that says "Hilary Scharton Inbox Settings Logout Help)*/
+#identity {
+    background-image: none;
+    background-color: #133580;
+}
+
+/*change the color of the identity text*/
+#identity a { color: white; }
+/*change the color of the circle around the number of unread inbox messages*/
+#identity .inbox a .unread-messages-count { background-color: #F2F0DD; }
+#identity #identity-help-container a { color: black; }
+
+/*change the color of the menu items (courses & groups etc.). If the text looks fuzzy, remove the text shadow.*/
+.menu-item .menu-item-title, .menu-item .menu-item-no-drop {
+    color: #FAFBF4;
+    text-shadow: none;
+}
+
+/*login box*/
+
+#modal-box.login-box { background: url("/pp/theme/USMS/login-box.jpg?v1") no-repeat !important }
+
+/*this will remove the extra canvas logo*/
+body.modal #modal-box.login-box h1 { 
+    background: none;
+    height: 235px;
+}
+
+/*resize the login box to fit my image and change the color of 'stay signed in'*/
+body.modal #modal-box.login-box{ 
+    height: 386px;
+    width: 583px;
+    color: white;
+}
+
+/*change the color of 'don't know your password'*/
+body.modal #modal-box.login-box a { color: white !important; } 
+
+/*change the color of the login button*/
+body.modal #modal-box .button, body.modal #login-box .button {
+    background-color: #c60808 !important;
+    background-image: none !important;
+    border-color: #c60808;
+}
+
+#login_form .btn-primary, #login_form .btn-primary:hover {
+    background-color: #a80000;
+    background-image: none;
+    border: none !important;
+}

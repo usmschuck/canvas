@@ -98,7 +98,7 @@ module AuthenticationMethods
         # they logged out in the future?!? something's busted; just ignore it -
         # either my clock is off or whoever set this value's clock is off
         invalid_before = nil if invalid_before && invalid_before > Time.now.utc
-        if invalid_before &&
+        if (invalid_before = @current_pseudonym.user ? @current_pseudonym.user.last_logged_out : 20.years.ago) &&
           (session_refreshed_at = request.env['encrypted_cookie_store.session_refreshed_at']) &&
           session_refreshed_at < invalid_before
 

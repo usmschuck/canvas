@@ -153,9 +153,9 @@ describe CommunicationChannel do
     @u2 = User.create!
     @u1.should_not eql(@u2)
     @u1.id.should_not eql(@u2.id)
-    @cc1 = @u1.communication_channels.create!(:path => 'jt@instructure.com')
-    @cc2 = @u1.communication_channels.create!(:path => 'cody@instructure.com')
-    @cc3 = @u2.communication_channels.create!(:path => 'brianp@instructure.com')
+    @cc1 = @u1.communication_channels.create!(:path => 'jt@usms.com')
+    @cc2 = @u1.communication_channels.create!(:path => 'cody@usms.com')
+    @cc3 = @u2.communication_channels.create!(:path => 'brianp@usms.com')
     @cc1.user.should eql(@u1)
     @cc2.user.should eql(@u1)
     @cc3.user.should eql(@u2)
@@ -232,10 +232,10 @@ describe CommunicationChannel do
   describe "merge candidates" do
     it "should return users with a matching e-mail address" do
       user1 = User.create!
-      cc1 = user1.communication_channels.create!(:path => 'jt@instructure.com')
+      cc1 = user1.communication_channels.create!(:path => 'jt@usms.com')
 
       user2 = User.create!
-      cc2 = user2.communication_channels.create!(:path => 'jt@instructure.com')
+      cc2 = user2.communication_channels.create!(:path => 'jt@usms.com')
       cc2.confirm!
       Account.default.pseudonyms.create!(:user => user2, :unique_id => 'user2')
 
@@ -245,10 +245,10 @@ describe CommunicationChannel do
 
     it "should not return users without an active pseudonym" do
       user1 = User.create!
-      cc1 = user1.communication_channels.create!(:path => 'jt@instructure.com')
+      cc1 = user1.communication_channels.create!(:path => 'jt@usms.com')
 
       user2 = User.create!
-      cc2 = user2.communication_channels.create!(:path => 'jt@instructure.com')
+      cc2 = user2.communication_channels.create!(:path => 'jt@usms.com')
       cc2.confirm!
 
       cc1.merge_candidates.should == []
@@ -257,10 +257,10 @@ describe CommunicationChannel do
 
     it "should not return users that match on an unconfirmed cc" do
       user1 = User.create!
-      cc1 = user1.communication_channels.create!(:path => 'jt@instructure.com')
+      cc1 = user1.communication_channels.create!(:path => 'jt@usms.com')
 
       user2 = User.create!
-      cc2 = user2.communication_channels.create!(:path => 'jt@instructure.com')
+      cc2 = user2.communication_channels.create!(:path => 'jt@usms.com')
       Account.default.pseudonyms.create!(:user => user2, :unique_id => 'user2')
 
       cc1.merge_candidates.should == []
@@ -269,14 +269,14 @@ describe CommunicationChannel do
 
     it "should only check one user for boolean result" do
       user1 = User.create!
-      cc1 = user1.communication_channels.create!(:path => 'jt@instructure.com')
+      cc1 = user1.communication_channels.create!(:path => 'jt@usms.com')
 
       user2 = User.create!
-      cc2 = user2.communication_channels.create!(:path => 'jt@instructure.com')
+      cc2 = user2.communication_channels.create!(:path => 'jt@usms.com')
       cc2.confirm!
       Account.default.pseudonyms.create!(:user => user2, :unique_id => 'user2')
       user3 = User.create!
-      cc3 = user3.communication_channels.create!(:path => 'jt@instructure.com')
+      cc3 = user3.communication_channels.create!(:path => 'jt@usms.com')
       cc3.confirm!
       Account.default.pseudonyms.create!(:user => user3, :unique_id => 'user3')
 
@@ -290,17 +290,17 @@ describe CommunicationChannel do
       it "should find a match on another shard" do
         Enrollment.stubs(:cross_shard_invitations?).returns(true)
         user1 = User.create!
-        cc1 = user1.communication_channels.create!(:path => 'jt@instructure.com')
+        cc1 = user1.communication_channels.create!(:path => 'jt@usms.com')
 
         @shard1.activate do
           @user2 = User.create!
-          cc2 = @user2.communication_channels.create!(:path => 'jt@instructure.com')
+          cc2 = @user2.communication_channels.create!(:path => 'jt@usms.com')
           cc2.confirm!
           account = Account.create!
           account.pseudonyms.create!(:user => @user2, :unique_id => 'user2')
         end
 
-        pending if CommunicationChannel.associated_shards('jt@instructure.com') == [Shard.default]
+        pending if CommunicationChannel.associated_shards('jt@usms.com') == [Shard.default]
 
         cc1.merge_candidates.should == [@user2]
         cc1.has_merge_candidates?.should be_true
@@ -309,13 +309,13 @@ describe CommunicationChannel do
       it "should search a non-default shard *only*" do
         Enrollment.stubs(:cross_shard_invitations?).returns(false)
         user1 = User.create!
-        cc1 = user1.communication_channels.create!(:path => 'jt@instructure.com')
+        cc1 = user1.communication_channels.create!(:path => 'jt@usms.com')
         cc1.confirm!
         Account.default.pseudonyms.create!(:user => user1, :unique_id => 'user1')
 
         @shard1.activate do
           @user2 = User.create!
-          @cc2 = @user2.communication_channels.create!(:path => 'jt@instructure.com')
+          @cc2 = @user2.communication_channels.create!(:path => 'jt@usms.com')
           @cc2.confirm!
           account = Account.create!
           account.pseudonyms.create!(:user => @user2, :unique_id => 'user2')

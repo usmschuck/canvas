@@ -831,7 +831,7 @@ describe "Pages API", type: :request do
           @front_page.update_attribute(:created_at, 1.hour.ago)
           @notify_page.update_attribute(:created_at, 1.hour.ago)
           @notification = Notification.create! :name => "Updated Wiki Page"
-          @teacher.communication_channels.create(:path => "teacher@instructure.com").confirm!
+          @teacher.communication_channels.create(:path => "teacher@usms.com").confirm!
           @teacher.email_channel.notification_policies.
               find_or_create_by_notification_id(@notification.id).
               update_attribute(:frequency, 'immediately')
