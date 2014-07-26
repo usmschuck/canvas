@@ -19,6 +19,7 @@
   <%= include_custom_meta_tags %>
   <%= include_css_bundles %>
   <%= yield :stylesheets %>
+  <%= stylesheet_link_tag "/pp/theme/USMS/css_override.css" %>
   <%= include_account_css %>
   <script>
     // listen for any clicks on links that have href="#" and queue them to be fired on dom ready.

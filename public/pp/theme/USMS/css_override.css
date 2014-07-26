@@ -1,8 +1,8 @@
 /* Replace the gray background with something that matches your colors.  You can use .pngs with alpha transparency. If you don't use an image, you need to remove ours*/
-#header { 
+#header {
     background: url("/pp/theme/USMS/menu_bg.jpg?v1") repeat-x scroll center transparent;
     height:70px;
-    /* OR background-image: none; 
+    /* OR background-image: none;
     background-color: #EBF5FA;*/
 }
 
@@ -55,20 +55,20 @@
 #modal-box.login-box { background: url("/pp/theme/USMS/login-box.jpg?v1") no-repeat !important }
 
 /*this will remove the extra canvas logo*/
-body.modal #modal-box.login-box h1 { 
+body.modal #modal-box.login-box h1 {
     background: none;
     height: 235px;
 }
 
 /*resize the login box to fit my image and change the color of 'stay signed in'*/
-body.modal #modal-box.login-box{ 
+body.modal #modal-box.login-box{
     height: 386px;
     width: 583px;
     color: white;
 }
 
 /*change the color of 'don't know your password'*/
-body.modal #modal-box.login-box a { color: white !important; } 
+body.modal #modal-box.login-box a { color: white !important; }
 
 /*change the color of the login button*/
 body.modal #modal-box .button, body.modal #login-box .button {
@@ -81,4 +81,11 @@ body.modal #modal-box .button, body.modal #login-box .button {
     background-color: #a80000;
     background-image: none;
     border: none !important;
+}
+
+#footer .footer-logo{
+    background-image: url("/images/footer-logo.png");
+    background-size: 157px 26px;
+    height: 26px;
+    width: 157px;
 }
